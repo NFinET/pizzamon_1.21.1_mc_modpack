@@ -1,0 +1,33 @@
+autofillUnlisted = true
+
+[[pokemonOrderedOptions]]
+resource = "patapoke:textures/gui/interact/pet.png"
+orientation = "EAST"
+
+[[pokemonOrderedOptions]]
+resource = "cobblemonintegrations:textures/gui/icon_teleport.png"
+orientation = "SOUTHEAST"
+
+[[pokemonOrderedOptions]]
+resource = "cobblemon:textures/gui/interact/interact_wheel_icon_ride.png"
+orientation = "WEST"
+
+[[pokemonOrderedOptions]]
+resource = "cobblemon:textures/gui/interact/interact_wheel_icon_held_item.png"
+orientation = "NORTH"
+
+[[pokemonOrderedOptions]]
+resource = "cobblemon:textures/gui/interact/interact_wheel_icon_shoulder.png"
+orientation = "NORTHWEST"
+
+[[pokemonOrderedOptions]]
+resource = "cobblemon:textures/gui/interact/interact_wheel_icon_cosmetic_item.png"
+orientation = "NORTHEAST"
+
+[[playerOrderedOptions]]
+resource = "cobblemon:textures/gui/interact/interact_wheel_icon_battle.png"
+orientation = "NORTH"
+
+[[playerOrderedOptions]]
+resource = "cobblemon:textures/gui/interact/interact_wheel_icon_trade.png"
+orientation = "NORTHEAST"

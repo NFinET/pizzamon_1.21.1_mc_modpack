@@ -1,0 +1,14 @@
+#Whether to log data regarding the location and data stored when placing cobblemon trial spawners.
+enableDebugLogs = false
+#Whether to do any spawner replacement at all. If set to false, this will disable all spawner replacement.
+replaceGeneratedSpawnersWithCobblemonSpawners = true
+#Whether to do any spawner replacement in structures. If set to false, this will disable all spawner replacement in structures.
+replaceSpawnersInStructuresWithCobblemonSpawners = true
+#Whether to do any spawner replacement outside of structures. If set to false, this will disable the spawner replacement for any spawners outside of structures (eg. Monster_Rooms)
+replaceSpawnersNotInStructuresWithCobblemonSpawners = true
+#Whether to replace any spawners that are not listed in configuration with a default spawner. This is mostly used to cover the edge cases where a spawner exists inside of a structure range but isn't replaced. In monster-room.json this is the 'Minecraft:Zombie' entity spawner if the entity is not listed.
+replaceAnyUnspecifiedSpawnersWithDefaultCobblemonSpawners = true
+#This allows Spawned Pokemon to be Catchable. If set to True, regardless of spawner settings, Pokemon will always be catchable.If set to false whether Spawned Pokemon can be catchable or not is left up to the Spawner's Settings.NOTE: This will only apply to newly created spawners.
+allowSpawnedPokemonToBeCatchable = false
+#This allows Spawned Pokemon to be defeated outside of battle. If set to true, regardless of spawner settings, Pokemon will be required to be defeated in battle.If set to false whether Spawned Pokemon can be defeated in battle or not is left up to the Spawner's Settings.NOTE: This will only apply to newly created spawners.
+allowSpawnedPokemonToBeDefeatedInBattle = false
