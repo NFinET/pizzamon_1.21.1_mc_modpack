@@ -299,3 +299,4 @@
 - [create: things and misc](https://modrinth.com/mod/uWrs8XlB) [1\.0\.0] by To0pa, Unusual Squad, MCreator (create\_things\_and\_misc\-4\.0\-neoforge\-1\.21\.1\.jar)
 - [oωo](https://modrinth.com/mod/ccKDOlHs) [0\.12\.15\.5\-beta\.1\+1\.21] by glisco, Blodhgarm, BasiqueEvangelist, Noaaan (owo\-lib\-neoforge\-0\.12\.15\.5\-beta\.1\+1\.21\.jar)
 - [zamega](https://modrinth.com/mod/2V1Y86sc) [1\.0\-SNAPSHOT] (zamega\-neoforge\-1\.4\.6\.jar)
+.
