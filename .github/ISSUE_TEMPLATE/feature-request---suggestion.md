@@ -1,0 +1,20 @@
+---
+name: Feature request / Suggestion
+about: Got an idea for something to change, remove, or add?
+title: "[REQUEST/SUGGESTION]"
+labels: suggestion
+assignees: NFinET
+
+---
+
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] If this is related to something like a rendering error, bug, crash, or similar issue, this is the wrong template, go back and  use the Bug or Crash templates.
+
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
+
+**Describe alternatives you've considered**
+If there's multiple ways that you can think of to fix your problem or to fulfill your request, what are the other alternatives? Instead of putting them in separate suggestions, add any here if you have any.
+
+**Additional context**
+Add any other context, screenshots, links, videos, etc related to the request here if you need to.
