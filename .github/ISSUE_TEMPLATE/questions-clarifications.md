@@ -1,7 +1,7 @@
 ---
 name: Questions/Clarifications
-about: Confused or don't understand something? I might be able to answer your question
-  or help.
+about: Confused, want clarification, or a change for the wiki documentation? If you
+  want tweaks for the pack, use the Feature Request template instead.
 title: "[???]"
 labels: question
 assignees: NFinET

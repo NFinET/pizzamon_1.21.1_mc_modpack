@@ -1,6 +1,8 @@
 ---
 name: Feature request / Suggestion
-about: Got an idea for something to change, remove, or add?
+about: Got an idea for something to change, remove, or add? If you have a request
+  or suggestion for documentation additions or clarifications, use the Questions/Clarifications
+  template instead.
 title: "[REQUEST/SUGGESTION]"
 labels: suggestion
 assignees: NFinET
