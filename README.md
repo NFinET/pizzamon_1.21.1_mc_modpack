@@ -1,2 +1,3 @@
 # pizzamon_1.21.1_mc_modpack
 Pizzamon modpack data for NeoForge MC1.21.1 and Cobblemon, Clientside copy.
+Contains only the config data, for backup and versioning purposes.
