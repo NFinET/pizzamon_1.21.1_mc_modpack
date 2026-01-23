@@ -1,0 +1,9 @@
+{
+    "name": "Pizzamon Help Guide",
+	"subtitle": "by Pokemon Professor S. Ghetti"
+    "landing_text": "Welcome, to the world of PIZZAMON! [Thanks for playing Pizzamon! This is a help guide for various things in the modpack, written by GhostAnimals and NFinET_Owa]",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": false,
+	"show_progress": false
+}

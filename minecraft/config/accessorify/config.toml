@@ -14,9 +14,9 @@ elytraAccessory = true
 spyglassAccessory = true
 lanternAccessory = true
 totemOfUndyingAccessory = true
-enderChestAccessory = false
+enderChestAccessory = true
 shulkerBoxAccessory = true
-arrowAccessory = false
+arrowAccessory = true
 
 [infoOverlaySettings]
 showYCoordinate = true

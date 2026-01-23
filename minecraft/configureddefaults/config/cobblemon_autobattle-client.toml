@@ -1,0 +1,13 @@
+##
+#Toggle Autobattle.
+autobattle_enabled = false
+##
+#Delay in ms before making a choice.
+# Default: 200
+# Range: 20 ~ 8000
+select_delay = 200
+##
+#Chance to randomly switch to another pokemon if possible.
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+switch_chance = 0.1

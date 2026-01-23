@@ -1,0 +1,17 @@
+filename = 'Wallpapers Plus! 1.0.zip'
+name = '[Cobblemon] Wallpapers Plus!'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '86066abd03e2df932a9939e4731b6086001199ea20f448167c3d3375db92862a953ada66bed35370e152fd6501ec069cf857caac29b0c2d10325929a6bf3ace8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fR0AN6tJ/versions/YqnPYp0G/Wallpapers Plus%21 1.0.zip'
+
+[update.modrinth]
+mod-id = 'fR0AN6tJ'
+version = 'YqnPYp0G'

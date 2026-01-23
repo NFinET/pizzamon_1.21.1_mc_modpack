@@ -1,0 +1,213 @@
+// ===========================================
+//  Multi Village Selector - Generated Config (v0.3.0)
+//  Generated: 2026-01-16T21:25:01.622916500
+// ===========================================
+//
+// This config uses NORMALIZED WEIGHTS based on mod-intended spawn rates.
+// Weights have been adjusted to:
+//   1. Equalize representation across mods
+//   2. Preserve internal mod ratios (small:medium:large)
+//   3. Account for structure spacing (rarer structures = higher weights)
+//
+// ═══════════════════════════════════════════════════════════════
+//  📋 NEXT STEPS:
+//  1. Review weights below (higher = spawns more often)
+//  2. Use biome_frequency{} to control spawn density per biome
+//  3. Copy to: config/multivillageselector.json5
+//  4. Restart Minecraft
+// ═══════════════════════════════════════════════════════════════
+//
+// 📖 For complete documentation, see:
+//    https://github.com/RhettL/multi-village-selector/blob/master/docs/Configuration.md
+//
+// ═══════════════════════════════════════════════════════════════
+
+{
+  enabled: true,
+
+  // Structure sets to block (prevents double-spawning, MVS controls these instead)
+  block_structure_sets: [
+    ,
+
+    // QUESTIONABLE (uncomment to use - verify these are actually villages)
+    // "minecraft:swamp_huts",
+  ],
+
+  // Structure sets to intercept (MVS controls structure selection)
+  intercept_structure_sets: [
+    "minecraft:villages",
+	"biomeswevegone:villages"
+  ],
+
+  // Structure pool - MVS selects from this list
+  // biomes controls spawn weights per biome (same pattern system as biome_frequency)
+  //
+  // Supports: Direct IDs ("minecraft:plains": 10), Tags ("#minecraft:is_plains": 10), Patterns ("minecraft:*": 5)
+  // Specificity: More specific patterns win, literal IDs beat tags, tie-breaker = higher weight
+  structure_pool: [
+
+    // === BCA ===
+
+    // minecraft:villages
+    { structure: "bca:village/dark_mid",
+      biomes: {
+        "#bca:dark": 26,
+      } },
+    { structure: "bca:village/dark_small",
+      biomes: {
+        "#bca:dark": 38,
+      } },
+    { structure: "bca:village/default_large",
+      biomes: {
+        "#bca:villages": 10,
+      } },
+    { structure: "bca:village/default_mid",
+      biomes: {
+        "#bca:villages": 26,
+      } },
+    { structure: "bca:village/default_small",
+      biomes: {
+        "#bca:villages": 38,
+      } },
+    { structure: "bca:village/fighting_large",
+      biomes: {
+        "#bca:fighting": 10,
+      } },
+    { structure: "bca:village/fighting_mid",
+      biomes: {
+        "#bca:fighting": 26,
+      } },
+    { structure: "bca:village/fighting_small",
+      biomes: {
+        "#bca:fighting": 38,
+      } },
+
+    // === BIOMESWEVEGONE ===
+
+    // biomeswevegone:villages
+    { structure: "biomeswevegone:village/forgotten",
+      biomes: {
+        "#biomeswevegone:has_structure/village_forgotten": 5,
+      } },
+    { structure: "biomeswevegone:village/pumpkin_patch",
+      biomes: {
+        "#biomeswevegone:has_structure/village_pumpkin_patch": 5,
+      } },
+    { structure: "biomeswevegone:village/red_rock",
+      biomes: {
+        "#biomeswevegone:has_structure/village_red_rock": 5,
+      } },
+    { structure: "biomeswevegone:village/salem",
+      biomes: {
+        "#biomeswevegone:has_structure/village_salem": 5,
+      } },
+    { structure: "biomeswevegone:village/skyris",
+      biomes: {
+        "#biomeswevegone:has_structure/village_skyris": 5,
+      } },
+    { structure: "biomeswevegone:village/swamp",
+      biomes: {
+        "#biomeswevegone:has_structure/village_swamp": 5,
+      } },
+
+    // === MINECRAFT ===
+
+    // minecraft:villages
+    { structure: "minecraft:village_desert",
+      biomes: {
+        "minecraft:desert": 10,
+        "biomeswevegone:rugged_badlands": 5,
+        "biomeswevegone:mojave_desert": 5,
+      } },
+    { structure: "minecraft:village_plains",
+      biomes: {
+        "biomeswevegone:temperate_grove": 5,
+        "biomeswevegone:orchard": 5,
+        "minecraft:plains": 10,
+        "minecraft:meadow": 10,
+        "biomeswevegone:overgrowth_woodlands": 5,
+      } },
+    { structure: "minecraft:village_savanna",
+      biomes: {
+        "biomeswevegone:ironwood_gour": 5,
+        "biomeswevegone:araucaria_savanna": 5,
+        "minecraft:savanna": 10,
+        "biomeswevegone:baobab_savanna": 5,
+      } },
+    { structure: "minecraft:village_snowy",
+      biomes: {
+        "biomeswevegone:frosted_taiga": 5,
+        "biomeswevegone:eroded_borealis": 5,
+        "minecraft:snowy_plains": 10,
+      } },
+    { structure: "minecraft:village_taiga",
+      biomes: {
+        "biomeswevegone:maple_taiga": 5,
+        "minecraft:taiga": 10,
+        "biomeswevegone:black_forest": 5,
+        "biomeswevegone:coniferous_forest": 5,
+        "biomeswevegone:aspen_boreal": 5,
+        "biomeswevegone:rose_fields": 5,
+      } },
+
+    // === UNCERTAIN STRUCTURES (verify before enabling) ===
+    // These may or may not be villages. To enable:
+    // 1. Uncomment the structure entries below
+    // 2. Uncomment the structure_set in block_structure_sets above
+
+    // minecraft:swamp_huts (1 structure(s))
+    // { structure: "bca:village/witch_hut",
+    //   biomes: {
+    //     "#bca:special_structures/witch_hut": 25,
+    //   } },
+
+  ],
+
+  // Blacklist specific structures from non-intercepted sources
+  blacklisted_structures: [
+    // Example: "bca:village/witch_hut",
+  ],
+
+  // ## Biome-specific spawn frequency (0.0-1.0, applied before structure selection)
+  // Controls % chance of structure spawn attempt per biome
+  //
+  // Supports three formats:
+  // 1. Direct biome ID: "minecraft:plains": 1.0 (most specific, easiest for beginners)
+  // 2. Biome tags: "#minecraft:is_ocean": 0.2 (affects all matching biomes)
+  // 3. Patterns: "minecraft:*": 0.7, "#terralith:*": 0.85 (wildcards supported)
+  //
+  // Specificity scoring (more specific wins):
+  // - Base: 20, No #: +1, Literals before colon: +2, Literals after colon: +2, Each *: -5
+  // - Examples: "minecraft:plains" = 25, "#minecraft:is_plains" = 24, "#*craft*:*village*" = 4, "*:*" = -10
+  // - Tie-breaker: Higher frequency value wins
+  biome_frequency: {
+    // "*:*": 1.0,                      // Default: 100% spawn rate (implied if not set)
+    // "minecraft:warm_ocean": 0.5,     // Warm ocean specifically: 50% spawn rate
+    // "#minecraft:is_ocean": 0.2,      // All ocean biomes: 20% spawn rate
+    // "#terralith:*": 0.85,            // All Terralith biomes: 85% spawn rate
+  },
+
+  // v0.4.0: Override structure placement (spacing, separation, salt, spreadType)
+  // Use /mvs config fill-placements to update with current registry values
+  placement: {
+    "minecraft:villages": {
+      spacing: 34,
+      separation: 10,
+      salt: 31415926,
+      spreadType: "triangular",
+    },
+  },
+
+  // v0.4.0: Relaxed biome validation
+  // When false (default): vanilla validates biome at structure's bounding box center.
+  //   Works well for vanilla-sized structures but may reject large mod structures
+  //   (BCA, etc.) whose bounding box center lands in a different biome than chunk center.
+  // When true: bypass vanilla's biome check and trust MVS's chunk-center selection.
+  //   Recommended for modpacks with large village structures (BCA, CTOV large, etc.)
+  relaxed_biome_validation: true,
+
+  // ## Debugging functionality
+  // Auto-enabled in dev environments (MVS_DEV=true environment variable)
+  debug_cmd: false,
+  debug_logging: false,
+}

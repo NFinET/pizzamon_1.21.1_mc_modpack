@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "NFinET_Owa",
+      "uniqueId": "df9d883e-2c05-489e-9554-a78113890d8c"
+    },
+    "time": 1768606021316,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Kr7ze5QyU9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NFinET_Owa",
+      "uniqueId": "df9d883e-2c05-489e-9554-a78113890d8c"
+    },
+    "time": 1768605958738,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2NYk1U9cIs"
+    }
+  }
+]

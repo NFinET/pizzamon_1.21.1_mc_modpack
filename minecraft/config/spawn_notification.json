@@ -1,5 +1,5 @@
 {
-  "broadcastRange": 100,
+  "broadcastRange": 512,
   "playerLimit": 3,
   "broadcastAcrossDimensions": false,
   "actionBar": false,

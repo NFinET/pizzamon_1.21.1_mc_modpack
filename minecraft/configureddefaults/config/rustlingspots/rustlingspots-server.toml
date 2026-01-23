@@ -1,0 +1,48 @@
+#Master controls for rustling spots
+[general]
+	#Master switch to enable or disable the whole Rustling Spots system
+	enabled = true
+	#Enable verbose Rustling Spots logging (info/debug). Warnings still appear when relevant.
+	enable_logging = false
+	#Chance for an eligible chunk to contain a rustling spot; 1.0 means every allowed chunk will have one
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	spawn_density = 0.3
+	#Minimum allowed distance between two active spots (in blocks)
+	# Default: 48
+	# Range: > 0
+	min_distance_between_spots = 64
+	#Soft spacing value for future balancing (not a hard limit)
+	# Default: 180
+	# Range: > 0
+	max_distance_between_spots = 180
+	#Minimum distance from a player where new spots may attempt to spawn
+	# Default: 60
+	# Range: > 0
+	spawn_min_distance_from_player = 60
+	#Maximum distance from a player where new spots may attempt to spawn
+	# Default: 150
+	# Range: > 1
+	spawn_max_distance_from_player = 150
+	#Maximum lifetime of a Rustling Spot (in ticks)
+	# Default: 6000
+	# Range: > 1
+	spot_lifetime_ticks = 6000
+	#If no player stays within this distance, the spot despawns
+	# Default: 150
+	# Range: > 0
+	despawn_if_no_player_within = 150
+	#Radius in which a player can trigger the spot
+	# Default: 1.5
+	# Range: 0.0 ~ 16.0
+	interaction_radius = 1.5
+	#Additional upward reach allowed for interaction (e.g. players on tall mounts)
+	# Default: 2.0
+	# Range: 0.0 ~ 16.0
+	interaction_vertical_allowance = 2.0
+	#Maximum number of active spots allowed in the entire dimension
+	# Default: 25
+	# Range: > 1
+	max_spots_per_dimension = 25
+	#List of dimension IDs where Rustling Spots can appear
+	allowed_dimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]

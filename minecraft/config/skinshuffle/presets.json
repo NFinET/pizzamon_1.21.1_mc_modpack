@@ -1,6 +1,6 @@
 {
-  "chosenPreset": -1,
-  "apiPreset": -1,
+  "chosenPreset": 50,
+  "apiPreset": 50,
   "loadedPresets": [
     {
       "skin": {
@@ -401,6 +401,14 @@
         "type": "skinshuffle:config"
       },
       "name": "victor_swsh"
+    },
+    {
+      "skin": {
+        "skin_name": "183625561",
+        "model": "slim",
+        "type": "skinshuffle:config"
+      },
+      "name": "NFinET_Owa"
     }
   ]
 }

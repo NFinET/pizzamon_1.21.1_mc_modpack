@@ -92,14 +92,14 @@
   "xAxisSensitivity": 1.0,
   "yAxisSensitivity": 1.0,
   "swapXAndYAxes": false,
-  "rightingDelay": -1.0,
-  "disableRoll": false,
+  "rightingDelay": 1.0,
+  "disableRoll": true,
   "displayControlSeconds": 0,
   "infiniteRideStamina": false,
   "rememberRidingCamera": false,
   "enableDebugKeys": false,
   "despawnerNearDistance": 32.0,
-  "despawnerFarDistance": 96.0,
-  "despawnerMinAgeTicks": 600,
-  "despawnerMaxAgeTicks": 3600
+  "despawnerFarDistance": 128.0,
+  "despawnerMinAgeTicks": 6000,
+  "despawnerMaxAgeTicks": 18000
 }

@@ -1,6 +1,6 @@
 {
   "name": "gen9",
-  "minSizeModifier": "0.2",
+  "minSizeModifier": "0.5",
   "maxSizeModifier": "2.0",
   "sizes": [
     {
