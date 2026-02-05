@@ -1,0 +1,14 @@
+#Volume controls for Rustling Spots custom sounds
+[custom_sounds]
+	#Volume multiplier for the ambient rustling spot sounds
+	# Default: 0.4
+	# Range: 0.0 ~ 4.0
+	ambient_volume = 0.4
+	#Volume multiplier for the sound when a Pokémon appears from a spot
+	# Default: 0.8
+	# Range: 0.0 ~ 4.0
+	pokemon_spawn_volume = 0.4
+	#Volume multiplier for the sound when receiving items from a spot
+	# Default: 0.8
+	# Range: 0.0 ~ 4.0
+	item_reward_volume = 0.4

@@ -1,0 +1,55 @@
+{
+  "frames": [
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
+      "items": [
+        ""
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#C551C3", "#C551C3", "#C551C3"],
+      "specialEffect": "metal_shining"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
+      "items": [
+        ""
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "items": [
+        ""
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
+      "items": [
+        ""
+      ],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"]
+    },
+    {
+      "items": [
+        ""
+      ],
+      "disableScrolling": true
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/cataclysm_frame.png",
+      "items": [
+        ""
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    }
+  ]
+}

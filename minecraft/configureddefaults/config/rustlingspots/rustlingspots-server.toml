@@ -1,0 +1,34 @@
+#Master controls for rustling spots
+[general]
+	#Master switch to enable or disable the whole Rustling Spots system
+	enabled = true
+	#Enable verbose Rustling Spots logging (info/debug). Warnings still appear when relevant.
+	enable_logging = false
+	#Minimum allowed distance between two active spots (in blocks)
+	# Default: 16
+	# Range: > 2
+	min_distance_between_spots = 64
+	#Maximum lifetime of a Rustling Spot (in ticks)
+	# Default: 6000
+	# Range: > 200
+	spot_lifetime_ticks = 6000
+	#Radius in which a player can trigger the spot
+	# Default: 2.0
+	# Range: 0.0 ~ 16.0
+	interaction_radius = 1.5
+	#Additional upward reach allowed for interaction (e.g. players on tall mounts)
+	# Default: 3.0
+	# Range: 0.0 ~ 16.0
+	interaction_vertical_allowance = 2.0
+	#Max distance (in blocks) used for spawning spots around players AND despawning when no eligible player is nearby
+	# Default: 200
+	# Range: > 16
+	player_spot_radius = 200
+	#Maximum number of active spots a player can have around them within player_spot_radius (shared with nearby players)
+	# Default: 8
+	# Range: > 1
+	max_spots_per_player = 8
+	#Global hard cap of active spots across the entire server (all dimensions)
+	# Default: 64
+	# Range: > 1
+	max_spots_total = 64
