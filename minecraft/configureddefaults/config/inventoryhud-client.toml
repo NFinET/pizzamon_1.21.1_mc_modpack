@@ -62,19 +62,19 @@
 	#Potion HUD alpha
 	# Default: 100
 	# Range: 0 ~ 100
-	potAlpha = 100
+	potAlpha = 66
 	#Potion HUD gap
 	# Default: 0
 	# Range: -5 ~ 5
 	potGap = 0
 	#Potion HUD mini mode
-	potMini = false
+	potMini = true
 	#Potion HUD horizontal mode
 	potHor = true
 	#Full bar duration
 	# Default: 300
 	# Range: > 1
-	barDuration = 300
+	barDuration = 180
 	#Show hidden effects
 	showHiddenEffects = false
 	#Disable icons for effects in this list
@@ -123,11 +123,11 @@
 	#Potion HUD position (X)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	xPotionPos = 36
+	xPotionPos = 21
 	#Potion HUD position (Y)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	yPotionPos = 38
+	yPotionPos = 26
 	#Helmet position (X)
 	# Default: 103
 	# Range: -9999 ~ 9999
@@ -187,11 +187,11 @@
 	#InvIcon position (X)
 	# Default: -103
 	# Range: -9999 ~ 9999
-	invPosX = -100
+	invPosX = 58
 	#InvIcon position (Y)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	invPosY = 23
+	invPosY = 20
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	helmHal = "MIDDLE"
@@ -236,7 +236,7 @@
 	arrVal = "BOTTOM"
 	#InvIcon horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	invHal = "MIDDLE"
+	invHal = "LEFT"
 	#InvIcon vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invVal = "BOTTOM"

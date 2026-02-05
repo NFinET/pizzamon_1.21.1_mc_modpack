@@ -1,5 +1,5 @@
 {
   "earnCobbleDollarsFromNPC": true,
   "earnCobbleDollarsFromWildPokemon": true,
-  "cobbleDollarsIncomeMultiplier": 0.8
+  "cobbleDollarsIncomeMultiplier": 1.0
 }

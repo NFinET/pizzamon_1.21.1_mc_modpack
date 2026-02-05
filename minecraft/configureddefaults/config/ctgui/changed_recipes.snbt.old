@@ -724,16 +724,16 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
-                    f: {
+                    i: {
                         item: "cobblemon:blue_apricorn"
                     },
-                    i: {
+                    x: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     }
                 },
                 pattern: [
                     " b ",
-                    "fif",
+                    "ixi",
                     " b "
                 ],
                 result: {
@@ -750,13 +750,13 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    z: {
+                    l: {
                         item: "cobblemon:blue_apricorn"
                     }
                 },
                 pattern: [
                     " b ",
-                    "ziz",
+                    "lil",
                     " b "
                 ],
                 result: {
@@ -892,14 +892,14 @@
             originalRecipe: {
                 category: "misc",
                 key: {
+                    a: {
+                        item: "cobblemon:black_apricorn"
+                    },
                     b: {
                         item: "cobblemon:blue_apricorn"
                     },
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
-                    },
-                    t: {
-                        item: "cobblemon:black_apricorn"
                     },
                     y: {
                         item: "cobblemon:yellow_apricorn"
@@ -907,7 +907,7 @@
                 },
                 pattern: [
                     " y ",
-                    "bit",
+                    "bia",
                     " y "
                 ],
                 result: {
@@ -921,11 +921,11 @@
                     b: {
                         item: "cobblemon:blue_apricorn"
                     },
-                    c: {
-                        item: "cobblemon:black_apricorn"
-                    },
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
+                    },
+                    x: {
+                        item: "cobblemon:black_apricorn"
                     },
                     y: {
                         item: "cobblemon:yellow_apricorn"
@@ -933,7 +933,7 @@
                 },
                 pattern: [
                     " y ",
-                    "bic",
+                    "bix",
                     " y "
                 ],
                 result: {
@@ -1069,16 +1069,16 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    n: {
-                        item: "cobblemon:blue_apricorn"
-                    },
                     w: {
                         item: "cobblemon:white_apricorn"
+                    },
+                    y: {
+                        item: "cobblemon:blue_apricorn"
                     }
                 },
                 pattern: [
                     " b ",
-                    "nin",
+                    "yiy",
                     " w "
                 ],
                 result: {
@@ -1095,17 +1095,17 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    v: {
-                        item: "cobblemon:blue_apricorn"
+                    j: {
+                        item: "cobblemon:white_apricorn"
                     },
                     w: {
-                        item: "cobblemon:white_apricorn"
+                        item: "cobblemon:blue_apricorn"
                     }
                 },
                 pattern: [
                     " b ",
-                    "viv",
-                    " w "
+                    "wiw",
+                    " j "
                 ],
                 result: {
                     count: 1,
@@ -1420,16 +1420,16 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
-                    f: {
-                        tag: "cobblemon:tier_3_poke_ball_materials"
-                    },
                     g: {
                         item: "cobblemon:green_apricorn"
+                    },
+                    s: {
+                        tag: "cobblemon:tier_3_poke_ball_materials"
                     }
                 },
                 pattern: [
                     " g ",
-                    "bfb",
+                    "bsb",
                     " g "
                 ],
                 result: {
@@ -1443,16 +1443,16 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
+                    f: {
+                        tag: "cobblemon:tier_3_poke_ball_materials"
+                    },
                     g: {
                         item: "cobblemon:green_apricorn"
-                    },
-                    k: {
-                        tag: "cobblemon:tier_3_poke_ball_materials"
                     }
                 },
                 pattern: [
                     " g ",
-                    "bkb",
+                    "bfb",
                     " g "
                 ],
                 result: {
@@ -2353,13 +2353,13 @@
                     c: {
                         tag: "cobblemon:tier_1_poke_ball_materials"
                     },
-                    f: {
+                    q: {
                         item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "fcf",
+                    "qcq",
                     " b "
                 ],
                 result: {
@@ -2376,13 +2376,13 @@
                     c: {
                         tag: "cobblemon:tier_1_poke_ball_materials"
                     },
-                    i: {
+                    d: {
                         item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "ici",
+                    "dcd",
                     " b "
                 ],
                 result: {
@@ -2408,13 +2408,13 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    k: {
+                    v: {
                         item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "kik",
+                    "viv",
                     " b "
                 ],
                 result: {
@@ -2428,7 +2428,7 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
-                    d: {
+                    g: {
                         item: "cobblemon:black_tumblestone"
                     },
                     i: {
@@ -2437,7 +2437,7 @@
                 },
                 pattern: [
                     " b ",
-                    "did",
+                    "gig",
                     " b "
                 ],
                 result: {
@@ -2457,19 +2457,19 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        item: "cobblemon:black_tumblestone"
-                    },
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
                     g: {
                         tag: "cobblemon:tier_3_poke_ball_materials"
+                    },
+                    m: {
+                        item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "aga",
+                    "mgm",
                     " b "
                 ],
                 result: {
@@ -2483,16 +2483,16 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
+                    c: {
+                        item: "cobblemon:black_tumblestone"
+                    },
                     g: {
                         tag: "cobblemon:tier_3_poke_ball_materials"
-                    },
-                    u: {
-                        item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "ugu",
+                    "cgc",
                     " b "
                 ],
                 result: {
@@ -2606,13 +2606,13 @@
                     m: {
                         item: "minecraft:magenta_dye"
                     },
-                    s: {
+                    n: {
                         item: "minecraft:mushroom_stem"
                     }
                 },
                 pattern: [
                     "mgm",
-                    "gsg",
+                    "gng",
                     "mgm"
                 ],
                 result: {
@@ -2761,6 +2761,1044 @@
                 result: {
                     count: 1,
                     id: "minecraft:blaze_rod"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/totem_of_undying_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:ender_eye"
+                    },
+                    e: {
+                        item: "minecraft:emerald_block"
+                    },
+                    g: {
+                        item: "minecraft:gold_block"
+                    }
+                },
+                pattern: [
+                    "ege",
+                    "gdg",
+                    " g "
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:totem_of_undying"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/dragon_leg_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:beef"
+                    },
+                    c: {
+                        item: "minecraft:chicken"
+                    },
+                    d: {
+                        item: "ends_delight:dragon_tooth"
+                    },
+                    m: {
+                        item: "minecraft:bone"
+                    }
+                },
+                pattern: [
+                    "bc ",
+                    "cmc",
+                    "dcb"
+                ],
+                result: {
+                    count: 1,
+                    id: "ends_delight:dragon_leg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/skeleton_skull_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "minecraft:bone_block"
+                    },
+                    b: {
+                        item: "minecraft:bone"
+                    },
+                    i: {
+                        item: "minecraft:ink_sac"
+                    }
+                },
+                pattern: [
+                    "ibi",
+                    "bab",
+                    "iii"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:skeleton_skull"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/zombie_head_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "minecraft:rotten_flesh"
+                    },
+                    s: {
+                        item: "minecraft:skeleton_skull"
+                    }
+                },
+                pattern: [
+                    "rrr",
+                    "rsr",
+                    "rrr"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:zombie_head"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/creeper_head_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:gunpowder"
+                    },
+                    i: {
+                        item: "minecraft:skeleton_skull"
+                    },
+                    s: {
+                        item: "minecraft:sand"
+                    }
+                },
+                pattern: [
+                    "gsg",
+                    "sis",
+                    "gsg"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:creeper_head"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/spider_head_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:black_wool"
+                    },
+                    c: {
+                        item: "minecraft:skeleton_skull"
+                    },
+                    s: {
+                        item: "minecraft:spider_eye"
+                    },
+                    u: {
+                        item: "minecraft:cobweb"
+                    }
+                },
+                pattern: [
+                    "sbs",
+                    "scs",
+                    "bub"
+                ],
+                result: {
+                    count: 1,
+                    id: "supplementaries:spider_head"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/enderman_head_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:end_stone"
+                    },
+                    e: {
+                        item: "minecraft:ender_pearl"
+                    },
+                    s: {
+                        item: "minecraft:skeleton_skull"
+                    }
+                },
+                pattern: [
+                    "ede",
+                    "dsd",
+                    "ddd"
+                ],
+                result: {
+                    count: 1,
+                    id: "supplementaries:enderman_head"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/dragon_head_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "ends_delight:dragon_tooth"
+                    },
+                    e: {
+                        item: "minecraft:end_crystal"
+                    },
+                    k: {
+                        item: "supplementaries:enderman_head"
+                    },
+                    o: {
+                        item: "minecraft:obsidian"
+                    }
+                },
+                pattern: [
+                    "eoe",
+                    "oko",
+                    "dod"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:dragon_head"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/piglin_head_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "minecraft:gold_ingot"
+                    },
+                    g: {
+                        item: "minecraft:gold_nugget"
+                    },
+                    p: {
+                        item: "minecraft:porkchop"
+                    },
+                    s: {
+                        item: "minecraft:skeleton_skull"
+                    }
+                },
+                pattern: [
+                    "gpg",
+                    "psp",
+                    "epe"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:piglin_head"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/player_head_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:brown_dye"
+                    },
+                    m: {
+                        item: "minecraft:blue_dye"
+                    },
+                    o: {
+                        item: "minecraft:orange_dye"
+                    },
+                    p: {
+                        item: "minecraft:pink_dye"
+                    },
+                    s: {
+                        item: "minecraft:skeleton_skull"
+                    },
+                    y: {
+                        item: "minecraft:yellow_dye"
+                    }
+                },
+                pattern: [
+                    "bbb",
+                    "msm",
+                    "oyp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:player_head"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/ham_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:bone"
+                    },
+                    p: {
+                        item: "minecraft:porkchop"
+                    }
+                },
+                pattern: [
+                    " p ",
+                    "pbp",
+                    "bp "
+                ],
+                result: {
+                    count: 1,
+                    id: "farmersdelight:ham"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/hoglin_loin_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    h: {
+                        item: "farmersdelight:ham"
+                    },
+                    n: {
+                        item: "minecraft:netherrack"
+                    }
+                },
+                pattern: [
+                    " n ",
+                    "nhn",
+                    " n "
+                ],
+                result: {
+                    count: 1,
+                    id: "mynethersdelight:hoglin_loin"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/hoglin_hide_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    h: {
+                        item: "farmersdelight:ham"
+                    },
+                    l: {
+                        item: "minecraft:leather"
+                    }
+                },
+                pattern: [
+                    " l ",
+                    "lhl",
+                    " l "
+                ],
+                result: {
+                    count: 1,
+                    id: "mynethersdelight:hoglin_hide"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/tide_armor_trim_smithing_template_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:dark_prismarine"
+                    },
+                    p: {
+                        item: "minecraft:prismarine_crystals"
+                    },
+                    s: {
+                        item: "minecraft:sea_lantern"
+                    },
+                    t: {
+                        item: "minecraft:prismarine_shard"
+                    }
+                },
+                pattern: [
+                    "dpd",
+                    "tst",
+                    "dpd"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:tide_armor_trim_smithing_template"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/spider_eye_0",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "minecraft:rotten_flesh"
+                    },
+                    {
+                        item: "minecraft:sweet_berries"
+                    },
+                    {
+                        item: "minecraft:potion"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:spider_eye"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/raw_ender_mite_meat_0",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "minecraft:chicken"
+                    },
+                    {
+                        item: "minecraft:end_stone"
+                    },
+                    {
+                        item: "minecraft:end_stone"
+                    },
+                    {
+                        item: "minecraft:end_stone"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "ends_delight:raw_ender_mite_meat"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_strad_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    },
+                    w: {
+                        item: "minecraft:white_wool"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pwp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_strad"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_mall_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:purple_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pgp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_mall"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_mellohi_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    m: {
+                        item: "minecraft:magenta_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pmp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_mellohi"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_far_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    l: {
+                        item: "minecraft:lime_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "plp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_far"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_ward_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:green_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pgp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_ward"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_chirp_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    },
+                    r: {
+                        item: "minecraft:red_wool"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "prp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_chirp"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_blocks0",
+            recipe: {
+                category: "misc",
+                key: {
+                    o: {
+                        item: "minecraft:orange_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pop",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_blocks"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_interlude_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "minecraft:emerald"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pep",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "create_connected:music_disc_interlude"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_cat_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    l: {
+                        item: "minecraft:lime_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "lpl",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_cat"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_elevator_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    l: {
+                        item: "minecraft:light_blue_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "plp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "create_connected:music_disc_elevator"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_stal_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:black_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pbp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_stal"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_wait_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "minecraft:cyan_wool"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pcp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_wait"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_13_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:gold_ingot"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pgp",
+                    "ppp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_13"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/music_disc_11_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    o: {
+                        item: "minecraft:obsidian"
+                    },
+                    p: {
+                        item: "minecraft:polished_blackstone_pressure_plate"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "pop",
+                    "pp "
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:music_disc_11"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/create/crafting/appliances/slime_ball_0",
+            oldSerializer: "minecraft:crafting_shapeless",
+            originalId: "create:crafting/appliances/slime_ball",
+            originalRecipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "create:dough"
+                    },
+                    {
+                        tag: "c:dyes/lime"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:slime_ball"
+                }
+            },
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        tag: "c:dough"
+                    },
+                    {
+                        tag: "c:dyes/lime"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:slime_ball"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/minecraft/charcoal_coal_block",
+            recipe: {
+                category: "building",
+                key: {
+                    c: {
+                        item: "minecraft:charcoal"
+                    }
+                },
+                pattern: [
+                    "ccc",
+                    "ccc",
+                    "ccc"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:coal_block"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/mega_showdown/blank-z",
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "minecraft:amethyst_shard"
+                    },
+                    d: {
+                        item: "minecraft:diamond"
+                    },
+                    e: {
+                        item: "minecraft:emerald"
+                    },
+                    n: {
+                        item: "minecraft:netherite_scrap"
+                    },
+                    q: {
+                        item: "minecraft:quartz"
+                    }
+                },
+                pattern: [
+                    "adq",
+                    "nen",
+                    "qda"
+                ],
+                result: {
+                    count: 1,
+                    id: "mega_showdown:blank_z"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/mega_showdown/blank-z_stonecut",
+            recipe: {
+                ingredient: {
+                    tag: "c:ingots/netherite"
+                },
+                result: {
+                    count: 2,
+                    id: "mega_showdown:blank_z"
+                }
+            },
+            recipeType: "minecraft:stonecutting",
+            serializer: "minecraft:stonecutting",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/cobblemon/normal_gem",
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "minecraft:amethyst_shard"
+                    },
+                    c: {
+                        item: "cobblemon:chilan_berry"
+                    }
+                },
+                pattern: [
+                    "aca",
+                    "cac",
+                    "aca"
+                ],
+                result: {
+                    count: 1,
+                    id: "cobblemon:normal_gem"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/mega_showdown/maxmushroom",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "cobblemon:energy_root"
+                    },
+                    n: {
+                        item: "minecraft:red_mushroom"
+                    },
+                    p: {
+                        item: "cobblemon:pep_up_flower"
+                    },
+                    r: {
+                        item: "cobblemon:revival_herb"
+                    }
+                },
+                pattern: [
+                    "rpr",
+                    "ene",
+                    "rpr"
+                ],
+                result: {
+                    count: 1,
+                    id: "mega_showdown:max_mushroom"
                 }
             },
             recipeType: "minecraft:crafting",

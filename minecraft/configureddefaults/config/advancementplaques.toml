@@ -76,12 +76,12 @@
 		# Volume of task sounds.  Set to 0 to mute.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		task_volume = 1.0
+		task_volume = 0.25
 		# Volume of goal sounds.  Set to 0 to mute.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		goal_volume = 1.0
+		goal_volume = 0.25
 		# Volume of challenge sounds.  Set to 0 to mute.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		challenge_volume = 1.0
+		challenge_volume = 0.25

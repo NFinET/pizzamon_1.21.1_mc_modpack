@@ -242,12 +242,12 @@
     },
     "explorerscompass:explorers_compass": {
       "displacement": {
-        "x": 0,
-        "y": 0
+        "x": 4,
+        "y": 2
       },
       "direction": {
-        "x": "NONE",
-        "y": "NONE"
+        "x": "RIGHT",
+        "y": "DOWN"
       },
       "sync": "explorerscompass:explorers_compass"
     },
@@ -538,7 +538,7 @@
         "x": "NONE",
         "y": "NONE"
       },
-      "sync": "naturescompass:natures_compass"
+      "sync": "explorerscompass:explorers_compass"
     },
     "other": {
       "sync": "NONE"
@@ -567,6 +567,28 @@
     },
     "players": {
       "sync": "NONE"
+    },
+    "refurbished_furniture:cutting_board_helper": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "refurbished_furniture:cutting_board_helper"
+    },
+    "refurbished_furniture:power_indicator": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "refurbished_furniture:power_indicator"
     },
     "sidebar": {
       "sync": "NONE"

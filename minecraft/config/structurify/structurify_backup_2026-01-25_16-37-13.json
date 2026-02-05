@@ -1,0 +1,22 @@
+{
+  "config_version": "2.0.12",
+  "config_datetime": "2026-01-25_16-28-44",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [],
+  "structure_sets": [
+    {
+      "spacing": 31,
+      "separation": 19,
+      "name": "supplementaries:galleons",
+      "salt": 121047156,
+      "frequency": 0.0,
+      "override_global_spacing_and_separation_modifier": false
+    }
+  ]
+}

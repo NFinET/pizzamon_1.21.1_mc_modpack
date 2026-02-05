@@ -116,7 +116,7 @@
 		horizontal_ropes = true
 		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaries:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
 		#Allowed Values: REPLACE, NONE, REMOVE
-		replace_in_loot_tables = "NONE"
+		replace_in_loot_tables = "REPLACE"
 
 	[functional.jar]
 		enabled = true
@@ -143,7 +143,7 @@
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages
-		cage_allow_all_babies = false
+		cage_allow_all_babies = true
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
 		cage_auto_detect = false
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
@@ -170,7 +170,7 @@
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
 		# Default: 2
 		# Range: 1 ~ 50
-		sack_increment = 2
+		sack_increment = 4
 		#How many slots should a sack have
 		# Default: 9
 		# Range: 1 ~ 27
@@ -180,7 +180,7 @@
 		enabled = true
 		tipped_spikes = true
 		#Allows entities killed by spikes to drop loot as if they were killed by a player
-		player_loot = false
+		player_loot = true
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
 		only_allow_harmful_effects = true
 		#Populate the creative inventory with all tipped spikes variations
@@ -191,7 +191,7 @@
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
-		critter_spawn_chance = 0.01
+		critter_spawn_chance = 0.0
 		cave_urns = true
 
 	[functional.soap]
@@ -243,8 +243,8 @@
 			break_radius = 1.1
 
 		[functional.cannon.plunderer]
-			enabled = true
-			galleon = true
+			enabled = false
+			galleon = false
 
 	[functional.present]
 		enabled = true
@@ -480,7 +480,7 @@
 		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
 		# Default: 0.03
 		# Range: 0.0 ~ 1.0
-		quiver_skeleton_spawn_chance = 0.03
+		quiver_skeleton_spawn_chance = 0.0
 		#If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
 		quiver_skeleton_spawn_depend_on_global_difficulty = true
 		#Allows quiver to only be used when in offhand or in curio invSlot
@@ -535,7 +535,7 @@
 		#Max number of rope items allowed to be stored inside a rope arrow
 		# Default: 32
 		# Range: 1 ~ 256
-		capacity = 32
+		capacity = 128
 		#Makes rope arrows exclusive to crossbows
 		exclusive_to_crossbows = false
 
@@ -616,7 +616,7 @@
 #General settings
 [general]
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	dynamic_assets_generation_mode = "CACHED"
+	dynamic_assets_generation_mode = "CACHED_ZIPPED"
 	#Enable Creative Tab
 	creative_tab = false
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
@@ -760,12 +760,12 @@
 
 	[tweaks.sus_recipes]
 		#Adds recipes to craft suspicious gravel and suspicious sand
-		enabled = true
+		enabled = false
 
 	[tweaks.slimed_effect]
-		enabled = true
+		enabled = false
 		#Allow slimeballs to be thrown
-		throwable_slimeballs = true
+		throwable_slimeballs = false
 		#Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
 		#Allowed Values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
 		hinders_jump = "NORMAL_DIFFICULTY"

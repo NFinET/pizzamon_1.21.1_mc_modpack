@@ -1,7 +1,7 @@
 {
   "onCapture": true,
   "onKo": true,
-  "initialChance": 1.0,
+  "initialChance": 0.5,
   "points": {},
   "notifyPlayer": true,
   "breakOnSuccess": true,

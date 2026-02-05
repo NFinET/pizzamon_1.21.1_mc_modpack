@@ -10,8 +10,8 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayHeight": 0.0,
     "displayed": true,
+    "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
@@ -22,11 +22,63 @@
     "dotSize": 1.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 0.0,
-    "heightLimit": 75.0,
     "names": 0.0,
+    "heightLimit": 75.0,
     "iconScale": 1.5
   },
   "subCategories": [
+    {
+      "hardInclude": "nothing",
+      "includeList": [
+        "*arrow*",
+        "*bullet*",
+        "*projectile*",
+        "amendments:medium_dragon_fireball",
+        "amendments:medium_fireball",
+        "create_things_and_misc:blaze_ballon_fire_projectile",
+        "exposure:glass_photograph_frame",
+        "exposure:photograph_frame",
+        "fireworkcapsules:capsule_entity",
+        "handcrafted:fancy_painting",
+        "immersive_paintings:glow_graffiti",
+        "immersive_paintings:glow_painting",
+        "immersive_paintings:graffiti",
+        "immersive_paintings:painting",
+        "minecraft:area_effect_cloud",
+        "minecraft:armor_stand",
+        "minecraft:arrow",
+        "minecraft:dragon_fireball",
+        "minecraft:falling_block",
+        "minecraft:fireball",
+        "minecraft:firework_rocket",
+        "minecraft:glow_item_frame",
+        "minecraft:item_frame",
+        "minecraft:leash_knot",
+        "minecraft:llama_spit",
+        "minecraft:painting",
+        "minecraft:potion",
+        "minecraft:shulker_bullet",
+        "minecraft:snowball",
+        "simplehats:hatdisplay",
+        "splash_milk:milk_area_effect_cloud",
+        "supplementaries:hat_stand",
+        "xercapaint:canvas",
+        "xercapaint:easel"
+      ],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "Ignored",
+      "protection": true,
+      "settingOverrides": {
+        "displayed": false,
+        "renderOrder": 50.0,
+        "names": 0.0,
+        "color": 8.0,
+        "icons": 0.0
+      },
+      "subCategories": []
+    },
     {
       "hardInclude": "living",
       "includeList": [],
@@ -38,13 +90,14 @@
       "name": "gui.xaero_entity_category_living",
       "protection": true,
       "settingOverrides": {
-        "renderOrder": 2.0,
+        "renderOrder": 20.0,
         "color": 14.0
       },
       "subCategories": [
         {
           "hardInclude": "nothing",
           "includeList": [
+            "cobblemon:npc",
             "rctmod:trainer",
             "rctmod:trainer_association"
           ],
@@ -52,15 +105,18 @@
           "excludeMode": "ONLY",
           "excludeList": [],
           "name": "Trainers",
-          "protection": false,
+          "protection": true,
           "settingOverrides": {
             "displayed": true,
-            "renderOrder": 1.0,
+            "heightBasedFade": true,
+            "renderOrder": 2.0,
+            "names": 0.0,
+            "heightLimit": 50.0,
             "color": 12.0,
             "displayNameWhenIconFails": true,
             "dotSize": 2.0,
-            "icons": 1.0,
-            "names": 1.0
+            "icons": 2.0,
+            "iconScale": 1.4000000000000001
           },
           "subCategories": []
         },
@@ -75,11 +131,17 @@
           "name": "Cobblemon",
           "protection": true,
           "settingOverrides": {
+            "displayHeight": 3.0,
             "displayed": true,
-            "renderOrder": 2.0,
+            "heightBasedFade": true,
+            "renderOrder": 1.0,
+            "heightLimit": 2050.0,
+            "color": 15.0,
             "displayNameWhenIconFails": true,
+            "dotSize": 2.0,
+            "renderOverMinimapFrame": 1.0,
             "icons": 2.0,
-            "names": 1.0
+            "iconScale": 1.75
           },
           "subCategories": []
         },
@@ -94,13 +156,13 @@
           "settingOverrides": {
             "displayHeight": 3.0,
             "displayed": true,
-            "renderOrder": 3.0,
+            "renderOrder": 6.0,
+            "names": 2.0,
+            "heightLimit": 2050.0,
             "color": 15.0,
             "displayNameWhenIconFails": true,
             "renderOverMinimapFrame": 2.0,
-            "icons": 2.0,
-            "heightLimit": 2050.0,
-            "names": 2.0
+            "icons": 2.0
           },
           "subCategories": [
             {
@@ -189,8 +251,8 @@
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
           "settingOverrides": {
-            "color": 11.0,
-            "names": 1.0
+            "names": 1.0,
+            "color": 11.0
           },
           "subCategories": [
             {
@@ -203,8 +265,8 @@
               "protection": true,
               "settingOverrides": {
                 "renderOrder": 4.0,
-                "color": 10.0,
-                "names": 1.0
+                "names": 1.0,
+                "color": 10.0
               },
               "subCategories": []
             }

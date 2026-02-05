@@ -7,8 +7,8 @@
     "uncommon_outbreak_rarity": 30
   },
   "portal_spawning_config": {
-    "random_player_count": 3,
-    "outbreak_spawn_count": 2,
+    "random_player_count": 5,
+    "outbreak_spawn_count": 1,
     "min_spawn_radius": 32,
     "max_spawn_radius": 64,
     "portal_spawn_choice": "per_player",
@@ -16,7 +16,7 @@
     "random_outbreak_timer": 36000
   },
   "shiny_config": {
-    "shiny_chance": 1024.0
+    "shiny_chance": 2048.0
   },
   "general": {
     "outbreak_spawn_rewards": true,

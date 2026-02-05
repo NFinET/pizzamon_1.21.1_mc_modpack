@@ -119,17 +119,22 @@
     {
       "Repels": [
         {
-          "item": "cobblemonrepel:repel",
-          "price": 500
+          "item": "maxrepel:repel",
+          "price": 400
         },
         {
-          "item": "cobblemonrepel:super_repel",
-          "price": 1000
+          "item": "maxrepel:super_repel",
+          "price": 700
         },
         {
-          "item": "cobblemonrepel:max_repel",
-          "price": 1500
+          "item": "maxrepel:max_repel",
+          "price": 900
+        },
+		{
+          "item": "maxrepel:repel_sprayer",
+          "price": 3000
         }
+		
       ]
     }
   ]

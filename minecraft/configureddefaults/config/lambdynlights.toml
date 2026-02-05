@@ -162,6 +162,9 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.farmersdelight]
 				rotten_tomato = true
 
+			[light_sources.settings.entities.rad-gyms]
+				gym_trainer = true
+
 			[light_sources.settings.entities.handcrafted]
 				seat = true
 				fancy_painting = true
@@ -384,6 +387,6 @@ chunk_rebuild_scheduler = "culling"
 	# Reduces how often sources behind the camera get ticked.
 	background_sleep = true
 	# How far away (in chunks) until light sources get ticked less often.
-	slow = 5
+	slow = 3
 	# How far away (in chunks) until light sources get ticked even less often.
-	slower = 8
+	slower = 6

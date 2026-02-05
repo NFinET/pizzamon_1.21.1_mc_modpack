@@ -46,7 +46,7 @@
 	// If the bundled Nutritious Milk mod should be enabled.
 	"enableNutritiousMilk": false,
 	// If the bundled Ore Harvester mod should be enabled.
-	"enableOreHarvester": true,
+	"enableOreHarvester": false,
 	// If the bundled Quick Paths mod should be enabled.
 	"enableQuickPaths": true,
 	// If the bundled Quick Right-Click mod should be enabled.
@@ -74,7 +74,7 @@
 	// If the bundled Thorny Bush Protection mod should be enabled.
 	"enableThornyBushProtection": true,
 	// If the bundled Tree Harvester mod should be enabled.
-	"enableTreeHarvester": true,
+	"enableTreeHarvester": false,
 	// If the bundled Underwater Enchanting mod should be enabled.
 	"enableUnderwaterEnchanting": false,
 	// If the bundled Village Bell Recipe mod should be enabled.

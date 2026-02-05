@@ -95,13 +95,13 @@
     "fishingLootGenerators": [
       "ditto"
     ],
-    "fishingLootGenerationCooldownSeconds": 60,
+    "fishingLootGenerationCooldownSeconds": 300,
     "fishingLootTreasureChance": 1,
     "typeGeneratesFishingLoot": "WATER"
   },
   "pickup": {
     "pickUpLootersEnabled": true,
-    "pickUpLootingCooldownSeconds": 120,
+    "pickUpLootingCooldownSeconds": 600,
     "lootTables": [
       "cobblemon:sets/any_ancient_held_item",
       "cobblemon:sets/any_common_pokeball",
@@ -115,7 +115,7 @@
   },
   "diving": {
     "divingLootersEnabled": true,
-    "divingLootingCooldownSeconds": 210,
+    "divingLootingCooldownSeconds": 900,
     "lootTables": [
       "cobbleworkers:dive_treasure"
     ]
@@ -187,7 +187,7 @@
     "archeologists": [
       "ditto"
     ],
-    "archeologyLootingCooldownSeconds": 80,
+    "archeologyLootingCooldownSeconds": 900,
     "lootTables": [
       "cobbleworkers:archeology_treasure"
     ],
@@ -198,7 +198,7 @@
     "scouts": [
       "ditto"
     ],
-    "scoutGenerationCooldownSeconds": 80,
+    "scoutGenerationCooldownSeconds": 900,
     "useAllStructures": false,
     "mapNameIsHidden": true,
     "structureTags": [

@@ -1,6 +1,6 @@
 {
   "inventoryConfig": {
-    "dropPlayerHead": true,
+    "dropPlayerHead": false,
     "itemLoss": {
       "enabled": false,
       "affectStacks": false,
@@ -19,9 +19,9 @@
     "dropOnGroundSlots": []
   },
   "expConfig": {
-    "dropBehaviour": "BEST_OF_BOTH",
-    "dropPercentage": 0,
-    "keepPercentage": 0
+    "dropBehaviour": "PERCENTAGE",
+    "dropPercentage": 50,
+    "keepPercentage": 25
   },
   "graveConfig": {
     "enabled": true,
@@ -45,7 +45,7 @@
     "overrideSpawnProtection": true,
     "claimPriority": "GRAVE",
     "graveRobbing": {
-      "enabled": true,
+      "enabled": false,
       "killerSkipWaitTime": false,
       "afterTime": 1,
       "timeUnit": "HOURS",
@@ -87,12 +87,12 @@
       "spawnEntity": "minecraft:zombie",
       "spawnNbt": "{ArmorItems:[{},{},{},{id:\"minecraft:player_head\",components:{\"minecraft:profile\":{name:\"${owner.name}\",id:${owner.uuid}}}}]}"
     },
-    "generateOnLastGroundPos": false,
-    "tryGenerateOnGround": false,
+    "generateOnLastGroundPos": true,
+    "tryGenerateOnGround": true,
     "generationMaxDistance": {
-      "x": 5,
-      "y": 5,
-      "z": 5
+      "x": 16,
+      "y": 16,
+      "z": 16
     },
     "useSoftBlockWhitelist": false,
     "useStrictBlockBlacklist": true,

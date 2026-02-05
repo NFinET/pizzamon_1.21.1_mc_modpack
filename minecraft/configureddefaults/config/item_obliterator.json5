@@ -23,8 +23,7 @@
 	"cobblemon_utility:poketreat",
 	"cobblemon_utility:stalepoketreat",
 	"cobblemon_utility:shinycard",
-	"cobblemon_utility:devolutionrelic",
-    "examplemod:example_item"
+	"cobblemon_utility:devolutionrelic"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain Component Data. If the whole entry (or expression) is present, the item gets removed.

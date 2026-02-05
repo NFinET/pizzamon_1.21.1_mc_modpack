@@ -452,23 +452,240 @@ craftingTable.addShaped("ctgui/new/crafting/music_disc_11_0", <item:minecraft:mu
     [<item:minecraft:polished_blackstone_pressure_plate>, <item:minecraft:obsidian>, <item:minecraft:polished_blackstone_pressure_plate>],
     [<item:minecraft:polished_blackstone_pressure_plate>, <item:minecraft:polished_blackstone_pressure_plate>, IIngredientEmpty.getInstance()]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine");
+<recipetype:minecraft:crafting>.removeByName("create:crafting/appliances/slime_ball");
+craftingTable.addShapeless("ctgui/new/create/crafting/appliances/slime_ball_0", <item:minecraft:slime_ball>, [<tag:item:c:dough>, <tag:item:c:dyes/lime>]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_2");
+craftingTable.addShaped("ctgui/new/minecraft/charcoal_coal_block", <item:minecraft:coal_block>, [
+    [<item:minecraft:charcoal>, <item:minecraft:charcoal>, <item:minecraft:charcoal>],
+    [<item:minecraft:charcoal>, <item:minecraft:charcoal>, <item:minecraft:charcoal>],
+    [<item:minecraft:charcoal>, <item:minecraft:charcoal>, <item:minecraft:charcoal>]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_3");
+stoneCutter.addRecipe("ctgui/new/mega_showdown/blank-z_stonecut", <item:mega_showdown:blank_z> * 2, <tag:item:c:ingots/netherite>);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_4");
+craftingTable.addShaped("ctgui/new/mega_showdown/maxmushroom", <item:mega_showdown:max_mushroom>, [
+    [<item:cobblemon:revival_herb>, <item:cobblemon:pep_up_flower>, <item:cobblemon:revival_herb>],
+    [<item:cobblemon:energy_root>, <item:minecraft:red_mushroom>, <item:cobblemon:energy_root>],
+    [<item:cobblemon:revival_herb>, <item:cobblemon:pep_up_flower>, <item:cobblemon:revival_herb>]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_5");
+craftingTable.addShaped("ctgui/new/crafting/ground_gem_0", <item:cobblemon:ground_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:shuca_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:shuca_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:shuca_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:shuca_berry>, <item:minecraft:amethyst_shard>]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_6");
+craftingTable.addShaped("ctgui/new/crafting/normal_gem_0", <item:cobblemon:normal_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:chilan_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:chilan_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:chilan_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:chilan_berry>, <item:minecraft:amethyst_shard>]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_7");
+craftingTable.addShaped("ctgui/new/crafting/fighting_gem_0", <item:cobblemon:fighting_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:chople_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:chople_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:chople_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:chople_berry>, <item:minecraft:amethyst_shard>]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_8");
+craftingTable.addShaped("ctgui/new/crafting/grass_gem_0", <item:cobblemon:grass_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:rindo_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:rindo_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:rindo_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:rindo_berry>, <item:minecraft:amethyst_shard>]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_9");
+craftingTable.addShaped("ctgui/new/crafting/water_gem_0", <item:cobblemon:water_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:passho_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:passho_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:passho_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:passho_berry>, <item:minecraft:amethyst_shard>]]);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_10");
+craftingTable.addShaped("ctgui/new/crafting/dark_gem_0", <item:cobblemon:dark_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:colbur_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:colbur_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:colbur_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:colbur_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/ghost_gem_0", <item:cobblemon:ghost_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:kasib_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:kasib_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:kasib_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:kasib_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/bug_gem_0", <item:cobblemon:bug_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:tanga_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:tanga_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:tanga_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:tanga_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/flying_gem_0", <item:cobblemon:flying_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:coba_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:coba_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:coba_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:coba_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/ice_gem_0", <item:cobblemon:ice_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:yache_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:yache_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:yache_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:yache_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/electric_gem_0", <item:cobblemon:electric_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:wacan_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:wacan_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:wacan_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:wacan_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/fire_gem_0", <item:cobblemon:fire_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:occa_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:occa_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:occa_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:occa_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/fairy_gem_0", <item:cobblemon:fairy_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:roseli_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:roseli_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:roseli_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:roseli_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/poison_gem_0", <item:cobblemon:poison_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:kebia_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:kebia_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:kebia_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:kebia_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/steel_gem_0", <item:cobblemon:steel_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:babiri_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:babiri_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:babiri_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:babiri_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/dragon_gem_0", <item:cobblemon:dragon_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:haban_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:haban_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:haban_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:haban_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/rock_gem_0", <item:cobblemon:rock_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:charti_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:charti_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:charti_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:charti_berry>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/psychic_gem_0", <item:cobblemon:psychic_gem>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:payapa_berry>, <item:minecraft:amethyst_shard>],
+    [<item:cobblemon:payapa_berry>, <item:minecraft:amethyst_shard>, <item:cobblemon:payapa_berry>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:payapa_berry>, <item:minecraft:amethyst_shard>]]);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/normal_tera_shard_0", <item:mega_showdown:normal_tera_shard> * 5, <item:cobblemon:normal_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/water_tera_shard_0", <item:mega_showdown:water_tera_shard> * 5, <item:cobblemon:water_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/electric_tera_shard_0", <item:mega_showdown:electric_tera_shard> * 5, <item:cobblemon:electric_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/fighting_tera_shard_0", <item:mega_showdown:fighting_tera_shard> * 5, <item:cobblemon:fighting_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/ground_tera_shard_0", <item:mega_showdown:ground_tera_shard> * 5, <item:cobblemon:ground_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/dragon_tera_shard_0", <item:mega_showdown:dragon_tera_shard> * 5, <item:cobblemon:dragon_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/steel_tera_shard_0", <item:mega_showdown:steel_tera_shard> * 5, <item:cobblemon:steel_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/psychic_tera_shard_0", <item:mega_showdown:psychic_tera_shard> * 5, <item:cobblemon:psychic_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/rock_tera_shard_0", <item:mega_showdown:rock_tera_shard> * 5, <item:cobblemon:rock_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/fire_tera_shard_0", <item:mega_showdown:fire_tera_shard> * 5, <item:cobblemon:fire_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/grass_tera_shard_0", <item:mega_showdown:grass_tera_shard> * 5, <item:cobblemon:grass_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/ice_tera_shard_0", <item:mega_showdown:ice_tera_shard> * 5, <item:cobblemon:ice_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/poison_tera_shard_0", <item:mega_showdown:poison_tera_shard> * 5, <item:cobblemon:poison_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/fairy_tera_shard_0", <item:mega_showdown:fairy_tera_shard> * 5, <item:cobblemon:fairy_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/dark_tera_shard_0", <item:mega_showdown:dark_tera_shard> * 5, <item:cobblemon:dark_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/flying_tera_shard_0", <item:mega_showdown:flying_tera_shard> * 5, <item:cobblemon:flying_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/bug_tera_shard_0", <item:mega_showdown:bug_tera_shard> * 5, <item:cobblemon:bug_gem>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/ghost_tera_shard_0", <item:mega_showdown:ghost_tera_shard> * 5, <item:cobblemon:ghost_gem>);
+
+craftingTable.addShaped("ctgui/new/crafting/stellar_tera_shard_0", <item:mega_showdown:stellar_tera_shard> * 5, [
+    [<tag:item:mega_showdown:tera_shard>, <tag:item:cobblemon:type_gems>, <tag:item:mega_showdown:tera_shard>],
+    [<tag:item:cobblemon:type_gems>, <tag:item:mega_showdown:tera_shard>, <tag:item:cobblemon:type_gems>],
+    [<tag:item:mega_showdown:tera_shard>, <tag:item:cobblemon:type_gems>, <tag:item:mega_showdown:tera_shard>]]);
+
+blastFurnace.addRecipe("ctgui/new/blasting/keystone_0", <item:mega_showdown:keystone>, <tag:item:mega_showdown:mega_bracelet>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_0", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:z_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_1", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:z_ring_black>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_2", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:z_ring_yellow>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_3", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:z_ring_green>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_4", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:z_ring_blue>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_5", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:z_ring_pink>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_6", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:z_ring_red>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_7", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:olivias_z_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_light_8", <item:mega_showdown:sparkling_stone_light>, <item:mega_showdown:hapus_z_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_dark_0", <item:mega_showdown:sparkling_stone_dark>, <item:mega_showdown:z_power_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_dark_1", <item:mega_showdown:sparkling_stone_dark>, <item:mega_showdown:olivia_z_power_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_dark_2", <item:mega_showdown:sparkling_stone_dark>, <item:mega_showdown:hapu_z_power_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_dark_3", <item:mega_showdown:sparkling_stone_dark>, <item:mega_showdown:rocket_z_power_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_dark_4", <item:mega_showdown:sparkling_stone_dark>, <item:mega_showdown:gladion_z_power_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/sparkling_stone_dark_5", <item:mega_showdown:sparkling_stone_dark>, <item:mega_showdown:nanu_z_power_ring>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/mega_stone_0", <item:mega_showdown:mega_stone>, <tag:item:mega_showdown:mega_stone>, 0.0, 300);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/mega_stone_0", <item:mega_showdown:mega_stone> * 2, <item:mega_showdown:keystone>);
+
+craftingTable.addShaped("ctgui/new/crafting/keystone_0", <item:mega_showdown:keystone>, [
+    [<item:mega_showdown:stellar_tera_shard>, <item:mega_showdown:stellar_tera_shard>, <item:mega_showdown:stellar_tera_shard>],
+    [<item:mega_showdown:stellar_tera_shard>, <item:minecraft:diamond_block>, <item:mega_showdown:stellar_tera_shard>],
+    [<item:mega_showdown:stellar_tera_shard>, <item:mega_showdown:stellar_tera_shard>, <item:mega_showdown:stellar_tera_shard>]]);
+
+smithing.addTransformRecipe("ctgui/new/smithing/zygarde_cell_0", <item:mega_showdown:zygarde_cell>, <item:minecraft:ender_eye>, <item:minecraft:phantom_membrane>, <item:minecraft:emerald>);
+
+craftingTable.addShaped("ctgui/new/crafting/power_herb_0", <item:cobblemon:power_herb>, [
+    [<item:minecraft:redstone>, <item:minecraft:redstone_torch>, <item:minecraft:redstone>],
+    [<item:minecraft:redstone_torch>, <item:cobblemon:revival_herb>, <item:minecraft:redstone_torch>],
+    [<item:minecraft:redstone>, <item:minecraft:redstone_torch>, <item:minecraft:redstone>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/white_herb_0", <item:cobblemon:white_herb>, [
+    [<tag:item:c:dyes/white>, <tag:item:c:dyes/white>, <tag:item:c:dyes/white>],
+    [<item:cobblemon:pep_up_flower>, <item:cobblemon:revival_herb>, <item:cobblemon:pep_up_flower>],
+    [<tag:item:c:dyes/white>, <tag:item:c:dyes/white>, <tag:item:c:dyes/white>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/mental_herb_0", <item:cobblemon:mental_herb>, [
+    [<tag:item:c:dyes/light_blue>, <tag:item:c:dyes/light_blue>, <tag:item:c:dyes/light_blue>],
+    [<item:cobblemon:eggant_berry>, <item:cobblemon:revival_herb>, <item:cobblemon:eggant_berry>],
+    [<tag:item:c:dyes/light_blue>, <tag:item:c:dyes/light_blue>, <tag:item:c:dyes/light_blue>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/mirror_herb_0", <item:cobblemon:mirror_herb>, [
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:pep_up_flower>, <item:minecraft:amethyst_shard>],
+    [<tag:item:c:dyes/lime>, <item:cobblemon:revival_herb>, <tag:item:c:dyes/lime>],
+    [<item:minecraft:amethyst_shard>, <item:cobblemon:pep_up_flower>, <item:minecraft:amethyst_shard>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/wishing_star_0", <item:mega_showdown:wishing_star>, [
+    [<item:minecraft:lapis_block>, <item:mega_showdown:max_mushroom>, <item:minecraft:lapis_block>],
+    [<item:mega_showdown:max_mushroom>, <item:minecraft:diamond_block>, <item:mega_showdown:max_mushroom>],
+    [<item:minecraft:lapis_block>, <item:mega_showdown:max_mushroom>, <item:minecraft:lapis_block>]]);
+
+blastFurnace.addRecipe("ctgui/new/blasting/wishing_star_0", <item:mega_showdown:wishing_star>, <item:mega_showdown:dynamax_band>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/wishing_star_1", <item:mega_showdown:wishing_star>, <item:mega_showdown:power_spot>, 0.0, 300);
+
+blastFurnace.addRecipe("ctgui/new/blasting/blank_z_0", <item:mega_showdown:blank_z>, <tag:item:mega_showdown:z_crystal>, 0.0, 300);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/mega_stone_1", <item:mega_showdown:mega_stone> * 2, <item:minecraft:netherite_ingot>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/keystone_0", <item:mega_showdown:keystone>, <item:minecraft:netherite_ingot>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/sparkling_stone_dark_0", <item:mega_showdown:sparkling_stone_dark>, <item:minecraft:netherite_ingot>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/wishing_star_0", <item:mega_showdown:wishing_star>, <item:minecraft:netherite_ingot>);
+
+craftingTable.addShaped("ctgui/new/crafting/sparkling_stone_light_0", <item:mega_showdown:sparkling_stone_light>, [
+    [<item:minecraft:amethyst_shard>, <item:minecraft:amethyst_shard>, <item:minecraft:amethyst_shard>],
+    [<item:minecraft:quartz_block>, <item:minecraft:diamond_block>, <item:minecraft:quartz_block>],
+    [<item:minecraft:amethyst_shard>, <item:minecraft:amethyst_shard>, <item:minecraft:amethyst_shard>]]);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_0", <item:mega_showdown:blank_z> * 2, <item:mega_showdown:sparkling_stone_light>);
+
+stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_1", <item:mega_showdown:blank_z> * 2, <item:mega_showdown:sparkling_stone_dark>);
 

@@ -1,4 +1,5 @@
 {
+  "apothic_enchanting:ench": null,
   "balm:jade": null,
   "barbequesdelight:grill": null,
   "cobblemon_secret_base_trainer:battle_clone": null,
@@ -14,6 +15,8 @@
   "cookingforblockheads:preservation_chamber": null,
   "cookingforblockheads:sink": null,
   "cookingforblockheads:toaster": null,
+  "exposure:lightroom": null,
+  "exposure:photograph_frame": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,

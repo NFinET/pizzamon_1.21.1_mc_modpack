@@ -29,7 +29,7 @@
     "easyPlaceSinglePlayerHandling": true,
     "easyPlaceProtocolVersion": "auto",
     "easyPlaceSwingHand": true,
-    "easyPlaceVanillaReach": false,
+    "easyPlaceVanillaReach": true,
     "enableDifferentBlocks": false,
     "entityDataSync": {
       "enabled": false,
@@ -63,7 +63,7 @@
     "pickBlockAvoidDamageable": true,
     "pickBlockAvoidTools": false,
     "pickBlockEnabled": true,
-    "pickBlockShulkers": false,
+    "pickBlockShulkers": true,
     "placementReplaceBehavior": "all",
     "placementRestriction": false,
     "placementRestrictionWarn": "actionbar",
@@ -73,7 +73,7 @@
     "signTextPaste": true,
     "toolItemEnabled": true,
     "unhideSchematicVCS": false,
-    "pasteReplaceBehavior": "none",
+    "pasteReplaceBehavior": "all",
     "schematicVcsDeleteMode": "matching_block",
     "selectionCornersMode": "corners",
     "commandFillMaxVolume": 32768,
@@ -91,7 +91,7 @@
   },
   "Hotkeys": {
     "addSelectionBox": {
-      "keys": "M,A"
+      "keys": "RIGHT_CONTROL,A"
     },
     "cloneSelection": {
       "keys": ""
@@ -109,7 +109,7 @@
       "keys": ""
     },
     "executeOperation": {
-      "keys": ""
+      "keys": "LEFT_CONTROL,LEFT_ALT,E"
     },
     "invertGhostBlockRenderState": {
       "keys": ""
@@ -118,16 +118,16 @@
       "keys": ""
     },
     "layerModeNext": {
-      "keys": "M,PAGE_UP"
+      "keys": "RIGHT_CONTROL,PAGE_UP"
     },
     "layerModePrevious": {
-      "keys": "M,PAGE_DOWN"
+      "keys": "RIGHT_CONTROL,PAGE_DOWN"
     },
     "layerNext": {
-      "keys": "PAGE_UP"
+      "keys": "LEFT_ALT,PAGE_UP"
     },
     "layerPrevious": {
-      "keys": "PAGE_DOWN"
+      "keys": "LEFT_ALT,PAGE_DOWN"
     },
     "layerSetHere": {
       "keys": ""
@@ -148,34 +148,52 @@
       "keys": ""
     },
     "openGuiMainMenu": {
-      "keys": "M"
+      "keys": "RIGHT_CONTROL,M",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "openGuiMaterialList": {
-      "keys": "M,L"
+      "keys": "RIGHT_CONTROL,L"
     },
     "openGuiPlacementSettings": {
       "keys": "KP_SUBTRACT"
     },
     "openGuiSchematicPlacements": {
-      "keys": "M,P"
+      "keys": "RIGHT_CONTROL,P"
     },
     "openGuiSchematicProjects": {
       "keys": ""
     },
     "openGuiSchematicVerifier": {
-      "keys": "M,V"
+      "keys": "RIGHT_CONTROL,V"
     },
     "openGuiSelectionManager": {
-      "keys": "M,S"
+      "keys": "RIGHT_CONTROL,S"
     },
     "openGuiSettings": {
-      "keys": "M,C"
+      "keys": "RIGHT_CONTROL,C"
     },
     "operationModeChangeModifier": {
       "keys": "LEFT_CONTROL"
     },
     "pickBlockFirst": {
-      "keys": "BUTTON_3"
+      "keys": "RIGHT_CONTROL,BUTTON_3",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "pickBlockLast": {
       "keys": ""
@@ -184,13 +202,31 @@
       "keys": "M,BUTTON_3"
     },
     "renderInfoOverlay": {
-      "keys": "I"
+      "keys": "LEFT_ALT,I",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "renderOverlayThroughBlocks": {
-      "keys": "RIGHT_CONTROL"
+      "keys": "RIGHT_CONTROL",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "rerenderSchematic": {
-      "keys": "F3,M"
+      "keys": "RIGHT_CONTROL,F3"
     },
     "saveAreaAsInMemorySchematic": {
       "keys": ""
@@ -262,7 +298,7 @@
       "keys": ""
     },
     "toggleAllRendering": {
-      "keys": "M,R"
+      "keys": "RIGHT_CONTROL,R"
     },
     "toggleAreaSelectionBoxesRendering": {
       "keys": ""
@@ -289,7 +325,7 @@
       "keys": ""
     },
     "toggleSchematicRendering": {
-      "keys": "M,G"
+      "keys": "RIGHT_CONTROL,G"
     },
     "toggleSignTextPaste": {
       "keys": ""
@@ -301,7 +337,7 @@
       "keys": ""
     },
     "toolEnabledToggle": {
-      "keys": "M,T"
+      "keys": "RIGHT_CONTROL,T"
     },
     "toolPlaceCorner1": {
       "keys": "BUTTON_1"
@@ -345,7 +381,7 @@
     "materialListHudMaxLines": 10,
     "materialListHudScale": 1.0,
     "toolHudOffsetX": 1,
-    "toolHudOffsetY": 1,
+    "toolHudOffsetY": 20,
     "toolHudScale": 1.0,
     "verifierErrorHilightAlpha": 0.2,
     "verifierErrorHilightMaxPositions": 1000

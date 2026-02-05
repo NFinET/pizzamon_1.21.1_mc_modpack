@@ -16,7 +16,7 @@
     "random_outbreak_timer": 36000
   },
   "shiny_config": {
-    "shiny_chance": 1024.0
+    "shiny_chance": 2048.0
   },
   "general": {
     "outbreak_spawn_rewards": true,

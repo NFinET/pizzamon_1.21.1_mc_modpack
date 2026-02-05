@@ -18,7 +18,6 @@ required = [
 
 [datapacks]
 required = [
-    "datapacks/",
     "global_packs/required_data/"
 ]
 

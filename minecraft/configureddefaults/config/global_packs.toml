@@ -19,6 +19,23 @@ log_pack_ids = true
 	enable_builtin = []
 
 [datapacks]
-	required = ["datapacks/", "resourcepacks/", "global_packs/required_data/"]
+	required = [
+		"datapacks/Vivillon Pride Patterns v1.0.zip",
+		"datapacks/MC Swords for Honedge Line V2.0.zip",
+		"datapacks/CobblemonModdedDrops.zip",
+		"datapacks/Pizzamon_PartingGiftsDrops_v2.zip",
+		"datapacks/ATM x MSD [3.2.1].zip",
+		"datapacks/Lost Lore [v1.8].zip",
+		"datapacks/Pizzamon_BCA_CobbleTowns1.1.3_CobbleDollars_v2.zip",
+		"datapacks/CobbleCuisineDelight1.1.zip",
+		"datapacks/CobbledGacha Template Datapack.zip",
+		"datapacks/Cobblemon Rad Gyms Refurbish.zip",
+		"datapacks/Cobblemon Sniffer Archaeology v1.1.zip",
+		"datapacks/cobblemonoutbreaks++.zip",
+		"datapacks/CobblemonPokeLoot 1.9.zip",
+		"datapacks/DPP-HoneyTrees-Standard-Spawns.zip",
+		"datapacks/Jakotens' Poké-Hats 3.0.zip",
+		"datapacks/RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip"
+	]
 	optional = ["global_packs/optional_data/"]
 	enable_builtin = []

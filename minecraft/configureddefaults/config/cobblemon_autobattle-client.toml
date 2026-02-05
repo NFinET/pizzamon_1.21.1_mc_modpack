@@ -10,4 +10,4 @@ select_delay = 200
 #Chance to randomly switch to another pokemon if possible.
 # Default: 0.1
 # Range: 0.0 ~ 1.0
-switch_chance = 0.1
+switch_chance = 0.0
