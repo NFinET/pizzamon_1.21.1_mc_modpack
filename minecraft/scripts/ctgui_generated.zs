@@ -689,3 +689,23 @@ stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_0", <item:mega_showdown:bl
 
 stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_1", <item:mega_showdown:blank_z> * 2, <item:mega_showdown:sparkling_stone_dark>);
 
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_2");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_3");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_4");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_5");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_6");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_7");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_8");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_9");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_10");
+
