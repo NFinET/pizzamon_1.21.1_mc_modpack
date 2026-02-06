@@ -1003,6 +1003,20 @@
     "curseForgeHash": 1435909008,
     "modrinthHash": "73ddb685749a0ae9223e9b827af5fd3e19ac732c"
   },
+  "dynamic-fps-3.11.3+minecraft-1.21.0-neoforge.jar": {
+    "jarName": "dynamic-fps-3.11.3+minecraft-1.21.0-neoforge.jar",
+    "modId": "dynamic_fps",
+    "version": "3.11.3",
+    "curseForgeHash": 630374446,
+    "modrinthHash": "7fd7557ce08e8692eae9518df5491e997658ac18"
+  },
+  "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar": {
+    "jarName": "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+    "modId": "easyanvils",
+    "version": "21.1.0",
+    "curseForgeHash": 2386658472,
+    "modrinthHash": "376c02e44dfcb44b79a494b1dba87b2ffb24277f"
+  },
   "elytratrims-neoforge-3.9.3+1.21.1.jar": {
     "jarName": "elytratrims-neoforge-3.9.3+1.21.1.jar",
     "modId": "elytratrims",
