@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "name": "dragon_type_release",
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "releaserewards:level_bonus",
+              "starting_at": 20,
+              "levels_per": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "name": "dragon_tooth_reward",
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "ends_delight:dragon_tooth",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

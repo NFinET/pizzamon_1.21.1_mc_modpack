@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "name": "wailord_meat",
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "oceansdelight:elder_guardian_slab",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            },
+            {
+              "function": "releaserewards:level_bonus",
+              "levels_per": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "name": "wailmer_rewards",
+      "entries": [
+        {
+          "type": "releaserewards:species_rewards",
+          "species": "wailmer"
+        }
+      ]
+    }
+  ]
+}
+
+    

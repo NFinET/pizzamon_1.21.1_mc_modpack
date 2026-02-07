@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "name": "tentacool_rewards",
+      "entries": [
+        {
+          "type": "releaserewards:species_rewards",
+          "species": "tentacool"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "name": "shellder_rewards",
+      "entries": [
+        {
+          "type": "releaserewards:species_rewards",
+          "species": "shellder"
+        }
+      ]
+    }
+  ]
+}
+
+    

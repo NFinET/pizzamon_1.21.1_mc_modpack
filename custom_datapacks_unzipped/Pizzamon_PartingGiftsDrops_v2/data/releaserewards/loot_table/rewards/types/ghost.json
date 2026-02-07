@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "name": "ghost_type_release",
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:ghast_tear",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "releaserewards:level_bonus",
+              "starting_at": 25,
+              "levels_per": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

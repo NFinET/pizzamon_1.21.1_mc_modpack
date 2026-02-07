@@ -1,0 +1,16 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "name": "shellder_rewards",
+      "entries": [
+        {
+          "type": "releaserewards:species_rewards",
+          "species": "shellder"
+        }
+      ]
+    }
+  ]
+}
+
+    
