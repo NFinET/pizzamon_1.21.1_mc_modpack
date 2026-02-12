@@ -8,7 +8,7 @@
 	#- CACHED_ZIPPED: create a ZIP folder via .minecraft/dynamic-resource-pack-cache
 	#- ALWAYS: Will always generate the assets & will be stored in memory. There will be no cache folder
 	#Allowed Values: NEVER, CACHED, CACHED_ZIPPED, ALWAYS
-	recipe_generation_mode = "CACHED"
+	recipe_generation_mode = "CACHED_ZIPPED"
 	#Allow crafting non-block items
 	allow_non_blocks = true
 	#Allows crafting non wood variant items (crafting table for example)

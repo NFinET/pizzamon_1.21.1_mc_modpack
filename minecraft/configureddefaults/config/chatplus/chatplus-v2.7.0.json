@@ -4,7 +4,7 @@
     "addMessagesIfDisabled": false,
     "showVanillaWhenUnfocused": false,
     "vanillaInputBox": false,
-    "saveInputBoxMessage": false,
+    "saveInputBoxMessage": true,
     "wrappedMessageLineIndent": 1,
     "maxMessages": 300,
     "maxCommandSuggestions": 15,
@@ -13,7 +13,7 @@
     "selectChatColor": -4533252,
     "timestampSettings": {
         "enabled": true,
-        "timestampFormat": "&7[{h:mma}] ",
+        "timestampFormat": "&7{h:mma} ",
         "chatTimestampModeType": "PREPEND"
     },
     "inputOverFlowAutoFillSettings": {
@@ -99,7 +99,7 @@
     "movableChatToggleTextBarElement": true,
     "inputBoxSettings": {
         "startX": 2,
-        "startY": 347,
+        "startY": 349,
         "width": -1,
         "normalizeInputWhileTyping": false,
         "maxInputBoxInputLength": 1280,
@@ -182,8 +182,8 @@
     "screenshotChatTextBarElementEnabled": true,
     "playerHeadChatDisplayEnabled": true,
     "playerHeadChatDisplayShowOnWrapped": false,
-    "playerHeadChatDisplayOffsetNonHeadMessages": true,
-    "playerHeadChatDisplayOffsetNonHeadMessagesShowOnWrapped": true,
+    "playerHeadChatDisplayOffsetNonHeadMessages": false,
+    "playerHeadChatDisplayOffsetNonHeadMessagesShowOnWrapped": false,
     "translatorEnabled": false,
     "translatorTextBarElementEnabled": false,
     "translatorRegexes": [],
@@ -216,13 +216,13 @@
             "generalSettings": {
                 "disabled": false,
                 "backgroundColor": -2147483648,
-                "unfocusedBackgroundColorOpacityMultiplier": 0.39999998,
-                "scale": 1.0,
+                "unfocusedBackgroundColorOpacityMultiplier": 0.9,
+                "scale": 0.85,
                 "textOpacity": 1.0,
                 "textShadow": true,
-                "unfocusedTextOpacityMultiplier": 1.0,
-                "unfocusedHeight": 0.5,
-                "lineSpacing": 0.0,
+                "unfocusedTextOpacityMultiplier": 0.75,
+                "unfocusedHeight": 0.4,
+                "lineSpacing": 0.05,
                 "messageAlignment": "LEFT",
                 "messageDirection": "BOTTOM_UP",
                 "topDownDirectionWrapInOrder": true,
@@ -243,12 +243,12 @@
             },
             "renderer": {
                 "x": 0,
-                "y": 327,
-                "width": 312,
-                "height": 153
+                "y": 330,
+                "width": 249,
+                "height": 123
             },
             "tabSettings": {
-                "selectedTabIndex": 0,
+                "selectedTabIndex": 2,
                 "startRenderTabIndex": 0,
                 "hideTabs": false,
                 "showTabsWhenChatNotOpen": true,
@@ -276,7 +276,7 @@
                                 "notificationSettings": {
                                     "disableNotifications": true,
                                     "notificationMatch": {
-                                        "pattern": "(?s).*",
+                                        "pattern": ".*(?<!<)(?i:%PLAYER%)(?!>).*",
                                         "formatted": false
                                     }
                                 }
@@ -300,7 +300,7 @@
                                 "commandsOverrideAutoPrefix": true,
                                 "suggestionsPatterns": [],
                                 "notificationSettings": {
-                                    "disableNotifications": false,
+                                    "disableNotifications": true,
                                     "notificationMatch": {
                                         "pattern": "(?s).*",
                                         "formatted": false
@@ -338,30 +338,7 @@
                 ]
             },
             "autoTabCreator": {
-                "autoTabOptions": [
-                    {
-                        "pattern": ".*(?<!<)(?i:%PLAYER%)(?!>).*",
-                        "formatted": true,
-                        "skipOthersOnCreation": false,
-                        "tabNameFormatter": "Alerts",
-                        "regexFormatter": ".*(?<!<)(?i:%PLAYER%)(?!>).*",
-                        "autoSendFormatter": "",
-                        "autoPrefixFormatter": "",
-                        "priority": 50,
-                        "alwaysAdd": false,
-                        "skipOthers": false,
-                        "commandsOverrideAutoPrefix": true,
-                        "suggestionsPatterns": [],
-                        "notificationSettings": {
-                            "disableNotifications": false,
-                            "notificationMatch": {
-                                "pattern": "(?s).*",
-                                "formatted": false
-                            }
-                        },
-                        "temporary": true
-                    }
-                ]
+                "autoTabOptions": []
             }
         }
     ],

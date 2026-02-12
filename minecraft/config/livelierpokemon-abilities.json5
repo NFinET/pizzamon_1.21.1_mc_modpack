@@ -231,11 +231,11 @@
 	// Abra randomly teleport around.
 	"ABRA": true,
 	// Drifloon will kidnap isolated villager babies and transform them into zombies after some time.
-	"DRIFLOON": true,
+	"DRIFLOON": false,
 	"drifloon_radius": 16,
 	"drifloon_convert_time": 400,
 	// Geodude can spawn rarely when stone is broken.
-	"GEODUDE": true,
+	"GEODUDE": false,
 	"geodude_spawn_rate": 0.002,
 	// Golurk can be created using chiseled polished black tumblestone and a carved pumpkin.
 	"GOLURK": true,
@@ -246,10 +246,10 @@
 	"SUICUNE": true,
 	"suicune_purify_radius": 8,
 	// Non-shiny Voltorb and Electrode will chase players and explode when close.
-	"VOLTORB": true,
+	"VOLTORB": false,
 	"voltorb_affects_environment": false,
-	"voltorb_explosion_radius": 1.5,
-	"electrode_explosion_radius": 2.0,
+	"voltorb_explosion_radius": 0.0,
+	"electrode_explosion_radius": 0.0,
 	// Fire types, Bonsly and Sudowoodo look for cover in the rain.
 	"AVOID_RAIN": true,
 	// Spiders flee from armadillo Pokemon.

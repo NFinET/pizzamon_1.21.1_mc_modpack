@@ -9,7 +9,7 @@
         "x": "NONE",
         "y": "NONE"
       },
-      "sync": "appleskin:exhaustion_level"
+      "sync": "minecraft:hotbar"
     },
     "appleskin:food_offset": {
       "displacement": {
@@ -20,7 +20,7 @@
         "x": "NONE",
         "y": "NONE"
       },
-      "sync": "appleskin:food_offset"
+      "sync": "minecraft:hotbar"
     },
     "appleskin:health_offset": {
       "displacement": {
@@ -31,7 +31,7 @@
         "x": "NONE",
         "y": "NONE"
       },
-      "sync": "appleskin:health_offset"
+      "sync": "minecraft:hotbar"
     },
     "appleskin:health_restored": {
       "displacement": {
@@ -42,7 +42,7 @@
         "x": "NONE",
         "y": "NONE"
       },
-      "sync": "appleskin:health_restored"
+      "sync": "minecraft:hotbar"
     },
     "appleskin:hunger_restored": {
       "displacement": {
@@ -53,7 +53,7 @@
         "x": "NONE",
         "y": "NONE"
       },
-      "sync": "appleskin:hunger_restored"
+      "sync": "minecraft:hotbar"
     },
     "appleskin:saturation_level": {
       "displacement": {
@@ -64,7 +64,7 @@
         "x": "NONE",
         "y": "NONE"
       },
-      "sync": "appleskin:saturation_level"
+      "sync": "minecraft:hotbar"
     },
     "barbequesdelight:block_info": {
       "displacement": {
@@ -242,8 +242,8 @@
     },
     "explorerscompass:explorers_compass": {
       "displacement": {
-        "x": 4,
-        "y": 2
+        "x": 10,
+        "y": 5
       },
       "direction": {
         "x": "RIGHT",
@@ -437,7 +437,7 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "UP"
+        "y": "NONE"
       },
       "sync": "minecraft:chat"
     },
@@ -535,8 +535,8 @@
         "y": 0
       },
       "direction": {
-        "x": "NONE",
-        "y": "NONE"
+        "x": "RIGHT",
+        "y": "DOWN"
       },
       "sync": "explorerscompass:explorers_compass"
     },

@@ -380,8 +380,8 @@
     "infoHudScale": 1.0,
     "materialListHudMaxLines": 10,
     "materialListHudScale": 1.0,
-    "toolHudOffsetX": 1,
-    "toolHudOffsetY": 20,
+    "toolHudOffsetX": 5,
+    "toolHudOffsetY": 30,
     "toolHudScale": 1.0,
     "verifierErrorHilightAlpha": 0.2,
     "verifierErrorHilightMaxPositions": 1000

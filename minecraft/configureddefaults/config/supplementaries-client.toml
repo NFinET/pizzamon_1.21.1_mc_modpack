@@ -141,7 +141,7 @@
 #General settings
 [general]
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	dynamic_assets_generation_mode = "CACHED"
+	dynamic_assets_generation_mode = "CACHED_ZIPPED"
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
 	#Disables Amendments suggestion screen

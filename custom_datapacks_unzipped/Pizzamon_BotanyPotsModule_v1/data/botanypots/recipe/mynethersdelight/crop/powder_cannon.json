@@ -1,0 +1,18 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [ "mynethersdelight:powder_cannon" ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "mynethersdelight:powder_cannon",
+  "input": {"item": "mynethersdelight:powder_cannon"},
+  "soil": {"tag": "botanypots:soil/nylium"},
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:botanypots/mynethersdelight/crop/powder_cannon"
+    }
+  ]
+}

@@ -5,3 +5,6 @@ These are custom Data Packs specifically made for this modpack and brief explana
 
 - **Pizzamon_PartingGiftsDrops**
   - This is a config datapack for the mod Cobblemon: Parting Gifts that customizes the release rewards for this modpack. This includes a variety of species specific tables, some customized typing tables, and some new global tables for specific abilities or known moves.
+
+- **Pizzamon_BotanyPotsModule**
+  - This is a compatibility patch datapack for Botany Pots, adding support for crops from other mods in the Pizzamon pack that are missing native support or have no publicly available patches I could find.

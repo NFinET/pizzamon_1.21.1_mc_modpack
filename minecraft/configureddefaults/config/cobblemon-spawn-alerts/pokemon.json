@@ -1,5 +1,5 @@
 {
-  "configVersion": "1.11.4",
+  "configVersion": "1.11.5-beta",
   "comment": [
     "This config is only on your client. It determines which Pokemon are alerted, and how that alert is displayed.",
     "For documentation on using the config, please see the Modrinth or GitHub for the mod.",
@@ -11,7 +11,7 @@
       "enabled": true,
       "alwaysAlert": true,
       "alertShiny": true,
-      "alertHiddenAbility": false,
+      "alertHiddenAbility": true,
       "alertDespawned": true,
       "showLegendary": true,
       "statDisplayModes": {
@@ -22,7 +22,7 @@
         "ability": "HOVER",
         "gender": "HOVER",
         "coordinates": "HOVER",
-        "biome": "MAIN_MESSAGE",
+        "biome": "HOVER",
         "nearestPlayer": "MAIN_MESSAGE"
       },
       "customAlertMessage": "",
@@ -65,47 +65,7 @@
         "biome": "HOVER",
         "nearestPlayer": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<green>STARTER </green>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
-      "sounds": {
-        "shiny": "",
-        "legendary": "",
-        "mythical": "",
-        "ultrabeast": "",
-        "paradox": "",
-        "starter": "",
-        "unregistered": "",
-        "uncaught": "",
-        "ivs": "",
-        "evs": ""
-      },
-      "customAlertSound": "",
-      "autoGlow": true,
-      "journeyMap": {
-        "enableWaypoint": false,
-        "waypointName": "",
-        "waypointHexColor": "",
-        "persistent": false
-      }
-    },
-    "omanyte, omastar, kabuto, kabutops, aerodactyl, lileep, cradilly, anorith, armaldo, cranidos, rampardos, shieldon, bastiodon, tirtouga, carracosta, archen, archeops, tyrunt, tyrantrum, amaura, aurorus, dracozolt, arctozolt, dracovish, arctovish": {
-      "enabled": true,
-      "alwaysAlert": true,
-      "alertShiny": true,
-      "alertHiddenAbility": true,
-      "alertDespawned": true,
-      "showLegendary": true,
-      "statDisplayModes": {
-        "level": "MAIN_MESSAGE",
-        "ivs": "HOVER",
-        "evs": "DISABLED",
-        "nature": "DISABLED",
-        "ability": "HOVER",
-        "gender": "MAIN_MESSAGE",
-        "coordinates": "HOVER",
-        "biome": "HOVER",
-        "nearestPlayer": "MAIN_MESSAGE"
-      },
-      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<yellow>FOSSIL </yellow>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
+      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<green>[STRT] </green>{gender}<blue><b>{name}</b></blue>{HA}<gray> appeared </gray>{nearest_player}",
       "sounds": {
         "shiny": "",
         "legendary": "",
@@ -185,7 +145,7 @@
         "biome": "HOVER",
         "nearestPlayer": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<gold>[PSEUDO] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
+      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<gold>[PSEU] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
       "sounds": {
         "shiny": "",
         "legendary": "",

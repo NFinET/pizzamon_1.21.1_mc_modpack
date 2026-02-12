@@ -16,7 +16,7 @@
   "alertStarters": true,
   "alertHiddenAbility": false,
   "broadcastIVs": true,
-  "broadcastEVs": false,
+  "broadcastEVs": true,
   "broadcastNature": true,
   "broadcastAbility": true
 }
