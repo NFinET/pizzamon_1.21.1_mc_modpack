@@ -709,3 +709,13 @@ stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_1", <item:mega_showdown:bl
 
 <recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_10");
 
+craftingTable.addShaped("ctgui/new/crafting/gunpowder_temp", <item:minecraft:gunpowder> * 2, [
+    [<item:minecraft:netherrack>, <item:minecraft:redstone>, <item:minecraft:netherrack>],
+    [<item:minecraft:redstone>, <item:minecraft:charcoal>, <item:minecraft:redstone>],
+    [<item:minecraft:netherrack>, <item:minecraft:redstone>, <item:minecraft:netherrack>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/warden_tendril_0", <item:apothic_enchanting:warden_tendril>, [
+    [IIngredientEmpty.getInstance(), <item:minecraft:echo_shard>, IIngredientEmpty.getInstance()],
+    [<item:minecraft:sculk_sensor>, <item:minecraft:sculk_catalyst>, <item:minecraft:sculk_sensor>],
+    [IIngredientEmpty.getInstance(), <item:minecraft:sculk_shrieker>, IIngredientEmpty.getInstance()]]);
+
