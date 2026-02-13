@@ -23,4 +23,34 @@ ServerEvents.tags('item', event => {
 		'createfood:sugar_dough',
 		'create:dough'
 	])
+	// Add a custom tag to all of the Pokeblocks Pokedolls, then remove that tag from the SHINY dolls, and give the shiny dolls their own tag instead. This was the easiest way since they both begin with Pokedoll.
+	// These tags are later used by a custom datapack module for Apothic Enchanting, to give pokedolls Apothic Enchanting statistics. This is done twice so it gets added to both the item and block versions.
+	event.add('c:pokedoll', [
+		'/pokeblocks:pokedoll.*/',
+		'/pokeblocks:gigantic_pokedoll.*/'
+	])
+	event.remove('c:pokedoll', [
+		'/pokeblocks:pokedoll_shiny.*/',
+		'/pokeblocks:gigantic_pokedoll_shiny.*/'
+	])
+	event.add('c:shiny_pokedoll', [
+		'/pokeblocks:pokedoll_shiny.*/',
+		'/pokeblocks:gigantic_pokedoll_shiny.*/'
+	])
+})
+ServerEvents.tags('block', event => {
+	// Add a custom tag to all of the Pokeblocks Pokedolls, then remove that tag from the SHINY dolls, and give the shiny dolls their own tag instead. This was the easiest way since they both begin with Pokedoll.
+	// These tags are later used by a custom datapack module for Apothic Enchanting, to give pokedolls Apothic Enchanting statistics. This is done twice so it gets added to both the item and block versions.
+	event.add('c:pokedoll', [
+		'/pokeblocks:pokedoll.*/',
+		'/pokeblocks:gigantic_pokedoll.*/'
+	])
+	event.remove('c:pokedoll', [
+		'/pokeblocks:pokedoll_shiny.*/',
+		'/pokeblocks:gigantic_pokedoll_shiny.*/'
+	])
+	event.add('c:shiny_pokedoll', [
+		'/pokeblocks:pokedoll_shiny.*/',
+		'/pokeblocks:gigantic_pokedoll_shiny.*/'
+	])
 })
