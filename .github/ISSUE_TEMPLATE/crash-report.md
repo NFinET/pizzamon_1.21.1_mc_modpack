@@ -7,6 +7,9 @@ assignees: NFinET
 
 ---
 
+**Modpack Version**
+First of all, what version of the modpack were you using? Have you modified ANYTHING about it?
+
 **Describe the crash type / environment**
 Did this happen in singleplayer, in a multiplayer LAN server you joined, in a multiplayer LAN server you hosted, or a dedicated server? If in multiplayer, did the server or any other players crash, or just you? (If you're here from The Pizza Party & Pals server, you want "Dedicated Server", and please also add the time and date of when the crash occurred)
 
