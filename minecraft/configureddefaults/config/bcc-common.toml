@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Pizzamon - Stuffed Crust Pizza Pack"
 	#The version of the modpack
-	modpackVersion = "v2.2.0-r"
+	modpackVersion = "v2.2.1-hotfix"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

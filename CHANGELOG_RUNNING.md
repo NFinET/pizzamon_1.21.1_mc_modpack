@@ -1,3 +1,8 @@
+# v2.2.1-hotfix CHANGES
+v2.2.1-hotfix Config Changes
+
+- Fixed a Resource/Datapack load order accident with Global Packs
+
 # v2.2.0-r CHANGES
 v2.2.0-r Config Changes
 
