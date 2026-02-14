@@ -655,6 +655,13 @@
     "curseForgeHash": 3005879052,
     "modrinthHash": "a0843ba354d627c1062332034e1f373884003b23"
   },
+  "cobweb-neoforge-1.21-1.4.0.jar": {
+    "jarName": "cobweb-neoforge-1.21-1.4.0.jar",
+    "modId": "cobweb",
+    "version": "1.4.0",
+    "curseForgeHash": 3953893040,
+    "modrinthHash": "5ae5dbf4184a62b9ff5bd31f6f8ba62943dd197d"
+  },
   "Cocktails-Delight-1.21.1-NeoForge-1.0.4.jar": {
     "jarName": "Cocktails-Delight-1.21.1-NeoForge-1.0.4.jar",
     "modId": "cocktailsdelight",
@@ -800,12 +807,12 @@
     "curseForgeHash": 2013632194,
     "modrinthHash": "16cf648fc95644a896db21ff0cec5d4eb05d4c5e"
   },
-  "crafting+-1.21.8.0.jar": {
-    "jarName": "crafting+-1.21.8.0.jar",
+  "crafting+-1.jar": {
+    "jarName": "crafting+-1.jar",
     "modId": "mr_crafting",
-    "version": "1.21.8.0",
-    "curseForgeHash": 647208862,
-    "modrinthHash": "e628441617f9fb8b8fce6a066d1a840cb1dfebe3"
+    "version": "1",
+    "curseForgeHash": 1524427641,
+    "modrinthHash": "2fef3f86714dd62b061e9c32c8e5a336e04d18f6"
   },
   "craftingtweaks-neoforge-1.21.1-21.1.7.jar": {
     "jarName": "craftingtweaks-neoforge-1.21.1-21.1.7.jar",
@@ -1016,6 +1023,13 @@
     "version": "7.2",
     "curseForgeHash": 1435909008,
     "modrinthHash": "73ddb685749a0ae9223e9b827af5fd3e19ac732c"
+  },
+  "durabilitytooltip-1.1.6-neoforge-mc1.21.jar": {
+    "jarName": "durabilitytooltip-1.1.6-neoforge-mc1.21.jar",
+    "modId": "durabilitytooltip",
+    "version": "1.1.6",
+    "curseForgeHash": 953768137,
+    "modrinthHash": "59a567402d894b46d6abe45831f39dcad5c93342"
   },
   "dynamic-fps-3.11.3+minecraft-1.21.0-neoforge.jar": {
     "jarName": "dynamic-fps-3.11.3+minecraft-1.21.0-neoforge.jar",
@@ -1283,13 +1297,6 @@
     "curseForgeHash": 2520267379,
     "modrinthHash": "249ca1313a2c053fe3eadb4e04371787e1ace4dc"
   },
-  "fixedanvilrepaircost-1.21.1-3.5.jar": {
-    "jarName": "fixedanvilrepaircost-1.21.1-3.5.jar",
-    "modId": "fixedanvilrepaircost",
-    "version": "3.5",
-    "curseForgeHash": 1137746891,
-    "modrinthHash": "13708f33446fd64ee1eaf1c0250cd5949c1a244e"
-  },
   "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar": {
     "jarName": "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
     "modId": "forgeconfigapiport",
@@ -1366,6 +1373,13 @@
     "version": "4.0.3",
     "curseForgeHash": 2517848455,
     "modrinthHash": "8ecd27f1d66f9b742cfae3c8ffa773765f574b52"
+  },
+  "harvest-with-ease-neoforge-1.21-9.4.0.jar": {
+    "jarName": "harvest-with-ease-neoforge-1.21-9.4.0.jar",
+    "modId": "harvest_with_ease",
+    "version": "9.4.0",
+    "curseForgeHash": 917328710,
+    "modrinthHash": "26d0f6f428f04110351f0274fda4ffe3620df38d"
   },
   "Highlighter-1.21-neoforge-1.1.11.jar": {
     "jarName": "Highlighter-1.21-neoforge-1.1.11.jar",
@@ -1735,13 +1749,6 @@
     "version": "1.2.14-1.21.1",
     "curseForgeHash": 3810757344,
     "modrinthHash": "6cff50c273447c2b78e8645201cf3fdf41d4e2cc"
-  },
-  "nametagtweaks-1.21.1-4.0.jar": {
-    "jarName": "nametagtweaks-1.21.1-4.0.jar",
-    "modId": "nametagtweaks",
-    "version": "4.0",
-    "curseForgeHash": 4251350781,
-    "modrinthHash": "b391a3d3199306acf83ecc8ed8172aaab3a2bb60"
   },
   "NaturesCompass-1.21.1-3.0.3-neoforge.jar": {
     "jarName": "NaturesCompass-1.21.1-3.0.3-neoforge.jar",
