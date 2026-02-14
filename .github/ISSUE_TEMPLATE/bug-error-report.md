@@ -10,6 +10,8 @@ assignees: NFinET
 
 If this is being submitted for a crash, you're using the wrong template, go back and select the "Crash" template.
 
+**Modpack Version**
+First of all, what version of the modpack were you using? Have you modified ANYTHING about it?
 
 **Describe the bug**
 Is it a bug? An error code popping up? A rendering issue or UI error? etc. Describe it as best you can. 
