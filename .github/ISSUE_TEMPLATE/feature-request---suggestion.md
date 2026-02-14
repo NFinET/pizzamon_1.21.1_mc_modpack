@@ -9,6 +9,9 @@ assignees: NFinET
 
 ---
 
+**Modpack Version**
+First of all, what version of the modpack were you using? Have you modified ANYTHING about it?
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] If this is related to something like a rendering error, bug, crash, or similar issue, this is the wrong template, go back and  use the Bug or Crash templates.
 
