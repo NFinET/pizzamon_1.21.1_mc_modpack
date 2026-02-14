@@ -1,0 +1,630 @@
+# v2.2.0-r CHANGES
+v2.2.0-r Config Changes
+
+- Configured Defaults (Options.txt)  
+  - Updated default keybindings with fixes  
+  - Damage tilt strength, FOV effect scale, Darkness effect scale should now all be shipped at 30% of maximum \[ 0.3 \]  
+  - The narrator hotkey (Found in Accessiblity options) is now disabled by default due to conflicts and the inability to change its keybind for some reason  
+  - Enchantment glint strength and speed are now slightly toned down (both to 50% of maximum) \[ 0.5 \]  
+  - Accessibility onboarding is now disabled by default, as the narrator menu coming up on first launch causes the pack to freeze for an extended period of time from it still performing other data actions  
+- Resource & Data Packs  
+  - Resource and data pack handling and load order enforcement are now both handled completely by Global Packs, and Resource Pack Overrides is being removed.  
+- Amendments  
+  - Amendments-client.toml  
+    - Dynamic asset generation mode \[ CACHED \] \=\> \[ CACHED\_ZIPPED \]  
+- Cobblemon  
+  - Maximum spawning zone distance from player reduced \[ 96 \] blocks \=\> \[ 64 \] blocks to try to keep spawns (and chains) within entity radar distance  
+  - Shiny notice particles distance \[ 32 \] blocks \=\> \[ 64 \] blocks  
+  - Max pokedex scanning range \[ 24 \] blocks \=\> \[ 32 \] blocks  
+  - Display riding controls for x seconds \[ 0 \] seconds \=\> \[ 5 \] seconds  
+- Cobblemon Alpha Project (CobblemonAlphas)  
+  - Seconds between spawns \[ 300 \] \=\> \[ 600 \]  
+- Cobblemon Extended Battle UI  
+  - Bumped up font scale of some added HUD elements in battle from \[0.5\] to \[0.66\] scale  
+  - Team indicator scale reduced from \[1.0\] to \[0.85\]  
+  - Tooltip font scale reduced from \[1.0\] to \[0.9\]  
+  - Move Tooltip Font Scale reduced from \[1.0\] to \[0.9\]  
+- Raised  
+  - Fixed an oversight that caused some of the additional infobars from Appleskin to become displaced in a way that made them inaccurate or hard to read properly  
+- Chat Plus  
+  - Notification badges have been disabled on every tab except for the Alerts tab.  
+  - The Alerts tab will no longer prevent announcements from showing up in other tabs for the alerted player  
+  - Attempting a fix for some players not receiving the dynamic Alerts tab when their name was announced in chat by the system or other players by increasing the Alert tabs priority and disabling the formatting in the regex pattern checking  
+  - Chatbox font size and chatbox scale defaults have been adjusted.  
+  - Chatbox default tab placement has been adjusted a little  
+  - The chatbox when unfocused will now become much shorter to not cover the Cobblemon party HUD all the time  
+- Cobblemon Spawn Alerts   
+  - Server.json  
+    - EV data is now broadcasted but is currently not shown by any messages by default; this is to test a potential issue with some stats displaying incorrectly or inconsistently.  
+  - Message\_templates.json  
+    - A stray accidental extra “\</green\>” tag was removed from the capture message.  
+    - “Specialty” tags other than SHINY have been rewritten in shorthand to make messages slightly more compact  
+  - Pokemon.json  
+    - “Specialty” tags have been rewritten in shorthand to make messages slightly more compact  
+    - All pokemon receiving alerts  
+    - Fossil pokemon have been removed from the alerts due to spawning more often than expected and seemingly not being particularly rare  
+  - Main.json  
+    - Multiplayer warnings have been disabled as there shouldn’t be a scenario where a player is using this pack connecting to a server that doesn’t also have the mod anyway  
+- CraftTweaker / CraftTweaker GUI  
+  - Added temporary stopgap gunpowder recipe.  
+- EasyAnvils  
+  - Easyanvils-common.toml  
+    - Name tag crafting recipe Enabled  
+  - Easyanvils-server.toml  
+    - Repair with material unit cost \[ 1 \] level \=\> \[ 3 \] levels since experience is very easy to gain in this pack  
+    - Nametags drop from mobs Enabled  
+- KubeJS  
+  - Server Scripts  
+    - New scripting added to Main to add the “c:pokedoll” and “c:shiny\_pokedoll” custom tags to the pokedolls from Pokeblocks (both their item and block forms). These tags are then used by a new custom datapack to give the dolls enchanting bonuses for the Apothic Enchanting enchantment system  
+- Liteminer  
+  - Liteminer-common.toml  
+    - Require correct tool Disabled since it made certain edge case blocks like Glowstone un-veinminable due to having no correct tool  
+- LivelierPokemon  
+  - Livelierpokemon-abilities.json5  
+    - Disabled Voltorbs and Electrodes trying to blow themself up on players when nearby, as when in this state, trying to batte or catch them was causing a consistent server crash  
+    - Disabled Drifloons kidnapping isolated baby villagers as they turn them into zombies, which are disabled  
+    - Disabled Geodudes sometimes coming from broken rocks (It was funny for a while but only got very annoying as time went on)  
+- Open Parties and Claims  
+  - Max player claimed forceloads \[ 10 \] chunks \=\> \[ 25 \] chunks, since this pack is meant for smaller servers or groups  
+  - Max claim distance \[ 5 \] chunks \=\> \[ 9 \] chunks for convenience  
+- Sawmill  
+  - Dynamic asset generation mode \[ CACHED \] \=\> \[ CACHED\_ZIPPED \]  
+- Serilums QOL Bundle  
+  - Re-enabled TreeHarvester which was accidentally left disabled during testing (oopsie poopsie)  
+  - Disabled Replanting Crops which was supposed to be adding right-click harvesting while holding a hoe but was not functioning properly with certain modded crops  
+- Supplementaries  
+  - Supplementaries-client.toml  
+    - Dynamic asset generation mode \[ CACHED \] \=\> \[ CACHED\_ZIPPED \]
+
+v2.2.0-r Recipe Changes
+
+- A new temporary recipe for gunpowder has been added due to forgetting to make it more accessible from elsewhere (oops) made with 1 charcoal, 4 redstone dust, 4 netherrack \-\> 2 gunpowder  
+- A new permanent recipe has been added for “Warden Tendrils” from Apothic Enchanting since Wardens are completely disabled. Made with 1 sculk shrieker, 1 sculk catalyst, 1 echo shard, and 2 sculk sensors.   
+- An alternative recipe for Name Tags has been added using 1 string, 2 black dye, and 6 paper.   
+- The recipes of all Gacha coins from CobbledGacha have been removed.  
+- The recipes for the first 4 CobbledGacha machines have been restored, and the machines are now properly usable and accessible.  
+- The Erratic Gacha Coin now has a shapeless recipe using 1 of each color of Apricorn and 1 relic coin.  
+- Zinc, Crimson Iron, and Azure Silver now have bulk smelting and blasting recipes for converting  a raw ore storage block of each type into the equivalent smelted storage block of ingots, for parity with recipes from the Crafting+ mod
+
+v2.2.0-r Control Bindings Changes
+
+- The Battle Logs binding has been changed from \[ B \] \-\> \[ Ctrl \+ B \]  
+- Jade has had all hotkeys assigned to the Num/Keypad unbound to free up the usage of \[ Keypad 0\] through \[ Keypad 5 \] as these hotkeys for Jade are rarely if ever useful.   
+- Inventory HUD+ toggle inventory hud on/off \[ Ctrl \+ I \] \=\> \[ Not Bound \]  
+- Sophisticated Backpacks  
+  - Run Inventory Interaction Upgrades \[ C \] \=\> \[ X \]  
+  - Swap Tool Based on Current Block/Entity \[ Not Bound \] \=\> \[ C \]  
+- Silent Gear  
+  - Cycle Back \[ Z \] \=\> \[ Left Arrow \]   
+  - Cycle Next \[ C \] \=\> \[ Right Arrow \]  
+- Xaero’s Minimap  
+  - Toggle Chunk Grid set to  \[ Keypad 1 \]  
+  - Toggle Entity Radar set to \[ Keypad 2 \]  
+  - Toggle In-World Waypoints set to \[ Keypad 3 \]  
+  - Toggle Chunk Claims set to \[ Keypad 4 \]  
+  - Toggle Slime Chunks set to \[ Keypad 5 \]  
+  - Toggle Manual Cave Mode set to \[ Keypad 6 \]  
+  - Toggle Tracked Players In World set to \[ Keypad 7 \]  
+  - Toggle Tracked Players on Map set to \[ Keypad 8 \]  
+  - Toggle Minimap set to \[ Keypad 9 \]
+
+v2.2.0-r Mod Changes
+
+- AdvancedLootInfo updated from \[ 1.21.1-1.7.1 \] to \[ 1.21.1-1.7.2 \] for bugfixes  
+- Berry Pouch (Cobblemon) updated from \[ 0.5.3-beta \] to \[ 0.5.4-beta \] for bugfixes  
+- Bookshelf updated to \[ 21.1.81 \]  
+- Cobblemon Extended Battle UI updated from \[ 0.8.1 \] to \[ 0.9.0 \] for bugfixes  
+- Cobblemon Battle Extras updated from \[ 1.7.26 \] to \[ 1.7.27 \] for bugfixes  
+- Cobblemon Party Extras updated to \[ 1.5.10 \]  
+- Cobblemon Raid Dens updated from \[ 0.6.5-1.21.1 \] to \[ 0.7.4-1.21.1 \] for improvements and bugfixes  
+- Cobblemon Secret Base Trainer updated from \[ 1.7.16 \] to \[ 1.7.19 \] for bugfixes relating to music tracks  
+- Cobblemon Utility+ updated to \[ 1.7.3 \]  
+- CobblemonSpawnAlerts updated from \[ 1.11.4 \] to \[ 1.11.5-beta \] for potential crash fix  
+- Cobblemon:Mega Showdown updated to \[ 1.6.10+1.7.3+1.21.1 \]  
+- Configurable has been added (Dependency of Neurina \- Ticking Entity Fixer)  
+- Crafting+ has been downgraded back to 1+mod due to some recipes breaking on MC 1.21.1 despite the updated version claiming compatibility with all 1.21.x versions  
+- CRD Broadcasts updated from \[ 1.3.0+1.21.1 \] to \[ 1.4.0+1.21.1 \] for matching version support for Cobblemon Raid Dens  
+- Create: Connected updated to \[ 1.1.13-mc1.21.1 \]  
+- Cut Through has been added, it should allow hitting and interacting with Pokemon through tall grass and similar plants, including starting battles and scanning with the pokedex  
+- Durability Tooltip has been added  
+- FixedAnvilRepairCosts has been removed, EasyAnvils provides this functionality.  
+- Fruits Delight updated to \[ 1.2.12 \]  
+- Harvest with Ease and its dependency Cobweb have been added as the included mod for right-click harvesting was functioning oddly or not interacting correctly with certain mod’s crops  
+- ImmersivePaintings updated from \[ 0.7.5 \] to \[ 0.7.6 \] for a crash fix  
+- Name Tag Tweaks has been removed, EasyAnvils provides all of its functionality.  
+- Navas ZA Mega (ZAmega) updated from \[ 1.5.3 \] to \[ 1.5.4 \] for critical bug fix related to Knock Off affecting some Mega Stones  
+- Neurina \- Ticking Entity Fixer has been added  
+- Rechiseled updated from \[ 1.2.1 \] to \[ 1.2.2 \] for bugfixes and potential crash fix  
+- Resource Pack Overrides has been removed as its functionality has been taken over entirely by Global Packs  
+- Sophisticated Backpacks updated to \[ 3.25.7.1528 \]  
+- Sophisticated Core updates from \[ 1.4.1.1459 \] to \[ 1.4.3.1481 \]  
+- Sophisticated Storage updated from \[ 1.21.1-1.5.25.1467 \] to \[ 1.21.1-1.5.27.1487 \] for minor improvements  
+- A new custom Datapack has been added (Pizzamon\_BotanyPotsModule\_v1.zip) which adds new compatibility for Botany Pots with other mods. Currently it only allows growing the Bullet Peppers from MyNethersDelight, giving farmable access to both gunpowder and blaze powder. Will be updated in the future to support more crops missing botany pot support.  
+- A new custom Datapack has been added (Pizzamon\_ApothicEnchantingModule\_v1.zip) which adds new compatibility for Apothic Enchanting with other mods. Currently adds support for the Pokedolls from Pokeblocks (With Shiny dolls having a better bonus) and the Skull Piles from Amendments (worth 2 skulls of stats)  
+- A new custom Datapack has been added (Pizzamon\_CobbledGacha\_Data) to modify and properly set up the Gacha machines from CobbledGacha  
+- A new custom Resourcepack has been added (Pizzamon\_CobbledGacha\_Resource) to modify and properly set up the Gacha machines from CobbledGacha
+
+
+# v2.1.0-r CHANGES
+
+V2.1.0 Config changes
+
+- Configured Defaults options.txt updated with the following new lines in addition to repasting the most up to date keybind changes:  
+  - fovEffectScale:0.3  
+  - darknessEffectScale:0.3  
+  - guiScale:3  
+  - Narrator:0  
+  - renderClouds:"false"  
+  - autoSuggestions:true  
+  - chatColors:true  
+  - chatLinks:true  
+  - chatLinksPrompt:true  
+  - realmsNotifications:false  
+  - damageTiltStrength:0.5  
+  - advancedItemTooltips:false  
+  - chatScale:0.75  
+  - chatWidth:1.2  
+  - glDebugVerbosity:1  
+  - onlyShowSecureChat:false  
+  - soundCategory\_master:0.5  
+  - soundCategory\_music:0.5  
+  - soundCategory\_record:0.5  
+  - soundCategory\_weather:0.2  
+  - modelPart\_cape:true  
+  - modelPart\_jacket:true  
+  - modelPart\_left\_sleeve:true  
+  - modelPart\_right\_sleeve:true  
+  - modelPart\_left\_pants\_leg:true  
+  - modelPart\_right\_pants\_leg:true  
+  - modelPart\_hat:true  
+- Minecraft  
+  - Options  
+    - Chat Settings have been modified a bit to make the chat window fit more info but also be less intrusive due to the various mods printing things to game chat  
+      - Chat Text Opacity \[ 100% \] \=\> \[ 90% \]  
+      - Text Background Opacity \[ 50% \] \=\> \[ 25% \]   
+      - Chat Text Size \[ 100% \] \=\> \[ 85% \]  
+      - Focused Height \[ 180px \] \=\> \[ 200px \]  
+      - Width \[ 320px \] \=\> \[ 256px \]  
+      - Line Spaceing \[ 0% \] \=\> \[ 5% \]  
+  - Accessibility  
+    - Distortion Effects set to 50%  
+    - FOV Effects set to 15%  
+    - Darkness Pulsing set to 10%  
+    - Damage tilt set to 50%  
+- Advancement Plaques  
+  - Client Functionality Options  
+    - Volume of Task sounds \[ 1.0 \] \=\> \[ 0.25 \]  
+    - Volume of Goal sounds \[ 1.0 \] \=\> \[ 0.25 \]  
+    - Volume of Challenge sounds \[ 1.0 \] \=\> \[ 0.25 \]  
+- Autobattle  
+  - Random switch chance \[ 0.1 \] (10%) \=\> \[ 0.0 \] Disabled  
+- Capture XP  
+  - Out of Battle EXP all set to false at a rate of 25%  
+  - In battle EXP all set to FALSE, overlaps with Tim Core already providing this, causing XP to nearly double on captures  
+- ChatPlus (Config menu is broken but /chatplus can still access it properly) This was HEAVILY modified to make play nice and work well, and now provides an automatic “Alerts” tab if any server or console message (or other player) mentions your name to go with ChatNotify, and there is also a pure “Chat Only” tab as well as a tab dedicated to the notifications from Outbreaks.   
+  - Wrapped Message Line Indent \[ 0 \] \=\> \[ 1 \]  
+  - Max Messages \[ \-1 \] \=\> \[ 300 \] (Vanilla stores 100\)  
+  - Peek Chat \[ P \] \=\> \[ Tab \]  
+  - Chat animations disabled  
+  - Movable Chat  
+    - Move/Rescale chat key \[ Right Control \] \=\> \[ Not Bound \]  
+    - Movable chat toggle text bar element Enabled  
+  - Chat Windows / Tabs  
+    - Window (Default)  
+      - Chat Tabs  
+        - Hide Tabs set to False  
+    - All (Tab)  
+      - No regex match. Has priority 0, but hard-set to add ALL broadcast messages, as a default catch-all tab. No notifications.  
+    - Chat Only (Tab)  
+      - No regex match. Has priority 1\. Automatically catches any messages that System and Alerts don’t catch, which in 99% of cases should only be direct player chatting. Shows notifications.  
+    - System (Tab)  
+      - Matches regex  “   ^(?\!.\*\<\[^\>\]+\>).+$   “, making this tab catch any message that was NOT directly written by a player by checking its beginning for the angle bracket username syntax. This tab has priority 5\. Does not show notifications, intended for some of the “spammy” chat alerts from the many present mods.  
+    - Alerts (Dynamic Tab)  
+      - Only matches regex “   .\*(?\<\!\<)(?i:%PLAYER%)(?\!\>).\*   “, making this tab catch any message that explicitly mentions their username (ignoring case) unless the message was said by themself. This tab has priority 50\. This catches spawn alerts that call out the nearest player. Shows notifications  
+  - Send Note  
+    - Enabled set to False  
+    - Send note key \[ Shift \+ Enter \] \=\> \[ Not Bound \]  
+    - Select Key \[ Left Shift \] \=\> \[ Not Bound \]  
+    - Send note text bar element Disabled  
+  - Bookmark Messages  
+    - Enabled set to False  
+    - Bookmark Message Key \[ Ctrl \+ B \] \=\> \[ Not Bound \]  
+    - Show bookmarks text bar element disabled  
+    - Show Bookmarks Shortcut \[ Ctrl \+ B \] \=\> \[ Not Bound \]  
+  - Delete Message  
+    - Enabled set to False  
+    - Delete Message Shortcut \[ F3 \+ D \] \=\> \[ Not Bound \]  
+    - F3+D Mode \[ Selected Tab \] \=\> \[ Disabled \]  
+  - Screenshot Chat  
+    - Auto Upload Screenshot Disabled  
+    - Screenshot Shortcut \[ Ctrl \+ S \] \=\> \[ Not Bound \]  
+  - Translator  
+    - Enabled set to False  
+    - Show translate text bar element Disabled  
+    - Keep Translate on after chat close Disabled  
+    - Translate Shortcut \[ Ctrl \+ T \] \=\> \[ Not Bound \]  
+    - Translate Toggle Shortcut \[ Ctrl \+ T \] \=\> \[ Not Bound \]  
+    - Click to Translate disabled  
+  - Speech to Text  
+    - Enabled set to False  
+    - Auto add message to input box Disabled  
+    - Push to Talk \[ B \] \=\> \[ Not Bound \]  
+    - Quick Send \[ Enter \] \=\> \[ Not Bound \]  
+    - Auto add translated message to input box Disabled  
+- Cobbledollars multiplier \[ 0.8 \] \=\> \[ 1.0 \]  
+- Cobblemon  
+  - Drops after death animation enabled, you have to live with what you’ve done, you monster  
+  - Disable roll during flight set to True  
+  - Righting delay (for roll) during flight set to 1 second (Was disabled)  
+  - Despawner Far Distance \[96\] \=\> \[128\] (Blocks) to try to better match it being a bit bigger than the Entity Radar range of Xaero’s minimap  
+  - Max Age (Ticks) before despawning set to 15 minutes in ticks \[3600\] \=\> \[18000\] (was 3 minutes) to give players more of a chance to reach spawns they can see on the minimap  
+  - Min Age (Ticks) before despawning set to 5 minutes in ticks \[600\] \=\> \[6000\] (was 30 seconds) to give players more of a chance to reach spawns they can see on the minimap  
+  - Max Vertical Correction blocks during a spawn check \[ 64 \] \=\> \[ 96 \], this should make spawns more reliable in extremely mountainous biomes  
+  - Maximum spawning zone distance from player \[ 64 \] blocks \=\> \[ 96 \] blocks, enabling a wider range for spawns around players  
+  - Minimum distance between entities during spawn checks \[ 8 \] blocks \=\> \[ 12 \] blocks, should slightly help avoid clustered spawns in small areas (not accounting for their movement afterward or forced spawns)  
+  - Pokemon allowed per chunk during a spawn check \[ 1.0 \] \=\> \[ 2.0 \]  
+  - Pokemon allowed per chunk that has a pokesnack during a spawn check \[ 2.0 \] \=\> \[ 4.0 \]  
+- Cobbreeding  
+  - Egg encryption has been disabled, allowing viewing egg statistics before they have hatched  
+  - Pasture inventory size \[ 5 \] \=\> \[ 10 \]  
+  - Custom colors have been enabled; the egg will now be colored different depending on the typing of the pokemon  
+- Cobblemon Battle Extras  
+  - Move tooltips Disabled  
+  - Battle log font scale \[ 0.9 \] \=\> \[ 0.75 \]  
+- Cobblemon Extended Battle UI  
+  - Enable battle log False, use Battle Extras logging  
+  - Show stat ranges Disabled  
+- Cobblemon Mass Outbreaks  
+  - Max Players  \[3\] \=\> \[5\]  
+  - Outbreaks per player set to \[3\] \=\> \[1\]  
+  - Shiny chance 1 / \[1024\] \=\> 1 / \[2048\]  
+- Cobblemon Parting Gifts  
+  - Modifying this uses the custom datapack “Pizzamon\_PartingGifts\_vX.zip”  
+    - New version: v2  
+    - Species  
+    - Types  
+      - Flying types now have a chance to give a Phantom Membrane, with bonuses every 25 levels starting at level 25\.   
+- Cobblemon Raid Dens Broadcasts (CRD Broadcasts)  
+  - Config file has moved due to verison update to be in the same folder as the Cobblemon Raid Dens config files, named Broadcast.json  
+    - Announcement range (for automatic announcements) \[ 640 \] blocks \=\> \[ 256 \] blocks so that it doesn’t announce raid dens obscenely far out of your render distance  
+    - Enable broadcast (of a player starting a raid) \[ RANGE\] \=\> \[ DIMENSION \] (All players in the same dimension the raid is in should be able to see the message in the server chat)  
+    - The %TIER% data has been added to all messages  
+    - The %POS% data has been added to broadcasts to nearby players  
+- Cobblemon Spawn Alerts  
+  - Main.json (Client-side alerts)  
+    - Alert all HA (Hidden ability) disabled since some pokemon *only* have a “hidden” ability  
+    - Alert all starters Enabled  
+  - Pokemon.json (Alert data and formatting, client-side)  
+    - Default  
+      - Stat display mode: IVs \[“DISABLED”\] \=\> \[“HOVER”\]  
+      - Stat display mode: Ability \[“DISABLED”\] \=\> \[“HOVER”\]  
+      - Stat display mode: Nearest Player \[“DISABLED”\] \=\> \[“MAIN\_MESSAGE”\]  
+      - Auto glow on alert enabled  
+    - New Categories: Starter Lines, Fossils, Ultra Rares, Psuedos  
+      - These are listed names of their respective mons and use the custom message alert function to format similarly to the pre-defined legendary messages.   
+  - Server.json (Controls what data gets sent to players, but not what’s actually shown)  
+    - Broadcast EVs disabled  
+    - Alert starters Enabled  
+  - Message\_templates.json  
+    - Heavily customized / stylized the templating of message formatting  
+- CobbleWorkers  
+  - Fishing (Water types)  
+    - Fishing Loot Generation Cooldown Seconds \[60\] seconds \=\> \[300\] seconds (five minutes)  
+  - Pickup (Pickup Ability)  
+    - Loot Generation Cooldown Seconds \[120\] seconds \=\> \[600\] seconds (ten minutes)  
+  - Diving (Knows Move: Dive)  
+    - Loot Generation Cooldown Seconds \[210\] seconds \=\> \[900\] seconds (fifteen minutes)  
+  - Archaeology (Ground types)  
+    - Loot Generation Cooldown Seconds \[80\] seconds \=\> \[900\] seconds (fifteen minutes)  
+  - Scouting (Flying types)  
+    - Generation Cooldown Seconds \[80\] \=\> \[900\] seconds (fifteen minutes)  
+- Create: Sound of Steam  
+  - Pipeorgans-server.toml  
+    - Max midi files per player \[16\] \=\> \[32\]  
+- Distant Horizons  
+  - LOD Chunk Render Distance Radius \[ 48 \] \=\> \[ 32 \]  
+- EMI  
+  - Center search bar set to false (moved to bottom right) as it otherwise collides with the new trash slot when opening large GUIs  
+- Every Compat (Wood Good / Stone Zone)  
+  - Everycomp-client.toml  
+    - Dynamic asset generation mode \[“ALWAYS”\] \=\> \[“CACHED\_ZIPPED”\]  
+  - Everycomp-common.toml  
+    - Server assets generation mode \[“ALWAYS”\] \=\> \[“CACHED\_ZIPPED”\]  
+- Forgematica  
+  - Generic  
+    - Easy Place Mode Enabled  
+    - Easy Place Vanilla Reach Enabled  
+    - Pick Block Shulkers Enabled  
+    - Paste Replace Behavior \[ None \] \=\> \[ All \]  
+  - Hotkeys changed (Only in Forgematica settings, these don’t get caught by Controlling somehow)  
+    - Render Info Overlay \[ I \] \=\> \[ Left\_Alt \+ I \]  
+      - Allow extra keys FALSE  
+      - Order sensitive YES  
+    - Execute Operation \[ Not Bound \] \=\> \[ Left\_Control \+ Left\_Alt \+ E \]  
+      - Order sensitive YES  
+    - Layer Next \[ Page\_Up \] \=\> \[ Left\_Alt \+ Page\_Up \]  
+      - Order sensitive YES  
+    - Layer Previous \[ Page\_Down \] \=\> \[ Left\_Alt \+ Page\_Down \]  
+      - Order sensitive YES  
+    - Render Overlay Through Blocks \[ Right\_Control \] unchanged  
+      - Activate on \[ PRESS \] \=\> \[ RELEASE \]  
+      - Allow extra keys FALSE  
+    - The following keybinds have all been modified from using their default “ M \+ \<key\> “ schema to instead use “ Right\_Control \+ \<key\> “, activate on PRESS, have order sensitive set to TRUE, and allow extra keys set to FALSE:  
+      - Add Selection Box \[ \+ A \]  
+      - Layer Mode Next \[ \+ PAGE\_UP \]  
+      - Layer Mode Previous \[ \+ PAGE\_DOWN \]  
+      - Open GUI Main Menu \[ M \] \=\> \[ RIGHT\_CONTROL \+ M \]  
+      - Open GUI Material List \[ \+ L \]  
+      - Open GUI Schematic Placements \[ \+ P \]  
+      - Open GUI Schematic Verifiers \[ \+ V \]  
+      - Open GUI Selection Manager \[ \+ S \]  
+      - Open GUI Settings \[ \+ C \]  
+      - Pick Block Toggle \[ \+ BUTTON\_3 \] (middle mouse)   
+      - Toggle All Rendering \[ \+ R \]  
+      - Toggle Schematic Rendering \[ \+ G \]  
+      - Tool Enabled Toggle \[ \+ T \]  
+      - Re-Render Schematic \[ F3 \+ M \] \=\> \[ RIGHT\_CONTROL \+ F3 \]  
+  - Info Overlays  
+    - Tool HUD Offset Y adjusted to avoid pokedollars HUD \[ 1 \] \=\> \[ 20 \]  
+- Inventory HUD+  
+  - The inventory space HUD has been moved to be next to the Pokedollars display due to overlaying with a HUD element from an unknown mod that displays how much of a matching item that you’re currently holding is in your entire inventory  
+  - Potion HUD  
+    - Shifted away from absolute corner a little for consistency of the UI with the pokedollars HUD on the opposite side  
+    - Mini Mode enabled to make it smaller in the corner of the screen  
+    - Alpha \[ 100 \]% \=\> \[ 66 \]%  
+    - Bar Duration \[ 300 \] seconds \=\> \[ 180 \] seconds   
+- Iris Shaders **\[TESTING ON 2.0.0\]**  
+  - Exported all previous and new custom settings to a backup file  
+  - Custom Preset  
+    - RP Support: \[IntegratedPBR+\] \=\> \[Basic\]  (Can be turned to IntegratedPBR+ if more quality for some things is desired, otherwise is almost exactly the same)  
+    - Materials  
+      - IntegratedPBR+ Materials  
+        - Other IBPR+ Features  
+          - IPBR+ Compatibility mode enabled  
+          - Improved glass enabled  
+      - Water  
+        - Opacity Factor \[100\] \=\> \[190\]  
+        - Fog Faction \[100\]=\>\[150\]  
+        - Refraction Intensity: \[2.0\]=\>\[1.0\]  
+        - Foam Intensity \[100\] \=\> \[120\]  
+        - Surface Color Multiplier: Blue \[100\] \=\> \[120\]  
+        - Underwater Color Multiplier: Blue \[100\] \=\> \[120\]  
+    - Other  
+      - Less fog inside lava and powdered snow enabled  
+    - Atmosphere  
+      - Fog  
+        - Atmospheric Fog \[ Subtle \] \=\> \[ Very Subtle \]  
+    - Euphoria Patches  
+      - Popular Settings  
+        - Euphoria Colored Lighting \[ Screen-Space \] \=\> \[ ACT \+ Sceen-Space \]  
+      - Atmosphere  
+        - Rain settings  
+          - Weather texture opacity \[75\] \=\>\[500\]  
+      - Materials  
+        - Roughness intensity \[1.0\] \=\> \[2.0\]  
+        - Foliage  
+          - Interactive Foliage disabled  
+          - Subsurface-scattering \[ On \] \=\> \[ Off \]  
+        - Water  
+          - Pixelated Water Reflections enabled  
+          - Underwater distortion strength \[3.0\] \=\> \[1.5\]  
+        - Miscellaneous  
+          - Normals resolution \[128\] \=\> \[64\]  
+      - World  
+        - Overworld  
+          - Fog  
+            - Atmospheric Fog \[ On \] \=\> \[ Off \]  
+            - Border Fog \[ On \] \=\> \[ Off \]  
+        - Nether  
+          - Border Fog \[ On \] \=\> \[ Off \]  
+        - End  
+          - Border Fog \[ On \] \=\> \[ Off \]  
+- KubeJS  
+  - Server\_scripts  
+    - Main.json  
+      - New scripting has been added to add the “\#c:hidden\_from\_recipe\_viewers” tag to all items from the mods Every Compat (Wood Good), Every Compat (Stone Zone), to reduce strain on JEI/EMI. This has reduced the visible items by an overal estimated 30%. The items are NOT disabled and their recipes are still accessible, they are just hidden from view to save loading time  
+      - New scripting has been added to give various types of Dough the “\#c:dough” tag, allowing the Create alternate slimeball recipe to use most doughs from other mods  
+      - New scripting to remove the visibility of Neptunium items from Aquaculture as they are disabled and not intended to be obtainable  
+- LambDynamicLights  
+  - Performance  
+    - Adaptive Ticking Threshold \[ 5 \] \=\> \[ 3 \]  
+    - Far Adaptive Ticking Threshold \[ 8 \] \=\> \[ 6 \]  
+- Liteminer  
+  - Common  
+    - Require correct tool Enabled  
+- Max Repel  
+  - Infinite sprayers enabled  
+  - Only repel lower level set to true  
+  - Exclude shinies set to true  
+  - Added all ultra beasts, paradox pokemon, and pseudo-legendaries to the exclude list, allowing them to bypass repel spawn blocking (Legendaries and Mythicals were all already present)  
+- Moonlight  
+  - Moonlight-common.toml  
+    - Global datapacks folder disabled to prevent confusion, as we’re using a different mod for this  
+- Multi Village Selector  
+  - Reconfigured a bunch of stuff  
+  - OTBWG villages, vanilla villages, and most Cobbletowns villagesthat attempt to spawn will be “soft-blocked” and have their structure type re-rolled using only the Cobblemon Additions (BCA) and CobbleTowns village types.  
+  - Overhauled biome tags and added new biomes and tags to all desired villages matching their styles and theming.   
+  - Default weighting for BCA village size categories has been maintained and standardized (Large: 5, Med: 27, Small: 39\) and all CobbleTowns villages have been balanced as if they were Small size BCA villages.   
+  - The only exception is CobbleTown’s Pacifidlog Town, which was left completely untouched in all areas due to its unique spawning conditions (oceans)  
+- Patchouli  
+  - Began laying groundwork files for the custom in-game help guide, located in minecraft/patchouli\_books/Pizzamon\_Help\_Book  
+    - Book.json  
+      - Defined a TON of custom macro aliases to be able to quickly display most of the commonly used or important keybindings that can be changed. This doesn’t include any contextual keybinds that are dependant on other keybinds, or any hard-coded keybinds and interactions.  
+- Sophisticated Storage  
+  - Client.toml  
+    - Show single wood variant only Enabled (JEI/EMI will only show 1 variant of each container type, cutting down on the extra couple pages of JEI entries for speed)  
+- Spawn Chaining  
+  - Initial chance 1.0 (100%) \=\> 0.5 (50%)  
+- Structurify  
+  - Structure Settings  
+    - BiomesWeveGone: Disabled the following structures due to thematic issues / generation problems  
+      - Abandoned Prairie House  
+      - Bog Trial  
+      - Aspen Manor 1  
+      - Aspen Manor 2  
+      - Village Forgotten  
+      - Village Pumpkin Patch  
+      - Prairie House  
+    - Supplementaries  
+      - Galleon Disabled  
+  - Structure Sets Settings  
+    - Cobbletowns  
+      - Pokecenter  
+        - Frequency \[ 1.000 \] \=\> \[ 0.650 \]  
+      - Pokemart   
+        - Frequency \[ 1.000 \] \=\> \[ 0.800 \]  
+    - Radical Gyms & Structures  
+      - Cerulean Gym (Misty)  
+        - Frequency \[ 1.000 \] \=\> \[ 0.750 \]  
+- Subtle Effects  
+  - Blocks  
+    - Command Block Particles disabled  
+  - Entities  
+    - Sleeping  
+      - Villager Snore Chance and Volume both set to 0.0 (disabled)  
+    - Humanoids.Player  
+      - Stomach growling volume 1.0 \=\> 0.35  
+- Supplementaries  
+  - Supplementaries-common.toml  
+    - Functional.rope  
+      - Replace in loot tables \[ “NONE” \] \=\> \[ “REPLACE” \] (This *should* unify the different but functionally identical rope types in loot tables)  
+    - Functional.cage  
+      - Cages allow all babies Enabled  
+    - Functional.sack  
+      - Maximum sack before penalty (sack increment) \[2\] \=\> \[4\]  
+    - Functional.bamboo\_spikes  
+      - Player loot from killed mobs Enabled  
+    - Functional.urn  
+      - Critter spawn chance \[ 0.01 \] \=\> \[ 0.00 \] (Disabled *for now*, might be able to add some tiny pokemon to this later)  
+    - Functional.cannon.plunderer  
+      - Enabled set to false (Vanilla style hostile mob)  
+      - Galleon set to false (Containers here are bypassing Lootr somehow)  
+    - Tools.quiver  
+      - Quiver skeleton spawn chance \[0.03\] \=\> \[0.00\]  
+    - Tools.rope\_arrows  
+      - Max rope capacity \[32\] \=\> \[128\]  
+    - General Settings  
+      - Dynamic asset generation mode \[ “CACHED” \] \=\> \[ “CACHED\_ZIPPED” \]  
+    - Vanilla Tweaks  
+      - Sus Recipes for recipes for suspicious sand and gravel disabled as they prevented you from crafting Create sandpaper  
+      - Slimed Effect  
+        - Slimed effect has been Disabled  
+        - Allow slimeballs to be thrown Disabled  
+- Surveyor Map Framework  
+  - Built-ins  
+    - Player Death Waypoints disabled, letting Xaero’s handle this like normal instead  
+- Tree Harvester (From Serilum’s QoL Bundle)  
+  - Automatically find bottom block Disabled, allowing cutting down trees from a specified point upwards without destroying the entire tree if desired  
+- Xaero’s Minimap  
+  - Xaero/lib/common.cfg  
+    - Everyone tracks everyone enabled  
+  - Xaerosminimap.txt  
+    - Display tracked players in world disabled  
+  - Default provided map settings have been tweaked to make the minimap easier to read even when zoomed in via TAB. Pokemon no longer show their names unless their icon lookup fails (as a fallback), and their icon size has been adjusted  
+- You’re In Grave Danger  
+  - Drop player head set to “false”  
+  - EXP Drop Behavior \[ “BEST OF BOTH” \] \=\> \[ “PERCENTAGE” \] (This was bugged and not working properly, causing way more XP than intended to be lost on death, and seemingly not actually putting any of it in the grave. With these new settings, you should keep 25% of your XP when you respawn, and 50% of the amount you had is in your grave. The remaining 25% is lost. )  
+  - Drop Percentage \[ 0 \] \=\> \[ 0.5 \]  
+  - Keep Percentage \[ 0 \] \=\> \[ 0.25 \]  
+  - Grave Robbing enabled set to “false”  
+  - Generate on last ground position set to “true”  
+  - Try generate on ground set to “true”  
+  - Max grave distance from death location \[ 5, 5, 5 \] \=\> \[ 16, 16, 16 \]  
+- TESTING: Fight or Flight  
+  - TESTING: Do pokemon attack unprovoked set to false, might be related to entity AI goal lockup that the server watchdog mentioned
+
+V2.1.0 Client Keybind Changes
+
+- Auto-Run (New Clientside mod)  
+  - Auto-run toggle set to \[ Num-Lock \] (Parity with MMOs like WoW, credit to GhostAnimals for suggestion of both mod and keybind)  
+- Building Wands  
+  - All keys have been unbound from their defaults as this mod registers WAY too many damn keybinds that it doesn’t need.  
+  - Wand Menu bound to \[ Ctrl \+ B \]  
+  - Palette Menu bound to \[ J \]  
+  - Undo bound to \[ Ctrl \+ U \]  
+  - GridM/GridN Increase/Decrease have been left as arrow keys  
+- Chunk Loaders  
+  - View Loaders \[ Ctrl \+ C \] \=\> \[ End \] as the Ctrl modifier wasn’t functioning properly  
+- Cobblemon  
+  - Show/Hide Party Overlay \[ O \] \=\> \[ Ctrl \+ P \]  
+- Cobblemon Battle Extras  
+  - Open Battlelogs \[ B \] \=\> \[ Ctrl \+ L \]  
+- Cobblemon Extended UI  
+  - Toggle Battle Info Panel \[ V \] \=\> \[ J \]  
+- Copycats (Create Copycats+)  
+  - Fill copycat block with held material \[ Left Alt \] \=\> \[ Middle Button \] (Middle mouse)  
+- Crafting Tweaks  
+  - Stray keybinds for “compression” in crafting grids unbound, not necessary  
+- Forgematica  
+  - Hotkeys have been customized but these are unavailable in the Controlling menu and are instead in Mods \> Forgematica \> Hotkeys, check the config update section for keys  
+- Inventory HUD+  
+  - Toggle Inventory HUD on/off \[ I \] \=\> \[ Ctrl \+ I \] Currently this only includes the bag icon that shows how many inventory spaces you have remaining in your vanilla inventory  
+  - Toggle PotionHUD on/off \[ Ctrl \+ P \] \=\> \[ Unbound \], the Ctrl modifier was not working properly and this is to prevent players from accidentally putting it back on top of their minimap  
+- Iris Shaders  
+  - Toggle Shaders \[ Not Bound \] \=\> \[ Page Down \]  
+  - Reload Shaders \[ Not Bound \] \=\> \[ Page Up \]  
+- KubeJS   
+  - Kubedex \[ K \] \=\> \[ Not Bound \]  
+- More Cobblemon Tweaks  
+  - Open config \[ F9 \] \=\> \[ Not Bound \]  
+- Open Parties And Claims  
+  - Open Parties and Claims Menu \[ Apostrophe \] \=\> \[ Home \]  
+- Placebo  
+  - Disabled the two Supporter feature keybinds to stop them from showing up in keybind conflicts in future  
+  - Toggle supporter trails \[ Keypad 9 \] \=\> \[ Not Bound \]  
+  - Toggle supporter wings \[ Keypad 8 \] \=\> \[ Not Bound \]  
+- Raised   
+  - Open Raised Options \[ Grave \` \~ \] \=\> \[ Not Bound \] Easy to press and not know what you’re doing when trying to hit the escape key, quick access to these settings isn’t necessary  
+- Sophisticated Backpacks  
+  - Quick toggles for backpack upgrades 1-5 added, using ALT \+ \[ Z, X, C, V, B \] for each individual upgrade in that order.  
+- TrashSlot  
+  - Show/hide Trashslot \[ T \] \=\> \[ Not Bound \] as it was very easy to press by accident  
+- Xaero’s Minimap  
+  - Reverse radar render order \[ Not Bound \] \=\> \[ Insert \] (Should help if radar is too cluttered)  
+  - Toggle Chunk Claims \[ Not Bound \] \=\>  \[ Alt \+ C \]  
+  - Toggle Chunk Grid \[ Not Bound \] \=\>  \[ Alt \+ G \]  
+  - Toggle Entity Radar \[ Not Bound \] \=\>  \[ Alt \+ R \]  
+  - Toggle In-World Waypoints \[ Not Bound \] \=\> \[ Alt \+ N \]  
+- XaeroPlus  
+  - Sodium Options Menu  
+    - XaeroPlus  
+      - Minimap FPS limiter enabled, set to 30
+
+V2.1.x Recipe Changes (Crafttweaker / KubeJS) \[All recipe changes and additions should be properly viewable in JEI\]
+
+- TAGGING  
+  - The \#c:dough tag has been added to a variety of other dough types via KubeJS script  
+  - The Create recipe for slimeballs using Dough and Lime Dye has been altered to accept the \#c:dough tag instead of only Create’s dough  
+- STONECUTTING:  
+  - A netherite ingot can now be stonecut into:  
+    - 1x Keystone  
+    - 2x Raw Mega Stones  
+    - 1x Light Sparkling Stone  
+    - 1x Dark Sparkling Stone  
+    - 2x Blank-Z crystals  
+    - 1x Wishing Star  
+  - A Keystone can be stonecut into 2 Raw Mega Stones  
+  - Any Type Gem can be stonecut into 5 of its corresponding Tera Shards  
+  - Either Sparkling Stone can be stonecut into 2 Blank-Z Crystals  
+- BLASTING:  
+  - All of the following can now be Blasted to return their main component items, these all take 15 seconds to process to help avoid accidents:  
+    - Any Mega Stone (Raw Mega Stone)  
+    - Any Z-Crystal (Blank-Z Crystal)  
+    - Dynamax Band & Power Spot (Wishing Star)  
+    - Z-Rings (Light Sparkling Stone)  
+    - Z-Power Z-Rings (Dark Sparkling Stone)  
+    - Any Mega Bracelet type item (Keystone)  
+- SMITHING  
+  - Smithing an ender eye, phantom membrane, and emerald makes a Zygarde Cell  
+- CRAFTING  
+  - Max Mushroom has been given a recipe using other rare Cobblemon plants due to seemingly not properly generating in lush caves as its supposed to (1 red mushroom, 4 revival herbs, 2 pep-up flowers, 2 energy roots)  
+  - Charcoal can now be crafted into Coal Blocks as if they were Coal  
+  - All Type Gems (4 of corresponding type effectiveness berries \+ 5 amethyst shards)  
+  - Stellar Tera Shards (4 of any type gem \+ 5 of any tera shard into 5 stellar shards)  
+  - Keystone (1 diamond block \+ 8 stellar tera shards)  
+  - Wishing Star (1 diamond block \+ 4 max mushrooms \+ 4 lapis blocks)  
+  - Light Sparkling Stone (1 diamond block, 2 quartz blocks, 6 amethyst shards)  
+  - Power Herb (4 redstone dust, 4 redstone torches, 1 revival herb)  
+  - Mental Herb (6 c:dyes/light\_blue, 2 Eggant berries, 1 revival herb)  
+  - White Herb (6 c:dyes/white, 2 Pep-up flowers, 1 revival herb)  
+  - Mirror Herb (2 c:dyes/lime, 2 Pep-up flowers, 4 amethyst shards, 1 revival herb)
