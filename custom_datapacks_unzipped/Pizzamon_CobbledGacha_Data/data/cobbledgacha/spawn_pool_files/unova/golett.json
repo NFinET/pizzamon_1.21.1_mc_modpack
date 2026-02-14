@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "golett",
+      "bucket": "common",
+      "weight": 5,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

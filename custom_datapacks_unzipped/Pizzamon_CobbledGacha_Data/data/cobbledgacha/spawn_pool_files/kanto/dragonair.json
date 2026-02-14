@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dragonair",
+      "bucket": "ultra-rare",
+      "weight": 4,
+      "minLevel": 30,
+      "maxLevel": 42
+    }
+  ]
+}

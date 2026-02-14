@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "roggenrola",
+      "bucket": "uncommon",
+      "weight": 8.7,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

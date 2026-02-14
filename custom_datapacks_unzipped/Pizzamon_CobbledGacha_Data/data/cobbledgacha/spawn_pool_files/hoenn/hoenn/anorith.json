@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "anorith",
+      "bucket": "ultra-rare",
+      "weight": 6.0,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

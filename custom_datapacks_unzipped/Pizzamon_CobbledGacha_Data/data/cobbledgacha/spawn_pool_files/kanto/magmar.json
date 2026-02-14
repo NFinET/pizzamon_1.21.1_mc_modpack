@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magmar",
+      "bucket": "common",
+      "weight": 1,
+      "minLevel": 30,
+      "maxLevel": 50
+    }
+  ]
+}

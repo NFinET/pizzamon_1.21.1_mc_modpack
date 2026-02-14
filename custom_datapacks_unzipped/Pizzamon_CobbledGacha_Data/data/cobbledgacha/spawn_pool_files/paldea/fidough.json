@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "fidough",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

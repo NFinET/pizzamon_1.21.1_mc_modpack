@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "zorua",
+      "bucket": "uncommon",
+      "weight": 5.04,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

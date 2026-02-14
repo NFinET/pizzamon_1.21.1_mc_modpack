@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ursaring",
+      "bucket": "common",
+      "weight": 0.19,
+      "minLevel": 30,
+      "maxLevel": 50
+    }
+  ]
+}

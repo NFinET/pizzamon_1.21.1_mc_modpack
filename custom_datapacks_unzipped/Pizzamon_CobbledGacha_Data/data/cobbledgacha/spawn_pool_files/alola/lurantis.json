@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lurantis",
+      "bucket": "common",
+      "weight": 0.867,
+      "minLevel": 34,
+      "maxLevel": 48
+    }
+  ]
+}

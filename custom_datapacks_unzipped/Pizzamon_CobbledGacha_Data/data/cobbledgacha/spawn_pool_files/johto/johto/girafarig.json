@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "girafarig",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 21,
+      "maxLevel": 46
+    }
+  ]
+}

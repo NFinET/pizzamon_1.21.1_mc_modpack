@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "surskit",
+      "bucket": "uncommon",
+      "weight": 6.72,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

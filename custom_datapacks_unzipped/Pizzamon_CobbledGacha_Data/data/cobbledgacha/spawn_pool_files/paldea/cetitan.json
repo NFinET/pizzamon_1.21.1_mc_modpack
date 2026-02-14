@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cetitan",
+      "bucket": "uncommon",
+      "weight": 0.64,
+      "minLevel": 28,
+      "maxLevel": 52
+    }
+  ]
+}

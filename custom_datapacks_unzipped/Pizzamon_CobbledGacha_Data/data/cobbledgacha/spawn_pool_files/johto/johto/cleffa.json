@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cleffa",
+      "bucket": "uncommon",
+      "weight": 8.4,
+      "minLevel": 1,
+      "maxLevel": 22
+    }
+  ]
+}

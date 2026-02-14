@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bastiodon",
+      "bucket": "ultra_rare",
+      "weight": 4.0,
+      "minLevel": 30,
+      "maxLevel": 50
+    }
+  ]
+}

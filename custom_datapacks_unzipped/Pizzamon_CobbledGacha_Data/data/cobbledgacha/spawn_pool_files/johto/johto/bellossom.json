@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bellossom",
+      "bucket": "common",
+      "weight": 0.03,
+      "minLevel": 35,
+      "maxLevel": 49
+    }
+  ]
+}

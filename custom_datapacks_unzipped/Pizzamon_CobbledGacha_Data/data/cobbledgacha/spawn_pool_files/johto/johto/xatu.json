@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "xatu",
+      "bucket": "common",
+      "weight": 5.3,
+      "minLevel": 25,
+      "maxLevel": 47
+    }
+  ]
+}

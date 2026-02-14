@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sirfetchd",
+      "bucket": "rare",
+      "weight": 1.25,
+      "minLevel": 33,
+      "maxLevel": 51
+    }
+  ]
+}

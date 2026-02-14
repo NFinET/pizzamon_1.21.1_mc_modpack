@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "barbaracle",
+      "bucket": "uncommon",
+      "weight": 0.74,
+      "minLevel": 39,
+      "maxLevel": 50
+    }
+  ]
+}

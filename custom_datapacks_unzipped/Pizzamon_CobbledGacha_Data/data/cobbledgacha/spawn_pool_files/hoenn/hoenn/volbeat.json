@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "volbeat",
+      "bucket": "uncommon",
+      "weight": 4.0,
+      "minLevel": 18,
+      "maxLevel": 43
+    }
+  ]
+}

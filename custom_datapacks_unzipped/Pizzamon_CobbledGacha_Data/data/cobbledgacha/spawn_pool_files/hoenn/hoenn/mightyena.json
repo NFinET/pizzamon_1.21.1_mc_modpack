@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mightyena",
+      "bucket": "common",
+      "weight": 5.3,
+      "minLevel": 18,
+      "maxLevel": 42
+    }
+  ]
+}

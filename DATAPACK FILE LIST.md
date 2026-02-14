@@ -17,5 +17,6 @@ Some entries may be duplicated in the Resource Packs list and folder, this is be
 - \* Pizzamon_PartingGiftsDrops_v2.zip
 - \* Pizzamon_BotanyPotsModule_v1.zip
 - \* Pizzamon_ApothicEnchantingModule_v1.zip
+- \* Pizzamon_CobbledGacha_Data
 - RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip
 - Vivillon Pride Patterns v1.0.zip

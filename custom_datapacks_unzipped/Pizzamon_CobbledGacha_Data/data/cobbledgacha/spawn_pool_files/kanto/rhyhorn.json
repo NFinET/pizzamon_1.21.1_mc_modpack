@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rhyhorn",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

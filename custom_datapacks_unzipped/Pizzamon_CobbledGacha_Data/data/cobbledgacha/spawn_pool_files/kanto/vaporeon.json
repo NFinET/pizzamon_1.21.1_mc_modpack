@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "vaporeon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "minLevel": 28,
+      "maxLevel": 53
+    }
+  ]
+}

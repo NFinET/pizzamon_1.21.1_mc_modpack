@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "whirlipede",
+      "bucket": "common",
+      "weight": 0.324,
+      "minLevel": 22,
+      "maxLevel": 36
+    }
+  ]
+}

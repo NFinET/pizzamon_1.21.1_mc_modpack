@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "unown character=n",
+      "bucket": "common",
+      "weight": 2.764,
+      "minLevel": 1,
+      "maxLevel": 100
+    }
+  ]
+}

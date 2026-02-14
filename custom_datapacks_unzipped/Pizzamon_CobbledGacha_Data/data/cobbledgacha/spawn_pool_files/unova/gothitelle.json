@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gothitelle",
+      "bucket": "uncommon",
+      "weight": 0.11,
+      "minLevel": 41,
+      "maxLevel": 49
+    }
+  ]
+}

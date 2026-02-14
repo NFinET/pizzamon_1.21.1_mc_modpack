@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dudunsparce landsnake_form=three-segment",
+      "bucket": "uncommon",
+      "weight": 0.003,
+      "minLevel": 32,
+      "maxLevel": 52
+    }
+  ]
+}

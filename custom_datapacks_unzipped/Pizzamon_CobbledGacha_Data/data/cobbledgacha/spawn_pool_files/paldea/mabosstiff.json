@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mabosstiff",
+      "bucket": "common",
+      "weight": 5.3,
+      "minLevel": 30,
+      "maxLevel": 51
+    }
+  ]
+}

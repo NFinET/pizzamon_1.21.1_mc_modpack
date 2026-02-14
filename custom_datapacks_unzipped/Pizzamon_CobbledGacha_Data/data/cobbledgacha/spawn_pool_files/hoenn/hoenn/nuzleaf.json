@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "nuzleaf",
+      "bucket": "common",
+      "weight": 0.57,
+      "minLevel": 14,
+      "maxLevel": 34
+    }
+  ]
+}

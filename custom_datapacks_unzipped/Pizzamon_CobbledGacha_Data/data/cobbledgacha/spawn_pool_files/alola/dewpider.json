@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dewpider",
+      "bucket": "uncommon",
+      "weight": 3.98,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

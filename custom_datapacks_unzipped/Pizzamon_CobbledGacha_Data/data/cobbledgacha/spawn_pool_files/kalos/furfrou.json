@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "furfrou",
+      "bucket": "common",
+      "weight": 8.0,
+      "minLevel": 22,
+      "maxLevel": 47
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "toxicroak",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 37,
+      "maxLevel": 49
+    }
+  ]
+}

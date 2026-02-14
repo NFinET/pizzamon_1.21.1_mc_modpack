@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dreepy",
+      "bucket": "ultra_rare",
+      "weight": 3.6,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

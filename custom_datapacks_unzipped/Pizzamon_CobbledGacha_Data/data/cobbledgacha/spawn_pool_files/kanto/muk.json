@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "muk",
+      "bucket": "common",
+      "weight": 0.24,
+      "minLevel": 38,
+      "maxLevel": 50
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "exeggcute region_bias=alola",
+      "bucket": "uncommon",
+      "weight": 9,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

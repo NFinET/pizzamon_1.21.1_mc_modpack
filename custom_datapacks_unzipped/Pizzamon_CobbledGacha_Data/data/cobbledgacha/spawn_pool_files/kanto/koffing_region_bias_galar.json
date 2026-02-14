@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "koffing region_bias=galar",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

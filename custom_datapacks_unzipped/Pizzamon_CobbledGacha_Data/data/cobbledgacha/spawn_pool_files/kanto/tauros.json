@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tauros",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

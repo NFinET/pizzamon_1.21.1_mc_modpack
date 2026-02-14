@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rabsca",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 22,
+      "maxLevel": 47
+    }
+  ]
+}

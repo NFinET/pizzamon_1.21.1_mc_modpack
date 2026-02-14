@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "clefairy",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 17,
+      "maxLevel": 32
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wyrdeer",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 42,
+      "maxLevel": 53
+    }
+  ]
+}

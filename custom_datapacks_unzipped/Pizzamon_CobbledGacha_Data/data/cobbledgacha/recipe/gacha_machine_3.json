@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "Y": {
+      "item": "minecraft:dispenser"
+    },
+    "P": {
+      "item": "cobblemon:poke_ball"
+    },
+    "G": {
+      "item": "cobblemon:great_ball"
+    },
+    "U": {
+      "item": "cobblemon:ultra_ball"
+    }
+  },
+  "pattern": [
+    "#P#",
+    "DGD",
+    "YUY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobbledgacha:gacha_machine_3"
+  }
+}

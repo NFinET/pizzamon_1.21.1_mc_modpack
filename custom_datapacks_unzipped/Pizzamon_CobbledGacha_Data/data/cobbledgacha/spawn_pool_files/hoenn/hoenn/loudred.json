@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "loudred",
+      "bucket": "uncommon",
+      "weight": 0.81,
+      "minLevel": 20,
+      "maxLevel": 39
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "drifblim",
+      "bucket": "uncommon",
+      "weight": 0.98,
+      "minLevel": 28,
+      "maxLevel": 50
+    }
+  ]
+}

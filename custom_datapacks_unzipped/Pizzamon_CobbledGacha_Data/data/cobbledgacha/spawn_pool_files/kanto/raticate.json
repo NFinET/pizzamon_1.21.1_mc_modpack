@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "raticate",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 20,
+      "maxLevel": 41
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "petilil",
+      "bucket": "common",
+      "weight": 6.967,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

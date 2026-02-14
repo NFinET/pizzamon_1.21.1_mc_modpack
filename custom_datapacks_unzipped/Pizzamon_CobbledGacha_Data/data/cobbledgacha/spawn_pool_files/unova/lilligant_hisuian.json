@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lilligant hisuian",
+      "bucket": "common",
+      "weight": 0.3,
+      "minLevel": 23,
+      "maxLevel": 48
+    }
+  ]
+}

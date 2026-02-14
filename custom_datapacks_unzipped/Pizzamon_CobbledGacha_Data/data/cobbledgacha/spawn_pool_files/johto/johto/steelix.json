@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "steelix",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "minLevel": 34,
+      "maxLevel": 51
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scolipede",
+      "bucket": "common",
+      "weight": 0.036,
+      "minLevel": 30,
+      "maxLevel": 49
+    }
+  ]
+}

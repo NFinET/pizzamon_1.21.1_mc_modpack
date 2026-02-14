@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "quagsire",
+      "bucket": "common",
+      "weight": 0.886,
+      "minLevel": 20,
+      "maxLevel": 43
+    }
+  ]
+}

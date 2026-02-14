@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "corvisquire",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 18,
+      "maxLevel": 37
+    }
+  ]
+}

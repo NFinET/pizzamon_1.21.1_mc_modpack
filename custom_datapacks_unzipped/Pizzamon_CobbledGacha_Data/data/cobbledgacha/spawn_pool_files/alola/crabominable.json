@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "crabominable",
+      "bucket": "uncommon",
+      "weight": 2.0,
+      "minLevel": 29,
+      "maxLevel": 48
+    }
+  ]
+}

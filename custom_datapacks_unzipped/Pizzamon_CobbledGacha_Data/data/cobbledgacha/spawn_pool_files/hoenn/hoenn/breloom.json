@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "breloom",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 23,
+      "maxLevel": 46
+    }
+  ]
+}

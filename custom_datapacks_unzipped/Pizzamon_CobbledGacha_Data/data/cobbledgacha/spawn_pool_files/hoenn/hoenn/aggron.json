@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "aggron",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 42,
+      "maxLevel": 53
+    }
+  ]
+}

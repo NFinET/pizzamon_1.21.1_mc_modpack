@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "klink",
+      "bucket": "common",
+      "weight": 4.2,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

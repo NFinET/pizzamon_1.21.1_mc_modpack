@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "poltchageist matcha_authenticity=artisan",
+      "bucket": "uncommon",
+      "weight": 0.092,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

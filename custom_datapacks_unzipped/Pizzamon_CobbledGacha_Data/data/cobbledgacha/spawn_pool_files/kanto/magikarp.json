@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magikarp",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

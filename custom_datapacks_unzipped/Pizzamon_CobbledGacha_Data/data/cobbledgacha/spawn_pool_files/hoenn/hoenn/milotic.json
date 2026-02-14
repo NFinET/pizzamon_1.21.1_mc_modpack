@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "milotic",
+      "bucket": "common",
+      "weight": 0.4,
+      "minLevel": 15,
+      "maxLevel": 54
+    }
+  ]
+}

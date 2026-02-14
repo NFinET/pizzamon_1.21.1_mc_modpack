@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scraggy",
+      "bucket": "common",
+      "weight": 6.6,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

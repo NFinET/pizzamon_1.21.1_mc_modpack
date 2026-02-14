@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "kingler",
+      "bucket": "common",
+      "weight": 1,
+      "minLevel": 28,
+      "maxLevel": 48
+    }
+  ]
+}

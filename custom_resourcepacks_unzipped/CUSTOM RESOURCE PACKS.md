@@ -5,3 +5,6 @@ These are custom Resource Packs specifically made for this modpack and brief exp
 
 - **PizzamonLogo**:
   - Pretty self explanatory, but this is what changes the Minecraft titlescreen logo to the custom one made for this pack ( I drew it myself c: )
+  
+- **Pizzamon_CobbledGacha_Resource**
+  - Assets override patch for CobbledGacha based on a template provided by the CobbledGacha dev. Overrides the asset and visual-related elements.

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ledian",
+      "bucket": "common",
+      "weight": 2.667,
+      "minLevel": 18,
+      "maxLevel": 39
+    }
+  ]
+}

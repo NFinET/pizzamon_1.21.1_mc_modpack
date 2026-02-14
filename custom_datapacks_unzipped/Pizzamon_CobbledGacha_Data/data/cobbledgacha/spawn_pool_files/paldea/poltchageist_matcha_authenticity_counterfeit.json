@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "poltchageist matcha_authenticity=counterfeit",
+      "bucket": "uncommon",
+      "weight": 9.108,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

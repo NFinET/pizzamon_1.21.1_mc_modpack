@@ -1,0 +1,106 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gacha_machine.dispense": {
+			"animation_length": 1,
+			"bones": {
+				"gachaball_moving": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.3333": {
+							"pre": {
+								"vector": [22.5, 0, 0]
+							},
+							"post": {
+								"vector": [22.5, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.4583": {
+							"post": {
+								"vector": [112.98053, 8.27245, -24.90628]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.625": {
+							"post": {
+								"vector": [147.24625, 32.23988, -6.71461]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.9167": {
+							"vector": [372.54644, -5.77836, 6.14511]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [-1.5, 0, 0]
+						},
+						"0.3333": {
+							"pre": {
+								"vector": [-1.25, -12, 0]
+							},
+							"post": {
+								"vector": [-1.25, -12, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.4583": {
+							"post": {
+								"vector": [-0.25, -15, -8]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.7917": {
+							"post": {
+								"vector": [-0.25, -17, -11]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.9167": {
+							"vector": [-0.25, -18, -11]
+						}
+					}
+				},
+				"crank": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4167": {
+							"pre": {
+								"vector": [0, 0, 360]
+							},
+							"post": {
+								"vector": [0, 0, 360]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"dome": {
+					"position": {
+						"0.125": {
+							"vector": [0, 0, 0]
+						},
+						"0.2917": {
+							"vector": ["-math.sin(q.anim_time*90*2*20)*0.1", "math.sin(q.anim_time*90*2*20)*0.1", 0]
+						},
+						"0.8333": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			},
+			"particle_effects": {
+				"0.1667": {
+					"effect": "ballsparkle",
+					"locator": "dispense "
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

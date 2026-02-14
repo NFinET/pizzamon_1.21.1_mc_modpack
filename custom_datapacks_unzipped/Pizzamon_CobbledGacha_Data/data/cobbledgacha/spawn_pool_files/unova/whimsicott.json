@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "whimsicott",
+      "bucket": "common",
+      "weight": 0.4,
+      "minLevel": 23,
+      "maxLevel": 48
+    }
+  ]
+}

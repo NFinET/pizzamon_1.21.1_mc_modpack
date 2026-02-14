@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "yanma",
+      "bucket": "uncommon",
+      "weight": 3.024,
+      "minLevel": 14,
+      "maxLevel": 39
+    }
+  ]
+}

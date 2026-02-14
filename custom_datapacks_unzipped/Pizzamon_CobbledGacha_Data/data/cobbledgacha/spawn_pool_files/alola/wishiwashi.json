@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wishiwashi",
+      "bucket": "common",
+      "weight": 10.0,
+      "minLevel": 1,
+      "maxLevel": 18
+    }
+  ]
+}

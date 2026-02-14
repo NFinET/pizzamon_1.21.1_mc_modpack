@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "noibat",
+      "bucket": "uncommon",
+      "weight": 7.95,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

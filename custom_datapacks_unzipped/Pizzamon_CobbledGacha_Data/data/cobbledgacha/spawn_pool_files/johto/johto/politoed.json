@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "politoed",
+      "bucket": "common",
+      "weight": 0.019,
+      "minLevel": 34,
+      "maxLevel": 50
+    }
+  ]
+}

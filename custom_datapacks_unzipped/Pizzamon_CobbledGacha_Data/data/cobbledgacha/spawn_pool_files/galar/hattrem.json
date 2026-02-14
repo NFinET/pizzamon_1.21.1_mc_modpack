@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hattrem",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 32,
+      "maxLevel": 37
+    }
+  ]
+}

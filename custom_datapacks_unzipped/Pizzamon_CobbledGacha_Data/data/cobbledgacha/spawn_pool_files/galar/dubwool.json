@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dubwool",
+      "bucket": "common",
+      "weight": 1.0,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

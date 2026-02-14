@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scovillain",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 25,
+      "maxLevel": 49
+    }
+  ]
+}

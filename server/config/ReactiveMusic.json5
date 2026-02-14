@@ -1,0 +1,10 @@
+{
+	musicDelayLength2: "LONG",
+	musicSwitchSpeed2: "LONG",
+	debugModeEnabled: false,
+	loadedUserSongpack: "jor'sCobblemonMusicPackV2.0",
+	blacklistedDimensions: [],
+	savedHomePositions: {},
+	soundsMuteMusic: [],
+	hasForcedInitialVolume: true
+}

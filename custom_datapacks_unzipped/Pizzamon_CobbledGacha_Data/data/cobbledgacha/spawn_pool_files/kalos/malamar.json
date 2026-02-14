@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "malamar",
+      "bucket": "uncommon",
+      "weight": 0.789,
+      "minLevel": 30,
+      "maxLevel": 48
+    }
+  ]
+}

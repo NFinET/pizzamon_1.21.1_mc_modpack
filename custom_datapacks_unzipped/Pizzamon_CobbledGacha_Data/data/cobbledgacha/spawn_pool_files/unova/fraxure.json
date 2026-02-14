@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "fraxure",
+      "bucket": "ultra_rare",
+      "weight": 3.6,
+      "minLevel": 38,
+      "maxLevel": 41
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pickup": false,
+
+  "special": {
+    "gacha_machine_4": true
+  },
+
+   "cooldowns": {
+    "gacha_machine_1": 600,
+    "gacha_machine_2": 1200,
+    "gacha_machine_3": 1200,
+    "gacha_machine_5": 0
+
+  },
+
+  "usesBeforeCooldown": {
+    "gacha_machine_1": 3,
+    "gacha_machine_2": 3,
+    "gacha_machine_3": 3,
+    "gacha_machine_5": 0
+  },
+
+  "gacha_machine_1": 16,
+  "gacha_machine_2": 16,
+  "gacha_machine_3": 4,
+  "gacha_machine_4": 15
+}

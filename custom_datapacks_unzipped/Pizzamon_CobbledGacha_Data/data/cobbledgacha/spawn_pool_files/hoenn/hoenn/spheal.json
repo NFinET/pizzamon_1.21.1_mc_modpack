@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "spheal",
+      "bucket": "common",
+      "weight": 3.96,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

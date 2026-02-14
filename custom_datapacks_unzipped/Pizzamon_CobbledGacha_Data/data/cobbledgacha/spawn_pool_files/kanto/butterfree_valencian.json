@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "butterfree valencian",
+      "bucket": "common",
+      "weight": 5,
+      "minLevel": 10,
+      "maxLevel": 40
+    }
+  ]
+}

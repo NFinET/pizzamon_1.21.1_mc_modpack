@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hitmonlee",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "minLevel": 20,
+      "maxLevel": 46
+    }
+  ]
+}

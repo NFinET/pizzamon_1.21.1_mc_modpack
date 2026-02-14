@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "linoone galarian",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 20,
+      "maxLevel": 42
+    }
+  ]
+}

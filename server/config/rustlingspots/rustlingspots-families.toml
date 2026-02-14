@@ -1,0 +1,38 @@
+#Spawn rate multipliers per rustling spot family (0.0 disables, 1.0 is default)
+[families]
+	#Spawn rate multiplier for grass
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	grass_spawn_rate = 1.0
+	#Spawn rate multiplier for sand
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	sand_spawn_rate = 1.0
+	#Spawn rate multiplier for water
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	water_spawn_rate = 1.0
+	#Spawn rate multiplier for snow
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	snow_spawn_rate = 1.0
+	#Spawn rate multiplier for leaves
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	leaves_spawn_rate = 1.0
+	#Spawn rate multiplier for cave
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	cave_spawn_rate = 1.0
+	#Spawn rate multiplier for netherflamme
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	netherflamme_spawn_rate = 1.0
+	#Spawn rate multiplier for soulflame
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	soulflame_spawn_rate = 1.0
+	#Spawn rate multiplier for flying
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	flying_spawn_rate = 0.2

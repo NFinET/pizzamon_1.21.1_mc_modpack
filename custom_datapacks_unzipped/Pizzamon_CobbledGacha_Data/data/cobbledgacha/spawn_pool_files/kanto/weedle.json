@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "weedle",
+      "bucket": "common",
+      "weight": 3,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

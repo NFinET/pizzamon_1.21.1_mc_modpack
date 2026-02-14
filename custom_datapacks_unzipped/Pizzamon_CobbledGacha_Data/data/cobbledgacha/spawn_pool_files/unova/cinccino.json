@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cinccino",
+      "bucket": "common",
+      "weight": 0.3,
+      "minLevel": 25,
+      "maxLevel": 47
+    }
+  ]
+}

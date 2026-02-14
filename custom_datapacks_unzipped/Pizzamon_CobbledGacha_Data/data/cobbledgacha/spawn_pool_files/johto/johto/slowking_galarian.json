@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "slowking galarian",
+      "bucket": "common",
+      "weight": 0.083,
+      "minLevel": 37,
+      "maxLevel": 49
+    }
+  ]
+}

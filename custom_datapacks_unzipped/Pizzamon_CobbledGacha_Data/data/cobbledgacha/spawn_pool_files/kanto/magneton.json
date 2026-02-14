@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magneton",
+      "bucket": "common",
+      "weight": 7.695,
+      "minLevel": 30,
+      "maxLevel": 47
+    }
+  ]
+}

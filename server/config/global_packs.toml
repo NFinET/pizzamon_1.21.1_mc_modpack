@@ -1,0 +1,83 @@
+# Auto Generated, do not touch
+config_version = 4
+# If set to true, the mod creates a new global folder, that is global for your user on your computer.
+# The created folders will be:
+# <user_home>/.minecraft_global_packs/<version>/required_datapacks
+# <user_home>/.minecraft_global_packs/<version>/optional_datapacks
+# <user_home>/.minecraft_global_packs/<version>/required_resourcepacks
+# <user_home>/.minecraft_global_packs/<version>/optional_resourcepacks
+enable_system_global_packs = false
+# This prints Pack IDs into the logs, using this you can force enable builtin resourcepacks from mods, further down in the config.
+log_pack_ids = true
+
+# This config allows you to add or remove folders or single files as Data-/Resourcepacks
+# For that simply specify the file path to the folder/file relative to your <instance> folder
+[resourcepacks]
+	required = [
+		"resourcepacks/E19 Cobblemon Minimap Icons.zip",
+		"resourcepacks/Vivillon Pride Patterns v1.0.zip",
+		"resourcepacks/EeveelutionsReimagined.zip",
+		"resourcepacks/Better Caps! [v1.0].zip",
+		"resourcepacks/MC Swords for Honedge Line V2.0.zip",
+		"resourcepacks/ATM x MSD [3.2.1].zip",
+		"resourcepacks/Lost Lore [v1.8].zip",
+		"resourcepacks/CobbleSounds[Complete]_v1.4.1.zip",
+		"resourcepacks/Cobblemon Pasture Enhanced v3.zip",
+		"resourcepacks/RCT Trainers+ [1.6] v2.1.zip",
+		"resourcepacks/CobbleFolk Skin Pack Alaris Version - With Create Villager.zip",
+		"resourcepacks/FreshCompats_v1.6.zip",
+		"resourcepacks/FreshAnimations_v1.10.3.zip",
+		"resourcepacks/-1.21.2 Fresh Moves v3.1 (No Animated Eyes).zip",
+		"resourcepacks/Cobblemon Interface v1.6.0.zip",
+		"resourcepacks/Cobblemon Interface Modded v1.9.4.zip",
+		"resourcepacks/Pizzamon_CobbleVillagersNameFix_v1.zip",
+		"resourcepacks/jor'sCobbelemonMuiscPack2.0.zip",
+		"resourcepacks/Cardboard_Cutout_Mon_v1.6.1.zip",
+		"resourcepacks/Cheese-Pokedollars.zip",
+		"resourcepacks/Cobblemon 3D Poké Rods 1.0.zip",
+		"resourcepacks/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip",
+		"resourcepacks/Cobblemon Loading Screen.zip",
+		"resourcepacks/CobblemonAdvancementPlaques-[1.0.2].zip",
+		"resourcepacks/Emissive-Cobblemon-Ores-1.7.zip",
+		"resourcepacks/iB - 3D Cobblenav-release-4.zip",
+		"resourcepacks/Jakotens' Poké-Hats 3.0.zip",
+		"resourcepacks/PizzamonLogo_v2.zip",
+		"resourcepacks/Wallpapers Plus! 1.0.zip"
+	]
+	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
+	# Search for "# Listing Resource Packs #" inside the log
+	enable_builtin = [
+		"mod/cobblemon:resourcepacks/regionbiasforms",
+		"mod/cobblemon:resourcepacks/gyaradosjump",
+		"mod/cobblemon:resourcepacks/uniqueshinyforms",
+		"mod/mega_showdown:resourcepacks/regionbiasmsd",
+		"mod/mega_showdown:resourcepacks/gyaradosjumpingmega",
+		"pasturefix",
+		"continuity:glass_pane_culling_fix",
+		"continuity:default",
+		"mod/subtle_effects:resourcepacks/biome_color_water_particles",
+		"coloredeggs"
+	]
+
+[datapacks]
+	required = [
+		"datapacks/Vivillon Pride Patterns v1.0.zip",
+		"datapacks/MC Swords for Honedge Line V2.0.zip",
+		"datapacks/CobblemonModdedDrops.zip",
+		"datapacks/Pizzamon_PartingGiftsDrops_v2.zip",
+		"datapacks/ATM x MSD [3.2.1].zip",
+		"datapacks/Lost Lore [v1.8].zip",
+		"datapacks/Pizzamon_BCA_CobbleTowns1.1.3_CobbleDollars_v2.zip",
+		"datapacks/CobbleCuisineDelight1.1.zip",
+		"datapacks/Cobblemon Rad Gyms Refurbish.zip",
+		"datapacks/Cobblemon Sniffer Archaeology v1.1.zip",
+		"datapacks/cobblemonoutbreaks++.zip",
+		"datapacks/CobblemonPokeLoot 1.9.zip",
+		"datapacks/DPP-HoneyTrees-Standard-Spawns.zip",
+		"datapacks/Jakotens' Poké-Hats 3.0.zip",
+		"datapacks/RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip",
+		"datapacks/Pizzamon_BotanyPotsModule_v1.zip",
+		"datapacks/Pizzamon_ApothicEnchantingModule_v1.zip"
+	]
+	optional = ["global_packs/optional_data/"]
+	enable_builtin = []

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ekans snake_pattern=elusive",
+      "bucket": "common",
+      "weight": 4,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

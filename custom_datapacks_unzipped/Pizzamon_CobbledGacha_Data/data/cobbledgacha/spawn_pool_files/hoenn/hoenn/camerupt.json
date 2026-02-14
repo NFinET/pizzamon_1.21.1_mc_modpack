@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "camerupt",
+      "bucket": "common",
+      "weight": 0.733,
+      "minLevel": 33,
+      "maxLevel": 46
+    }
+  ]
+}

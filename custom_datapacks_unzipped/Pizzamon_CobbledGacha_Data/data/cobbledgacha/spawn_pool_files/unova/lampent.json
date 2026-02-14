@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lampent",
+      "bucket": "common",
+      "weight": 0.57,
+      "minLevel": 41,
+      "maxLevel": 46
+    }
+  ]
+}

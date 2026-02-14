@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "glimmora",
+      "bucket": "common",
+      "weight": 0.733,
+      "minLevel": 35,
+      "maxLevel": 53
+    }
+  ]
+}

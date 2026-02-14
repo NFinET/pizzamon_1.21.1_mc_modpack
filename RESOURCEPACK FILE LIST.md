@@ -26,6 +26,7 @@ Some entries may be duplicated in the Datapacks list and folder, this is because
 - MC Swords for Honedge Line V2.0.zip
 - \* Pizzamon_CobbleVillagersNameFix_v1.zip
 - \* PizzamonLogo_v2.zip
+- \* Pizzamon_CobbledGacha_Resource
 - RCT Trainers+ [1.6] v2.1.zip
 - Vivillon Pride Patterns v1.0.zip
 - Wallpapers Plus! 1.0.zip

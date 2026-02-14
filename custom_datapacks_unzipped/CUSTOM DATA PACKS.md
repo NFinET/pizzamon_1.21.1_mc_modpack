@@ -11,3 +11,6 @@ These are custom Data Packs specifically made for this modpack and brief explana
 
 - **Pizzamon_ApothicEnchantingModule**
   - This is a compatibility patch datapack for Apothic Enchanting, adding support for some more items to have Apothic Enchanting system bonus stats. Adds support for Skull Piles from Amendments, and also adds support for Pokedolls from Pokeblocks (however this requires an additional script from the KubeJS Server scripts to apply the required tagging via regex)
+  
+- **Pizzamon_CobbledGacha_Data**
+  - Configuration override patch for CobbledGacha based on a template provided by the CobbledGacha dev. Overrides the data-related elements.

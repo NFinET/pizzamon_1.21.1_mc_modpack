@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "drakloak",
+      "bucket": "ultra_rare",
+      "weight": 2.16,
+      "minLevel": 50,
+      "maxLevel": 55
+    }
+  ]
+}

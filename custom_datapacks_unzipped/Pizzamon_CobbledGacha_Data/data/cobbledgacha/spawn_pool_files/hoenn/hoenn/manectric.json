@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "manectric",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 26,
+      "maxLevel": 48
+    }
+  ]
+}

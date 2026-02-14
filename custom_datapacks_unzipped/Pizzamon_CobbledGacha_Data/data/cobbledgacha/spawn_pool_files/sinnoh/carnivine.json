@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "carnivine",
+      "bucket": "uncommon",
+      "weight": 4.667,
+      "minLevel": 20,
+      "maxLevel": 45
+    }
+  ]
+}

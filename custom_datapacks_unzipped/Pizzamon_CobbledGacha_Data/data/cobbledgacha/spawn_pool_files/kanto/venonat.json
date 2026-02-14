@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "venonat",
+      "bucket": "common",
+      "weight": 5,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

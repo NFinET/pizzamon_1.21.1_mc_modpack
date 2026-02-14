@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sudowoodo",
+      "bucket": "uncommon",
+      "weight": 0.96,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

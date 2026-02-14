@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "basculegion",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 41,
+      "maxLevel": 53
+    }
+  ]
+}

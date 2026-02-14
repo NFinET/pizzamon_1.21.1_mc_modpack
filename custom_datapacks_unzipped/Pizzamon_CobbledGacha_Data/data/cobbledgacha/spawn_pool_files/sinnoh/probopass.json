@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "probopass",
+      "bucket": "uncommon",
+      "weight": 0.48,
+      "minLevel": 33,
+      "maxLevel": 53
+    }
+  ]
+}

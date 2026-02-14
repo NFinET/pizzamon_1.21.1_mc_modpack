@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "palafin",
+      "bucket": "uncommon",
+      "weight": 0.707,
+      "minLevel": 38,
+      "maxLevel": 46
+    }
+  ]
+}

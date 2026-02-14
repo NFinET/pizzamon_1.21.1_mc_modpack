@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "klawf",
+      "bucket": "uncommon",
+      "weight": 10.0,
+      "minLevel": 20,
+      "maxLevel": 45
+    }
+  ]
+}

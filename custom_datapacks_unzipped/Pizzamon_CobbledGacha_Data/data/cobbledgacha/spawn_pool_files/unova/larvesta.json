@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "larvesta",
+      "bucket": "uncommon",
+      "weight": 9,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

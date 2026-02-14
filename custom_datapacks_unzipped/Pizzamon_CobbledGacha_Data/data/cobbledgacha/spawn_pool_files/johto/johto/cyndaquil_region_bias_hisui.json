@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cyndaquil region_bias=hisui",
+      "bucket": "ultra-rare",
+      "weight": 6.0,
+      "minLevel": 5,
+      "maxLevel": 31
+    }
+  ]
+}

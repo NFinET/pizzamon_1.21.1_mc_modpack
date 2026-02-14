@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "parasect",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 24,
+      "maxLevel": 41
+    }
+  ]
+}

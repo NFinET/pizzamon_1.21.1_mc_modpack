@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "oshawott region_bias=hisui",
+      "bucket": "ultra_rare",
+      "weight": 6.0,
+      "minLevel": 5,
+      "maxLevel": 31
+    }
+  ]
+}

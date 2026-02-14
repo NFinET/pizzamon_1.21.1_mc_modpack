@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "grimmsnarl",
+      "bucket": "common",
+      "weight": 0.06,
+      "minLevel": 42,
+      "maxLevel": 51
+    }
+  ]
+}

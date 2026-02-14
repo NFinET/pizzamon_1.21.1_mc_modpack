@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gorebyss",
+      "bucket": "rare",
+      "weight": 0.447,
+      "minLevel": 30,
+      "maxLevel": 49
+    }
+  ]
+}

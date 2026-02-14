@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lunatone",
+      "bucket": "uncommon",
+      "weight": 10,
+      "minLevel": 21,
+      "maxLevel": 46
+    }
+  ]
+}

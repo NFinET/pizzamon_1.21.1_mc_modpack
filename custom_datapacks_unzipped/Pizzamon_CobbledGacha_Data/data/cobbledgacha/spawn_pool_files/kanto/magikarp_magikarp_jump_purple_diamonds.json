@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magikarp magikarp_jump=purple-diamonds",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

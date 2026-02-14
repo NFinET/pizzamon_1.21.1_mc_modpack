@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ralts",
+      "bucket": "rare",
+      "weight": 3.075,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

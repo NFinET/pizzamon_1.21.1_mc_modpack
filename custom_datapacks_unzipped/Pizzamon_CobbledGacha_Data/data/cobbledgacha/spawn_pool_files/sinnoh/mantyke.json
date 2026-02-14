@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mantyke",
+      "bucket": "uncommon",
+      "weight": 8.6,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

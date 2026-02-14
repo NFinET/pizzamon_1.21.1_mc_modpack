@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "garganacl",
+      "bucket": "common",
+      "weight": 0.087,
+      "minLevel": 38,
+      "maxLevel": 50
+    }
+  ]
+}

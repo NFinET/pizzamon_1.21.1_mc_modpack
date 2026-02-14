@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "aurorus",
+      "bucket": "ultra_rare",
+      "weight": 4.0,
+      "minLevel": 39,
+      "maxLevel": 52
+    }
+  ]
+}

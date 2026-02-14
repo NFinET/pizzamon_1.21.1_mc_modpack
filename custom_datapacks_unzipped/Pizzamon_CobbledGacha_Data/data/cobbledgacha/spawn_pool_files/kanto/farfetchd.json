@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "farfetchd",
+      "bucket": "common",
+      "weight": 10,
+      "minLevel": 13,
+      "maxLevel": 38
+    }
+  ]
+}

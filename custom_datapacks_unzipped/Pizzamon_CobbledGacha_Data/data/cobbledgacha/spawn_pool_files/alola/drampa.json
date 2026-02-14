@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "drampa",
+      "bucket": "uncommon",
+      "weight": 10.0,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

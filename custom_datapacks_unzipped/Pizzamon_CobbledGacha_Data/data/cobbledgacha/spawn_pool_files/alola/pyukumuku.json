@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pyukumuku",
+      "bucket": "common",
+      "weight": 6.0,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

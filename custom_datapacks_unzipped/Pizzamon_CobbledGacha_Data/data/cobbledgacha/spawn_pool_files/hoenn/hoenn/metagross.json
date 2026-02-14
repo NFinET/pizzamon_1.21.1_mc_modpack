@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "metagross",
+      "bucket": "rare",
+      "weight": 0.236,
+      "minLevel": 45,
+      "maxLevel": 60
+    }
+  ]
+}

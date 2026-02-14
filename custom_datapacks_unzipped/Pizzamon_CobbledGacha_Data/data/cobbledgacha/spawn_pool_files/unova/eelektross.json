@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "eelektross",
+      "bucket": "common",
+      "weight": 0.026,
+      "minLevel": 36,
+      "maxLevel": 52
+    }
+  ]
+}

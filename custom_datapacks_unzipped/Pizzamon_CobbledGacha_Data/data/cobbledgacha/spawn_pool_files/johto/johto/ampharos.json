@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ampharos",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 30,
+      "maxLevel": 51
+    }
+  ]
+}

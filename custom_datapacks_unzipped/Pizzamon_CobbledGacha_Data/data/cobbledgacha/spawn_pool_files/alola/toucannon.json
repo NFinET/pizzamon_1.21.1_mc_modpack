@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "toucannon",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 28,
+      "maxLevel": 49
+    }
+  ]
+}

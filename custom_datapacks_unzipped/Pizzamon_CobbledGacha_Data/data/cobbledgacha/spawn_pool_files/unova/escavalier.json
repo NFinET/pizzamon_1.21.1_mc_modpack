@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "escavalier",
+      "bucket": "common",
+      "weight": 0.3,
+      "minLevel": 27,
+      "maxLevel": 50
+    }
+  ]
+}

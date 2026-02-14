@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "piloswine",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 33,
+      "maxLevel": 45
+    }
+  ]
+}

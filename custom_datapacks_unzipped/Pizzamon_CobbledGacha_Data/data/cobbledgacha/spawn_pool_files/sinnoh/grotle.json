@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "grotle",
+      "bucket": "ultra_rare",
+      "weight": 3.6,
+      "minLevel": 18,
+      "maxLevel": 41
+    }
+  ]
+}

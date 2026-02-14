@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "luxray",
+      "bucket": "uncommon",
+      "weight": 0.16,
+      "minLevel": 30,
+      "maxLevel": 52
+    }
+  ]
+}

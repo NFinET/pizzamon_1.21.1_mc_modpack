@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gimmighoul chest",
+      "bucket": "rare",
+      "weight": 8,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

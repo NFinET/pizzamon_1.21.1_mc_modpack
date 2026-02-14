@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "metapod",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 7,
+      "maxLevel": 21
+    }
+  ]
+}

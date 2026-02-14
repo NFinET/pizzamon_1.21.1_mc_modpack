@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "horsea",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

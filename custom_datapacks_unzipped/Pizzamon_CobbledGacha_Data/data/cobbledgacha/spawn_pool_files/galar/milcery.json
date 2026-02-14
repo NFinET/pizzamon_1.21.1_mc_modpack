@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "milcery",
+      "bucket": "common",
+      "weight": 4.413,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

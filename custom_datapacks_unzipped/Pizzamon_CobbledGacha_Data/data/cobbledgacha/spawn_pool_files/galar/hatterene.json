@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hatterene",
+      "bucket": "common",
+      "weight": 0.067,
+      "minLevel": 42,
+      "maxLevel": 51
+    }
+  ]
+}

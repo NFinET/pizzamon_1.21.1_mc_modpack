@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "eiscue",
+      "bucket": "common",
+      "weight": 3.333,
+      "minLevel": 22,
+      "maxLevel": 47
+    }
+  ]
+}

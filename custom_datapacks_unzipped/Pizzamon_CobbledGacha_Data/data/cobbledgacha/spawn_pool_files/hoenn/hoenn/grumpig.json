@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "grumpig",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 32,
+      "maxLevel": 47
+    }
+  ]
+}

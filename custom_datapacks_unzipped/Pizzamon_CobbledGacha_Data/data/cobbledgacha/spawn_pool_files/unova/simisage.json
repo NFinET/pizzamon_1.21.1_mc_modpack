@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "simisage",
+      "bucket": "uncommon",
+      "weight": 0.747,
+      "minLevel": 27,
+      "maxLevel": 50
+    }
+  ]
+}

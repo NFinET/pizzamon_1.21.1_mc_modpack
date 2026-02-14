@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "stonjourner",
+      "bucket": "uncommon",
+      "weight": 10,
+      "minLevel": 22,
+      "maxLevel": 47
+    }
+  ]
+}

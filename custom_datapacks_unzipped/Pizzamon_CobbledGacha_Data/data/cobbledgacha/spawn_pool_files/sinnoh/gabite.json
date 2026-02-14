@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gabite",
+      "bucket": "rare",
+      "weight": 2.7,
+      "minLevel": 24,
+      "maxLevel": 47
+    }
+  ]
+}

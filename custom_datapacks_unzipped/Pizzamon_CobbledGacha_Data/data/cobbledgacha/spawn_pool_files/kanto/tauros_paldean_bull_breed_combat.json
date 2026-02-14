@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tauros paldean bull_breed=combat",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

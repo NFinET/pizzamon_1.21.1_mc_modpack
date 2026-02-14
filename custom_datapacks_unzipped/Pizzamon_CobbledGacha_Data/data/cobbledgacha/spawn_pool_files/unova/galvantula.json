@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "galvantula",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 36,
+      "maxLevel": 47
+    }
+  ]
+}
