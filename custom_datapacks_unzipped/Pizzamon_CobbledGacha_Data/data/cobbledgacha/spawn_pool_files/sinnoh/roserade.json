@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "roserade",
+      "bucket": "common",
+      "weight": 0.05,
+      "minLevel": 35,
+      "maxLevel": 52
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "claydol",
+      "bucket": "common",
+      "weight": 2.52,
+      "minLevel": 36,
+      "maxLevel": 50
+    }
+  ]
+}

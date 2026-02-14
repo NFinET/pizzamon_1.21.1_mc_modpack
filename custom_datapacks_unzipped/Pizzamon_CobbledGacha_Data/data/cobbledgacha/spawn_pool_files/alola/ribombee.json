@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ribombee",
+      "bucket": "common",
+      "weight": 4.85,
+      "minLevel": 25,
+      "maxLevel": 46
+    }
+  ]
+}

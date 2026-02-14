@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "M": {
+      "item": "cobblemon:master_ball"
+    },
+    "X": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "DND",
+    "#M#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobbledgacha:gacha_machine_4"
+  }
+}

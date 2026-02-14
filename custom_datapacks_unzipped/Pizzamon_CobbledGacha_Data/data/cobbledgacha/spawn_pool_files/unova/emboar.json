@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "emboar",
+      "bucket": "ultra_rare",
+      "weight": 0.4,
+      "minLevel": 36,
+      "maxLevel": 53
+    }
+  ]
+}

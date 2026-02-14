@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dusknoir",
+      "bucket": "common",
+      "weight": 0.04,
+      "minLevel": 41,
+      "maxLevel": 53
+    }
+  ]
+}

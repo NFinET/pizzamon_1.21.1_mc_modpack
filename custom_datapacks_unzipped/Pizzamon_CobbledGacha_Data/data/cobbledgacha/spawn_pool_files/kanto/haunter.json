@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "haunter",
+      "bucket": "common",
+      "weight": 1,
+      "minLevel": 25,
+      "maxLevel": 41
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "centiskorch",
+      "bucket": "common",
+      "weight": 0.733,
+      "minLevel": 28,
+      "maxLevel": 53
+    }
+  ]
+}

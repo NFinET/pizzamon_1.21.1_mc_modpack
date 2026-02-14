@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "amoonguss",
+      "bucket": "common",
+      "weight": 1.0,
+      "minLevel": 39,
+      "maxLevel": 46
+    }
+  ]
+}

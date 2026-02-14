@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wiglett",
+      "bucket": "common",
+      "weight": 3.6,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

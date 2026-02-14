@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "kommoo",
+      "bucket": "rare",
+      "weight": 0.325,
+      "minLevel": 45,
+      "maxLevel": 60
+    }
+  ]
+}

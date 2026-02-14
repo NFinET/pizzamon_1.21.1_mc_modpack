@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wingull",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

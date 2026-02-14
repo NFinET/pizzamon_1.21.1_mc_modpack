@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "snorunt",
+      "bucket": "uncommon",
+      "weight": 6.92,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

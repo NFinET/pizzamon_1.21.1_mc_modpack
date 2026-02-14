@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "crawdaunt",
+      "bucket": "common",
+      "weight": 0.4,
+      "minLevel": 30,
+      "maxLevel": 47
+    }
+  ]
+}

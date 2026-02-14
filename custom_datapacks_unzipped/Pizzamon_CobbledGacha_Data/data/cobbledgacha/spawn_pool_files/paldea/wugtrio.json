@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wugtrio",
+      "bucket": "common",
+      "weight": 0.4,
+      "minLevel": 26,
+      "maxLevel": 43
+    }
+  ]
+}

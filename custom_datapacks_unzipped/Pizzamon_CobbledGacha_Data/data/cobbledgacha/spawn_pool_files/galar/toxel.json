@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "toxel",
+      "bucket": "uncommon",
+      "weight": 1.74,
+      "minLevel": 1,
+      "maxLevel": 24
+    }
+  ]
+}

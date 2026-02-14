@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "houndoom",
+      "bucket": "uncommon",
+      "weight": 5.853,
+      "minLevel": 24,
+      "maxLevel": 50
+    }
+  ]
+}

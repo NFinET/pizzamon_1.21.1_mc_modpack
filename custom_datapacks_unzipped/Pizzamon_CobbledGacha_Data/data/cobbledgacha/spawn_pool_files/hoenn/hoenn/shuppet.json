@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shuppet",
+      "bucket": "uncommon",
+      "weight": 8.7,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

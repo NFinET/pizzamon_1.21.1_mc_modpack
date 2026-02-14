@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "basculin striped=red",
+      "bucket": "common",
+      "weight": 5.667,
+      "minLevel": 21,
+      "maxLevel": 46
+    }
+  ]
+}

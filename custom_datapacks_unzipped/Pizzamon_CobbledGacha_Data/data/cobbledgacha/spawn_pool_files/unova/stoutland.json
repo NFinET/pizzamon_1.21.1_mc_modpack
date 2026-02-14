@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "stoutland",
+      "bucket": "common",
+      "weight": 0.06,
+      "minLevel": 32,
+      "maxLevel": 50
+    }
+  ]
+}

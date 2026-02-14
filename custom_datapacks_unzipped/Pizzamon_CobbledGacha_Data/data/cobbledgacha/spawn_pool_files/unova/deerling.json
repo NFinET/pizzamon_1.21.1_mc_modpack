@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "deerling",
+      "bucket": "common",
+      "weight": 4.0,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

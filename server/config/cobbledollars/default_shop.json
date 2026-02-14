@@ -1,0 +1,141 @@
+{
+  "defaultShop": [
+    {
+      "Poké Balls": [
+	    {
+          "item": "cobblemon:poke_ball",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:great_ball",
+          "price": 600
+        },
+        {
+          "item": "cobblemon:ultra_ball",
+          "price": 800
+        },
+        {
+          "item": "cobblemon:premier_ball",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:citrine_ball",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:verdant_ball",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:azure_ball",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:roseate_ball",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:slate_ball",
+          "price": 200
+        }
+      ]
+    },
+	{
+	  "Combat": [
+		{
+			"item": "cobblemon:ether",
+			"price": 1000
+		},
+		{
+			"item": "cobblemon:max_ether",
+			"price": 2000
+		},
+		{
+			"item": "cobblemon:elixir",
+			"price": 3000
+		},
+		{
+			"item": "cobblemon:max_elixir",
+			"price": 4000
+		}
+	  ]
+	},
+    {
+      "Healing": [
+        {
+          "item": "cobblemon:potion",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:super_potion",
+          "price": 700
+        },
+        {
+          "item": "cobblemon:hyper_potion",
+          "price": 1500
+        },
+        {
+          "item": "cobblemon:max_potion",
+          "price": 2500
+        },
+        {
+          "item": "cobblemon:full_restore",
+          "price": 3000
+        },
+        {
+          "item": "cobblemon:revive",
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "Medicine": [
+        {
+          "item": "cobblemon:antidote",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:awakening",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:burn_heal",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:ice_heal",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:paralyze_heal",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:full_heal",
+          "price": 600
+        }
+      ]
+    },
+    {
+      "Repels": [
+        {
+          "item": "maxrepel:repel",
+          "price": 400
+        },
+        {
+          "item": "maxrepel:super_repel",
+          "price": 700
+        },
+        {
+          "item": "maxrepel:max_repel",
+          "price": 900
+        },
+		{
+          "item": "maxrepel:repel_sprayer",
+          "price": 3000
+        }
+		
+      ]
+    }
+  ]
+}

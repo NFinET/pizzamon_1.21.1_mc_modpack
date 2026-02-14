@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "budew",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

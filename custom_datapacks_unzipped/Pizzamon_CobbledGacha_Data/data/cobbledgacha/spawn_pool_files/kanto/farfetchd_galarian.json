@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "farfetchd galarian",
+      "bucket": "rare",
+      "weight": 9,
+      "minLevel": 13,
+      "maxLevel": 38
+    }
+  ]
+}

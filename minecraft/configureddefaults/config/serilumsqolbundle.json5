@@ -54,7 +54,7 @@
 	// If the bundled Recast mod should be enabled.
 	"enableRecast": false,
 	// If the bundled Replanting Crops mod should be enabled.
-	"enableReplantingCrops": true,
+	"enableReplantingCrops": false,
 	// If the bundled Respawning Shulkers mod should be enabled.
 	"enableRespawningShulkers": false,
 	// If the bundled Scaffolding Drops Nearby mod should be enabled.
@@ -74,7 +74,7 @@
 	// If the bundled Thorny Bush Protection mod should be enabled.
 	"enableThornyBushProtection": true,
 	// If the bundled Tree Harvester mod should be enabled.
-	"enableTreeHarvester": false,
+	"enableTreeHarvester": true,
 	// If the bundled Underwater Enchanting mod should be enabled.
 	"enableUnderwaterEnchanting": false,
 	// If the bundled Village Bell Recipe mod should be enabled.

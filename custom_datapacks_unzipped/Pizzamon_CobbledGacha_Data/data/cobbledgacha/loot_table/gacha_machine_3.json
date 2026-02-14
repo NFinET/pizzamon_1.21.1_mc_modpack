@@ -1,0 +1,1362 @@
+{
+    "type": "cobbledgacha:gacha_machine_3",
+    "pools": [
+        {
+            "conditions": [],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:great_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ultra_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:premier_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:dusk_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:net_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:nest_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:dive_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:heal_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:repeat_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:timer_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:quick_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:luxury_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:heavy_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:lure_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:friend_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:love_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:level_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:fast_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:moon_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:safari_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:sport_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:master_ball",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:verdant_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:slate_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:citrine_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:azure_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:roseate_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_verdant_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_slate_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_citrine_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_azure_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_roseate_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_ivory_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_great_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 35
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_ultra_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_feather_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 35
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_wing_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ancient_jet_ball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ability_capsule",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ability_patch",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:air_balloon",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:berry_sweet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:black_belt",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:black_glasses",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:black_sludge",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:calcium",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:carbos",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:charcoal_stick",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:chipped_pot",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:clover_sweet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:covert_cloak",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:cracked_pot",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:dawn_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:dragon_fang",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:dragon_scale",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:dubious_disc",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:dusk_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:electirizer",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:elixir",
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ether",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:everstone",
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:exp_candy_l",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 15
+                            }
+                        }
+                    ],
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:exp_candy_m",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 10,
+                                "max": 15
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:exp_candy_s",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 10,
+                                "max": 20
+                            }
+                        }
+                    ],
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:exp_candy_xl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:exp_candy_xs",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:fairy_feather",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:fire_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:flame_orb",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:flower_sweet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:focus_band",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:full_heal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:full_restore",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:hard_stone",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:heavy_duty_boots",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:hp_up",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:hyper_potion",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ice_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:iron",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:kings_rock",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:leaf_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:leftovers",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:light_clay",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:loaded_dice",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:love_sweet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:lucky_egg",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:magmarizer",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:magnet",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:masterpiece_teacup",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:max_elixir",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:max_ether",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:max_potion",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:max_revive",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:metal_coat",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:metronome",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:miracle_seed",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:moon_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:mystic_water",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:never_melt_ice",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:oval_stone",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:poison_barb",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:pp_max",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:pp_up",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:prism_scale",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:protector",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:protein",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:razor_claw",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:razor_fang",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:reaper_cloth",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:revive",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:ribbon_sweet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:safety_goggles",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:scope_lens",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:sharp_beak",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:shiny_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:silk_scarf",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:silver_powder",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:soft_sand",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:spell_tag",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:star_sweet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:strawberry_sweet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:sun_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:super_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:thunder_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:toxic_orb",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:twisted_spoon",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:unremarkable_teacup",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:upgrade",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:water_stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobblemon:zinc",
+                    "weight": 10
+                }
+                
+            ],
+            "bonus_rolls": 0,
+            "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 5
+      }
+        }
+    ]
+}

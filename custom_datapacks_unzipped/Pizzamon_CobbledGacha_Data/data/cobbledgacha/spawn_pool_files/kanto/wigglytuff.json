@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wigglytuff",
+      "bucket": "common",
+      "weight": 0.037,
+      "minLevel": 22,
+      "maxLevel": 44
+    }
+  ]
+}

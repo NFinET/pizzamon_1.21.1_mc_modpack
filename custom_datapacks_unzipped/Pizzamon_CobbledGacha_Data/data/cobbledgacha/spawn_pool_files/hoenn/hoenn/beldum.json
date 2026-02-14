@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "beldum",
+      "bucket": "rare",
+      "weight": 6.036,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

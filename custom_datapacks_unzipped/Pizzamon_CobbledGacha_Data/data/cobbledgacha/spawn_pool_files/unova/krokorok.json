@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "krokorok",
+      "bucket": "common",
+      "weight": 0.18,
+      "minLevel": 29,
+      "maxLevel": 35
+    }
+  ]
+}

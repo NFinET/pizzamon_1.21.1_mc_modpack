@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scrafty",
+      "bucket": "common",
+      "weight": 0.733,
+      "minLevel": 39,
+      "maxLevel": 49
+    }
+  ]
+}

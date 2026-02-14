@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shedinja",
+      "bucket": "uncommon",
+      "weight": 1.015,
+      "minLevel": 20,
+      "maxLevel": 24
+    }
+  ]
+}

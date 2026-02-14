@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shellder",
+      "bucket": "common",
+      "weight": 10,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

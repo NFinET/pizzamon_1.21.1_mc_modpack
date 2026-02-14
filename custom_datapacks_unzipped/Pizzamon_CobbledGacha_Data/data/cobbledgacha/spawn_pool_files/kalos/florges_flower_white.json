@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "florges flower=white",
+      "bucket": "common",
+      "weight": 0.036,
+      "minLevel": 32,
+      "maxLevel": 55
+    }
+  ]
+}

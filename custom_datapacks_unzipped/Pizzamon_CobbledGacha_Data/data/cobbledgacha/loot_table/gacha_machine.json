@@ -1,0 +1,37 @@
+{
+    "type": "cobbledgacha:gacha_machine",
+    "pools": [
+        {
+            "conditions": [],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:capsule_a1",
+                    "weight": 51
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:capsule_a2",
+                    "weight": 24
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:capsule_a3",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:capsule_a4",
+                    "weight": 7
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:capsule_a5",
+                    "weight": 3
+                }
+            ],
+            "bonus_rolls": 0,
+            "rolls": 1
+        }
+    ]
+}

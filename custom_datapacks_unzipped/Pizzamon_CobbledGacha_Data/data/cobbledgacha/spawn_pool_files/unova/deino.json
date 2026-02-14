@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "deino",
+      "bucket": "rare",
+      "weight": 7.0,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

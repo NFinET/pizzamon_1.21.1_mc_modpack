@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "drednaw",
+      "bucket": "common",
+      "weight": 0.8,
+      "minLevel": 22,
+      "maxLevel": 49
+    }
+  ]
+}

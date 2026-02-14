@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "honchkrow",
+      "bucket": "common",
+      "weight": 0.433,
+      "minLevel": 36,
+      "maxLevel": 51
+    }
+  ]
+}

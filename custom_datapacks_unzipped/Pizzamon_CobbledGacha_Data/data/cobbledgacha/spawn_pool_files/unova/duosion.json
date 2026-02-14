@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "duosion",
+      "bucket": "uncommon",
+      "weight": 0.288,
+      "minLevel": 32,
+      "maxLevel": 37
+    }
+  ]
+}

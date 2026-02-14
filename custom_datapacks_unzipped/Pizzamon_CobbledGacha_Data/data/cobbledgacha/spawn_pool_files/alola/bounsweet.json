@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bounsweet",
+      "bucket": "common",
+      "weight": 1.8,
+      "minLevel": 1,
+      "maxLevel": 21
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "golurk",
+      "bucket": "common",
+      "weight": 4.6,
+      "minLevel": 43,
+      "maxLevel": 48
+    }
+  ]
+}

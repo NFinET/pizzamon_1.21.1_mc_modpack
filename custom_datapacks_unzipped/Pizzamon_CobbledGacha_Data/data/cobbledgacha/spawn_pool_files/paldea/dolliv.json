@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dolliv",
+      "bucket": "uncommon",
+      "weight": 1.44,
+      "minLevel": 25,
+      "maxLevel": 35
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ponyta",
+      "bucket": "common",
+      "weight": 5,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

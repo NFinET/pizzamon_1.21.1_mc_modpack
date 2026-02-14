@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "azumarill",
+      "bucket": "common",
+      "weight": 0.099,
+      "minLevel": 18,
+      "maxLevel": 42
+    }
+  ]
+}

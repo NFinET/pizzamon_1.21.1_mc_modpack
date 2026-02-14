@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "spewpa",
+      "bucket": "common",
+      "weight": 2.0,
+      "minLevel": 9,
+      "maxLevel": 21
+    }
+  ]
+}

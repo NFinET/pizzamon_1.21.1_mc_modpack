@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shellos sea=west",
+      "bucket": "common",
+      "weight": 7.95,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

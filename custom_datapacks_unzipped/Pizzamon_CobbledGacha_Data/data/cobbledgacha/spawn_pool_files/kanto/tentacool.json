@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tentacool",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

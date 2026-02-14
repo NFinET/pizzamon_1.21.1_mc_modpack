@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lanturn",
+      "bucket": "common",
+      "weight": 0.8,
+      "minLevel": 27,
+      "maxLevel": 46
+    }
+  ]
+}

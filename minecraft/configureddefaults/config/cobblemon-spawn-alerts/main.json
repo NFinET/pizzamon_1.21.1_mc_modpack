@@ -1,5 +1,5 @@
 {
-  "configVersion": "1.11.4",
+  "configVersion": "1.11.5-beta",
   "comment": [
     "This config is only on your client. It determines which *groups* of Pokemon are alerted. For individually alerting Pokemon, see pokemon.json.",
     "For documentation on using the config, please see the Modrinth or GitHub for the mod.",
@@ -7,7 +7,7 @@
     "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
   ],
   "debug": false,
-  "multiplayerWarning": true,
+  "multiplayerWarning": false,
   "alertAllShinies": true,
   "alertAllHA": false,
   "alertAllLegendaries": true,

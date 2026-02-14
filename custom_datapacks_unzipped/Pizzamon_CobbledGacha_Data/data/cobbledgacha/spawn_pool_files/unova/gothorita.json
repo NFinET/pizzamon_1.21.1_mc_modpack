@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gothorita",
+      "bucket": "uncommon",
+      "weight": 0.99,
+      "minLevel": 32,
+      "maxLevel": 39
+    }
+  ]
+}

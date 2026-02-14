@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "umbreon",
+      "bucket": "uncommon",
+      "weight": 0.335,
+      "minLevel": 28,
+      "maxLevel": 53
+    }
+  ]
+}

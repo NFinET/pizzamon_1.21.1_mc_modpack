@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tangela",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 19,
+      "maxLevel": 44
+    }
+  ]
+}

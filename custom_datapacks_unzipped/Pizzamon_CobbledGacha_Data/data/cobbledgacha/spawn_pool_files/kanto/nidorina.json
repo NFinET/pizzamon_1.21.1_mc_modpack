@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "nidorina",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 16,
+      "maxLevel": 37
+    }
+  ]
+}

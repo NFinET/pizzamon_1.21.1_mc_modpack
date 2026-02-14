@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wailord",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "minLevel": 40,
+      "maxLevel": 50
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "flaaffy",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 15,
+      "maxLevel": 37
+    }
+  ]
+}

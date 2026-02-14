@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "kleavor",
+      "bucket": "rare",
+      "weight": 0.25,
+      "minLevel": 45,
+      "maxLevel": 50
+    }
+  ]
+}

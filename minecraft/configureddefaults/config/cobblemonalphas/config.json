@@ -4,7 +4,7 @@
   "alphaSizeMultiplier": 2.0,
   "maximumBestIvs": 3,
   "doHerdSpawning": true,
-  "secondsBetweenSpawns": 300,
+  "secondsBetweenSpawns": 600,
   "spawnAttempts": 10,
   "requiredPlayerAmount": 1,
   "shinyOdds": 4096,

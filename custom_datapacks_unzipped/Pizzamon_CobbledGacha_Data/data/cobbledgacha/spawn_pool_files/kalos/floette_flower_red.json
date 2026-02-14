@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "floette flower=red",
+      "bucket": "common",
+      "weight": 0.554,
+      "minLevel": 19,
+      "maxLevel": 37
+    }
+  ]
+}

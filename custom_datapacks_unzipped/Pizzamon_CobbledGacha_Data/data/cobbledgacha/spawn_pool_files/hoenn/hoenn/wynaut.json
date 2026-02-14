@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wynaut",
+      "bucket": "rare",
+      "weight": 7.5,
+      "minLevel": 1,
+      "maxLevel": 26
+    }
+  ]
+}

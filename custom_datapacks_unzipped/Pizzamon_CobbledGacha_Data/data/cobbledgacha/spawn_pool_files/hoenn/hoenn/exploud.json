@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "exploud",
+      "bucket": "uncommon",
+      "weight": 0.09,
+      "minLevel": 40,
+      "maxLevel": 49
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "altaria",
+      "bucket": "uncommon",
+      "weight": 1.4,
+      "minLevel": 35,
+      "maxLevel": 49
+    }
+  ]
+}

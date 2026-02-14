@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ninetales alolan",
+      "bucket": "common",
+      "weight": 0.48,
+      "minLevel": 25,
+      "maxLevel": 51
+    }
+  ]
+}

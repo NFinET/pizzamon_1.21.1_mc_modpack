@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scizor",
+      "bucket": "uncommon",
+      "weight": 0.16,
+      "minLevel": 45,
+      "maxLevel": 50
+    }
+  ]
+}

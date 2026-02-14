@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "slugma",
+      "bucket": "common",
+      "weight": 6.3,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

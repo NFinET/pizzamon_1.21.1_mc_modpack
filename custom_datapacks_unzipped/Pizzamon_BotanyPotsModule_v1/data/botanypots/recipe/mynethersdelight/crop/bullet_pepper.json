@@ -1,0 +1,44 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [ "mynethersdelight:bullet_pepper" ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "mynethersdelight:bullet_pepper",
+  "input": {"item": "mynethersdelight:bullet_pepper"},
+  "soil": {"tag": "botanypots:soil/nylium"},
+    "display": {
+    "type": "botanypots:transitional",
+    "phases": [
+      {
+        "type": "botanypots:simple",
+        "block_state": {
+          "block": "mynethersdelight:bullet_pepper",
+          "properties": { "age": "0" }
+        }
+      },
+      {
+        "type": "botanypots:simple",
+        "block_state": {
+          "block": "mynethersdelight:bullet_pepper",
+          "properties": { "age": "1" }
+        }
+      },
+      {
+        "type": "botanypots:simple",
+        "block_state": {
+          "block": "mynethersdelight:bullet_pepper",
+          "properties": { "age": "2" }
+        }
+      }
+    ]
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:botanypots/mynethersdelight/crop/bullet_pepper"
+    }
+  ]
+}

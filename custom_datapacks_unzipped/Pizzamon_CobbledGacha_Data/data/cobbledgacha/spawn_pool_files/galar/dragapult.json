@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dragapult",
+      "bucket": "ultra_rare",
+      "weight": 0.24,
+      "minLevel": 60,
+      "maxLevel": 65
+    }
+  ]
+}

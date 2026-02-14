@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "toxtricity",
+      "bucket": "uncommon",
+      "weight": 0.26,
+      "minLevel": 30,
+      "maxLevel": 50
+    }
+  ]
+}

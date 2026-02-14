@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cubone region_bias=alola",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

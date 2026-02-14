@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chimecho",
+      "bucket": "uncommon",
+      "weight": 5.76,
+      "minLevel": 24,
+      "maxLevel": 46
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "obstagoon",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 35,
+      "maxLevel": 52
+    }
+  ]
+}

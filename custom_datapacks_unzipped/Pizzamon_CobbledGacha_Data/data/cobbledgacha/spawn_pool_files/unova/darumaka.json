@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "darumaka",
+      "bucket": "common",
+      "weight": 5,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

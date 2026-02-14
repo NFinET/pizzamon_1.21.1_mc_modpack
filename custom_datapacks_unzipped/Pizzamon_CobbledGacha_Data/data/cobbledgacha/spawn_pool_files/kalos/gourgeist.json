@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gourgeist",
+      "bucket": "uncommon",
+      "weight": 0.55,
+      "minLevel": 29,
+      "maxLevel": 49
+    }
+  ]
+}

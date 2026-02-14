@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "silicobra",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "espathra",
+      "bucket": "uncommon",
+      "weight": 0.96,
+      "minLevel": 35,
+      "maxLevel": 48
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chandelure",
+      "bucket": "common",
+      "weight": 0.03,
+      "minLevel": 41,
+      "maxLevel": 52
+    }
+  ]
+}

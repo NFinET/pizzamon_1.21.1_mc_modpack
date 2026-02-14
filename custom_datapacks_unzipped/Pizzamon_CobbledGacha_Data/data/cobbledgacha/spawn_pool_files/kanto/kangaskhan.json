@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "kangaskhan",
+      "bucket": "rare",
+      "weight": 10,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "alakazam",
+      "bucket": "common",
+      "weight": 0.072,
+      "minLevel": 35,
+      "maxLevel": 50
+    }
+  ]
+}

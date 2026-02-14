@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "togetic",
+      "bucket": "rare",
+      "weight": 2.375,
+      "minLevel": 20,
+      "maxLevel": 41
+    }
+  ]
+}

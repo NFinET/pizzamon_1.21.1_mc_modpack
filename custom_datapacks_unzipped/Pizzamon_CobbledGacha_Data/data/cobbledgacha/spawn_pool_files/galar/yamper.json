@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "yamper",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

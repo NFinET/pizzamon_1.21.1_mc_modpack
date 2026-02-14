@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "baltoy",
+      "bucket": "uncommon",
+      "weight": 5,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

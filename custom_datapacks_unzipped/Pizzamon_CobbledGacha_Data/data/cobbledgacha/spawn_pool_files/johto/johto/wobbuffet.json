@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wobbuffet",
+      "bucket": "rare",
+      "weight": 2.5,
+      "minLevel": 15,
+      "maxLevel": 41
+    }
+  ]
+}

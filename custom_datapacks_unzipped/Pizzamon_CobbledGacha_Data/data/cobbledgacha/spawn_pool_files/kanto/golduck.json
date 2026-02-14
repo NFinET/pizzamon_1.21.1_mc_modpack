@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "golduck",
+      "bucket": "common",
+      "weight": 0.5,
+      "minLevel": 33,
+      "maxLevel": 50
+    }
+  ]
+}

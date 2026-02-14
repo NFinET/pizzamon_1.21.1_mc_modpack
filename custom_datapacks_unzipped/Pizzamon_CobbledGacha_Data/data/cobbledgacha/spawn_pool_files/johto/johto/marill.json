@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "marill",
+      "bucket": "common",
+      "weight": 0.891,
+      "minLevel": 14,
+      "maxLevel": 25
+    }
+  ]
+}

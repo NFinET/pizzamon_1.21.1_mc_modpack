@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "eevee",
+      "bucket": "uncommon",
+      "weight": 9,
+      "minLevel": 5,
+      "maxLevel": 33
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "aegislash",
+      "bucket": "uncommon",
+      "weight": 0.532,
+      "minLevel": 40,
+      "maxLevel": 50
+    }
+  ]
+}

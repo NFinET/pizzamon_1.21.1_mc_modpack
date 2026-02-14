@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "accelgor",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 26,
+      "maxLevel": 50
+    }
+  ]
+}

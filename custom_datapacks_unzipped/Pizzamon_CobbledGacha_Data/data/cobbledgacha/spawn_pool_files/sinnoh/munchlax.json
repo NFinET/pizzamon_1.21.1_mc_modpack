@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "munchlax",
+      "bucket": "rare",
+      "weight": 7.5,
+      "minLevel": 24,
+      "maxLevel": 39
+    }
+  ]
+}

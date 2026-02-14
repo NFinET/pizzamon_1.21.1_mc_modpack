@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "caterpie",
+      "bucket": "common",
+      "weight": 7,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

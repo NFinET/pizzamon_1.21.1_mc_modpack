@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "smeargle",
+      "bucket": "rare",
+      "weight": 7.333,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

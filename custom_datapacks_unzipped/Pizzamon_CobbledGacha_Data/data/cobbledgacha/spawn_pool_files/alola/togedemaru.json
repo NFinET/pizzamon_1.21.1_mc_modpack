@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "togedemaru",
+      "bucket": "uncommon",
+      "weight": 10.0,
+      "minLevel": 19,
+      "maxLevel": 44
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "prinplup",
+      "bucket": "ultra_rare",
+      "weight": 3.6,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

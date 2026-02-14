@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "nosepass",
+      "bucket": "uncommon",
+      "weight": 5.52,
+      "minLevel": 13,
+      "maxLevel": 38
+    }
+  ]
+}

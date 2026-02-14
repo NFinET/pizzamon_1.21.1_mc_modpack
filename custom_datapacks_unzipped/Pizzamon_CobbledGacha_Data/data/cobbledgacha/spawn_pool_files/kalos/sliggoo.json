@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sliggoo",
+      "bucket": "rare",
+      "weight": 2.925,
+      "minLevel": 40,
+      "maxLevel": 45
+    }
+  ]
+}

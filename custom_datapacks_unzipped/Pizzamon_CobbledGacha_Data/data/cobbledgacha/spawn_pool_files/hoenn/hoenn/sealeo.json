@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sealeo",
+      "bucket": "common",
+      "weight": 0.396,
+      "minLevel": 32,
+      "maxLevel": 41
+    }
+  ]
+}

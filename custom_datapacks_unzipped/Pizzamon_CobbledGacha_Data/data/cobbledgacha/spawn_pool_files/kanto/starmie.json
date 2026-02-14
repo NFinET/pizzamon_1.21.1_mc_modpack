@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "starmie",
+      "bucket": "common",
+      "weight": 0.416,
+      "minLevel": 29,
+      "maxLevel": 52
+    }
+  ]
+}

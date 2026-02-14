@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pupitar",
+      "bucket": "ultra-rare",
+      "weight": 2.925,
+      "minLevel": 30,
+      "maxLevel": 54
+    }
+  ]
+}

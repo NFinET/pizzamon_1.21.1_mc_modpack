@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "abra",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

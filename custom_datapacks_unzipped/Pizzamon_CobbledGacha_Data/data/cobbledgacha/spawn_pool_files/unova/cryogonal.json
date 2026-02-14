@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cryogonal",
+      "bucket": "uncommon",
+      "weight": 2.0,
+      "minLevel": 27,
+      "maxLevel": 52
+    }
+  ]
+}

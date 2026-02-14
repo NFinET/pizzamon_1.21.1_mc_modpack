@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sneasel",
+      "bucket": "uncommon",
+      "weight": 9.2,
+      "minLevel": 18,
+      "maxLevel": 43
+    }
+  ]
+}

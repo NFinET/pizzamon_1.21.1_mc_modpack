@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tadbulb",
+      "bucket": "common",
+      "weight": 5.7,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

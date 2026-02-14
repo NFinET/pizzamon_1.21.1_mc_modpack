@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "darmanitan",
+      "bucket": "common",
+      "weight": 4.2,
+      "minLevel": 35,
+      "maxLevel": 54
+    }
+  ]
+}

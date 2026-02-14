@@ -1,0 +1,5 @@
+{ "pack": {
+	"description": "Patch datapack for Apothic Enchanting enchanting system bonus stats compatibility expansion by NFinET_Owa",
+	"pack_format": 34,
+	"supported_formats": [18,26]
+}}

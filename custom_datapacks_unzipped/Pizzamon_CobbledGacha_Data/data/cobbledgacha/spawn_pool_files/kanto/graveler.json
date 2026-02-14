@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "graveler",
+      "bucket": "common",
+      "weight": 1,
+      "minLevel": 25,
+      "maxLevel": 39
+    }
+  ]
+}

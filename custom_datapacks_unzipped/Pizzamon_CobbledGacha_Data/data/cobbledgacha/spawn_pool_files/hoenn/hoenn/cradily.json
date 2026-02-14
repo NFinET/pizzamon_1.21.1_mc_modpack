@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cradily",
+      "bucket": "ultra-rare",
+      "weight": 4.0,
+      "minLevel": 40,
+      "maxLevel": 50
+    }
+  ]
+}

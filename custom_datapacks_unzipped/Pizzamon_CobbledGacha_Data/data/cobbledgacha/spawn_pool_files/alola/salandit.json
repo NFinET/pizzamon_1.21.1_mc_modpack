@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "salandit",
+      "bucket": "common",
+      "weight": 8.91,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

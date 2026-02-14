@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hawlucha",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 25,
+      "maxLevel": 50
+    }
+  ]
+}

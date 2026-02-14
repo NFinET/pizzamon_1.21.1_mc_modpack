@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "simipour",
+      "bucket": "uncommon",
+      "weight": 0.96,
+      "minLevel": 27,
+      "maxLevel": 50
+    }
+  ]
+}

@@ -32,7 +32,7 @@
 	#Default Value: 1
 	# Default: 1
 	# Range: > 0
-	repair_with_material_unit_cost = 1
+	repair_with_material_unit_cost = 3
 
 [prior_work_penalty]
 	#FIXED: When renaming / repairing, ignore any prior work penalty on the item. Makes prior work penalty only relevant when new enchantments are added.
@@ -80,4 +80,4 @@
 	anvil_repairing = true
 	#Mobs that have a custom name drop a name tag with that name on death.
 	#Default Value: false
-	name_tags_drop_from_mobs = false
+	name_tags_drop_from_mobs = true

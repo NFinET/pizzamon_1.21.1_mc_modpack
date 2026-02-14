@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gigalith",
+      "bucket": "uncommon",
+      "weight": 0.065,
+      "minLevel": 34,
+      "maxLevel": 52
+    }
+  ]
+}

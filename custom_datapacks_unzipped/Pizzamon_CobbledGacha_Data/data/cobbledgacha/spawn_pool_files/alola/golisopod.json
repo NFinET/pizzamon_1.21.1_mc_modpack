@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "golisopod",
+      "bucket": "uncommon",
+      "weight": 1.258,
+      "minLevel": 30,
+      "maxLevel": 53
+    }
+  ]
+}

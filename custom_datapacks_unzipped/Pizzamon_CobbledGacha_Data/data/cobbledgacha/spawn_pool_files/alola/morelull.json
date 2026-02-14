@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "morelull",
+      "bucket": "common",
+      "weight": 3.6,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

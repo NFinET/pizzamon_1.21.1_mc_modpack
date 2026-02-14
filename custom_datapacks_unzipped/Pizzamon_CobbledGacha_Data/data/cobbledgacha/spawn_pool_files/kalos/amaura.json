@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "amaura",
+      "bucket": "ultra_rare",
+      "weight": 6.0,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

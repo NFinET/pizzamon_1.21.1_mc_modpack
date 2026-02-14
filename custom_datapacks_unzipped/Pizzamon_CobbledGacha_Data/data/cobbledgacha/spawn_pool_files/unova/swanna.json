@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "swanna",
+      "bucket": "uncommon",
+      "weight": 1.3,
+      "minLevel": 35,
+      "maxLevel": 47
+    }
+  ]
+}

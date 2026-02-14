@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "elgyem",
+      "bucket": "common",
+      "weight": 7.6,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

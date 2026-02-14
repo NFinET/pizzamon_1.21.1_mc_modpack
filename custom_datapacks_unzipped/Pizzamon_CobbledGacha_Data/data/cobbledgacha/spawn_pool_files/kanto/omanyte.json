@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "omanyte",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

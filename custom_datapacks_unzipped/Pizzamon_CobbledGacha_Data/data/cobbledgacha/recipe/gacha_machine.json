@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:glass"
+    },
+    "Y": {
+      "item": "minecraft:dispenser"
+    },
+    "P": {
+      "item": "cobblemon:poke_ball"
+    }
+  },
+  "pattern": [
+    "###",
+    "XPX",
+    "#Y#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobbledgacha:gacha_machine"
+  }
+}

@@ -1,4 +1,4 @@
-This is a full list of the included Resource Packs in the modpack. These are all forced by Resource Pack Overrides to avoid issues, enforce a load order that doesn't cause problems, and prevent players from accidentally toggling them off or changing the load order in-game (Because for some godforsaken reason Minecraft Data and Resource packs don't allow later packs to overwrite ones loaded earlier like how it works with any other modding platform ever made).
+This is a full list of the included Resource Packs in the modpack. These are all forced by Global Packs to avoid issues, enforce a load order that doesn't cause problems, and prevent players from accidentally toggling them off or changing the load order in-game (Because for some godforsaken reason Minecraft Data and Resource packs don't allow later packs to overwrite ones loaded earlier like how it works with any other modding platform ever made).
 This list is NOT in that load order. Entries with a "\*" indicate a resource pack custom-made for this modpack, and can be found in the relevant folders in this repository.
 Some entries may be duplicated in the Datapacks list and folder, this is because some are "dual" packs and need to be loaded as both to load certain types of data properly.
 
@@ -26,6 +26,7 @@ Some entries may be duplicated in the Datapacks list and folder, this is because
 - MC Swords for Honedge Line V2.0.zip
 - \* Pizzamon_CobbleVillagersNameFix_v1.zip
 - \* PizzamonLogo_v2.zip
+- \* Pizzamon_CobbledGacha_Resource
 - RCT Trainers+ [1.6] v2.1.zip
 - Vivillon Pride Patterns v1.0.zip
 - Wallpapers Plus! 1.0.zip

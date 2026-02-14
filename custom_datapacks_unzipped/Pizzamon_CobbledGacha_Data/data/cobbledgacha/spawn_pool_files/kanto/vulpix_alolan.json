@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "vulpix alolan",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

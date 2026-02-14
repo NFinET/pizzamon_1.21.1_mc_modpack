@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "fomantis",
+      "bucket": "common",
+      "weight": 7.8,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

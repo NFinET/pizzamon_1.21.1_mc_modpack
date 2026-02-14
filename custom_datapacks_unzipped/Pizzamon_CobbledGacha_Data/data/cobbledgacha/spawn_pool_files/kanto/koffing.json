@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "koffing",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

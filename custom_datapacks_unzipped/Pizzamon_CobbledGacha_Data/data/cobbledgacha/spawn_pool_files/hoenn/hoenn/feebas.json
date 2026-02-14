@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "feebas",
+      "bucket": "common",
+      "weight": 7.6,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

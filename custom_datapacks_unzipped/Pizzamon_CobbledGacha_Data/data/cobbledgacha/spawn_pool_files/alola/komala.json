@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "komala",
+      "bucket": "common",
+      "weight": 6.0,
+      "minLevel": 23,
+      "maxLevel": 48
+    }
+  ]
+}

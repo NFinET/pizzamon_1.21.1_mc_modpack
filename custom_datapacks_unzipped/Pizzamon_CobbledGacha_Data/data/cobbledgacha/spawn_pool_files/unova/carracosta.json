@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "carracosta",
+      "bucket": "ultra_rare",
+      "weight": 4.0,
+      "minLevel": 37,
+      "maxLevel": 57
+    }
+  ]
+}

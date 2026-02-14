@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tirtouga",
+      "bucket": "ultra_rare",
+      "weight": 6.0,
+      "minLevel": 15,
+      "maxLevel": 40
+    }
+  ]
+}

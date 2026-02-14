@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "barraskewda",
+      "bucket": "common",
+      "weight": 0.8,
+      "minLevel": 26,
+      "maxLevel": 49
+    }
+  ]
+}

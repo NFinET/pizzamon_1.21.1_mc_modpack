@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "crobat",
+      "bucket": "common",
+      "weight": 0.071,
+      "minLevel": 41,
+      "maxLevel": 54
+    }
+  ]
+}

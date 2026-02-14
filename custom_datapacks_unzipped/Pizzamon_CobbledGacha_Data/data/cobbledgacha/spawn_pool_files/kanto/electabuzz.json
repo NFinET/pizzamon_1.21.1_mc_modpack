@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "electabuzz",
+      "bucket": "uncommon",
+      "weight": 0.304,
+      "minLevel": 30,
+      "maxLevel": 50
+    }
+  ]
+}

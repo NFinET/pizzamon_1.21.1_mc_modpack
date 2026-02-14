@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "phantump",
+      "bucket": "common",
+      "weight": 5.7,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

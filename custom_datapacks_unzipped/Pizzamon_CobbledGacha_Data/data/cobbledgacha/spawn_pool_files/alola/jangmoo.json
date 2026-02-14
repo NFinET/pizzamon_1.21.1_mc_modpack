@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "jangmoo",
+      "bucket": "rare",
+      "weight": 6.75,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

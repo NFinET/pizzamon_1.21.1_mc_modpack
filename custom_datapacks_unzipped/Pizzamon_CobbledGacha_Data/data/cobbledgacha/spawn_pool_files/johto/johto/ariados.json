@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ariados",
+      "bucket": "common",
+      "weight": 0.68,
+      "minLevel": 22,
+      "maxLevel": 40
+    }
+  ]
+}

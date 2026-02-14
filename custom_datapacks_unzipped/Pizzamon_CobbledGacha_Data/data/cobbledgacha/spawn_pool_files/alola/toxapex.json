@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "toxapex",
+      "bucket": "uncommon",
+      "weight": 1.06,
+      "minLevel": 38,
+      "maxLevel": 50
+    }
+  ]
+}

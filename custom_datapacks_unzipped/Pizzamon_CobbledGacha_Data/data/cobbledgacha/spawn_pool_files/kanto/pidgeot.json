@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pidgeot",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 36,
+      "maxLevel": 48
+    }
+  ]
+}

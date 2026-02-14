@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "snorlax",
+      "bucket": "rare",
+      "weight": 2,
+      "minLevel": 34,
+      "maxLevel": 54
+    }
+  ]
+}

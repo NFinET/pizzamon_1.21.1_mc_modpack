@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scatterbug",
+      "bucket": "common",
+      "weight": 5.75,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

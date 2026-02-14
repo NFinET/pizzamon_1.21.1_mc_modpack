@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "qwilfish",
+      "bucket": "uncommon",
+      "weight": 10,
+      "minLevel": 10,
+      "maxLevel": 44
+    }
+  ]
+}

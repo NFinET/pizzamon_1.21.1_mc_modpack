@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sunkern",
+      "bucket": "common",
+      "weight": 8.55,
+      "minLevel": 1,
+      "maxLevel": 18
+    }
+  ]
+}

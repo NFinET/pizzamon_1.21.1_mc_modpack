@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "trevenant",
+      "bucket": "common",
+      "weight": 0.3,
+      "minLevel": 26,
+      "maxLevel": 47
+    }
+  ]
+}

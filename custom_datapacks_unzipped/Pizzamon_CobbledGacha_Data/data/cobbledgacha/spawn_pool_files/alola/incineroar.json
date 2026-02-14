@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "incineroar",
+      "bucket": "ultra_rare",
+      "weight": 0.4,
+      "minLevel": 34,
+      "maxLevel": 53
+    }
+  ]
+}

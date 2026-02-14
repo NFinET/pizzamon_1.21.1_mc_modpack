@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "inkay",
+      "bucket": "uncommon",
+      "weight": 4.484,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

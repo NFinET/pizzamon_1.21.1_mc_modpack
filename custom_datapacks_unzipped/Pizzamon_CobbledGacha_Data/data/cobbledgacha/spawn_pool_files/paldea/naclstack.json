@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "naclstack",
+      "bucket": "common",
+      "weight": 0.78,
+      "minLevel": 24,
+      "maxLevel": 36
+    }
+  ]
+}
