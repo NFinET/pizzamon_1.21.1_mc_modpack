@@ -22,7 +22,6 @@ log_pack_ids = true
 		"resourcepacks/ATM x MSD [3.2.1].zip",
 		"resourcepacks/Lost Lore [v1.8].zip",
 		"resourcepacks/CobbleSounds[Complete]_v1.4.1.zip",
-		"resourcepacks/Cobblemon Pasture Enhanced v3.zip",
 		"resourcepacks/RCT Trainers+ [1.6] v2.1.zip",
 		"resourcepacks/CobbleFolk Skin Pack Alaris Version - With Create Villager.zip",
 		"resourcepacks/FreshCompats_v1.6.zip",
@@ -36,13 +35,13 @@ log_pack_ids = true
 		"resourcepacks/Cheese-Pokedollars.zip",
 		"resourcepacks/Cobblemon 3D Poké Rods 1.0.zip",
 		"resourcepacks/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip",
-		"resourcepacks/Cobblemon Loading Screen.zip",
 		"resourcepacks/CobblemonAdvancementPlaques-[1.0.2].zip",
 		"resourcepacks/Emissive-Cobblemon-Ores-1.7.zip",
 		"resourcepacks/iB - 3D Cobblenav-release-4.zip",
 		"resourcepacks/Jakotens' Poké-Hats 3.0.zip",
 		"resourcepacks/PizzamonLogo_v2.zip",
-		"resourcepacks/Wallpapers Plus! 1.0.zip"
+		"resourcepacks/Wallpapers Plus! 1.0.zip",
+		"resourcepacks/Pizzamon_CobbledGacha_Resource.zip"
 	]
 	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
 	# Search for "# Listing Resource Packs #" inside the log
@@ -76,7 +75,9 @@ log_pack_ids = true
 		"datapacks/DPP-HoneyTrees-Standard-Spawns.zip",
 		"datapacks/Jakotens' Poké-Hats 3.0.zip",
 		"datapacks/RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip",
-		"datapacks/Pizzamon_BotanyPotsModule_v1.zip"
+		"datapacks/Pizzamon_BotanyPotsModule_v1.zip",
+		"datapacks/Pizzamon_ApothicEnchantingModule_v1.zip",
+		"datapacks/Pizzamon_CobbledGacha_Data.zip"
 	]
 	optional = ["global_packs/optional_data/"]
 	enable_builtin = []

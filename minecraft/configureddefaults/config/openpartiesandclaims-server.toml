@@ -68,7 +68,7 @@
 		#This value can be overridden with a player permission.
 		# Default: 10
 		# Range: > 0
-		maxPlayerClaimForceloads = 10
+		maxPlayerClaimForceloads = 25
 		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimsPermission = "xaero.pac_max_claims"
 		#The permission that should override the default "maxPlayerClaimForceloads" value. Set it to an empty string to never check permissions.
@@ -82,7 +82,7 @@
 		#The maximum distance on the X or Z axis (forming a square) that a chunk can be claimed at by a player.
 		# Default: 5
 		# Range: > 0
-		maxClaimDistance = 5
+		maxClaimDistance = 9
 		#The type of the list defined in "claimableDimensionsList". ONLY - include only the listed dimensions. ALL_BUT - include all but the listed dimensions.
 		#Allowed Values: ONLY, ALL_BUT
 		claimableDimensionsListType = "ALL_BUT"

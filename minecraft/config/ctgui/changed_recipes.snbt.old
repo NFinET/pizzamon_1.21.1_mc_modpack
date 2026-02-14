@@ -727,13 +727,13 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    r: {
+                    o: {
                         item: "cobblemon:blue_apricorn"
                     }
                 },
                 pattern: [
                     " b ",
-                    "rir",
+                    "oio",
                     " b "
                 ],
                 result: {
@@ -750,13 +750,13 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    j: {
+                    w: {
                         item: "cobblemon:blue_apricorn"
                     }
                 },
                 pattern: [
                     " b ",
-                    "jij",
+                    "wiw",
                     " b "
                 ],
                 result: {
@@ -898,7 +898,7 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    w: {
+                    q: {
                         item: "cobblemon:black_apricorn"
                     },
                     y: {
@@ -907,7 +907,7 @@
                 },
                 pattern: [
                     " y ",
-                    "biw",
+                    "biq",
                     " y "
                 ],
                 result: {
@@ -924,7 +924,7 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    o: {
+                    r: {
                         item: "cobblemon:black_apricorn"
                     },
                     y: {
@@ -933,7 +933,7 @@
                 },
                 pattern: [
                     " y ",
-                    "bio",
+                    "bir",
                     " y "
                 ],
                 result: {
@@ -1069,7 +1069,7 @@
                     i: {
                         tag: "cobblemon:tier_2_poke_ball_materials"
                     },
-                    j: {
+                    o: {
                         item: "cobblemon:blue_apricorn"
                     },
                     w: {
@@ -1078,7 +1078,7 @@
                 },
                 pattern: [
                     " b ",
-                    "jij",
+                    "oio",
                     " w "
                 ],
                 result: {
@@ -1092,7 +1092,7 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
-                    d: {
+                    e: {
                         item: "cobblemon:blue_apricorn"
                     },
                     i: {
@@ -1104,7 +1104,7 @@
                 },
                 pattern: [
                     " b ",
-                    "did",
+                    "eie",
                     " w "
                 ],
                 result: {
@@ -1423,13 +1423,13 @@
                     g: {
                         item: "cobblemon:green_apricorn"
                     },
-                    y: {
+                    k: {
                         tag: "cobblemon:tier_3_poke_ball_materials"
                     }
                 },
                 pattern: [
                     " g ",
-                    "byb",
+                    "bkb",
                     " g "
                 ],
                 result: {
@@ -1446,13 +1446,13 @@
                     g: {
                         item: "cobblemon:green_apricorn"
                     },
-                    r: {
+                    l: {
                         tag: "cobblemon:tier_3_poke_ball_materials"
                     }
                 },
                 pattern: [
                     " g ",
-                    "brb",
+                    "blb",
                     " g "
                 ],
                 result: {
@@ -2353,13 +2353,13 @@
                     c: {
                         tag: "cobblemon:tier_1_poke_ball_materials"
                     },
-                    o: {
+                    x: {
                         item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "oco",
+                    "xcx",
                     " b "
                 ],
                 result: {
@@ -2376,13 +2376,13 @@
                     c: {
                         tag: "cobblemon:tier_1_poke_ball_materials"
                     },
-                    f: {
+                    h: {
                         item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "fcf",
+                    "hch",
                     " b "
                 ],
                 result: {
@@ -2406,15 +2406,15 @@
                         item: "cobblemon:black_apricorn"
                     },
                     i: {
-                        tag: "cobblemon:tier_2_poke_ball_materials"
-                    },
-                    l: {
                         item: "cobblemon:black_tumblestone"
+                    },
+                    y: {
+                        tag: "cobblemon:tier_2_poke_ball_materials"
                     }
                 },
                 pattern: [
                     " b ",
-                    "lil",
+                    "iyi",
                     " b "
                 ],
                 result: {
@@ -2428,7 +2428,7 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
-                    h: {
+                    c: {
                         item: "cobblemon:black_tumblestone"
                     },
                     i: {
@@ -2437,7 +2437,7 @@
                 },
                 pattern: [
                     " b ",
-                    "hih",
+                    "cic",
                     " b "
                 ],
                 result: {
@@ -2463,13 +2463,13 @@
                     g: {
                         tag: "cobblemon:tier_3_poke_ball_materials"
                     },
-                    h: {
+                    m: {
                         item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "hgh",
+                    "mgm",
                     " b "
                 ],
                 result: {
@@ -2483,16 +2483,16 @@
                     b: {
                         item: "cobblemon:black_apricorn"
                     },
-                    g: {
+                    f: {
                         tag: "cobblemon:tier_3_poke_ball_materials"
                     },
-                    i: {
+                    g: {
                         item: "cobblemon:black_tumblestone"
                     }
                 },
                 pattern: [
                     " b ",
-                    "igi",
+                    "gfg",
                     " b "
                 ],
                 result: {
@@ -2606,13 +2606,13 @@
                     m: {
                         item: "minecraft:magenta_dye"
                     },
-                    o: {
+                    y: {
                         item: "minecraft:mushroom_stem"
                     }
                 },
                 pattern: [
                     "mgm",
-                    "gog",
+                    "gyg",
                     "mgm"
                 ],
                 result: {
@@ -2779,13 +2779,13 @@
                     g: {
                         item: "minecraft:gold_block"
                     },
-                    h: {
+                    x: {
                         item: "minecraft:ender_eye"
                     }
                 },
                 pattern: [
                     "ege",
-                    "ghg",
+                    "gxg",
                     " g "
                 ],
                 result: {
@@ -2812,13 +2812,13 @@
                     d: {
                         item: "ends_delight:dragon_tooth"
                     },
-                    h: {
+                    r: {
                         item: "minecraft:bone"
                     }
                 },
                 pattern: [
                     "bc ",
-                    "chc",
+                    "crc",
                     "dcb"
                 ],
                 result: {
@@ -2836,19 +2836,19 @@
             recipe: {
                 category: "misc",
                 key: {
+                    a: {
+                        item: "minecraft:bone_block"
+                    },
                     b: {
                         item: "minecraft:bone"
                     },
                     i: {
                         item: "minecraft:ink_sac"
-                    },
-                    j: {
-                        item: "minecraft:bone_block"
                     }
                 },
                 pattern: [
                     "ibi",
-                    "bjb",
+                    "bab",
                     "iii"
                 ],
                 result: {
@@ -2899,13 +2899,13 @@
                     s: {
                         item: "minecraft:sand"
                     },
-                    y: {
+                    v: {
                         item: "minecraft:skeleton_skull"
                     }
                 },
                 pattern: [
                     "gsg",
-                    "sys",
+                    "svs",
                     "gsg"
                 ],
                 result: {
@@ -2929,16 +2929,16 @@
                     c: {
                         item: "minecraft:cobweb"
                     },
+                    k: {
+                        item: "minecraft:skeleton_skull"
+                    },
                     s: {
                         item: "minecraft:spider_eye"
-                    },
-                    v: {
-                        item: "minecraft:skeleton_skull"
                     }
                 },
                 pattern: [
                     "sbs",
-                    "svs",
+                    "sks",
                     "bcb"
                 ],
                 result: {
@@ -2959,17 +2959,17 @@
                     e: {
                         item: "minecraft:ender_pearl"
                     },
-                    p: {
+                    s: {
                         item: "minecraft:end_stone"
                     },
-                    s: {
+                    v: {
                         item: "minecraft:skeleton_skull"
                     }
                 },
                 pattern: [
-                    "epe",
-                    "psp",
-                    "ppp"
+                    "ese",
+                    "svs",
+                    "sss"
                 ],
                 result: {
                     count: 1,
@@ -2986,14 +2986,14 @@
             recipe: {
                 category: "misc",
                 key: {
+                    b: {
+                        item: "supplementaries:enderman_head"
+                    },
                     d: {
                         item: "ends_delight:dragon_tooth"
                     },
                     e: {
                         item: "minecraft:end_crystal"
-                    },
-                    k: {
-                        item: "supplementaries:enderman_head"
                     },
                     o: {
                         item: "minecraft:obsidian"
@@ -3001,7 +3001,7 @@
                 },
                 pattern: [
                     "eoe",
-                    "oko",
+                    "obo",
                     "dod"
                 ],
                 result: {
@@ -3055,26 +3055,26 @@
                     b: {
                         item: "minecraft:brown_dye"
                     },
+                    j: {
+                        item: "minecraft:yellow_dye"
+                    },
                     o: {
                         item: "minecraft:orange_dye"
                     },
                     p: {
                         item: "minecraft:pink_dye"
                     },
-                    q: {
-                        item: "minecraft:blue_dye"
-                    },
                     s: {
                         item: "minecraft:skeleton_skull"
                     },
                     y: {
-                        item: "minecraft:yellow_dye"
+                        item: "minecraft:blue_dye"
                     }
                 },
                 pattern: [
                     "bbb",
-                    "qsq",
-                    "oyp"
+                    "ysy",
+                    "ojp"
                 ],
                 result: {
                     count: 1,
@@ -3172,14 +3172,14 @@
             recipe: {
                 category: "misc",
                 key: {
+                    b: {
+                        item: "minecraft:prismarine_shard"
+                    },
                     d: {
                         item: "minecraft:dark_prismarine"
                     },
                     p: {
                         item: "minecraft:prismarine_crystals"
-                    },
-                    r: {
-                        item: "minecraft:prismarine_shard"
                     },
                     s: {
                         item: "minecraft:sea_lantern"
@@ -3187,7 +3187,7 @@
                 },
                 pattern: [
                     "dpd",
-                    "rsr",
+                    "bsb",
                     "dpd"
                 ],
                 result: {
@@ -3285,7 +3285,7 @@
             recipe: {
                 category: "misc",
                 key: {
-                    n: {
+                    b: {
                         item: "minecraft:purple_wool"
                     },
                     p: {
@@ -3294,7 +3294,7 @@
                 },
                 pattern: [
                     "ppp",
-                    "pnp",
+                    "pbp",
                     "ppp"
                 ],
                 result: {
@@ -3718,19 +3718,19 @@
                     e: {
                         item: "cobblemon:energy_root"
                     },
+                    f: {
+                        item: "minecraft:red_mushroom"
+                    },
                     p: {
                         item: "cobblemon:pep_up_flower"
                     },
                     r: {
                         item: "cobblemon:revival_herb"
-                    },
-                    x: {
-                        item: "minecraft:red_mushroom"
                     }
                 },
                 pattern: [
                     "rpr",
-                    "exe",
+                    "efe",
                     "rpr"
                 ],
                 result: {
@@ -4522,7 +4522,7 @@
             recipe: {
                 category: "misc",
                 key: {
-                    b: {
+                    m: {
                         tag: "cobblemon:type_gems"
                     },
                     n: {
@@ -4530,9 +4530,9 @@
                     }
                 },
                 pattern: [
-                    "nbn",
-                    "bnb",
-                    "nbn"
+                    "nmn",
+                    "mnm",
+                    "nmn"
                 ],
                 result: {
                     count: 5,
@@ -4937,20 +4937,20 @@
             recipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        item: "cobblemon:revival_herb"
-                    },
-                    n: {
-                        item: "minecraft:redstone_torch"
-                    },
                     r: {
                         item: "minecraft:redstone"
+                    },
+                    u: {
+                        item: "cobblemon:revival_herb"
+                    },
+                    z: {
+                        item: "minecraft:redstone_torch"
                     }
                 },
                 pattern: [
-                    "rnr",
-                    "nan",
-                    "rnr"
+                    "rzr",
+                    "zuz",
+                    "rzr"
                 ],
                 result: {
                     count: 1,
@@ -5269,156 +5269,6 @@
         },
         {
             exported: 1b,
-            originalId: "cobbledgacha:gacha_machine",
-            recipe: {
-                category: "misc",
-                key: {
-                    d: {
-                        item: "minecraft:dispenser"
-                    },
-                    g: {
-                        item: "minecraft:glass"
-                    },
-                    i: {
-                        item: "minecraft:iron_ingot"
-                    },
-                    p: {
-                        item: "cobblemon:poke_ball"
-                    }
-                },
-                pattern: [
-                    "iii",
-                    "gpg",
-                    "idi"
-                ],
-                result: {
-                    count: 1,
-                    id: "cobbledgacha:gacha_machine"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "REMOVED"
-        },
-        {
-            exported: 1b,
-            originalId: "cobbledgacha:gacha_machine_2",
-            recipe: {
-                category: "misc",
-                key: {
-                    a: {
-                        item: "minecraft:chest"
-                    },
-                    b: {
-                        item: "minecraft:blue_dye"
-                    },
-                    c: {
-                        item: "minecraft:coal"
-                    },
-                    d: {
-                        item: "minecraft:dispenser"
-                    },
-                    f: {
-                        item: "minecraft:feather"
-                    },
-                    i: {
-                        item: "minecraft:iron_ingot"
-                    },
-                    s: {
-                        item: "minecraft:stick"
-                    }
-                },
-                pattern: [
-                    "fbs",
-                    "cdc",
-                    "iai"
-                ],
-                result: {
-                    count: 1,
-                    id: "cobbledgacha:gacha_machine_2"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "REMOVED"
-        },
-        {
-            exported: 1b,
-            originalId: "cobbledgacha:gacha_machine_3",
-            recipe: {
-                category: "misc",
-                key: {
-                    d: {
-                        item: "minecraft:diamond"
-                    },
-                    g: {
-                        item: "cobblemon:great_ball"
-                    },
-                    i: {
-                        item: "minecraft:iron_ingot"
-                    },
-                    p: {
-                        item: "cobblemon:poke_ball"
-                    },
-                    u: {
-                        item: "cobblemon:ultra_ball"
-                    },
-                    x: {
-                        item: "minecraft:dispenser"
-                    }
-                },
-                pattern: [
-                    "ipi",
-                    "dgd",
-                    "xux"
-                ],
-                result: {
-                    count: 1,
-                    id: "cobbledgacha:gacha_machine_3"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "REMOVED"
-        },
-        {
-            exported: 1b,
-            originalId: "cobbledgacha:gacha_machine_4",
-            recipe: {
-                category: "misc",
-                key: {
-                    d: {
-                        item: "minecraft:diamond"
-                    },
-                    i: {
-                        item: "minecraft:iron_block"
-                    },
-                    m: {
-                        item: "cobblemon:master_ball"
-                    },
-                    n: {
-                        item: "minecraft:nether_star"
-                    },
-                    z: {
-                        item: "minecraft:diamond_block"
-                    }
-                },
-                pattern: [
-                    "dnd",
-                    "imi",
-                    "ziz"
-                ],
-                result: {
-                    count: 1,
-                    id: "cobbledgacha:gacha_machine_4"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "REMOVED"
-        },
-        {
-            exported: 1b,
             originalId: "cobbledgacha:gacha_machine_5",
             recipe: {
                 category: "misc",
@@ -5577,6 +5427,385 @@
             },
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/warden_tendril_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "minecraft:echo_shard"
+                    },
+                    s: {
+                        item: "minecraft:sculk_sensor"
+                    },
+                    t: {
+                        item: "minecraft:sculk_shrieker"
+                    },
+                    y: {
+                        item: "minecraft:sculk_catalyst"
+                    }
+                },
+                pattern: [
+                    " e ",
+                    "sys",
+                    " t "
+                ],
+                result: {
+                    count: 1,
+                    id: "apothic_enchanting:warden_tendril"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/name_tag_0",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        tag: "c:strings"
+                    },
+                    {
+                        tag: "c:dyes/black"
+                    },
+                    {
+                        tag: "c:dyes/black"
+                    },
+                    {
+                        item: "minecraft:paper"
+                    },
+                    {
+                        item: "minecraft:paper"
+                    },
+                    {
+                        item: "minecraft:paper"
+                    },
+                    {
+                        item: "minecraft:paper"
+                    },
+                    {
+                        item: "minecraft:paper"
+                    },
+                    {
+                        item: "minecraft:paper"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:name_tag"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_10",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:white_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_10"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_9",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:black_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_9"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_8",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:pink_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_8"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_7",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:blue_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_7"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_6",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:green_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_6"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_5",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:yellow_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_5"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_4",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:diamond"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_4"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_3",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:cyan_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_3"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin_2",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobbledgacha:gacha_coin"
+                    },
+                    {
+                        item: "minecraft:purple_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_2"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "cobbledgacha:gacha_coin",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "minecraft:red_dye"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/gacha_coin_2_0",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobblemon:red_apricorn"
+                    },
+                    {
+                        item: "cobblemon:white_apricorn"
+                    },
+                    {
+                        item: "cobblemon:yellow_apricorn"
+                    },
+                    {
+                        item: "cobblemon:green_apricorn"
+                    },
+                    {
+                        item: "cobblemon:blue_apricorn"
+                    },
+                    {
+                        item: "cobblemon:pink_apricorn"
+                    },
+                    {
+                        item: "cobblemon:black_apricorn"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_2"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/gacha_coin_3_0",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "minecraft:lapis_lazuli"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    },
+                    {
+                        item: "cobblemon:relic_coin"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "cobbledgacha:gacha_coin_3"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
             type: "ADDED"
         }
     ]

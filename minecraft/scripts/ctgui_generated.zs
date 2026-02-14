@@ -689,14 +689,6 @@ stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_0", <item:mega_showdown:bl
 
 stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_1", <item:mega_showdown:blank_z> * 2, <item:mega_showdown:sparkling_stone_dark>);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine");
-
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_2");
-
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_3");
-
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_4");
-
 <recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_5");
 
 <recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_6");
@@ -718,4 +710,42 @@ craftingTable.addShaped("ctgui/new/crafting/warden_tendril_0", <item:apothic_enc
     [IIngredientEmpty.getInstance(), <item:minecraft:echo_shard>, IIngredientEmpty.getInstance()],
     [<item:minecraft:sculk_sensor>, <item:minecraft:sculk_catalyst>, <item:minecraft:sculk_sensor>],
     [IIngredientEmpty.getInstance(), <item:minecraft:sculk_shrieker>, IIngredientEmpty.getInstance()]]);
+
+craftingTable.addShapeless("ctgui/new/crafting/name_tag_0", <item:minecraft:name_tag>, [<tag:item:c:strings>, <tag:item:c:dyes/black>, <tag:item:c:dyes/black>, <item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]);
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_10");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_9");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_8");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_7");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_6");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_5");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_4");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_3");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin_2");
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_coin");
+
+craftingTable.addShapeless("ctgui/new/crafting/gacha_coin_2_0", <item:cobbledgacha:gacha_coin_2>, [<item:cobblemon:red_apricorn>, <item:cobblemon:white_apricorn>, <item:cobblemon:yellow_apricorn>, <item:cobblemon:green_apricorn>, <item:cobblemon:blue_apricorn>, <item:cobblemon:pink_apricorn>, <item:cobblemon:black_apricorn>, <item:cobblemon:relic_coin>]);
+
+craftingTable.addShapeless("ctgui/new/crafting/gacha_coin_3_0", <item:cobbledgacha:gacha_coin_3>, [<item:cobblemon:relic_coin>, <item:cobblemon:relic_coin>, <item:cobblemon:relic_coin>, <item:cobblemon:relic_coin>, <item:minecraft:lapis_lazuli>, <item:cobblemon:relic_coin>, <item:cobblemon:relic_coin>, <item:cobblemon:relic_coin>, <item:cobblemon:relic_coin>]);
+
+blastFurnace.addRecipe("ctgui/new/blasting/zinc_block_0", <item:create:zinc_block>, <item:create:raw_zinc_block>, 0.1, 200);
+
+furnace.addRecipe("ctgui/new/smelting/zinc_block_0", <item:create:zinc_block>, <item:create:raw_zinc_block>, 0.1, 200);
+
+furnace.addRecipe("ctgui/new/smelting/azure_silver_block_0", <item:silentgear:azure_silver_block>, <item:silentgear:raw_azure_silver_block>, 0.1, 200);
+
+blastFurnace.addRecipe("ctgui/new/blasting/azure_silver_block_0", <item:silentgear:azure_silver_block>, <item:silentgear:raw_azure_silver_block>, 0.1, 200);
+
+furnace.addRecipe("ctgui/new/smelting/crimson_iron_block_0", <item:silentgear:crimson_iron_block>, <item:silentgear:raw_crimson_iron_block>, 0.1, 200);
+
+blastFurnace.addRecipe("ctgui/new/blasting/crimson_iron_block_0", <item:silentgear:crimson_iron_block>, <item:silentgear:raw_crimson_iron_block>, 0.1, 200);
 

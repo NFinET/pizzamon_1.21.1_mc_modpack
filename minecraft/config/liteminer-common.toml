@@ -1,7 +1,7 @@
 #:)
 prevent_tool_breaking = true
 #:)
-require_correct_tool_enabled = true
+require_correct_tool_enabled = false
 #:)
 # Default: 64
 # Range: 1 ~ 2048
