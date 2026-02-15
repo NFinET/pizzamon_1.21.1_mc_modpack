@@ -11,7 +11,7 @@
       "enabled": true,
       "alwaysAlert": true,
       "alertShiny": true,
-      "alertHiddenAbility": true,
+      "alertHiddenAbility": false,
       "alertDespawned": true,
       "showLegendary": true,
       "statDisplayModes": {
@@ -65,7 +65,7 @@
         "biome": "HOVER",
         "nearestPlayer": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<green>[STRT] </green>{gender}<blue><b>{name}</b></blue>{HA}<gray> appeared </gray>{nearest_player}",
+      "customAlertMessage": "<red>[!]</red> {shiny}<green>[STRT] </green>{gender}<blue><b>{name}</b></blue> {HA}<gray> appeared </gray>{nearest_player}",
       "sounds": {
         "shiny": "",
         "legendary": "",
@@ -105,7 +105,7 @@
         "biome": "HOVER",
         "nearestPlayer": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<gold>[UR] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
+      "customAlertMessage": "<red>[!]</red> {shiny}<gold>[UR] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
       "sounds": {
         "shiny": "",
         "legendary": "",
@@ -145,7 +145,7 @@
         "biome": "HOVER",
         "nearestPlayer": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> <white>A </white>{shiny}<gold>[PSEU] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
+      "customAlertMessage": "<red>[!]</red> {shiny}<gold>[PSEU] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
       "sounds": {
         "shiny": "",
         "legendary": "",
