@@ -5,7 +5,7 @@
     "https://modrinth.com/mod/cobblemon-spawn-alerts",
     "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
   ],
-  "fullSpawnMessage": "<red>[!]</red> {shiny}{legendary}{level}<blue><b>{name}</b></blue>{HA} <gray>spawned </gray>{nearest_player}",
+  "fullSpawnMessage": "<red>[!]</red> {shiny}{legendary}{level}<blue><b>{name}</b></blue> {HA}<gray>spawned </gray>{nearest_player}",
   "despawnMessage": "<white>The {shiny}{legendary}<blue><b>{name}</b></blue> {despawned}",
   "despawnReason_Despawned": "<gray>vanished...</gray>",
   "despawnReason_Captured": "<gray>was </gray><green>caught</green> <gray>by</gray> <gold><b>%s!</b></gold>",
@@ -34,7 +34,7 @@
   "female": "cobblemon-spawn-alerts.female",
   "genderless": "cobblemon-spawn-alerts.genderless",
   "coords": "cobblemon-spawn-alerts.coords",
-  "coords_hover": "<white>Coords:</white><red>%s</red>,<green>%s</green>,<blue>%s</blue>",
+  "coords_hover": "<white>Coords: </white><red>%s</red>, <green>%s</green>, <blue>%s</blue>",
   "coords_unformatted": "cobblemon-spawn-alerts.coords_unformatted",
   "biome": "<gray>in a </gray><green>%s</green> ",
   "biome_hover": "cobblemon-spawn-alerts.biome_hover",
@@ -50,6 +50,6 @@
   "ultrabeast_unformatted": "cobblemon-spawn-alerts.ultrabeast_unformatted",
   "paradox": "<gradient:red:light_purple><b>[PARA] </b></gradient>",
   "paradox_unformatted": "cobblemon-spawn-alerts.paradox_unformatted",
-  "hidden_ability": "<gray>with</gray> <gold><b>[HA] %s</b></gold> ",
+  "hidden_ability": "<gold><b>with a [HA] </b></gold>",
   "hidden_ability_unformatted": "cobblemon-spawn-alerts.hidden_ability_unformatted"
 }

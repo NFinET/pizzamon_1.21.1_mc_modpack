@@ -4,7 +4,7 @@
     "addMessagesIfDisabled": false,
     "showVanillaWhenUnfocused": false,
     "vanillaInputBox": false,
-    "saveInputBoxMessage": true,
+    "saveInputBoxMessage": false,
     "wrappedMessageLineIndent": 1,
     "maxMessages": 300,
     "maxCommandSuggestions": 15,
@@ -248,7 +248,7 @@
                 "height": 123
             },
             "tabSettings": {
-                "selectedTabIndex": 2,
+                "selectedTabIndex": 0,
                 "startRenderTabIndex": 0,
                 "hideTabs": false,
                 "showTabsWhenChatNotOpen": true,
@@ -338,7 +338,30 @@
                 ]
             },
             "autoTabCreator": {
-                "autoTabOptions": []
+                "autoTabOptions": [
+                    {
+                        "pattern": ".*(?<!<)(?i:%PLAYER%)(?!>| has made).*",
+                        "formatted": false,
+                        "skipOthersOnCreation": false,
+                        "tabNameFormatter": "Alerts",
+                        "regexFormatter": ".*(?<!<)(?i:%PLAYER%)(?!>| has made).*",
+                        "autoSendFormatter": "",
+                        "autoPrefixFormatter": "",
+                        "priority": 1000,
+                        "alwaysAdd": false,
+                        "skipOthers": false,
+                        "commandsOverrideAutoPrefix": true,
+                        "suggestionsPatterns": [],
+                        "notificationSettings": {
+                            "disableNotifications": false,
+                            "notificationMatch": {
+                                "pattern": "(?s).*",
+                                "formatted": false
+                            }
+                        },
+                        "temporary": true
+                    }
+                ]
             }
         }
     ],
