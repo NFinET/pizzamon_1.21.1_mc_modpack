@@ -1,22 +1,42 @@
-v2.2.2-release Config Changes
+v2.3.0-release Mod Updates
 
-- Chat Plus
-  - The intended Alerts tab should now properly be shipped with the default configs; any message that mentions the player's username will be caught here and show a notification badge; these messages will still tip over into other tabs.
-  - The Alerts tab uses pattern matching regex of " .*(?<!<)(?i:%PLAYER%)(?!>| has made).* " where "%PLAYER%" is a placeholder dynamically replaced with the player's username. This pattern matches any message naming the player regardless of upper/lowercase while excluding their OWN messgaes and any Advancement messages broadcast to chat.
-  - The input box will no longer save typed but not sent messages, this was intended for convenience, but muscle memory makes it bad
+- CobbledGacha updated v2.1.1 => 3.0.2
+- CobblemonTrialsEdition updated v1.2.0 => v1.2.2
 
-- Cobblemon Spawn Alerts
-  - cobblemon-spawn-alerts/pokemon.json
-    - Defaulted pokemon (non-categoried non-labeled pokemon) will no longer produce Hidden Ability alerts, since in the Cobblemon mod many pokemon have no Hidden Ability and (presumably) due to data validation concerns their normal ability is duplicated as their hidden ability.
-	- Fixed a spacing error with the Hidden Ability note for the starter pokemon line group
-  - cobblemon-spawn-alerts/message_templates.json
-    - Fixed a spacing issue with the Coordinate display in hovered data from alerts
-	- Fixed a formatting issue with Hidden Ability displaying due to incorrectly assuming it inherited the Ability message formatting
-  - cobblemon-spawn-alerts/server.json
-    - Disabled enable spawn command alerts (left toggled during testing by mistake) which may have caused some spawns to get missed under special circumstances
-	
-	
-v2.2.2-release Miscellaneous Changes
 
-- Restored a hidden folder in configs that was mistakenly deleted causing the Mojang Studios logo to get replaced with garbled UI atlas textures or not appear when launching the game
-- Exported and added two files to the Github related to Silent's Gear for the material statistics and traits. Not all of these materials and traits are actually available in this pack. Edited versions may be available at a later time.
+v2.3.0-release Config Changes
+
+- CobbleDollars
+  - Payday Game Corner Coins (a re-named item from CobbledGacha) can now be purchased and cashed out at default CobbleDollars merchants for 1,000 pokedollars when buying, and 800 when selling. These coins are used with the new custom Payday Slot Machine in CobbledGacha.
+
+
+v2.3.0-release Data & Resource Pack Changes
+
+- Data Packs
+  - Pizzamon_BCA_CobbleTowns1.1.3_CobbleDollars_v2 updated for parity with the new Game Corner Coins for CobbleDollars in the base config
+  - Pizzamon_CobbledGacha_Data updated for CobbledGacha v3, with new loot tables and settings for balance reasons and to implement the new custom Payday Slot Machine
+
+- Resource Packs
+  - Pizzamon_CobbledGacha_Resource updated for CobbledGacha v3, and now adds a completely custom modelled and textured Payday Slot Machine and accompanying capsules (All Payday Slot Machine models and textures made by NFinET_Owa)
+
+
+v2.3.0-release Recipe Changes
+
+- CobbledGacha's main machines are now available (their recipes are no longer negated)
+- Two of CobbledGacha's coins have custom recipes to balance the availability of resources better for this modpack due to mods like BotanyPots and Pasture Loot
+
+
+v2.3.0-release Scripting Changes (KubeJS)
+
+- server_scripts/main.json
+  - Wide variety of new custom item tags added to many items for ease of use with creating custom loot tables or convenient reference/grouping
+  
+- server_scripts/pizzamon_loot.json
+  - New massive script adding tons of custom loot table definitions that are utilized or otherwise injected into other existing loot tables throughout the entire modpack to improve loot overall and better tie-in thematic mods where appropriate. Examples include:
+    - "Cameraman", "Artist", "Gambler", and other trainer classes now drop appropriately themed items from other mods like Exposure, Joy of Painting, and CobbledGacha
+    - "Pokemaniac" and "Pokefan" type trainer classes and similar adjacent classes now drop Fireworks Capsule items, PokeBlocks Pokedolls, and various cosmetic Pokemon items like certain hats and armors
+    - Supplementaries cave urns now drop Tumblestones, with rare chances to drop Ancient Pokeballs, Type Gems, and Held Items
+    - Cobblemon Raid Dens reward bags now have additional bonus rolls on custom loot pools to make them more rewarding
+    - Several existing tables for Cobblemon Additions (BCA) town generation have had appropriate modded items added to their loot pools, such as ingots, ores, and foods from other mods
+    - Many, many more; with more to come later
+  
