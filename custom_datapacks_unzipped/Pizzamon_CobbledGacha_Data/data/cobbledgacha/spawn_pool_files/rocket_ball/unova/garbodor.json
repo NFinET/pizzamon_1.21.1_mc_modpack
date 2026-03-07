@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "garbodor",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 36,
+      "maxLevel": 47
+    }
+  ]
+}

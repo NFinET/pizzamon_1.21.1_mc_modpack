@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "happiny",
+      "bucket": "rare",
+      "weight": 8.75,
+      "minLevel": 1,
+      "maxLevel": 22
+    }
+  ]
+}

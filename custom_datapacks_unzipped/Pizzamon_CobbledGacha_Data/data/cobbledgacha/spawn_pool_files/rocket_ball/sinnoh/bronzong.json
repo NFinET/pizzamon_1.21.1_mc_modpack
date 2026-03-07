@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bronzong",
+      "bucket": "common",
+      "weight": 4.04,
+      "minLevel": 33,
+      "maxLevel": 50
+    }
+  ]
+}

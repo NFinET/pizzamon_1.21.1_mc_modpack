@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "diglett alolan",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

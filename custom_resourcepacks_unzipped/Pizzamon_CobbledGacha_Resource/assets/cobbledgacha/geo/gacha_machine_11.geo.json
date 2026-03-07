@@ -1,0 +1,574 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.rocket_prize_master",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "rocket_prize_master",
+					"pivot": [0.63294, 24.67539, -3.75497]
+				},
+				{
+					"name": "body",
+					"parent": "rocket_prize_master",
+					"pivot": [-4.10179, 10.80142, -6.13635]
+				},
+				{
+					"name": "upper_body",
+					"parent": "body",
+					"pivot": [0, 21.65833, 0.02611],
+					"cubes": [
+						{"origin": [-0.5, 14, -8.5], "size": [1, 4, 1], "uv": [1, 7], "mirror": true},
+						{"origin": [-7, 31.95, -7], "size": [14, 4, 14], "uv": [0, 51]},
+						{"origin": [-0.5, 36, -7], "size": [1, 0, 2], "uv": [9, 51]},
+						{"origin": [-0.5, 31.95, -7.01], "size": [1, 4, 0], "uv": [11, 53]},
+						{"origin": [-5.5, 34.95, -5.5], "size": [11, 5, 11], "uv": [61, 27]},
+						{"origin": [-3, 39.95, -3], "size": [6, 2, 6], "uv": [65, 0]},
+						{"origin": [-0.5, 41.95, 0], "size": [1, 6, 0], "uv": [99, 7]},
+						{"origin": [-1.5, 43.95, -1], "size": [3, 0, 2], "uv": [97, 4]},
+						{"origin": [-1.5, 45.95, -1], "size": [3, 0, 2], "uv": [97, 4]},
+						{"origin": [-0.5, 42, -3], "size": [1, 0, 6], "uv": [55, 3]},
+						{"origin": [-0.5, 39.95, -3.01], "size": [1, 2, 0], "uv": [61, 10]},
+						{"origin": [-7.5, 13.95, -7.5], "size": [15, 8, 15], "uv": [0, 27]},
+						{"origin": [-3, 21.95, -7.5], "size": [6, 2, 0], "uv": [12, 7]},
+						{"origin": [-1.5, 19.45, -7.51], "size": [3, 4, 0], "uv": [32, 8]},
+						{"origin": [-6.5, 9.95, -6.5], "size": [13, 4, 13], "uv": [57, 51]},
+						{"origin": [-2, 9.95, -8.5], "size": [4, 1, 2], "uv": [97, 51]},
+						{"origin": [-2.5, 14, -8.5], "size": [2, 5, 1], "uv": [1, 1]},
+						{"origin": [0.5, 14, -8.5], "size": [2, 5, 1], "uv": [1, 1], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballout",
+					"parent": "upper_body",
+					"pivot": [0, 12.35, -2.75],
+					"cubes": [
+						{"origin": [-1.5, 12.1, -4.25], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-1.5, 11.1, -4.25], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "crank",
+					"parent": "upper_body",
+					"pivot": [0, 16.25, -9],
+					"cubes": [
+						{"origin": [-1.5, 14.75, -9.5], "size": [3, 3, 1], "uv": [1, 13], "mirror": true}
+					]
+				},
+				{
+					"name": "gacha",
+					"parent": "upper_body",
+					"pivot": [19.5, 26.35, 4.25]
+				},
+				{
+					"name": "gachaballs2",
+					"parent": "gacha",
+					"pivot": [3.5, 23.35, 4.25],
+					"rotation": [22.5, -42.5, 0],
+					"cubes": [
+						{"origin": [2, 23.1, 2.75], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [2, 22.1, 2.75], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs13",
+					"parent": "gacha",
+					"pivot": [-3.5, 26.6, 4.25],
+					"rotation": [22.5, 42.5, 0],
+					"cubes": [
+						{"origin": [-5, 26.35, 2.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-5, 25.35, 2.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs8",
+					"parent": "gacha",
+					"pivot": [-5.75, 23.35, 4.25],
+					"rotation": [-12.5, 17.5, 0],
+					"cubes": [
+						{"origin": [-7.25, 23.1, 2.75], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-7.25, 22.1, 2.75], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs14",
+					"parent": "gacha",
+					"pivot": [5.75, 26.6, 4.25],
+					"rotation": [-12.5, -17.5, 0],
+					"cubes": [
+						{"origin": [4.25, 26.35, 2.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [4.25, 25.35, 2.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs26",
+					"parent": "gacha",
+					"pivot": [4.75, 29.6, 5.25],
+					"rotation": [11.68181, -52.06171, -6.99436],
+					"cubes": [
+						{"origin": [3.25, 29.35, 3.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [3.25, 28.35, 3.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs9",
+					"parent": "gacha",
+					"pivot": [-2.25, 23.35, 4.25],
+					"rotation": [-37.5, -15, 0],
+					"cubes": [
+						{"origin": [-3.75, 23.1, 2.75], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-3.75, 22.1, 2.75], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs15",
+					"parent": "gacha",
+					"pivot": [2.25, 27.1, 4.25],
+					"rotation": [-67.5, 15, 0],
+					"cubes": [
+						{"origin": [0.75, 26.85, 2.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [0.75, 25.85, 2.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs31",
+					"parent": "gacha",
+					"pivot": [2.25, 30.1, 4.25],
+					"rotation": [-82.54347, 25.84063, -41.28731],
+					"cubes": [
+						{"origin": [0.75, 29.85, 2.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [0.75, 28.85, 2.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs12",
+					"parent": "gacha",
+					"pivot": [0.75, 23.35, 4.25],
+					"rotation": [-172.69716, -7.31729, 177.11334],
+					"cubes": [
+						{"origin": [-0.75, 23.1, 2.75], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-0.75, 22.1, 2.75], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs16",
+					"parent": "gacha",
+					"pivot": [-0.75, 26.6, 4.25],
+					"rotation": [-172.69716, 7.31729, -177.11334],
+					"cubes": [
+						{"origin": [-2.25, 26.35, 2.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-2.25, 25.35, 2.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs30",
+					"parent": "gacha",
+					"pivot": [-0.75, 29.6, 4.25],
+					"rotation": [-155.12322, -29.90097, 126.42786],
+					"cubes": [
+						{"origin": [-2.25, 29.35, 2.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-2.25, 28.35, 2.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs10",
+					"parent": "gacha",
+					"pivot": [-0.5, 23.35, -1],
+					"rotation": [0, 12.5, 0],
+					"cubes": [
+						{"origin": [-2, 23.1, -2.5], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-2, 22.1, -2.5], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs17",
+					"parent": "gacha",
+					"pivot": [0.5, 26.6, -1],
+					"rotation": [0, -12.5, 0],
+					"cubes": [
+						{"origin": [-1, 26.35, -2.5], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-1, 25.35, -2.5], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs11",
+					"parent": "gacha",
+					"pivot": [2.25, 23.35, 0.75],
+					"rotation": [-35, 12.5, 0],
+					"cubes": [
+						{"origin": [0.75, 23.1, -0.75], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [0.75, 22.1, -0.75], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs18",
+					"parent": "gacha",
+					"pivot": [-2.25, 26.6, 0.75],
+					"rotation": [-35, -12.5, 0],
+					"cubes": [
+						{"origin": [-3.75, 26.35, -0.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-3.75, 25.35, -0.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs6",
+					"parent": "gacha",
+					"pivot": [-4.75, 23.35, -4.75],
+					"rotation": [-10, 20, 0],
+					"cubes": [
+						{"origin": [-6.25, 23.1, -6.25], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-6.25, 22.1, -6.25], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs19",
+					"parent": "gacha",
+					"pivot": [4.75, 26.6, -4.75],
+					"rotation": [-10, -20, 0],
+					"cubes": [
+						{"origin": [3.25, 26.35, -6.25], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [3.25, 25.35, -6.25], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs25",
+					"parent": "gacha",
+					"pivot": [4, 29.6, 0.25],
+					"rotation": [-21.58154, -63.66468, 16.06833],
+					"cubes": [
+						{"origin": [2.5, 29.35, -1.25], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [2.5, 28.35, -1.25], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs33",
+					"parent": "gacha",
+					"pivot": [4, 29.6, -4.75],
+					"rotation": [21.83733, -22.39679, -25.97483],
+					"cubes": [
+						{"origin": [2.5, 29.35, -6.25], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [2.5, 28.35, -6.25], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs7",
+					"parent": "gacha",
+					"pivot": [-5, 23.35, -0.5],
+					"rotation": [0, 130, 0],
+					"cubes": [
+						{"origin": [-6.5, 23.1, -2], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-6.5, 22.1, -2], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs20",
+					"parent": "gacha",
+					"pivot": [5, 26.6, -0.5],
+					"rotation": [0, -130, 0],
+					"cubes": [
+						{"origin": [3.5, 26.35, -2], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [3.5, 25.35, -2], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs5",
+					"parent": "gacha",
+					"pivot": [5.75, 23.35, -0.75],
+					"rotation": [0, -112.5, 0],
+					"cubes": [
+						{"origin": [4.25, 23.1, -2.25], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [4.25, 22.1, -2.25], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs21",
+					"parent": "gacha",
+					"pivot": [-5.75, 26.6, -0.75],
+					"rotation": [-162.50942, 66.34466, -161.01552],
+					"cubes": [
+						{"origin": [-7.25, 26.35, -2.25], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-7.25, 25.35, -2.25], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs28",
+					"parent": "gacha",
+					"pivot": [-5.25, 29.6, 3.25],
+					"rotation": [-171.5824, 34.53505, -172.32038],
+					"cubes": [
+						{"origin": [-6.75, 29.35, 1.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-6.75, 28.35, 1.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs27",
+					"parent": "gacha",
+					"pivot": [-1.75, 29.6, -0.75],
+					"rotation": [14.07606, 61.57276, 15.91377],
+					"cubes": [
+						{"origin": [-3.25, 29.35, -2.25], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-3.25, 28.35, -2.25], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs4",
+					"parent": "gacha",
+					"pivot": [4.75, 23.35, -4.5],
+					"rotation": [0, 17.5, 0],
+					"cubes": [
+						{"origin": [3.25, 23.1, -6], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [3.25, 22.1, -6], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs22",
+					"parent": "gacha",
+					"pivot": [-4.75, 26.6, -4.5],
+					"rotation": [0, -17.5, 0],
+					"cubes": [
+						{"origin": [-6.25, 26.35, -6], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-6.25, 25.35, -6], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs29",
+					"parent": "gacha",
+					"pivot": [-4.75, 29.6, -1.25],
+					"rotation": [-26.73242, 43.96924, -35.95886],
+					"cubes": [
+						{"origin": [-6.25, 29.35, -2.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-6.25, 28.35, -2.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs3",
+					"parent": "gacha",
+					"pivot": [-0.25, 23.35, -5.25],
+					"rotation": [-11.8, -27.51308, -26.11899],
+					"cubes": [
+						{"origin": [-1.75, 23.1, -6.75], "size": [3, 2, 3], "uv": [0, 88]},
+						{"origin": [-1.75, 22.1, -6.75], "size": [3, 1, 3], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "gachaballs23",
+					"parent": "gacha",
+					"pivot": [0.25, 26.6, -5.25],
+					"rotation": [0, 20, 0],
+					"cubes": [
+						{"origin": [-1.25, 26.35, -6.75], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-1.25, 25.35, -6.75], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs24",
+					"parent": "gacha",
+					"pivot": [0.25, 29.6, -4.75],
+					"rotation": [27.08234, 34.30911, 29.21009],
+					"cubes": [
+						{"origin": [-1.25, 29.35, -6.25], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-1.25, 28.35, -6.25], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "gachaballs32",
+					"parent": "gacha",
+					"pivot": [-4.75, 30.35, -4.75],
+					"rotation": [9.41373, 20.21967, -44.70404],
+					"cubes": [
+						{"origin": [-6.25, 30.1, -6.25], "size": [3, 2, 3], "uv": [0, 88], "mirror": true},
+						{"origin": [-6.25, 29.1, -6.25], "size": [3, 1, 3], "uv": [0, 95], "mirror": true}
+					]
+				},
+				{
+					"name": "glass",
+					"parent": "upper_body",
+					"pivot": [4, 15.95, -23],
+					"cubes": [
+						{"origin": [-3, 23.95, -8], "size": [6, 8, 1], "uv": [38, 108]},
+						{"origin": [-8, 21.95, -8], "size": [5, 10, 16], "uv": [55, 79]},
+						{"origin": [-3, 21.95, 7], "size": [6, 10, 1], "uv": [56, 109]},
+						{"origin": [3, 21.95, -8], "size": [5, 10, 16], "uv": [11, 79]}
+					]
+				},
+				{
+					"name": "legs_front",
+					"parent": "body",
+					"pivot": [-4.10179, 10.80142, -6.13635]
+				},
+				{
+					"name": "leg_right_front",
+					"parent": "legs_front",
+					"pivot": [-4.10179, 10.80142, -6.13635],
+					"cubes": [
+						{"origin": [-5.25, 8.95, -8], "size": [3, 3, 3], "inflate": -0.01, "uv": [65, 20]}
+					]
+				},
+				{
+					"name": "leg_right_front1",
+					"parent": "leg_right_front",
+					"pivot": [-5.03512, 10.6057, -7.76502],
+					"cubes": [
+						{"origin": [-11.25, 8.95, -11.75], "size": [8, 3, 3], "pivot": [-7.25, 10.45, -10.25], "rotation": [0, -45, 0], "uv": [61, 44]}
+					]
+				},
+				{
+					"name": "leg_right_front2",
+					"parent": "leg_right_front1",
+					"pivot": [-10.32024, 10.7614, -13.28003],
+					"cubes": [
+						{"origin": [-11.5, 6.2, -14.55], "size": [3, 6, 3], "pivot": [-10, 10.7, -13.05], "rotation": [17.56274, 4.76804, -18.49299], "uv": [57, 69]}
+					]
+				},
+				{
+					"name": "leg_right_front3",
+					"parent": "leg_right_front2",
+					"pivot": [-7.97501, 6.21425, -10.99558],
+					"cubes": [
+						{"origin": [-11.5, 0.2, -14.55], "size": [3, 6, 3], "pivot": [-10, 10.7, -13.05], "rotation": [17.56274, 4.76804, -18.49299], "uv": [0, 70]}
+					]
+				},
+				{
+					"name": "leg_right_front4",
+					"parent": "leg_right_front3",
+					"pivot": [-7.14645, 0.95, -9.44645],
+					"cubes": [
+						{"origin": [-11.25, -0.05, -13.05], "size": [7, 2, 3], "pivot": [-8.25, 0.95, -11.55], "rotation": [0, -45, 0], "uv": [65, 14]}
+					]
+				},
+				{
+					"name": "leg_left_front",
+					"parent": "legs_front",
+					"pivot": [4.10179, 10.80142, -6.13635],
+					"cubes": [
+						{"origin": [2.25, 8.95, -8], "size": [3, 3, 3], "inflate": -0.01, "uv": [65, 20], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_front1",
+					"parent": "leg_left_front",
+					"pivot": [5.03512, 10.6057, -7.76502],
+					"cubes": [
+						{"origin": [3.25, 8.95, -11.75], "size": [8, 3, 3], "pivot": [7.25, 10.45, -10.25], "rotation": [0, 45, 0], "uv": [61, 44], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_front2",
+					"parent": "leg_left_front1",
+					"pivot": [10.32024, 10.7614, -13.28003],
+					"cubes": [
+						{"origin": [8.5, 6.2, -14.55], "size": [3, 6, 3], "pivot": [10, 10.7, -13.05], "rotation": [17.56274, -4.76804, 18.49299], "uv": [57, 69], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_front3",
+					"parent": "leg_left_front2",
+					"pivot": [7.97501, 6.21425, -10.99558],
+					"cubes": [
+						{"origin": [8.5, 0.2, -14.55], "size": [3, 6, 3], "pivot": [10, 10.7, -13.05], "rotation": [17.56274, -4.76804, 18.49299], "uv": [0, 70], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_front4",
+					"parent": "leg_left_front3",
+					"pivot": [7.14645, 0.95, -9.44645],
+					"cubes": [
+						{"origin": [4.25, -0.05, -13.05], "size": [7, 2, 3], "pivot": [8.25, 0.95, -11.55], "rotation": [0, 45, 0], "uv": [65, 14], "mirror": true}
+					]
+				},
+				{
+					"name": "legs_back",
+					"parent": "body",
+					"pivot": [-4.10179, 10.80142, 6.13635]
+				},
+				{
+					"name": "leg_right_back",
+					"parent": "legs_back",
+					"pivot": [-4.10179, 10.80142, 6.13635],
+					"cubes": [
+						{"origin": [-5.25, 8.95, 5], "size": [3, 3, 3], "inflate": -0.01, "uv": [65, 20]}
+					]
+				},
+				{
+					"name": "leg_right_back1",
+					"parent": "leg_right_back",
+					"pivot": [-5.03512, 10.6057, 7.76502],
+					"cubes": [
+						{"origin": [-11.25, 8.95, 8.75], "size": [8, 3, 3], "pivot": [-7.25, 10.45, 10.25], "rotation": [0, 45, 0], "uv": [61, 44]}
+					]
+				},
+				{
+					"name": "leg_right_back2",
+					"parent": "leg_right_back1",
+					"pivot": [-10.32024, 10.7614, 13.28003],
+					"cubes": [
+						{"origin": [-11.5, 6.2, 11.55], "size": [3, 6, 3], "pivot": [-10, 10.7, 13.05], "rotation": [-17.56274, -4.76804, -18.49299], "uv": [57, 69]}
+					]
+				},
+				{
+					"name": "leg_right_back3",
+					"parent": "leg_right_back2",
+					"pivot": [-7.97501, 6.21425, 10.99558],
+					"cubes": [
+						{"origin": [-11.5, 0.2, 11.55], "size": [3, 6, 3], "pivot": [-10, 10.7, 13.05], "rotation": [-17.56274, -4.76804, -18.49299], "uv": [0, 70]}
+					]
+				},
+				{
+					"name": "leg_right_back4",
+					"parent": "leg_right_back3",
+					"pivot": [-7.14645, 0.95, 9.44645],
+					"cubes": [
+						{"origin": [-11.25, -0.05, 10.05], "size": [7, 2, 3], "pivot": [-8.25, 0.95, 11.55], "rotation": [0, 45, 0], "uv": [65, 14]}
+					]
+				},
+				{
+					"name": "leg_left_back",
+					"parent": "legs_back",
+					"pivot": [4.10179, 10.80142, 6.13635],
+					"cubes": [
+						{"origin": [2.25, 8.95, 5], "size": [3, 3, 3], "inflate": -0.01, "uv": [65, 20], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_back1",
+					"parent": "leg_left_back",
+					"pivot": [5.03512, 10.6057, 7.76502],
+					"cubes": [
+						{"origin": [3.25, 8.95, 8.75], "size": [8, 3, 3], "pivot": [7.25, 10.45, 10.25], "rotation": [0, -45, 0], "uv": [61, 44], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_back2",
+					"parent": "leg_left_back1",
+					"pivot": [10.32024, 10.7614, 13.28003],
+					"cubes": [
+						{"origin": [8.5, 6.2, 11.55], "size": [3, 6, 3], "pivot": [10, 10.7, 13.05], "rotation": [-17.56274, 4.76804, 18.49299], "uv": [57, 69], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_back3",
+					"parent": "leg_left_back2",
+					"pivot": [7.97501, 6.21425, 10.99558],
+					"cubes": [
+						{"origin": [8.5, 0.2, 11.55], "size": [3, 6, 3], "pivot": [10, 10.7, 13.05], "rotation": [-17.56274, 4.76804, 18.49299], "uv": [0, 70], "mirror": true}
+					]
+				},
+				{
+					"name": "leg_left_back4",
+					"parent": "leg_left_back3",
+					"pivot": [7.14645, 0.95, 9.44645],
+					"cubes": [
+						{"origin": [4.25, -0.05, 10.05], "size": [7, 2, 3], "pivot": [8.25, 0.95, 11.55], "rotation": [0, -45, 0], "uv": [65, 14], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

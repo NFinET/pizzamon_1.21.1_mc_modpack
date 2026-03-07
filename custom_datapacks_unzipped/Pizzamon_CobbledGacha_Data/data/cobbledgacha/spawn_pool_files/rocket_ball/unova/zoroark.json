@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "zoroark",
+      "bucket": "uncommon",
+      "weight": 0.96,
+      "minLevel": 30,
+      "maxLevel": 51
+    }
+  ]
+}

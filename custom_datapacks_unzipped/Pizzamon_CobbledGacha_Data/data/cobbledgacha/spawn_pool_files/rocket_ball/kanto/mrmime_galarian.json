@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mrmime galarian",
+      "bucket": "uncommon",
+      "weight": 0.288,
+      "minLevel": 26,
+      "maxLevel": 46
+    }
+  ]
+}

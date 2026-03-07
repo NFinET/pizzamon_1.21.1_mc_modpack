@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "butterfree",
+      "bucket": "common",
+      "weight": 1,
+      "minLevel": 10,
+      "maxLevel": 40
+    }
+  ]
+}

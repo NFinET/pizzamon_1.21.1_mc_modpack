@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "litwick",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

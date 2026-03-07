@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "aron",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

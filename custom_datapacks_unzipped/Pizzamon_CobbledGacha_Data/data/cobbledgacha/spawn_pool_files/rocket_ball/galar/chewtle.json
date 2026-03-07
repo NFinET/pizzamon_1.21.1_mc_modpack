@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chewtle",
+      "bucket": "common",
+      "weight": 7.2,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

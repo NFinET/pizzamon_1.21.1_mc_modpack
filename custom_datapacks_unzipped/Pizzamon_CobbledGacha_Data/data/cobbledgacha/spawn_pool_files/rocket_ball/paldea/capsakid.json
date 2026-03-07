@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "capsakid",
+      "bucket": "common",
+      "weight": 3.8,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

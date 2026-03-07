@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "electivire",
+      "bucket": "uncommon",
+      "weight": 0.016,
+      "minLevel": 45,
+      "maxLevel": 54
+    }
+  ]
+}

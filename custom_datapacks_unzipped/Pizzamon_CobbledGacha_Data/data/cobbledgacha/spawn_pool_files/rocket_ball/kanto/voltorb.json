@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "voltorb",
+      "bucket": "uncommon",
+      "weight": 84,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

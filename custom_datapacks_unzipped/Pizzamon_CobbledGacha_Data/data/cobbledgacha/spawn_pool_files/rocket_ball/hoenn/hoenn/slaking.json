@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "slaking",
+      "bucket": "common",
+      "weight": 0.02,
+      "minLevel": 36,
+      "maxLevel": 67
+    }
+  ]
+}

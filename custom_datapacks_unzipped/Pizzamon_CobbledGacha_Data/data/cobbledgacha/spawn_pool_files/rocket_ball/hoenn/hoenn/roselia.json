@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "roselia",
+      "bucket": "common",
+      "weight": 0.95,
+      "minLevel": 23,
+      "maxLevel": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "delibird",
+      "bucket": "uncommon",
+      "weight": 8,
+      "minLevel": 10,
+      "maxLevel": 33
+    }
+  ]
+}

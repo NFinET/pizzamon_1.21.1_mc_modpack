@@ -1,0 +1,173 @@
+{
+  "type": "cobbledgacha:gacha_machine_12_hardy_yarn",
+  "pools": [
+     {
+     "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_riolu",
+    "weight": 20
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_shiny_riolu",
+    "weight": 4
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_riolu",
+    "weight": 10
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_shiny_riolu",
+    "weight": 2
+  },
+
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_stonjourner",
+    "weight": 20
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_shiny_stonjourner",
+    "weight": 4
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_stonjourner",
+    "weight": 10
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_shiny_stonjourner",
+    "weight": 2
+  },
+    {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_gholdengo",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_gholdengo",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_gholdengo",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_gholdengo",
+          "weight": 2
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_marshadow",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_marshadow",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_marshadow",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_marshadow",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_marshadow_zenith",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_marshadow_zenith",
+          "weight": 4
+        },
+       {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_marshadow_zenith",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_marshadow_zenith",
+          "weight": 2
+        },
+       
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_netherite_gholdengo",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_netherite_gholdengo",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_netherite_gholdengo",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_netherite_gholdengo",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_palossand",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_palossand",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_palossand",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_palossand",
+          "weight": 2
+        }, {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_sandygast",
+          "weight": 20
+        },
+       {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_sandygast",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_sandygast",
+          "weight": 10
+        },
+       {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_sandygast",
+          "weight": 2
+       }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tepig",
+      "bucket": "ultra_rare",
+      "weight": 6.0,
+      "minLevel": 5,
+      "maxLevel": 31
+    }
+  ]
+}

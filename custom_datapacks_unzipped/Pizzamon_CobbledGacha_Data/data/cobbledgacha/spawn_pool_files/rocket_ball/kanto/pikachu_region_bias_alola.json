@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pikachu region_bias=alola",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 16,
+      "maxLevel": 32
+    }
+  ]
+}

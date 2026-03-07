@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lopunny",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 30,
+      "maxLevel": 48
+    }
+  ]
+}

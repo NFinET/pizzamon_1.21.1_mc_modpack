@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "drifloon",
+      "bucket": "uncommon",
+      "weight": 7.02,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

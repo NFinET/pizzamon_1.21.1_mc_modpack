@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tsareena",
+      "bucket": "common",
+      "weight": 0.02,
+      "minLevel": 28,
+      "maxLevel": 51
+    }
+  ]
+}

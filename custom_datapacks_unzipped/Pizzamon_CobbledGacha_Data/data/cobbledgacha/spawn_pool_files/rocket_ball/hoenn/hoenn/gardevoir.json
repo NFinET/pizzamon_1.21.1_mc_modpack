@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gardevoir",
+      "bucket": "rare",
+      "weight": 0.068,
+      "minLevel": 30,
+      "maxLevel": 52
+    }
+  ]
+}

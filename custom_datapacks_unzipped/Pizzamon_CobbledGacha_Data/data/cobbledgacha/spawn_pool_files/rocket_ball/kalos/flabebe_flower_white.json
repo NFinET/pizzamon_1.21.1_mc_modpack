@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "flabebe flower=white",
+      "bucket": "common",
+      "weight": 6.5,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

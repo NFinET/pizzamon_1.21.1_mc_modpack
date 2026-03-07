@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "zweilous",
+      "bucket": "rare",
+      "weight": 2.7,
+      "minLevel": 50,
+      "maxLevel": 55
+    }
+  ]
+}

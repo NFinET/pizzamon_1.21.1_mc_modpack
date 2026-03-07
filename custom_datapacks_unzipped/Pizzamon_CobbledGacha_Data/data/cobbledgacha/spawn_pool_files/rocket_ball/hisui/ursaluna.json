@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ursaluna",
+      "bucket": "common",
+      "weight": 0.01,
+      "minLevel": 45,
+      "maxLevel": 55
+    }
+  ]
+}

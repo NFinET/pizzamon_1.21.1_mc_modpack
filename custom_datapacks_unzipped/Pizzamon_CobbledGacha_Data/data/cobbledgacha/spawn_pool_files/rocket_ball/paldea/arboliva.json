@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "arboliva",
+      "bucket": "uncommon",
+      "weight": 0.16,
+      "minLevel": 35,
+      "maxLevel": 51
+    }
+  ]
+}

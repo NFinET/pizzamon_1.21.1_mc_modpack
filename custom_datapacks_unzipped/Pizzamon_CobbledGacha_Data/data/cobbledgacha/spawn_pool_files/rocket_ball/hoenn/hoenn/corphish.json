@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "corphish",
+      "bucket": "common",
+      "weight": 3.6,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

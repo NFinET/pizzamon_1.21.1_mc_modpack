@@ -1,0 +1,32 @@
+{
+  "type": "cobbledgacha:gacha_machine_12_fiery_yarn",
+  "pools": [
+    {
+     "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_charmander",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_charmander",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_charmander",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_charmander",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

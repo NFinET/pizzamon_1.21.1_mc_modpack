@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chikorita",
+      "bucket": "ultra-rare",
+      "weight": 6.0,
+      "minLevel": 5,
+      "maxLevel": 32
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "walrein",
+      "bucket": "common",
+      "weight": 0.044,
+      "minLevel": 44,
+      "maxLevel": 53
+    }
+  ]
+}

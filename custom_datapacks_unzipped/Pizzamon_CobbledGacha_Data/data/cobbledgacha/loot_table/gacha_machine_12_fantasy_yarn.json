@@ -1,0 +1,92 @@
+{
+  "type": "cobbledgacha:gacha_machine_12_fantasy_yarn",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_rellor",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_rellor",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_rellor",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_rellor",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_mimikyu",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_mimikyu",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_mimikyu",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_mimikyu",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_rabsca",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_rabsca",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_rabsca",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_rabsca",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_happiny",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_happiny",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_happiny",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_happiny",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

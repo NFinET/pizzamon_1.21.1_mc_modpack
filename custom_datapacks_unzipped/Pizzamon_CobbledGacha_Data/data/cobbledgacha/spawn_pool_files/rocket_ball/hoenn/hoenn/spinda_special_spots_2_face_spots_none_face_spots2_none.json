@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "spinda special_spots=2 face_spots=none face_spots2=none",
+      "bucket": "uncommon",
+      "weight": 0.025,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

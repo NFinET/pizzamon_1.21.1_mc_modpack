@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dartrix",
+      "bucket": "ultra_rare",
+      "weight": 3.6,
+      "minLevel": 17,
+      "maxLevel": 42
+    }
+  ]
+}

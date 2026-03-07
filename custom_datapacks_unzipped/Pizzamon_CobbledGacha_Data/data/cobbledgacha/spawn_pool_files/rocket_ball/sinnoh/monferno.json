@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "monferno",
+      "bucket": "ultra_rare",
+      "weight": 3.6,
+      "minLevel": 14,
+      "maxLevel": 41
+    }
+  ]
+}

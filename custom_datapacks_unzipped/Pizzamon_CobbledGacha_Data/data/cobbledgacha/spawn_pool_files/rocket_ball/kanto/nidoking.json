@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "nidoking",
+      "bucket": "uncommon",
+      "weight": 0.08,
+      "minLevel": 37,
+      "maxLevel": 51
+    }
+  ]
+}

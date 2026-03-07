@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "conkeldurr",
+      "bucket": "common",
+      "weight": 0.03,
+      "minLevel": 36,
+      "maxLevel": 51
+    }
+  ]
+}

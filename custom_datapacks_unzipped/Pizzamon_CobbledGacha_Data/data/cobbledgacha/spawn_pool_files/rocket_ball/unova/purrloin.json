@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "purrloin",
+      "bucket": "common",
+      "weight": 2,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

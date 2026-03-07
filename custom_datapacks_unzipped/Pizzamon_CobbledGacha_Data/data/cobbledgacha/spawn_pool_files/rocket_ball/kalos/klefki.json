@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "klefki",
+      "bucket": "uncommon",
+      "weight": 4.667,
+      "minLevel": 22,
+      "maxLevel": 47
+    }
+  ]
+}

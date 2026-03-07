@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tynamo",
+      "bucket": "common",
+      "weight": 4.14,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

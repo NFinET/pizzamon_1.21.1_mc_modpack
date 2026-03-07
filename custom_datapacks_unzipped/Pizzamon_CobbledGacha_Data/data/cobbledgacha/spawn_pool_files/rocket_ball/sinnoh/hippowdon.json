@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hippowdon",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 34,
+      "maxLevel": 53
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bellsprout",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

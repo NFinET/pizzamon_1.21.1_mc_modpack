@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wattrel",
+      "bucket": "common",
+      "weight": 3.888,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

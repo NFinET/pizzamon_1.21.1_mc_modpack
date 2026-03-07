@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scorbunny",
+      "bucket": "ultra_rare",
+      "weight": 6.0,
+      "minLevel": 5,
+      "maxLevel": 31
+    }
+  ]
+}

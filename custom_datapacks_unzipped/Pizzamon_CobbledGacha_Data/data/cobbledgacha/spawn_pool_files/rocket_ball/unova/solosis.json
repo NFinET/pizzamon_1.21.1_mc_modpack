@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "solosis",
+      "bucket": "uncommon",
+      "weight": 1.68,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

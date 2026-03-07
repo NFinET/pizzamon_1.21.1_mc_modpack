@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pansage",
+      "bucket": "uncommon",
+      "weight": 3.92,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

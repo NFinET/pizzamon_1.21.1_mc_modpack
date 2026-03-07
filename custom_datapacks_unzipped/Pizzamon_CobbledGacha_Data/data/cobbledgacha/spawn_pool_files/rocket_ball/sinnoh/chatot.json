@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chatot",
+      "bucket": "common",
+      "weight": 8.4,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

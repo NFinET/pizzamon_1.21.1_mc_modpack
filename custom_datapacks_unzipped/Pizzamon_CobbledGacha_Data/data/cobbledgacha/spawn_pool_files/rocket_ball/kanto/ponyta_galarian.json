@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ponyta galarian",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

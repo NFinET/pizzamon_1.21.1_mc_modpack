@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "growlithe",
+      "bucket": "uncommon",
+      "weight": 9,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

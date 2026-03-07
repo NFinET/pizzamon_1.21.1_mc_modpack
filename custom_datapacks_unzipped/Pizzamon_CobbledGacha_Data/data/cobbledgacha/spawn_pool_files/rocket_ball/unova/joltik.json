@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "joltik",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

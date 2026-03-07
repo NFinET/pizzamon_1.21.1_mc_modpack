@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "luvdisc",
+      "bucket": "common",
+      "weight": 10.0,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

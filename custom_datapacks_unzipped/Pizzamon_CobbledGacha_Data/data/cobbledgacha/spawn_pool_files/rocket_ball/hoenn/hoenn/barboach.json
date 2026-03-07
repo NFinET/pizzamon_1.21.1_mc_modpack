@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "barboach",
+      "bucket": "common",
+      "weight": 8.9,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "boltund",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 25,
+      "maxLevel": 49
+    }
+  ]
+}

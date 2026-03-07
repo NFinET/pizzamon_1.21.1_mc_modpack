@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "clefable",
+      "bucket": "uncommon",
+      "weight": 0.08,
+      "minLevel": 27,
+      "maxLevel": 48
+    }
+  ]
+}

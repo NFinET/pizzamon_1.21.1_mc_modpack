@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tinkatuff",
+      "bucket": "uncommon",
+      "weight": 1.62,
+      "minLevel": 24,
+      "maxLevel": 38
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "meowth galarian",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

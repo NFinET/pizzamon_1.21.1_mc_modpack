@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "raichu",
+      "bucket": "uncommon",
+      "weight": 0.048,
+      "minLevel": 27,
+      "maxLevel": 49
+    }
+  ]
+}

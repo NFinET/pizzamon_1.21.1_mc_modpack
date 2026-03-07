@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "raichu alolan",
+      "bucket": "uncommon",
+      "weight": 0.16,
+      "minLevel": 27,
+      "maxLevel": 49
+    }
+  ]
+}

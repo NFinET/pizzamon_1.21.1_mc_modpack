@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "medicham",
+      "bucket": "common",
+      "weight": 3.1,
+      "minLevel": 37,
+      "maxLevel": 41
+    }
+  ]
+}

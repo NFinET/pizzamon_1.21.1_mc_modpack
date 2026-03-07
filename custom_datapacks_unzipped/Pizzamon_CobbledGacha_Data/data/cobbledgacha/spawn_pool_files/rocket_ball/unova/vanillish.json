@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "vanillish",
+      "bucket": "common",
+      "weight": 0.528,
+      "minLevel": 35,
+      "maxLevel": 40
+    }
+  ]
+}

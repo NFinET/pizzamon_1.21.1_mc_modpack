@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "floatzel",
+      "bucket": "common",
+      "weight": 0.23,
+      "minLevel": 26,
+      "maxLevel": 50
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "annihilape",
+      "bucket": "common",
+      "weight": 0.06,
+      "minLevel": 35,
+      "maxLevel": 54
+    }
+  ]
+}

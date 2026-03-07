@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "reuniclus",
+      "bucket": "uncommon",
+      "weight": 0.032,
+      "minLevel": 41,
+      "maxLevel": 49
+    }
+  ]
+}

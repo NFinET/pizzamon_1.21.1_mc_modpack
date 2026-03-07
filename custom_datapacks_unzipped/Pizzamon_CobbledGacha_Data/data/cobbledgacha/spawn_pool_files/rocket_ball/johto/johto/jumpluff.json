@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "jumpluff",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 27,
+      "maxLevel": 46
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "cobbledgacha:gacha_machine_11",
+    "pools": [
+        {
+            "conditions": [],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:rocket_ball",
+                    "weight": 100
+                }
+            ],
+            "bonus_rolls": 0,
+            "rolls": 1
+        }
+    ]
+}
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "fletchinder",
+      "bucket": "common",
+      "weight": 0.54,
+      "minLevel": 17,
+      "maxLevel": 38
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shiinotic",
+      "bucket": "common",
+      "weight": 0.4,
+      "minLevel": 24,
+      "maxLevel": 41
+    }
+  ]
+}

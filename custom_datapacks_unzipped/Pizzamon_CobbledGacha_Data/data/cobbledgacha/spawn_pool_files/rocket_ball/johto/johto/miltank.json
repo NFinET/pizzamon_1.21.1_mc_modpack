@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "miltank",
+      "bucket": "common",
+      "weight": 6.0,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

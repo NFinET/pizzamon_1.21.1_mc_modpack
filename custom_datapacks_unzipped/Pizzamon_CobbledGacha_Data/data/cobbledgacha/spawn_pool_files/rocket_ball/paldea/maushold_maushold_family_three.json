@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "maushold maushold_family=three",
+      "bucket": "common",
+      "weight": 0.005,
+      "minLevel": 25,
+      "maxLevel": 47
+    }
+  ]
+}

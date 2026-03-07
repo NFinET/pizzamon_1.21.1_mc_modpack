@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shiftry",
+      "bucket": "common",
+      "weight": 0.03,
+      "minLevel": 29,
+      "maxLevel": 48
+    }
+  ]
+}

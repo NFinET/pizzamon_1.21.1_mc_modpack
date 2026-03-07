@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tinkaton",
+      "bucket": "uncommon",
+      "weight": 0.18,
+      "minLevel": 38,
+      "maxLevel": 51
+    }
+  ]
+}

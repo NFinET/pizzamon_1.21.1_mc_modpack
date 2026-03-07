@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "munna",
+      "bucket": "common",
+      "weight": 9.5,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

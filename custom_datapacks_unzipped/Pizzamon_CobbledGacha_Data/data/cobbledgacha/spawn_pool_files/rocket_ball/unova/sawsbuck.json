@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sawsbuck",
+      "bucket": "common",
+      "weight": 0.667,
+      "minLevel": 34,
+      "maxLevel": 48
+    }
+  ]
+}

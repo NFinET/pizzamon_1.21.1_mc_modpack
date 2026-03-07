@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "vibrava",
+      "bucket": "rare",
+      "weight": 2.25,
+      "minLevel": 35,
+      "maxLevel": 40
+    }
+  ]
+}

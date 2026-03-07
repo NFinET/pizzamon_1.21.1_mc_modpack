@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wooper wooper_heart=true",
+      "bucket": "uncommon",
+      "weight": 12.333,
+      "minLevel": 1,
+      "maxLevel": 21
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "herdier",
+      "bucket": "common",
+      "weight": 0.54,
+      "minLevel": 16,
+      "maxLevel": 37
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "arcanine",
+      "bucket": "uncommon",
+      "weight": 1,
+      "minLevel": 30,
+      "maxLevel": 56
+    }
+  ]
+}

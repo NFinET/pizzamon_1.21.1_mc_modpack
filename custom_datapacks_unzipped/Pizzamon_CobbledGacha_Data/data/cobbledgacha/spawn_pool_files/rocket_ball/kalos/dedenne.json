@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dedenne",
+      "bucket": "uncommon",
+      "weight": 10.0,
+      "minLevel": 18,
+      "maxLevel": 43
+    }
+  ]
+}

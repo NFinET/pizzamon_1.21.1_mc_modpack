@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cranidos",
+      "bucket": "ultra_rare",
+      "weight": 6.0,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

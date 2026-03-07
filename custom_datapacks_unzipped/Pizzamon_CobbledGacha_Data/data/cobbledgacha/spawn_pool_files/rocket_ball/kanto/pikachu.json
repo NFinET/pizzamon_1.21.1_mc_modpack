@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pikachu",
+      "bucket": "uncommon",
+      "weight": 1,
+      "minLevel": 16,
+      "maxLevel": 32
+    }
+  ]
+}

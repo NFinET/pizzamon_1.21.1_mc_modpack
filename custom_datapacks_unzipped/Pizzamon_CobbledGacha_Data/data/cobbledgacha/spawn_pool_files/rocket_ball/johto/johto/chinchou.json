@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chinchou",
+      "bucket": "common",
+      "weight": 7.2,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

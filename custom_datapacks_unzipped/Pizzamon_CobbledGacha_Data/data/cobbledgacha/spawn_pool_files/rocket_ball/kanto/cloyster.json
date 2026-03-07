@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cloyster",
+      "bucket": "common",
+      "weight": 0.35,
+      "minLevel": 26,
+      "maxLevel": 53
+    }
+  ]
+}

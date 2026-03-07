@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "whismur",
+      "bucket": "uncommon",
+      "weight": 5.1,
+      "minLevel": 1,
+      "maxLevel": 24
+    }
+  ]
+}

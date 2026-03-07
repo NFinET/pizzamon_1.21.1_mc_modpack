@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sandile",
+      "bucket": "common",
+      "weight": 1.8,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

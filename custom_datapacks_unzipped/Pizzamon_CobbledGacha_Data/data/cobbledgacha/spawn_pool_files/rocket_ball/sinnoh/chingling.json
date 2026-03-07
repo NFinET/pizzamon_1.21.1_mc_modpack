@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chingling",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

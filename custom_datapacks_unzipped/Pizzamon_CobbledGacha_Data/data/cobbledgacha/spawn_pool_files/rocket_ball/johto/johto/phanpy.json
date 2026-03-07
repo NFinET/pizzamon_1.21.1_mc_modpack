@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "phanpy",
+      "bucket": "common",
+      "weight": 3.6,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

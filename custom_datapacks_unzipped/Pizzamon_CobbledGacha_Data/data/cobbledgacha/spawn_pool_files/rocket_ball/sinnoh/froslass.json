@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "froslass",
+      "bucket": "uncommon",
+      "weight": 0.48,
+      "minLevel": 42,
+      "maxLevel": 48
+    }
+  ]
+}

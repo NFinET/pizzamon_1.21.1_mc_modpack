@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "palossand",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 42,
+      "maxLevel": 48
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gliscor",
+      "bucket": "uncommon",
+      "weight": 0.29,
+      "minLevel": 38,
+      "maxLevel": 51
+    }
+  ]
+}

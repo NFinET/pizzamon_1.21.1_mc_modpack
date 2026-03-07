@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bidoof",
+      "bucket": "common",
+      "weight": 8.76,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

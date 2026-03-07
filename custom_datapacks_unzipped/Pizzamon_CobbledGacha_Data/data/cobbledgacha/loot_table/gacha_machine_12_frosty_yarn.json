@@ -1,0 +1,317 @@
+{
+  "type": "cobbledgacha:gacha_machine_12_frosty_yarn",
+  "pools": [
+     {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+        
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_beartic",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_beartic",
+          "weight": 4
+        },
+          {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_beartic",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_beartic",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_cetoddle",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_cetoddle",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_cetoddle",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_cetoddle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_cubchoo",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_cubchoo",
+          "weight": 4
+        },
+       {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_cubchoo",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_cubchoo",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_cubchoo_animated",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_cubchoo_animated",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_cubchoo_animated",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_cubchoo_animated",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_delibird",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_delibird",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_delibird",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_delibird",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_eiscue",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_eiscue",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_eiscue",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_eiscue",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_eiscue_noice",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_eiscue_noice",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_eiscue_noice",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_eiscue_noice",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_frigibax",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_frigibax",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_frigibax",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_frigibax",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_froslass",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_froslass",
+          "weight": 4
+        },
+          {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_froslass",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_froslass",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_glalie",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_glalie",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_glalie",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_glalie",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_piloswine",
+          "weight": 20
+        },
+       {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_piloswine",
+          "weight": 4
+        },
+      
+       {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_piloswine",
+          "weight": 2
+        },
+       
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_snorunt",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_snorunt",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_snorunt",
+          "weight": 10
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_snorunt",
+          "weight": 2
+        },
+      
+      
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_shiny_eiscue_head_pile",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_snorunt_family",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_snorunt_family",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_snorunt_family",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_snorunt_family",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_spheal",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_spheal",
+          "weight": 4
+        },
+          {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_spheal",
+          "weight": 10
+        },
+          {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_spheal",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_swinub",
+          "weight": 20
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_swinub",
+          "weight": 4
+        },
+          {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_swinub",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_swinub",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

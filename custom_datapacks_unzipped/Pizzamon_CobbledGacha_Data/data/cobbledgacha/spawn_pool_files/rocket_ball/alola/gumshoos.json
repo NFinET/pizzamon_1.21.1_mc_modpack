@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gumshoos",
+      "bucket": "common",
+      "weight": 0.6,
+      "minLevel": 20,
+      "maxLevel": 42
+    }
+  ]
+}

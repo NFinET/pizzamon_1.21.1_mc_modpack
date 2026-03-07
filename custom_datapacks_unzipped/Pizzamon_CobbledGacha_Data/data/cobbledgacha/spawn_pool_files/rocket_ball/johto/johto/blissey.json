@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "blissey",
+      "bucket": "rare",
+      "weight": 0.125,
+      "minLevel": 40,
+      "maxLevel": 54
+    }
+  ]
+}

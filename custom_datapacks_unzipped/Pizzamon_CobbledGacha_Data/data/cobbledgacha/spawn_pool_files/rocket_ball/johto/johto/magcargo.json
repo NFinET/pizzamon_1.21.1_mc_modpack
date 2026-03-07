@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magcargo",
+      "bucket": "common",
+      "weight": 0.7,
+      "minLevel": 38,
+      "maxLevel": 43
+    }
+  ]
+}

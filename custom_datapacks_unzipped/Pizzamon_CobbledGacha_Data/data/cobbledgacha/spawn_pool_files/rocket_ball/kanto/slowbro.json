@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "slowbro",
+      "bucket": "common",
+      "weight": 0.25,
+      "minLevel": 37,
+      "maxLevel": 49
+    }
+  ]
+}

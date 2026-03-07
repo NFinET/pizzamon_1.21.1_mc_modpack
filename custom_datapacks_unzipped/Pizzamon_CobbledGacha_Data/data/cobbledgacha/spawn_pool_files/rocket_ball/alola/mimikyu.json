@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mimikyu",
+      "bucket": "uncommon",
+      "weight": 10.0,
+      "minLevel": 23,
+      "maxLevel": 48
+    }
+  ]
+}

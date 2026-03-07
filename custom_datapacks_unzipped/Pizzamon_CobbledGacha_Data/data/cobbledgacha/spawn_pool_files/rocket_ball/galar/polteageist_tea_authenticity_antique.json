@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "polteageist tea_authenticity=antique",
+      "bucket": "uncommon",
+      "weight": 0.007,
+      "minLevel": 26,
+      "maxLevel": 51
+    }
+  ]
+}

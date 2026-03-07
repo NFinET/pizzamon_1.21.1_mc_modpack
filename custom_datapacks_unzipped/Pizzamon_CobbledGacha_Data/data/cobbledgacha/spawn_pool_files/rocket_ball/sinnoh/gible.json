@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gible",
+      "bucket": "rare",
+      "weight": 7.0,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

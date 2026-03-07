@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "venipede",
+      "bucket": "common",
+      "weight": 3.24,
+      "minLevel": 1,
+      "maxLevel": 26
+    }
+  ]
+}

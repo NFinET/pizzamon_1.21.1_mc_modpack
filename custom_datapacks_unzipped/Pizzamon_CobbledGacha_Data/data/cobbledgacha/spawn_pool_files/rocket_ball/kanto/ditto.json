@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ditto",
+      "bucket": "uncommon",
+      "weight": 10,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

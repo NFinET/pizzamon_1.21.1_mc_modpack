@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bellibolt",
+      "bucket": "common",
+      "weight": 0.3,
+      "minLevel": 22,
+      "maxLevel": 50
+    }
+  ]
+}

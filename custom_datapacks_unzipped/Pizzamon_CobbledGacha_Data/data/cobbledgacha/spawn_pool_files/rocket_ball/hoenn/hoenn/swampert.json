@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "swampert",
+      "bucket": "ultra-rare",
+      "weight": 1.418,
+      "minLevel": 36,
+      "maxLevel": 53
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "vespiquen",
+      "bucket": "common",
+      "weight": 0.325,
+      "minLevel": 21,
+      "maxLevel": 47
+    }
+  ]
+}

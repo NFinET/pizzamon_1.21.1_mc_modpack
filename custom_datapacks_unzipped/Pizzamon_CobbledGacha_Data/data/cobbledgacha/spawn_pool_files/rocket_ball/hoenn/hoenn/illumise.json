@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "illumise",
+      "bucket": "uncommon",
+      "weight": 4.0,
+      "minLevel": 18,
+      "maxLevel": 43
+    }
+  ]
+}

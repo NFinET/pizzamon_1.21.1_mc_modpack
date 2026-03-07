@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pinsir",
+      "bucket": "rare",
+      "weight": 10,
+      "minLevel": 25,
+      "maxLevel": 50
+    }
+  ]
+}

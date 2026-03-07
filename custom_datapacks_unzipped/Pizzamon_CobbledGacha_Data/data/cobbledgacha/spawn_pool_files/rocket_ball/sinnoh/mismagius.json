@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mismagius",
+      "bucket": "common",
+      "weight": 0.267,
+      "minLevel": 39,
+      "maxLevel": 50
+    }
+  ]
+}

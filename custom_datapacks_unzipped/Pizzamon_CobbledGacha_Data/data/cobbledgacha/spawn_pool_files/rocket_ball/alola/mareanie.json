@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mareanie",
+      "bucket": "uncommon",
+      "weight": 7.273,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

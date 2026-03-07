@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "skarmory",
+      "bucket": "rare",
+      "weight": 10.0,
+      "minLevel": 22,
+      "maxLevel": 47
+    }
+  ]
+}

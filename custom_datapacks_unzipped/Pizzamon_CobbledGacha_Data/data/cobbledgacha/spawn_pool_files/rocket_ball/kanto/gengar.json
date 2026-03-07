@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gengar",
+      "bucket": "common",
+      "weight": 0.05,
+      "minLevel": 36,
+      "maxLevel": 50
+    }
+  ]
+}

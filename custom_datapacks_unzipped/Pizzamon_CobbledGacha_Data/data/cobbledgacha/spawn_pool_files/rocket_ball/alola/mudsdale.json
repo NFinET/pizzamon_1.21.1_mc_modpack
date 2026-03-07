@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mudsdale",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 30,
+      "maxLevel": 50
+    }
+  ]
+}

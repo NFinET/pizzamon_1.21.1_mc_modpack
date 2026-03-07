@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "scyther",
+      "bucket": "rare",
+      "weight": 2,
+      "minLevel": 25,
+      "maxLevel": 50
+    }
+  ]
+}

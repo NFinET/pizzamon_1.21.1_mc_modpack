@@ -7,52 +7,27 @@
                 {
                     "type": "minecraft:item",
                     "name": "cobbledgacha:capsule_a1",
-                    "weight": 45
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobbledgacha:capsule_a3",
-                    "weight": 25
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobbledgacha:capsule_a4",
-                    "weight": 15
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobbledgacha:capsule_a9",
-                    "weight": 10
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobbledgacha:capsule_a10",
-                    "weight": 5
+                    "weight": 79.92
                 },
                 {
                     "type": "minecraft:item",
                     "name": "cobbledgacha:capsule_a2",
-                    "weight": 0
+                    "weight": 15.98
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:capsule_a3",
+                    "weight": 3.2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "cobbledgacha:capsule_a4",
+                    "weight": 0.64
                 },
                 {
                     "type": "minecraft:item",
                     "name": "cobbledgacha:capsule_a5",
-                    "weight": 0
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobbledgacha:capsule_a6",
-                    "weight": 0
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobbledgacha:capsule_a7",
-                    "weight": 0
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobbledgacha:capsule_a8",
-                    "weight": 0
+                    "weight": 0.26
                 }
             ],
             "bonus_rolls": 0,
@@ -60,7 +35,3 @@
         }
     ]
 }
-
-
-
-

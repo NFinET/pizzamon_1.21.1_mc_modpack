@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "finizen",
+      "bucket": "uncommon",
+      "weight": 3.96,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

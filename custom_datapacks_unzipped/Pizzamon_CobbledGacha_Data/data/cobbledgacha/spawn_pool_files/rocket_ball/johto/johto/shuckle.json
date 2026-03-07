@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shuckle",
+      "bucket": "uncommon",
+      "weight": 6.0,
+      "minLevel": 16,
+      "maxLevel": 51
+    }
+  ]
+}

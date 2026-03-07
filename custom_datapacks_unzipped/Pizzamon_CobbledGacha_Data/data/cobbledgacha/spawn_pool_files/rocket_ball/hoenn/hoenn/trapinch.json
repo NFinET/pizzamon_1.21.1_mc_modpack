@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "trapinch",
+      "bucket": "uncommon",
+      "weight": 8.75,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "corviknight",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 38,
+      "maxLevel": 50
+    }
+  ]
+}

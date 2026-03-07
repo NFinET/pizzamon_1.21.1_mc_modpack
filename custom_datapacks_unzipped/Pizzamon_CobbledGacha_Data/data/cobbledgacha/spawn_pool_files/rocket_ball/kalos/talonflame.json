@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "talonflame",
+      "bucket": "common",
+      "weight": 0.06,
+      "minLevel": 35,
+      "maxLevel": 50
+    }
+  ]
+}

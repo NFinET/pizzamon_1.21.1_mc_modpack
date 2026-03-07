@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "miltank mooshtank=red",
+      "bucket": "common",
+      "weight": 9.9,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

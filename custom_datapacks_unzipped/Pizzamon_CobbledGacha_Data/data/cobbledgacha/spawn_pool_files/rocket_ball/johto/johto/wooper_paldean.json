@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wooper paldean",
+      "bucket": "common",
+      "weight": 8.75,
+      "minLevel": 1,
+      "maxLevel": 21
+    }
+  ]
+}

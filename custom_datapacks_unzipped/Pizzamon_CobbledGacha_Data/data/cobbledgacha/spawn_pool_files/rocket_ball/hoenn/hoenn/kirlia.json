@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "kirlia",
+      "bucket": "rare",
+      "weight": 0.835,
+      "minLevel": 20,
+      "maxLevel": 29
+    }
+  ]
+}

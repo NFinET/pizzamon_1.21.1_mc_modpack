@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "panpour",
+      "bucket": "uncommon",
+      "weight": 5.04,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

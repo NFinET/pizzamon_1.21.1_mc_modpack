@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "krabby",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 8,
+      "maxLevel": 33
+    }
+  ]
+}

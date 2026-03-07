@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dusclops",
+      "bucket": "common",
+      "weight": 0.76,
+      "minLevel": 37,
+      "maxLevel": 46
+    }
+  ]
+}

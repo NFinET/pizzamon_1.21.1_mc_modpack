@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hariyama",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 24,
+      "maxLevel": 47
+    }
+  ]
+}

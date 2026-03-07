@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "staravia",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 14,
+      "maxLevel": 34
+    }
+  ]
+}

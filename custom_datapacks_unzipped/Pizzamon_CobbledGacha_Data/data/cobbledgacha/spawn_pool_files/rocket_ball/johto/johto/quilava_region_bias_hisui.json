@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "quilava region_bias=hisui",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "minLevel": 17,
+      "maxLevel": 41
+    }
+  ]
+}

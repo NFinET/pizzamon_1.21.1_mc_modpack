@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "masquerain",
+      "bucket": "uncommon",
+      "weight": 1.28,
+      "minLevel": 22,
+      "maxLevel": 45
+    }
+  ]
+}

@@ -138,6 +138,7 @@
     "message.gacha_machine.multiple_rewards_2": "ボーナス！もう一つ %s が転がった",
     "message.gacha_machine.multiple_rewards_3": "なんて幸運だろう！追加でもう一つの %s が転がってきた！",
     "message.gacha_machine.multiple_rewards_4": "ラッキー！もう一つ %s が当たった！",
+    "message.gacha_machine.gotcha": "ゲットだ！",
 
     "tag.item.cobbledgacha.currency_items": "通貨アイテム"
 }

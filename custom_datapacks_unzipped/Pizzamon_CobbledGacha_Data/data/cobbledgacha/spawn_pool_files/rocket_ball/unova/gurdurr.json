@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gurdurr",
+      "bucket": "common",
+      "weight": 0.57,
+      "minLevel": 25,
+      "maxLevel": 41
+    }
+  ]
+}

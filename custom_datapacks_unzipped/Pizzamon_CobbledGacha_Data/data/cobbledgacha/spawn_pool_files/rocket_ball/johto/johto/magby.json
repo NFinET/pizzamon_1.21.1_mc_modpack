@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magby",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

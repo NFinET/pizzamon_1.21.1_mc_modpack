@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bagon",
+      "bucket": "ultra-rare",
+      "weight": 7.7,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

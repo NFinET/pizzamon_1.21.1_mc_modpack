@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ledyba",
+      "bucket": "common",
+      "weight": 8.0,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

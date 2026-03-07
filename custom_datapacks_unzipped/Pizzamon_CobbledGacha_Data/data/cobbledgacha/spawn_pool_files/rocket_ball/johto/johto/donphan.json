@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "donphan",
+      "bucket": "common",
+      "weight": 0.4,
+      "minLevel": 25,
+      "maxLevel": 50
+    }
+  ]
+}

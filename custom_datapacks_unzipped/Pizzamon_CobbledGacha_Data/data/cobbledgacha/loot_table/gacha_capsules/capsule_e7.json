@@ -1,0 +1,231 @@
+{
+  "type": "cobbledgacha:capsule",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 50
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 15,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 25
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 25,
+                "max": 50
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 50
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 50,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pizzamon:payday/shiny_bonus"
+        }
+      ]
+    }
+  ],
+  "random_sequences": "cobbledgacha:gacha_capsules"
+}

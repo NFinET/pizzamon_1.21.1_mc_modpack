@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gloom valencian",
+      "bucket": "common",
+      "weight": 0.19,
+      "minLevel": 21,
+      "maxLevel": 40
+    }
+  ]
+}

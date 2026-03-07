@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "aerodactyl",
+      "bucket": "ultra-rare",
+      "weight": 10,
+      "minLevel": 27,
+      "maxLevel": 52
+    }
+  ]
+}

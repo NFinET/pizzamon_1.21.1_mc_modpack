@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ceruledge",
+      "bucket": "uncommon",
+      "weight": 1.733,
+      "minLevel": 21,
+      "maxLevel": 53
+    }
+  ]
+}

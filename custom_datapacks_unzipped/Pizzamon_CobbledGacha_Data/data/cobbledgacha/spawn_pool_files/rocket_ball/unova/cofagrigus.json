@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cofagrigus",
+      "bucket": "uncommon",
+      "weight": 5.16,
+      "minLevel": 34,
+      "maxLevel": 48
+    }
+  ]
+}

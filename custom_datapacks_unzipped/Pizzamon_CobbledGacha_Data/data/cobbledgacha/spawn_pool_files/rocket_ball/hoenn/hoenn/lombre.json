@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lombre",
+      "bucket": "common",
+      "weight": 0.665,
+      "minLevel": 14,
+      "maxLevel": 34
+    }
+  ]
+}

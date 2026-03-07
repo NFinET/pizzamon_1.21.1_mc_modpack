@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magnezone",
+      "bucket": "uncommon",
+      "weight": 0.405,
+      "minLevel": 42,
+      "maxLevel": 54
+    }
+  ]
+}

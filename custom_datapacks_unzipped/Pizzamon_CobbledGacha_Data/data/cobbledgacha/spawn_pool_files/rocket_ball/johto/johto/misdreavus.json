@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "misdreavus",
+      "bucket": "common",
+      "weight": 5.067,
+      "minLevel": 19,
+      "maxLevel": 44
+    }
+  ]
+}

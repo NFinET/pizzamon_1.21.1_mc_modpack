@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ninetales",
+      "bucket": "common",
+      "weight": 0.29,
+      "minLevel": 25,
+      "maxLevel": 51
+    }
+  ]
+}

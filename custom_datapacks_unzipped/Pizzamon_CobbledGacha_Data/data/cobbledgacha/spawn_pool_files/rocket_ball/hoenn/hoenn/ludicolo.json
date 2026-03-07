@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "ludicolo",
+      "bucket": "common",
+      "weight": 0.035,
+      "minLevel": 29,
+      "maxLevel": 48
+    }
+  ]
+}

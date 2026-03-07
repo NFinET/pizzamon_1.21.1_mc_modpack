@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lechonk",
+      "bucket": "common",
+      "weight": 6.6,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

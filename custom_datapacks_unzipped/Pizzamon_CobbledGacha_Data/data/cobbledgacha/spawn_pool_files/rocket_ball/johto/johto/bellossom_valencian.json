@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bellossom valencian",
+      "bucket": "common",
+      "weight": 0.01,
+      "minLevel": 35,
+      "maxLevel": 49
+    }
+  ]
+}

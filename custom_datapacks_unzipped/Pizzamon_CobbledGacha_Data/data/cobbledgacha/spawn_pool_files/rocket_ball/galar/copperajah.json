@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "copperajah",
+      "bucket": "uncommon",
+      "weight": 0.96,
+      "minLevel": 34,
+      "maxLevel": 50
+    }
+  ]
+}

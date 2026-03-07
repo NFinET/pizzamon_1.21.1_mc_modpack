@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "glameow",
+      "bucket": "common",
+      "weight": 8.28,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

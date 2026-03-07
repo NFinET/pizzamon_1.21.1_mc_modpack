@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "volcarona",
+      "bucket": "uncommon",
+      "weight": 8.65,
+      "minLevel": 59,
+      "maxLevel": 64
+    }
+  ]
+}

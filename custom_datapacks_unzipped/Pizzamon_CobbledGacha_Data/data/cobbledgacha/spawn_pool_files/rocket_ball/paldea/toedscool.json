@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "toedscool",
+      "bucket": "common",
+      "weight": 7.2,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "vigoroth",
+      "bucket": "common",
+      "weight": 0.18,
+      "minLevel": 18,
+      "maxLevel": 44
+    }
+  ]
+}

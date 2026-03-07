@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "murkrow",
+      "bucket": "common",
+      "weight": 7.6,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

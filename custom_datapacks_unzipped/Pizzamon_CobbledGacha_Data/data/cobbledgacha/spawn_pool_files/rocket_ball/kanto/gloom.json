@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gloom",
+      "bucket": "common",
+      "weight": 0.57,
+      "minLevel": 21,
+      "maxLevel": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rattata alolan",
+      "bucket": "uncommon",
+      "weight": 8,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

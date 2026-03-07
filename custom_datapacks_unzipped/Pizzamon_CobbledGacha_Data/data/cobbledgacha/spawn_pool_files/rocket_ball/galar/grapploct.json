@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "grapploct",
+      "bucket": "uncommon",
+      "weight": 0.636,
+      "minLevel": 35,
+      "maxLevel": 48
+    }
+  ]
+}

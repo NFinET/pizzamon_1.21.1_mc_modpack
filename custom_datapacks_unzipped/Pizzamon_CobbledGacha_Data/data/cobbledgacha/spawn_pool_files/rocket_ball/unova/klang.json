@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "klang",
+      "bucket": "common",
+      "weight": 0.42,
+      "minLevel": 38,
+      "maxLevel": 44
+    }
+  ]
+}

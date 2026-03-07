@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "krookodile",
+      "bucket": "common",
+      "weight": 0.02,
+      "minLevel": 40,
+      "maxLevel": 52
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "metang",
+      "bucket": "rare",
+      "weight": 2.128,
+      "minLevel": 20,
+      "maxLevel": 44
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "kingdra",
+      "bucket": "common",
+      "weight": 0.01,
+      "minLevel": 39,
+      "maxLevel": 54
+    }
+  ]
+}

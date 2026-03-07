@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "eelektrik",
+      "bucket": "common",
+      "weight": 0.467,
+      "minLevel": 39,
+      "maxLevel": 41
+    }
+  ]
+}

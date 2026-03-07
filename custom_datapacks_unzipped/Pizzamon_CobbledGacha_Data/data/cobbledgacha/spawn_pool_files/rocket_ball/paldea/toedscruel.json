@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "toedscruel",
+      "bucket": "common",
+      "weight": 0.8,
+      "minLevel": 30,
+      "maxLevel": 52
+    }
+  ]
+}

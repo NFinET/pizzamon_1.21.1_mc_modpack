@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "porygon",
+      "bucket": "uncommon",
+      "weight": 9,
+      "minLevel": 15,
+      "maxLevel": 40
+    }
+  ]
+}

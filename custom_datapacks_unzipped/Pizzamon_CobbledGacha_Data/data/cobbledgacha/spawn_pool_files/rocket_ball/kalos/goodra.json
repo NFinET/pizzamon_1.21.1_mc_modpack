@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "goodra",
+      "bucket": "rare",
+      "weight": 0.325,
+      "minLevel": 50,
+      "maxLevel": 60
+    }
+  ]
+}

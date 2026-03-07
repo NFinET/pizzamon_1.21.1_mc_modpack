@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "charmander",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "minLevel": 5,
+      "maxLevel": 31
+    }
+  ]
+}

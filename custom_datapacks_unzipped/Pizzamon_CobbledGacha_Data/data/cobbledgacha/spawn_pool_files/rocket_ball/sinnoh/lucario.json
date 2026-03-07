@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lucario",
+      "bucket": "rare",
+      "weight": 2.5,
+      "minLevel": 24,
+      "maxLevel": 53
+    }
+  ]
+}

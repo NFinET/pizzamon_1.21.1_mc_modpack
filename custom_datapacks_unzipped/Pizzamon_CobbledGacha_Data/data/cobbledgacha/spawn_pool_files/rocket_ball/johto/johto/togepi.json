@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "togepi",
+      "bucket": "rare",
+      "weight": 7.5,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

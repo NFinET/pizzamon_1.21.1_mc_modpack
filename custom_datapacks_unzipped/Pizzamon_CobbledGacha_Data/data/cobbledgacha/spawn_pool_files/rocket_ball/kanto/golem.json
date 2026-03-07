@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "golem",
+      "bucket": "common",
+      "weight": 0.05,
+      "minLevel": 34,
+      "maxLevel": 50
+    }
+  ]
+}

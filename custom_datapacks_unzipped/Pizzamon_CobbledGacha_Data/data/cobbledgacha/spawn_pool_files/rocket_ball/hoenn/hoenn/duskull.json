@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "duskull",
+      "bucket": "common",
+      "weight": 7.2,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "druddigon",
+      "bucket": "rare",
+      "weight": 10.0,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

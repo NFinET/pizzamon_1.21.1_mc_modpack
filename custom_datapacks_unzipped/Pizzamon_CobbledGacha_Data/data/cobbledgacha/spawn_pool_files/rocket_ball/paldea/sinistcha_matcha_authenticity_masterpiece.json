@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sinistcha matcha_authenticity=masterpiece",
+      "bucket": "uncommon",
+      "weight": 0.008,
+      "minLevel": 26,
+      "maxLevel": 51
+    }
+  ]
+}

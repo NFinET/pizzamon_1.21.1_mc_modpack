@@ -1,0 +1,74 @@
+{
+  "type": "cobbledgacha:gacha_machine_12_sparky_yarn",
+  "pools": [
+    {
+     "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_ampharos",
+    "weight": 20
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_shiny_ampharos",
+    "weight": 4
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_ampharos",
+    "weight": 10
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_shiny_ampharos",
+    "weight": 2
+  },
+
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_flaaffy",
+    "weight": 20
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_shiny_flaaffy",
+    "weight": 4
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_flaaffy",
+    "weight": 10
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_shiny_flaaffy",
+    "weight": 2
+  },
+
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_mareep",
+    "weight": 20
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:pokedoll_shiny_mareep",
+    "weight": 4
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_mareep",
+    "weight": 10
+  },
+  {
+    "type": "minecraft:item",
+    "name": "pokeblocks:gigantic_pokedoll_shiny_mareep",
+    "weight": 2
+ }
+      ]
+    }
+  ]
+}

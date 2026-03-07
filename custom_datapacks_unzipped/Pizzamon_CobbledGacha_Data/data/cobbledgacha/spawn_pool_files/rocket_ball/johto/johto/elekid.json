@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "elekid",
+      "bucket": "uncommon",
+      "weight": 1.68,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

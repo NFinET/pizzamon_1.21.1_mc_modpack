@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mimejr",
+      "bucket": "uncommon",
+      "weight": 1.72,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

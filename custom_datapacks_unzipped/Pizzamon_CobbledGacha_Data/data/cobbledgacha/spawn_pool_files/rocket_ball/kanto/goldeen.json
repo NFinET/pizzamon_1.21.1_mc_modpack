@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "goldeen",
+      "bucket": "common",
+      "weight": 9,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

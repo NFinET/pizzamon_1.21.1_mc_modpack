@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "alcremie",
+      "bucket": "common",
+      "weight": 0.253,
+      "minLevel": 22,
+      "maxLevel": 50
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "swinub",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

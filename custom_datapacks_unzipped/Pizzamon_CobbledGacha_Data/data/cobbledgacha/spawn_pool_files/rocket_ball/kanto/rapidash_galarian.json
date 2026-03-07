@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rapidash galarian",
+      "bucket": "common",
+      "weight": 1,
+      "minLevel": 40,
+      "maxLevel": 50
+    }
+  ]
+}

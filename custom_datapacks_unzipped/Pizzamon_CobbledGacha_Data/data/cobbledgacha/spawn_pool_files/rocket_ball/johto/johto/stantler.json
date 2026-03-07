@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "stantler",
+      "bucket": "common",
+      "weight": 10,
+      "minLevel": 22,
+      "maxLevel": 47
+    }
+  ]
+}

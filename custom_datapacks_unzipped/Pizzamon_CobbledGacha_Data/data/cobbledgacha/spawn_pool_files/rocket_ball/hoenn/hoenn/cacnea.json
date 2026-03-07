@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cacnea",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "jellicent",
+      "bucket": "common",
+      "weight": 1.782,
+      "minLevel": 40,
+      "maxLevel": 48
+    }
+  ]
+}

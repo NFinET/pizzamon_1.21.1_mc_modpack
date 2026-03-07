@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "kabutops",
+      "bucket": "ultra-rare",
+      "weight": 4,
+      "minLevel": 40,
+      "maxLevel": 50
+    }
+  ]
+}

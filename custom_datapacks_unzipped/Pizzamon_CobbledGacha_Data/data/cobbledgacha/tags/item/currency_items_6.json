@@ -1,5 +1,6 @@
 {
+    "replace": true,
   "values": [
-    "cobbledgacha:gacha_coin"
+    "cobblemon:relic_coin"
   ]
 }

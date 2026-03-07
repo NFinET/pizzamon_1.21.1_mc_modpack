@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "purugly",
+      "bucket": "common",
+      "weight": 0.92,
+      "minLevel": 38,
+      "maxLevel": 45
+    }
+  ]
+}

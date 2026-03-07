@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "plusle",
+      "bucket": "uncommon",
+      "weight": 1,
+      "minLevel": 15,
+      "maxLevel": 41
+    }
+  ]
+}

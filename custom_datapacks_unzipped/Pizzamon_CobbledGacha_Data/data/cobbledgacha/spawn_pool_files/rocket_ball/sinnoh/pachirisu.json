@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pachirisu",
+      "bucket": "uncommon",
+      "weight": 10.0,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

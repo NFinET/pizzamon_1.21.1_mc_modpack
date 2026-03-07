@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gligar",
+      "bucket": "uncommon",
+      "weight": 3.71,
+      "minLevel": 18,
+      "maxLevel": 43
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dugtrio",
+      "bucket": "common",
+      "weight": 1,
+      "minLevel": 26,
+      "maxLevel": 43
+    }
+  ]
+}

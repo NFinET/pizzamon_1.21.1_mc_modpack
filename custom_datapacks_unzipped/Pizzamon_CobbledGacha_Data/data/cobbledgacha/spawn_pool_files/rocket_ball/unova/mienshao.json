@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mienshao",
+      "bucket": "uncommon",
+      "weight": 1.6,
+      "minLevel": 50,
+      "maxLevel": 51
+    }
+  ]
+}

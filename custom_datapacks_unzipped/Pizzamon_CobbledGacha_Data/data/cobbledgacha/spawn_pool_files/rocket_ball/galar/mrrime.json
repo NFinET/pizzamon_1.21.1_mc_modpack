@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "mrrime",
+      "bucket": "uncommon",
+      "weight": 0.032,
+      "minLevel": 42,
+      "maxLevel": 52
+    }
+  ]
+}

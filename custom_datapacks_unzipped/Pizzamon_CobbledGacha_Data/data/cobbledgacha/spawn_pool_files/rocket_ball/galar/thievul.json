@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "thievul",
+      "bucket": "uncommon",
+      "weight": 0.9,
+      "minLevel": 18,
+      "maxLevel": 46
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pineco",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "marowak",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 28,
+      "maxLevel": 43
+    }
+  ]
+}

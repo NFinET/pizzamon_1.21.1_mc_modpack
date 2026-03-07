@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "chansey",
+      "bucket": "rare",
+      "weight": 1,
+      "minLevel": 17,
+      "maxLevel": 45
+    }
+  ]
+}

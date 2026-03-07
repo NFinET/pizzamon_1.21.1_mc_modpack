@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pincurchin",
+      "bucket": "uncommon",
+      "weight": 5.5,
+      "minLevel": 19,
+      "maxLevel": 44
+    }
+  ]
+}

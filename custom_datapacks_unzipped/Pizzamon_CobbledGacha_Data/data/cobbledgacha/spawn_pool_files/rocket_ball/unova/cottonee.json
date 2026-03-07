@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cottonee",
+      "bucket": "common",
+      "weight": 7.6,
+      "minLevel": 3,
+      "maxLevel": 28
+    }
+  ]
+}

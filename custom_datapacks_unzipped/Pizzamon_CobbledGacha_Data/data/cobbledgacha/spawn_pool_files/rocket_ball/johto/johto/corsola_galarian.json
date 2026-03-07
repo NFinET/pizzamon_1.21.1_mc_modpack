@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "corsola galarian",
+      "bucket": "common",
+      "weight": 4.52,
+      "minLevel": 16,
+      "maxLevel": 41
+    }
+  ]
+}

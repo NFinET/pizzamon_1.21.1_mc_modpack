@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "swadloon",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 20,
+      "maxLevel": 38
+    }
+  ]
+}

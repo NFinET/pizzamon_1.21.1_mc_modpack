@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "dunsparce",
+      "bucket": "uncommon",
+      "weight": 1.68,
+      "minLevel": 17,
+      "maxLevel": 42
+    }
+  ]
+}

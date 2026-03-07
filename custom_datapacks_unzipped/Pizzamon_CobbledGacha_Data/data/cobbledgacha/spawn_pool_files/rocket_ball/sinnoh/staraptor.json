@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "staraptor",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 34,
+      "maxLevel": 49
+    }
+  ]
+}

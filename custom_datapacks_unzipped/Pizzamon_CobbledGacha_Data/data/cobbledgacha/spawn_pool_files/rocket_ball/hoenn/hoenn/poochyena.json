@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "poochyena",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 1,
+      "maxLevel": 22
+    }
+  ]
+}

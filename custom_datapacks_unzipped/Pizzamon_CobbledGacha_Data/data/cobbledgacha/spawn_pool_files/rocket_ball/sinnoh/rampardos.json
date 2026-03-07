@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rampardos",
+      "bucket": "ultra_rare",
+      "weight": 4.0,
+      "minLevel": 30,
+      "maxLevel": 50
+    }
+  ]
+}

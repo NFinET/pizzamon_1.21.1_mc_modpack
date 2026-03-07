@@ -1,0 +1,32 @@
+{
+  "type": "cobbledgacha:gacha_machine_12_toothy_yarn",
+  "pools": [
+    {
+     "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+       {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_frigibax",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_shiny_frigibax",
+          "weight": 4
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_frigibax",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:gigantic_pokedoll_shiny_frigibax",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

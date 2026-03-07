@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "torterra",
+      "bucket": "ultra_rare",
+      "weight": 0.4,
+      "minLevel": 32,
+      "maxLevel": 53
+    }
+  ]
+}

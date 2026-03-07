@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hydreigon",
+      "bucket": "rare",
+      "weight": 0.3,
+      "minLevel": 64,
+      "maxLevel": 69
+    }
+  ]
+}

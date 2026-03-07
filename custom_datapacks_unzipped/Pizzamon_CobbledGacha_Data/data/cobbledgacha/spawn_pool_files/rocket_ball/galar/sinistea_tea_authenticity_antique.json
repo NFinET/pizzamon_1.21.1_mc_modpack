@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sinistea tea_authenticity=antique",
+      "bucket": "uncommon",
+      "weight": 0.093,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

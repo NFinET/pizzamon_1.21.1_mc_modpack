@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rhydon",
+      "bucket": "common",
+      "weight": 0.19,
+      "minLevel": 42,
+      "maxLevel": 49
+    }
+  ]
+}

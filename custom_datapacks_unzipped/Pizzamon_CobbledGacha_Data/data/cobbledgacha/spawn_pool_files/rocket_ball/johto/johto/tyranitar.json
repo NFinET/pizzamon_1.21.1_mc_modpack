@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tyranitar",
+      "bucket": "ultra-rare",
+      "weight": 0.325,
+      "minLevel": 55,
+      "maxLevel": 60
+    }
+  ]
+}

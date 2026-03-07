@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+            "tag": "c:strings"
+        },
+
+    "#": {
+            "item": "cobblemon:water_gem"
+        },
+        "W": {
+            "tag": "minecraft:wool"
+        }
+  },
+  "pattern": [
+    "WW ",
+    "W#S",
+    " SS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobbledgacha:soggy_yarn"
+  }
+}

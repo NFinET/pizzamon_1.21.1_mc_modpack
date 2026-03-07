@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "shroomish",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

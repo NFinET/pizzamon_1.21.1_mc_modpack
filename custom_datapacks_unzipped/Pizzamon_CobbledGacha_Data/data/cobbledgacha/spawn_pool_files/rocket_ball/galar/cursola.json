@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "cursola",
+      "bucket": "common",
+      "weight": 0.591,
+      "minLevel": 38,
+      "maxLevel": 51
+    }
+  ]
+}

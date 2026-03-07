@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "P": {
+      "item": "cobblemon:poke_ball"
+    },
+     "W": {
+            "tag": "minecraft:wool"
+        }
+  },
+  "pattern": [
+    "WDW",
+    "LP ",
+    "I#I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobbledgacha:gacha_machine_12"
+  }
+}

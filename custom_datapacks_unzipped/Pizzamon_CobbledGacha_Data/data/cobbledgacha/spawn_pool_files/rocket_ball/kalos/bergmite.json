@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bergmite",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

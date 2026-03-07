@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "numel",
+      "bucket": "common",
+      "weight": 6.6,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

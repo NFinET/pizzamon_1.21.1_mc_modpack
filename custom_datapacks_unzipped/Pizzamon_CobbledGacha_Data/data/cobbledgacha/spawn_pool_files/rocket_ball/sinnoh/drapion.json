@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "drapion",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 40,
+      "maxLevel": 50
+    }
+  ]
+}

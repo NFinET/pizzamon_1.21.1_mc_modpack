@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "pumpkaboo",
+      "bucket": "uncommon",
+      "weight": 7.45,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

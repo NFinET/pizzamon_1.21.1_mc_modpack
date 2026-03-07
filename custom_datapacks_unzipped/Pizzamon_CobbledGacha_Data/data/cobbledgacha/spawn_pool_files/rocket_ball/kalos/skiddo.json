@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "skiddo",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

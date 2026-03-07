@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "goomy region_bias=hisui",
+      "bucket": "rare",
+      "weight": 5.49,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

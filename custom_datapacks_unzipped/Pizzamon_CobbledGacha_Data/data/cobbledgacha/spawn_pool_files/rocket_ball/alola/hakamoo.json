@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "hakamoo",
+      "bucket": "rare",
+      "weight": 2.925,
+      "minLevel": 35,
+      "maxLevel": 42
+    }
+  ]
+}

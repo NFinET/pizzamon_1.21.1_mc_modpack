@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "U": {
+      "item": "cobblemon:ultra_ball"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+     "B": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "pattern": [
+    "IRI",
+    "UUU",
+    "BDB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobbledgacha:gacha_machine_11"
+  }
+}

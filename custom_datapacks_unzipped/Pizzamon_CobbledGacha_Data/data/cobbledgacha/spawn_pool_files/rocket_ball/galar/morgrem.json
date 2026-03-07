@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "morgrem",
+      "bucket": "common",
+      "weight": 0.54,
+      "minLevel": 32,
+      "maxLevel": 37
+    }
+  ]
+}

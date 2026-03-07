@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "spiritomb",
+      "bucket": "rare",
+      "weight": 30,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

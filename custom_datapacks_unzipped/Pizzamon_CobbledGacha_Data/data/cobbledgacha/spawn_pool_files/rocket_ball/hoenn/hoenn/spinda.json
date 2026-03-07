@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "spinda",
+      "bucket": "uncommon",
+      "weight": 9.9,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

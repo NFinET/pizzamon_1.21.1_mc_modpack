@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tranquill",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 21,
+      "maxLevel": 36
+    }
+  ]
+}

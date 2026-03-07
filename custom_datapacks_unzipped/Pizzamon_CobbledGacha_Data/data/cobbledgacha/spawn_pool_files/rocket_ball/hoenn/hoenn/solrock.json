@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "solrock",
+      "bucket": "uncommon",
+      "weight": 9.6,
+      "minLevel": 21,
+      "maxLevel": 46
+    }
+  ]
+}

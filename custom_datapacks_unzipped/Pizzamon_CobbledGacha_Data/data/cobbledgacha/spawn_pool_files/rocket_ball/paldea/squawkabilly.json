@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "squawkabilly",
+      "bucket": "common",
+      "weight": 6.0,
+      "minLevel": 17,
+      "maxLevel": 42
+    }
+  ]
+}

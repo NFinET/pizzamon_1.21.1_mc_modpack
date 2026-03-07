@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "aipom",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 11,
+      "maxLevel": 36
+    }
+  ]
+}

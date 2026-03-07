@@ -1,0 +1,192 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gacha_machine_12.idle": {
+			"loop": true
+		},
+		"animation.gacha_machine_12.dispense": {
+			"animation_length": 1,
+			"bones": {
+				"pokeball": {
+					"rotation": {
+						"0.4167": {
+							"vector": [0, 0, 0]
+						},
+						"0.4583": {
+							"pre": {
+								"vector": [15, 0, -5]
+							},
+							"post": {
+								"vector": [15, 0, -5]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.5417": {
+							"post": {
+								"vector": [14.51082, -3.84097, 9.51082]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.625": {
+							"post": {
+								"vector": [-5.48918, -3.84097, 9.51082]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.7083": {
+							"post": {
+								"vector": [-11.58222, -5.31246, -7.98391]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.7917": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0833": {
+							"vector": [0, 0, 0]
+						},
+						"0.2083": {
+							"vector": [0, 1, 0]
+						},
+						"0.3333": {
+							"vector": [0, 0, 0]
+						},
+						"0.7917": {
+							"vector": [0, 0, 0]
+						},
+						"0.875": {
+							"pre": {
+								"vector": [0, -1, 0]
+							},
+							"post": {
+								"vector": [0, -1, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"lever2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [27.5, 0, 0]
+						},
+						"0.2083": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"middle_button_blue": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.2917": {
+							"vector": [1.05, 1.05, 1.05]
+						}
+					}
+				},
+				"right_button_blue": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.2917": {
+							"vector": [1.05, 1.05, 1.05]
+						}
+					}
+				},
+				"left_button_red": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.2917": {
+							"vector": [1.05, 1.05, 1.05]
+						}
+					}
+				},
+				"pokeball center": {
+					"rotation": {
+						"0.7917": {
+							"pre": {
+								"vector": [0, 0, 0]
+							},
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.875": {
+							"post": {
+								"vector": [0, -80, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.9583": {
+							"post": {
+								"vector": [0, -95, 0]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.7917": {
+							"pre": {
+								"vector": [0, 0, 0]
+							},
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"0.9583": {
+							"post": {
+								"vector": [0, 0, 4.05]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"right_button_green": {
+					"scale": {
+						"0.7917": {
+							"vector": [1, 1, 1]
+						},
+						"0.875": {
+							"vector": [1.06, 1.06, 1.06]
+						}
+					}
+				},
+				"middle_button_green": {
+					"scale": {
+						"0.7917": {
+							"vector": [1, 1, 1]
+						},
+						"0.875": {
+							"vector": [1.06, 1.06, 1.06]
+						}
+					}
+				},
+				"left_button_green": {
+					"scale": {
+						"0.7917": {
+							"vector": [1, 1, 1]
+						},
+						"0.875": {
+							"vector": [1.06, 1.06, 1.06]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

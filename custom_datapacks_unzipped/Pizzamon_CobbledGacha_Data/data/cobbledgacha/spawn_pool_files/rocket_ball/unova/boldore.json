@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "boldore",
+      "bucket": "uncommon",
+      "weight": 1.235,
+      "minLevel": 25,
+      "maxLevel": 39
+    }
+  ]
+}

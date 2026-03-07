@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "electrode",
+      "bucket": "uncommon",
+      "weight": 8,
+      "minLevel": 30,
+      "maxLevel": 49
+    }
+  ]
+}

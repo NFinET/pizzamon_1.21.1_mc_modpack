@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gothita",
+      "bucket": "uncommon",
+      "weight": 6.9,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

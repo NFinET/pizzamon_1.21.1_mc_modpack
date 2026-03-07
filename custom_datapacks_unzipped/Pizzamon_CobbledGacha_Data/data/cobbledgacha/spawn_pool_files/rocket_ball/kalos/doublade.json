@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "doublade",
+      "bucket": "uncommon",
+      "weight": 9.558,
+      "minLevel": 35,
+      "maxLevel": 45
+    }
+  ]
+}

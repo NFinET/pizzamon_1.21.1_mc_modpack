@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "oinkologne",
+      "bucket": "common",
+      "weight": 0.733,
+      "minLevel": 18,
+      "maxLevel": 49
+    }
+  ]
+}

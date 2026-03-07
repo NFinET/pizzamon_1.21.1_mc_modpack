@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "bonsly",
+      "bucket": "uncommon",
+      "weight": 5.04,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

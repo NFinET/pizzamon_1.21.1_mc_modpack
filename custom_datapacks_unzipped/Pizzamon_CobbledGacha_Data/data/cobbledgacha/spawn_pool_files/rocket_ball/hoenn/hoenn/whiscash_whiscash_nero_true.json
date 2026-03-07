@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "whiscash whiscash_nero=true",
+      "bucket": "rare",
+      "weight": 10.0,
+      "minLevel": 30,
+      "maxLevel": 47
+    }
+  ]
+}

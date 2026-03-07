@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "tatsugiri",
+      "bucket": "rare",
+      "weight": 10.0,
+      "minLevel": 23,
+      "maxLevel": 48
+    }
+  ]
+}

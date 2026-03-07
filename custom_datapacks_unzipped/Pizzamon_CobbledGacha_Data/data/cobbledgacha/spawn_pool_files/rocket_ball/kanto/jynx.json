@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "jynx",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "minLevel": 30,
+      "maxLevel": 46
+    }
+  ]
+}

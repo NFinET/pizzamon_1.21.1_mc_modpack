@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magikarp magikarp_jump=black-mask",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 1,
+      "maxLevel": 20
+    }
+  ]
+}

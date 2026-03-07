@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "overqwil",
+      "bucket": "common",
+      "weight": 2.815,
+      "minLevel": 39,
+      "maxLevel": 51
+    }
+  ]
+}

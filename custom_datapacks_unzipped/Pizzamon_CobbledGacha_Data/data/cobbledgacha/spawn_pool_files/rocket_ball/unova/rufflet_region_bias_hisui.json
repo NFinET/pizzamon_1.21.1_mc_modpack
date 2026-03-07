@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rufflet region_bias=hisui",
+      "bucket": "uncommon",
+      "weight": 8.7,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

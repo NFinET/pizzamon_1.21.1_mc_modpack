@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "braviary",
+      "bucket": "uncommon",
+      "weight": 1.3,
+      "minLevel": 54,
+      "maxLevel": 59
+    }
+  ]
+}

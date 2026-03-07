@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rhyperior",
+      "bucket": "common",
+      "weight": 0.01,
+      "minLevel": 44,
+      "maxLevel": 54
+    }
+  ]
+}

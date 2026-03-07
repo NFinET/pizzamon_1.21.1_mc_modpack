@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "wimpod",
+      "bucket": "uncommon",
+      "weight": 7.853,
+      "minLevel": 1,
+      "maxLevel": 23
+    }
+  ]
+}

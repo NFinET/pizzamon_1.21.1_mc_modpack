@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "karrablast",
+      "bucket": "common",
+      "weight": 5.7,
+      "minLevel": 7,
+      "maxLevel": 32
+    }
+  ]
+}

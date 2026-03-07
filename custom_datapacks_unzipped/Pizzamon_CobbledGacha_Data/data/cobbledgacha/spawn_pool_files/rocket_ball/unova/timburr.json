@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "timburr",
+      "bucket": "common",
+      "weight": 5.4,
+      "minLevel": 6,
+      "maxLevel": 31
+    }
+  ]
+}

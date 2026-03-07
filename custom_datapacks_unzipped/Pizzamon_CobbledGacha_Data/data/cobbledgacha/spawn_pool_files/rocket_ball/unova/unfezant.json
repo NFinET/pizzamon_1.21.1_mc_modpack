@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "unfezant",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 32,
+      "maxLevel": 49
+    }
+  ]
+}

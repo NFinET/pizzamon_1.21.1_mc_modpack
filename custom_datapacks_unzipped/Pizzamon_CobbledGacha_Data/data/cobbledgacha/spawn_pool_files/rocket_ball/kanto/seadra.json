@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "seadra",
+      "bucket": "common",
+      "weight": 0.19,
+      "minLevel": 32,
+      "maxLevel": 44
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "salazzle",
+      "bucket": "common",
+      "weight": 0.09,
+      "minLevel": 33,
+      "maxLevel": 48
+    }
+  ]
+}

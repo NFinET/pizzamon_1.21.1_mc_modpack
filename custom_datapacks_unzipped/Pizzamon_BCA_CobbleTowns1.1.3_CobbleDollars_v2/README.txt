@@ -5,3 +5,5 @@ This datapack was made for the Pizzamon - Stuffed Crust Pizza Pack by NFinET_Owa
 - CobbleDollars
 - Cobblemon Additions
 - Cobblemon: Max Repel 
+- CobbledGacha
+- Pokeblocks

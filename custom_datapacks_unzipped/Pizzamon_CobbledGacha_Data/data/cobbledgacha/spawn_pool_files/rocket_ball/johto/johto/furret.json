@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "furret",
+      "bucket": "common",
+      "weight": 1.0,
+      "minLevel": 15,
+      "maxLevel": 42
+    }
+  ]
+}

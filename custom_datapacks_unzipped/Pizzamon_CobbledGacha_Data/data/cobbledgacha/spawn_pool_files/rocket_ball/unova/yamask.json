@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "yamask",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 5,
+      "maxLevel": 30
+    }
+  ]
+}

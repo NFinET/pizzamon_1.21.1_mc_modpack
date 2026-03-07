@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "persian alolan",
+      "bucket": "uncommon",
+      "weight": 10,
+      "minLevel": 28,
+      "maxLevel": 44
+    }
+  ]
+}

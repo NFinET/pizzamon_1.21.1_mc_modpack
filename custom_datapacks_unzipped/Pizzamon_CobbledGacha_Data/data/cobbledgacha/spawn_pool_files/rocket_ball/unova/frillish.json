@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "frillish",
+      "bucket": "common",
+      "weight": 5,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

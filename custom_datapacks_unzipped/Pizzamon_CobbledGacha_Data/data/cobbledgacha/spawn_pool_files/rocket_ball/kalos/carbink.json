@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "carbink",
+      "bucket": "common",
+      "weight": 10,
+      "minLevel": 25,
+      "maxLevel": 50
+    }
+  ]
+}

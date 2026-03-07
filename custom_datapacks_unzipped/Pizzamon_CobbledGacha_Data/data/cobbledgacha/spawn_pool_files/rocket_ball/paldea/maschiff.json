@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "maschiff",
+      "bucket": "common",
+      "weight": 6,
+      "minLevel": 9,
+      "maxLevel": 34
+    }
+  ]
+}

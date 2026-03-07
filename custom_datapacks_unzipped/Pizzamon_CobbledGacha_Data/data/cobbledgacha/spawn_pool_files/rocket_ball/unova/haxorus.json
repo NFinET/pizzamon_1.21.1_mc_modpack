@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "haxorus",
+      "bucket": "ultra_rare",
+      "weight": 0.4,
+      "minLevel": 48,
+      "maxLevel": 54
+    }
+  ]
+}

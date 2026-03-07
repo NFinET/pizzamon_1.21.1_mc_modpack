@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "charcadet",
+      "bucket": "uncommon",
+      "weight": 9,
+      "minLevel": 1,
+      "maxLevel": 26
+    }
+  ]
+}

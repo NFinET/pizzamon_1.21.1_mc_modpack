@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "skiploom",
+      "bucket": "common",
+      "weight": 0.9,
+      "minLevel": 18,
+      "maxLevel": 34
+    }
+  ]
+}

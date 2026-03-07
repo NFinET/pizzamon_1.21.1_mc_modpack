@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "vivillon vivillon_wings=ocean",
+      "bucket": "common",
+      "weight": 2.0,
+      "minLevel": 12,
+      "maxLevel": 41
+    }
+  ]
+}

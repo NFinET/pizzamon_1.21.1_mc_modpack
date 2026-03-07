@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "sigilyph",
+      "bucket": "common",
+      "weight": 6,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

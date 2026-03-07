@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "clamperl",
+      "bucket": "rare",
+      "weight": 7.15,
+      "minLevel": 10,
+      "maxLevel": 35
+    }
+  ]
+}

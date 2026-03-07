@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "nincada",
+      "bucket": "common",
+      "weight": 7.985,
+      "minLevel": 2,
+      "maxLevel": 27
+    }
+  ]
+}

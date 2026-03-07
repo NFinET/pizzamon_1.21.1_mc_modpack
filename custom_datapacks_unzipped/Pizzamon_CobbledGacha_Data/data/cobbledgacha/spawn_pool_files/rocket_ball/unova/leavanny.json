@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "leavanny",
+      "bucket": "common",
+      "weight": 0.1,
+      "minLevel": 33,
+      "maxLevel": 50
+    }
+  ]
+}

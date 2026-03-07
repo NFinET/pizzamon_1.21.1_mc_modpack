@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "rookidee",
+      "bucket": "common",
+      "weight": 9.0,
+      "minLevel": 1,
+      "maxLevel": 25
+    }
+  ]
+}

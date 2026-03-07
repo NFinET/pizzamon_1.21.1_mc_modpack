@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "lickitung",
+      "bucket": "uncommon",
+      "weight": 2,
+      "minLevel": 14,
+      "maxLevel": 39
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "magmortar",
+      "bucket": "common",
+      "weight": 0.05,
+      "minLevel": 45,
+      "maxLevel": 54
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "musharna",
+      "bucket": "common",
+      "weight": 0.5,
+      "minLevel": 24,
+      "maxLevel": 49
+    }
+  ]
+}

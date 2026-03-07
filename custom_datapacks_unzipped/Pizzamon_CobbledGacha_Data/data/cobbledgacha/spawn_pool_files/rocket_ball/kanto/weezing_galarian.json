@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "weezing galarian",
+      "bucket": "common",
+      "weight": 0.2,
+      "minLevel": 35,
+      "maxLevel": 49
+    }
+  ]
+}

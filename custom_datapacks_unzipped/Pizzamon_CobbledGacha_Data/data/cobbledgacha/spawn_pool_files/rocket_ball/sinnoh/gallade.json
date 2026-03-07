@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "gallade",
+      "bucket": "rare",
+      "weight": 0.022,
+      "minLevel": 30,
+      "maxLevel": 52
+    }
+  ]
+}

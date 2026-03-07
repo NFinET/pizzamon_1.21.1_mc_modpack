@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "riolu",
+      "bucket": "rare",
+      "weight": 7.5,
+      "minLevel": 4,
+      "maxLevel": 29
+    }
+  ]
+}

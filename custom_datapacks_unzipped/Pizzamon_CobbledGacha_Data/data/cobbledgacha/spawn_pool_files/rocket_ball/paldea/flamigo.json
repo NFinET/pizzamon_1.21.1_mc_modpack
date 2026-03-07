@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "species": "flamigo",
+      "bucket": "uncommon",
+      "weight": 6.0,
+      "minLevel": 25,
+      "maxLevel": 50
+    }
+  ]
+}
