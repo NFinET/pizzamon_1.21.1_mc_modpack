@@ -19,5 +19,6 @@ All Datapacks are included in both the Client and Server files.
 - \* Pizzamon_BotanyPotsModule_v1.zip
 - \* Pizzamon_ApothicEnchantingModule_v1.zip
 - \* Pizzamon_CobbledGacha_Data
+- \* Pizzamon_TrialsEditionModule
 - RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip
 - Vivillon Pride Patterns v1.0.zip
