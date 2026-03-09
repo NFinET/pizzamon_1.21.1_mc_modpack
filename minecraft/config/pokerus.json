@@ -1,9 +1,0 @@
-{
-  "wildInfectionChangeNumerator": 3,
-  "wildInfectionChanceDenominator": 65536,
-  "chanceToSpread": 3,
-  "onlyInfectNewIfNobodyOnTeamHas": false,
-  "evMultiplier": 2,
-  "onlyInBattle": true,
-  "debug": false
-}
