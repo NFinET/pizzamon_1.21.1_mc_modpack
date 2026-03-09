@@ -1,5 +1,5 @@
 {
-  "configVersion": "1.11.5-beta",
+  "configVersion": "1.13.2",
   "comment": [
     "This config is only on your client. It determines which Pokemon are alerted, and how that alert is displayed.",
     "For documentation on using the config, please see the Modrinth or GitHub for the mod.",
@@ -14,18 +14,22 @@
       "alertHiddenAbility": false,
       "alertDespawned": true,
       "showLegendary": true,
+      "showBucket": true,
       "statDisplayModes": {
         "level": "MAIN_MESSAGE",
+        "dex": "HOVER",
         "ivs": "HOVER",
         "evs": "DISABLED",
         "nature": "DISABLED",
         "ability": "HOVER",
         "gender": "HOVER",
-        "coordinates": "HOVER",
+        "coords": "HOVER",
         "biome": "HOVER",
-        "nearestPlayer": "MAIN_MESSAGE"
+        "nearest_player": "MAIN_MESSAGE"
       },
       "customAlertMessage": "",
+      "customAlertTooltip": "",
+      "customAlertClickEvent": "",
       "sounds": {
         "shiny": "",
         "legendary": "",
@@ -33,19 +37,23 @@
         "ultrabeast": "",
         "paradox": "",
         "starter": "",
+        "bucket": "",
         "unregistered": "",
         "uncaught": "",
         "ivs": "",
-        "evs": ""
+        "evs": "",
+        "despawned": ""
       },
       "customAlertSound": "",
       "autoGlow": true,
+      "glowColor": "#FFFFFFFF",
       "journeyMap": {
         "enableWaypoint": false,
         "waypointName": "",
         "waypointHexColor": "",
         "persistent": false
-      }
+      },
+      "sendWebhook": false
     },
     "bulbasaur, charmander, squirtle, ivysaur, charmeleon, wartortle, venusaur, charizard, blastoise, chikorita, bayleef, meganium, cyndaquil, quilava, typhlosion, totodile, croconaw, feraligatr, treecko, grovyle, sceptile, torchic, combusken, blaziken, mudkip, marshtomp, swampert, turtwig, grotle, torterra, chimchar, monferno, infernape, piplup, prinplup, empoleon, snivy, servine, serperior, tepig, pignite, emboar, oshawott, dewott, samurott, chespin, quilladin, chesnaught, fennekin, braixen, delphox, froakie, frogadier, greninja, rowlet, dartrix, decidueye, litten, torracat, incineroar, popplio, brionne, primarina, grookey, thwackey, rillaboom, scorbunny, raboot, cinderace, sobble, drizzile, inteleon, sprigatito, floragato, meowscarada, fuecoco, crocalor, skeledirge, quaxly, quaxwell, quaquaval": {
       "enabled": true,
@@ -54,18 +62,22 @@
       "alertHiddenAbility": true,
       "alertDespawned": true,
       "showLegendary": true,
+      "showBucket": true,
       "statDisplayModes": {
         "level": "MAIN_MESSAGE",
+        "dex": "HOVER",
         "ivs": "HOVER",
         "evs": "DISABLED",
         "nature": "DISABLED",
         "ability": "HOVER",
         "gender": "MAIN_MESSAGE",
-        "coordinates": "HOVER",
+        "coords": "HOVER",
         "biome": "HOVER",
-        "nearestPlayer": "MAIN_MESSAGE"
+        "nearest_player": "MAIN_MESSAGE"
       },
       "customAlertMessage": "<red>[!]</red> {shiny}<green>[STRT] </green>{gender}<blue><b>{name}</b></blue> {HA}<gray> appeared </gray>{nearest_player}",
+      "customAlertTooltip": "",
+      "customAlertClickEvent": "",
       "sounds": {
         "shiny": "",
         "legendary": "",
@@ -73,59 +85,23 @@
         "ultrabeast": "",
         "paradox": "",
         "starter": "",
+        "bucket": "",
         "unregistered": "",
         "uncaught": "",
         "ivs": "",
-        "evs": ""
+        "evs": "",
+        "despawned": ""
       },
       "customAlertSound": "",
       "autoGlow": true,
+      "glowColor": "#FFFFFFFF",
       "journeyMap": {
         "enableWaypoint": false,
         "waypointName": "",
         "waypointHexColor": "",
         "persistent": false
-      }
-    },
-    "ditto, rotom, spiritomb, togepi, togetic, togekiss, unown, porygon, porygon2, porygonz, zorua, zoroark, gholdengo": {
-      "enabled": true,
-      "alwaysAlert": true,
-      "alertShiny": true,
-      "alertHiddenAbility": true,
-      "alertDespawned": true,
-      "showLegendary": true,
-      "statDisplayModes": {
-        "level": "MAIN_MESSAGE",
-        "ivs": "HOVER",
-        "evs": "DISABLED",
-        "nature": "DISABLED",
-        "ability": "HOVER",
-        "gender": "MAIN_MESSAGE",
-        "coordinates": "HOVER",
-        "biome": "HOVER",
-        "nearestPlayer": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> {shiny}<gold>[UR] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
-      "sounds": {
-        "shiny": "",
-        "legendary": "",
-        "mythical": "",
-        "ultrabeast": "",
-        "paradox": "",
-        "starter": "",
-        "unregistered": "",
-        "uncaught": "",
-        "ivs": "",
-        "evs": ""
-      },
-      "customAlertSound": "",
-      "autoGlow": true,
-      "journeyMap": {
-        "enableWaypoint": false,
-        "waypointName": "",
-        "waypointHexColor": "",
-        "persistent": false
-      }
+      "sendWebhook": false
     },
     "dratini, dragonair, dragonite, larvitar, pupitar, tyranitar, bagon, shelgon, salamence, beldum, metang, metagross, gible, gabite, garchomp, deino, zweilous, hydreigon, goomy, sliggoo, goodra, jangmoo, hakamoo, kommoo, dreepy, drakloak, dragapult, frigibax, arctibax, baxcalibur": {
       "enabled": true,
@@ -134,18 +110,22 @@
       "alertHiddenAbility": true,
       "alertDespawned": true,
       "showLegendary": true,
+      "showBucket": true,
       "statDisplayModes": {
         "level": "MAIN_MESSAGE",
+        "dex": "HOVER",
         "ivs": "HOVER",
         "evs": "DISABLED",
         "nature": "DISABLED",
         "ability": "HOVER",
         "gender": "MAIN_MESSAGE",
-        "coordinates": "HOVER",
+        "coords": "HOVER",
         "biome": "HOVER",
-        "nearestPlayer": "MAIN_MESSAGE"
+        "nearest_player": "MAIN_MESSAGE"
       },
       "customAlertMessage": "<red>[!]</red> {shiny}<gold>[PSEU] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
+      "customAlertTooltip": "",
+      "customAlertClickEvent": "",
       "sounds": {
         "shiny": "",
         "legendary": "",
@@ -153,19 +133,23 @@
         "ultrabeast": "",
         "paradox": "",
         "starter": "",
+        "bucket": "",
         "unregistered": "",
         "uncaught": "",
         "ivs": "",
-        "evs": ""
+        "evs": "",
+        "despawned": ""
       },
       "customAlertSound": "",
       "autoGlow": true,
+      "glowColor": "#FFFFFFFF",
       "journeyMap": {
         "enableWaypoint": false,
         "waypointName": "",
         "waypointHexColor": "",
         "persistent": false
-      }
+      },
+      "sendWebhook": false
     }
   }
 }

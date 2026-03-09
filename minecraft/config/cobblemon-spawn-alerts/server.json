@@ -1,4 +1,5 @@
 {
+  "configVersion": "1.13.2",
   "comment": [
     "This config is only used if you are in singleplayer or hosting a server (including LAN).",
     "It determines which Pokemon are *globally* alerted for all players, and what info about Pokemon is available to clients.",
@@ -7,16 +8,22 @@
     "https://modrinth.com/mod/cobblemon-spawn-alerts",
     "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
   ],
-  "enableSpawnCommandAlerts": true,
+  "enableSpawnCommandAlerts": false,
   "alertShinies": true,
+  "broadcastShiny": true,
   "alertLegendaries": true,
   "alertMythicals": true,
   "alertUltraBeasts": true,
   "alertParadox": true,
   "alertStarters": true,
   "alertHiddenAbility": false,
+  "bucketsToAlert": [
+    "ULTRA_RARE"
+  ],
+  "broadcastBucket": true,
   "broadcastIVs": true,
   "broadcastEVs": true,
   "broadcastNature": true,
-  "broadcastAbility": true
+  "broadcastAbility": true,
+  "sendWebhook": false
 }
