@@ -168,6 +168,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("cobblemon:zoom_lens").withWeight(2))
         pool.addEntry(LootEntry.of("cobblemon:scope_lens").withWeight(2))
         pool.addEntry(LootEntry.of("cobblemon:exp_share").withWeight(1))
+        pool.addEntry(LootEntry.of("mega_showdown:zygarde_cell").withWeight(2))
     })
 
 
@@ -323,6 +324,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("cobblemon:elixir").withWeight(2).setCount([1, 2]))
         pool.addEntry(LootEntry.tag("cobblecuisine:beans", true).withWeight(3).setCount([2, 4]))
         pool.addEntry(LootEntry.tag("pizzamon:cuisine/low_shakes", true).withWeight(3).setCount([1, 2]))
+        pool.addEntry(LootEntry.of("maxrepel:repel").withWeight(6).setCount([1, 4]))
     })
     // Uncommon Pokemon consumables
     event.create("pizzamon:consumables/uncommon").createPool(pool => {
@@ -336,6 +338,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("cobblemon:full_heal").withWeight(6).setCount([1, 2]))
         pool.addEntry(LootEntry.tag("pizzamon:cuisine/pokepuffs", true).withWeight(3).setCount([1, 2]))
         pool.addEntry(LootEntry.tag("pizzamon:cuisine/medium_shakes", true).withWeight(3).setCount([1, 2]))
+        pool.addEntry(LootEntry.of("maxrepel:super_repel").withWeight(5).setCount([1, 2]))
     })
     // Rare Pokemon consumables
     event.create("pizzamon:consumables/rare").createPool(pool => {
@@ -352,9 +355,9 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.tag("pizzamon:cuisine/malasada", true).withWeight(3))
         pool.addEntry(LootEntry.tag("pizzamon:cuisine/high_shakes", true).withWeight(3))
         pool.addEntry(LootEntry.tag("pizzamon:cuisine/deluxe_shakes", true).withWeight(2))
+        pool.addEntry(LootEntry.of("maxrepel:max_repel").withWeight(4).setCount([1, 2]))
     })
 
-    //  TO BE ADDED TO CONSUMABLE TABLES: REPELS
 
 
 
@@ -384,7 +387,26 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.tag("mega_showdown:tera_shard", true).withWeight(3).setCount([2, 8]))
         pool.addEntry(LootEntry.of("mega_showdown:stellar_tera_shard").withWeight(1).setCount([1, 3]))
     }) 
+
+    // Cobblemon utility silver bottlecaps
+    event.create("pizzamon:silver_bottlecaps").createPool(pool => {
+        pool.addEntry(LootEntry.of("cobblemon_utility:spatksilvercap"))
+        pool.addEntry(LootEntry.of("cobblemon_utility:spdefsilvercap"))
+        pool.addEntry(LootEntry.of("cobblemon_utility:atksilvercap"))
+        pool.addEntry(LootEntry.of("cobblemon_utility:defsilvercap"))
+        pool.addEntry(LootEntry.of("cobblemon_utility:speedsilvercap"))
+        pool.addEntry(LootEntry.of("cobblemon_utility:hpsilvercap"))
+    }) 
     
+    // Cobblemon size essences
+    event.create("pizzamon:size_essences").createPool(pool => {
+        pool.addEntry(LootEntry.of("cobblemonsizevariation:growth_essence"))
+        pool.addEntry(LootEntry.of("cobblemonsizevariation:shrink_essence"))
+        pool.addEntry(LootEntry.of("cobblemonsizevariation:tiny_essence"))
+        pool.addEntry(LootEntry.of("cobblemonsizevariation:normal_essence"))
+        pool.addEntry(LootEntry.of("cobblemonsizevariation:huge_essence"))
+    }) 
+
 
     // General Loot - Materials
     event.create("pizzamon:loot/materials/common").createPool(pool => {
@@ -397,6 +419,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("minecraft:redstone").withWeight(5).setCount([2, 8]))
         pool.addEntry(LootEntry.of("minecraft:lapis_lazuli").withWeight(5).setCount([2, 8]))
         pool.addEntry(LootEntry.of("minecraft:quartz").withWeight(5).setCount([2, 8]))
+        pool.addEntry(LootEntry.of("minecraft:blaze_powder").withWeight(3).setCount([1, 3]))
         pool.addEntry(LootEntry.of("create:brass_ingot").withWeight(5).setCount([1, 3]))
         pool.addEntry(LootEntry.of("minecraft:prismarine_shard").withWeight(3).setCount([2, 6]))
         pool.addEntry(LootEntry.of("minecraft:prismarine_crystals").withWeight(2).setCount([1, 3]))
@@ -407,33 +430,198 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("minecraft:diamond").withWeight(4).setCount([1, 3]))
         pool.addEntry(LootEntry.of("minecraft:emerald").withWeight(6).setCount([1, 3]))
         pool.addEntry(LootEntry.of("minecraft:netherite_scrap").withWeight(1))
+        pool.addEntry(LootEntry.of("minecraft:blaze_rod").withWeight(4).setCount([1, 2]))
     })
 
-    // "Fun" loot pool, various niche items to expose existence of mods otherwise hard to know about
-    event.create("pizzamon:loot/fun").createPool(pool => {
-        pool.addEntry(LootEntry.reference('pizzamon:camera_loot').withWeight(10))
-        pool.addEntry(LootEntry.reference('pizzamon:general/art').withWeight(10))
-        pool.addEntry(LootEntry.reference('pizzamon:firework_stickers').withWeight(10))
+
+
+    event.create("pizzamon:loot/fun/decor/tools").createPool(pool => {
+        pool.addEntry(LootEntry.of("minecraft:stonecutter"))
+        pool.addEntry(LootEntry.of("chipped:multimeter"))
+        pool.addEntry(LootEntry.of("chipped:alchemy_book"))
+        pool.addEntry(LootEntry.of("chipped:watering_can"))
+        pool.addEntry(LootEntry.of("chipped:needles"))
+        pool.addEntry(LootEntry.of("chipped:saw"))
+        pool.addEntry(LootEntry.of("rechiseled:chisel"))
+        pool.addEntry(LootEntry.of("sawmill:sawmill"))
+        pool.addEntry(LootEntry.of("refurbished_furniture:workbench"))
+        pool.addEntry(LootEntry.of("fetzisdisplays:workbench"))
+        pool.addEntry(LootEntry.of("cluttered:hand_drill"))
+        pool.addEntry(LootEntry.of("cobblefurnies:furnicrafter"))
+        pool.addEntry(LootEntry.of("exposure:lightroom"))
     })
+
+    event.create("pizzamon:loot/fun/decor/lighting").createPool(pool => {
+        pool.addEntry(LootEntry.tag("nightlights:octopus", true))
+        pool.addEntry(LootEntry.tag("nightlights:frog", true))
+        pool.addEntry(LootEntry.tag("nightlights:mushroom", true))
+        pool.addEntry(LootEntry.tag("nightlights:fairy_lights", true))
+        pool.addEntry(LootEntry.tag("nightlights:hanging_lights", true))
+        pool.addEntry(LootEntry.of("cluttered:bee_lamp"))
+        pool.addEntry(LootEntry.of("cluttered:bee_lamp_angry"))
+        pool.addEntry(LootEntry.of("cluttered:honeycomb_lamp"))
+        pool.addEntry(LootEntry.of("cluttered:red_mushroom_lamp"))
+        pool.addEntry(LootEntry.of("cluttered:blue_mushroom_lamp"))
+        pool.addEntry(LootEntry.of("cluttered:flower_desk_lamp"))
+        pool.addEntry(LootEntry.of("fetzisasiandeco:pagoda_lantern"))
+        pool.addEntry(LootEntry.of("fetzisasiandeco:red_paper_lantern"))
+    })
+
+    event.create("pizzamon:loot/fun/decor/smokestacks").createPool(pool => {
+        pool.addEntry(LootEntry.of("railways:smokestack_caboosestyle"))
+        pool.addEntry(LootEntry.of("railways:smokestack_long"))
+        pool.addEntry(LootEntry.of("railways:smokestack_coalburner"))
+        pool.addEntry(LootEntry.of("railways:smokestack_oilburner"))
+        pool.addEntry(LootEntry.of("railways:smokestack_woodburner"))
+        pool.addEntry(LootEntry.of("railways:smokestack_streamlined"))
+    })
+
+    event.create("pizzamon:loot/fun/decor/displays").createPool(pool => {
+        pool.addEntry(LootEntry.tag("handcrafted:trophies", true))
+        pool.addEntry(LootEntry.tag("pizzamon:decals", true))
+        pool.addEntry(LootEntry.tag("pizzamon:statues", true))
+        pool.addEntry(LootEntry.of("minecraft:armor_stand"))
+        pool.addEntry(LootEntry.of("supplementaries:statue"))
+        pool.addEntry(LootEntry.of("supplementaries:hat_stand"))
+        pool.addEntry(LootEntry.of("simplehats:hatdisplay"))
+        pool.addEntry(LootEntry.of("cobblemon:display_case"))
+        pool.addEntry(LootEntry.of("fetzisdisplays:glass_cloche_red"))
+        pool.addEntry(LootEntry.of("exposure:photograph_frame"))
+    })
+
+    event.create("pizzamon:loot/fun/gadgets/compass").createPool(pool => {
+        pool.addEntry(LootEntry.of("explorerscompass:explorerscompass"))
+        pool.addEntry(LootEntry.of("naturescompass:naturescompass"))
+    })
+
+    event.create("pizzamon:loot/fun/gadgets/pokemon").createPool(pool => {
+        pool.addEntry(LootEntry.of("berrypouch:berry_pouch").withWeight(3))
+        pool.addEntry(LootEntry.of("berrypouch:pokeball_gun").withWeight(3))
+        pool.addEntry(LootEntry.of("mega_showdown:tera_pouch_white").withWeight(3))
+        pool.addEntry(LootEntry.of("simpletms:case_tr").withWeight(2))
+        pool.addEntry(LootEntry.of("simpletms:case_tm").withWeight(2))
+        pool.addEntry(LootEntry.of("simpletms:machine_tm").withWeight(2))
+        pool.addEntry(LootEntry.of("cobblemon_utility:ballsynchronizer").withWeight(3))
+        pool.addEntry(LootEntry.of("cobbled_counter:counter").withWeight(2))
+        pool.addEntry(LootEntry.of("cbmnfieldlab:pokemon_field_lab").withWeight(3))
+        pool.addEntry(LootEntry.of("rctmod:trainer_spawner").withWeight(2))
+        pool.addEntry(LootEntry.of("rctmod:trainer_repel_rod").withWeight(2))
+        pool.addEntry(LootEntry.of("cobblemon_wonder_trade:wonder_trade_station").withWeight(3))
+        pool.addEntry(LootEntry.of("cobblemon_home:home_storage_terminal").withWeight(3))
+        pool.addEntry(LootEntry.reference("pizzamon:silver_bottlecaps").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:size_essences").withWeight(2))
+    })
+
+    event.create("pizzamon:loot/fun/gadgets/wands").createPool(pool => {
+        pool.addEntry(LootEntry.of("wands:stone_wand").withWeight(9))
+        pool.addEntry(LootEntry.of("wands:iron_wand").withWeight(3))
+        pool.addEntry(LootEntry.of("wands:diamond_wand").withWeight(1))
+        pool.addEntry(LootEntry.of("wands:magic_bag_1").withWeight(1))
+    })
+
+    event.create("pizzamon:loot/fun/gadgets/create").createPool(pool => {
+        pool.addEntry(LootEntry.of("create:extendo_grip"))
+        pool.addEntry(LootEntry.of("create:wand_of_symmetry"))
+        pool.addEntry(LootEntry.of("pipeorgans:roll_puncher"))
+        pool.addEntry(LootEntry.of("pipeorgans:keyboard_relay"))
+        pool.addEntry(LootEntry.of("escalated:metal_walkway_steps").setCount([2, 4]))
+        pool.addEntry(LootEntry.of("create:copper_diving_helmet"))
+        pool.addEntry(LootEntry.of("create:cuckoo_clock"))
+    })
+
+    event.create("pizzamon:loot/fun/gadgets/supplementaries").createPool(pool => {
+        pool.addEntry(LootEntry.of("supplementaries:slice_map"))
+        pool.addEntry(LootEntry.of("supplementaries:cog_block").setCount([2, 4]))
+        pool.addEntry(LootEntry.of("supplementaries:spring_launcher"))
+        pool.addEntry(LootEntry.of("supplementaries:cage"))
+        pool.addEntry(LootEntry.of("supplementaries:jar"))
+        pool.addEntry(LootEntry.of("supplementaries:rope").setCount([8, 32]))
+        pool.addEntry(LootEntry.of("supplementaries:rope_arrow"))
+    })
+
+
+    event.create("pizzamon:loot/fun/gacha").createPool(pool => {
+        pool.addEntry(LootEntry.of("cobbledgacha:gacha_coin_5").withWeight(33).setCount([1, 3]))
+        pool.addEntry(LootEntry.of("cobbledgacha:gacha_coin_2").withWeight(33).setCount([1, 3]))
+        pool.addEntry(LootEntry.of("cobbledgacha:gacha_coin_3").withWeight(33).setCount([1, 3]))
+    })
+
+    event.create("pizzamon:loot/fun/hats/events").createPool(pool => {
+        pool.addEntry(LootEntry.of("simplehats:hatbag_easter").withWeight(1))
+        pool.addEntry(LootEntry.of("simplehats:hatbag_summer").withWeight(1))
+        pool.addEntry(LootEntry.of("simplehats:hatbag_halloween").withWeight(1))
+        pool.addEntry(LootEntry.of("simplehats:hatbag_festive").withWeight(1))
+    })
+
+    event.create("pizzamon:loot/fun/hats/tiered").createPool(pool => {
+        pool.addEntry(LootEntry.of("simplehats:hatbag_common").withWeight(40))
+        pool.addEntry(LootEntry.of("simplehats:hatbag_uncommon").withWeight(32))
+        pool.addEntry(LootEntry.of("simplehats:hatbag_rare").withWeight(16))
+        pool.addEntry(LootEntry.of("simplehats:hatbag_epic").withWeight(8))
+    })
+
+    event.create("pizzamon:loot/fun/hats").createPool(pool => {
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/hats/tiered').withWeight(90))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/hats/events').withWeight(10))
+    })
+    
+    // Decor parent pool
+    event.create("pizzamon:loot/fun/decor").createPool(pool => {
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/decor/tools').withWeight(50))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/decor/lighting').withWeight(30))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/decor/smokestacks').withWeight(10))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/decor/displays').withWeight(20))
+    })
+    // Whimsy parent pool
+    event.create("pizzamon:loot/fun/whimsy").createPool(pool => {
+        pool.addEntry(LootEntry.of("supplementaries:confetti_popper").setCount([8, 16]).withWeight(3))
+        pool.addEntry(LootEntry.of("supplementaries:flute").withWeight(2))
+        pool.addEntry(LootEntry.of("supplementaries:bubble_blower").withWeight(2))
+        pool.addEntry(LootEntry.of("supplementaries:slingshot").withWeight(2))
+        pool.addEntry(LootEntry.of("create_things_and_misc:blaze_ballon_fire"))
+        pool.addEntry(LootEntry.of("create_things_and_misc:spout_gun"))
+        pool.addEntry(LootEntry.of("create:potato_cannon"))
+        pool.addEntry(LootEntry.of("splash_milk:splash_milk_bottle"))
+        pool.addEntry(LootEntry.of("splash_milk:lingering_milk_bottle"))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/hats').withWeight(3))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/gacha').withWeight(2))
+        pool.addEntry(LootEntry.reference('pizzamon:general/art').withWeight(3))
+        pool.addEntry(LootEntry.reference('pizzamon:firework_stickers').withWeight(2))
+        pool.addEntry(LootEntry.of("createframed:karpboard_block"))
+    })
+    // Gadgets parent pool
+    event.create("pizzamon:loot/fun/gadgets").createPool(pool => {
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/gadgets/pokemon"))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/gadgets/supplementaries"))
+        pool.addEntry(LootEntry.tag("comforts:sleeping_bags", true))
+        pool.addEntry(LootEntry.of("farmingforblockheads:market"))
+        pool.addEntry(LootEntry.of("cookingforblockheads:cooking_table"))
+        pool.addEntry(LootEntry.of("minecraft:waxed_copper_golem_statue"))
+        pool.addEntry(LootEntry.of("apothic_enchanting:flimsy_ender_lead"))
+        pool.addEntry(LootEntry.of("apothic_enchanting:scrap_tome"))
+        pool.addEntry(LootEntry.tag("pizzamon:type_tomes", true))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/gadgets/compass"))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/gadgets/wands"))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/gadgets/create"))
+        pool.addEntry(LootEntry.reference('pizzamon:camera_loot'))
+    })
+
+    // "Fun" loot pool, various niche items to expose existence of mods or items otherwise hard to know about
+    event.create("pizzamon:loot/fun").createPool(pool => {
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/decor').withWeight(20))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/gadgets').withWeight(40))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/whimsy').withWeight(40))
+    })
+
 
     /*
     // TO BE ADDED TO FUN:
-    Explorer's Compass
-    Chisel
-    Nature's Compass
-    Gacha coins?
     Botany pots?
     Copycat blocks?
-    Repel sprinkler?
-    Night lights?
     Basic storage upgrades?
-    Supplementaries items?
-    Sleeping bags?
     Trash cans?
     Waystone items?
-    Sawmill?
-    Splash milk?
-    Hat grab bags?
+    Cooking/Farming for blockheads
     */
 
 
@@ -499,6 +687,7 @@ LootJS.lootTables(event => {
     })
     event.create("pizzamon:loot/cobblelegendary/component").createPool(pool => {
         pool.addEntry(LootEntry.tag("pizzamon:legendary/component", true))
+        pool.addEntry(LootEntry.of("mega_showdown:zygarde_cell").withWeight(3).setCount([1, 3]))
     })
     event.create("pizzamon:loot/cobblelegendary/fusion").createPool(pool => {
         pool.addEntry(LootEntry.tag("pizzamon:legendary/fusion", true))
@@ -529,17 +718,24 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.reference("pizzamon:loot/dynamax_items").withWeight(33))
     })
     event.create("pizzamon:payday/materials").createPool(pool => {
-        pool.addEntry(LootEntry.of("minecraft:iron_ingot").withWeight(32).setCount([32, 64]))
-        pool.addEntry(LootEntry.of("minecraft:gold_ingot").withWeight(32).setCount([16, 32]))
-        pool.addEntry(LootEntry.of("minecraft:diamond").withWeight(32).setCount([4, 8]))
-        pool.addEntry(LootEntry.of("minecraft:emerald").withWeight(24).setCount([8, 16]))
-        pool.addEntry(LootEntry.of("minecraft:netherite_scrap").withWeight(12).setCount([1, 4]))
+        pool.addEntry(LootEntry.of("minecraft:iron_ingot").withWeight(32).setCount([8, 16]))
+        pool.addEntry(LootEntry.of("minecraft:gold_ingot").withWeight(32).setCount([4, 16]))
+        pool.addEntry(LootEntry.of("minecraft:diamond").withWeight(32).setCount([2, 4]))
+        pool.addEntry(LootEntry.of("minecraft:emerald").withWeight(24).setCount([4, 8]))
+        pool.addEntry(LootEntry.of("minecraft:blaze_rod").withWeight(24).setCount([2, 4]))
+        pool.addEntry(LootEntry.of("minecraft:netherite_scrap").withWeight(12).setCount([1, 2]))
         pool.addEntry(LootEntry.of("minecraft:nether_star").withWeight(6))
     })
     event.create("pizzamon:payday/shiny_bonus").createPool(pool => {
         pool.addEntry(LootEntry.reference("pizzamon:loot/cobblelegendary").withWeight(33))
         pool.addEntry(LootEntry.reference("pizzamon:payday/materials").withWeight(33))
         pool.addEntry(LootEntry.reference("pizzamon:payday/showdown_items").withWeight(33))
+    })
+    .createPool(pool => {
+        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls"))
+        pool.when(conditions => {
+            conditions.randomChance(0.05)
+        })
     })
 
 
@@ -567,6 +763,12 @@ LootJS.lootTables(event => {
     .createPool(pool => {
         
     })
+
+    Give a pool a chance to fail
+        pool.when(conditions => {
+            conditions.randomChance(0.4)
+        })
+
 
     // Access an EXISTING loot table template
     
@@ -662,6 +864,7 @@ LootJS.lootTables(event => {
         pool.when(conditions => {
             conditions.randomChance(0.1)
         })
+        .rolls(2)
     }) // ^ Fun
     .createPool(pool => {
         pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
@@ -708,6 +911,7 @@ LootJS.lootTables(event => {
         pool.when(conditions => {
             conditions.randomChance(0.125)
         })
+        .rolls(2)
     }) // ^ Fun
     .createPool(pool => {
         pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
@@ -727,6 +931,12 @@ LootJS.lootTables(event => {
             conditions.randomChance(0.03)
         })
     }) // ^ Bonus roll
+    .createPool(pool => {
+        pool.addEntry(LootEntry.of('mega_showdown:zygarde_cell'))
+        pool.when(conditions => {
+            conditions.randomChance(0.2)
+        })
+    }) // ^ Bonus Zygarde Cells roll
 
     // Pizzamon Epic
     event.create("pizzamon:loot/epic").createPool(pool => {
@@ -754,6 +964,7 @@ LootJS.lootTables(event => {
         pool.when(conditions => {
             conditions.randomChance(0.12)
         })
+        .rolls(3)
     }) // ^ Fun
     .createPool(pool => {
         pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
@@ -773,6 +984,12 @@ LootJS.lootTables(event => {
             conditions.randomChance(0.03)
         })
     }) // ^ Bonus roll
+    .createPool(pool => {
+        pool.addEntry(LootEntry.of('mega_showdown:zygarde_cell').setCount([1, 3]))
+        pool.when(conditions => {
+            conditions.randomChance(0.33)
+        })
+    }) // ^ Bonus Zygarde Cells roll
 
     // Pizzamon Legendary
     event.create("pizzamon:loot/legendary").createPool(pool => {
@@ -797,6 +1014,7 @@ LootJS.lootTables(event => {
         pool.when(conditions => {
             conditions.randomChance(0.15)
         })
+        .rolls(3)
     }) // ^ Fun
     .createPool(pool => {
         pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
@@ -816,6 +1034,12 @@ LootJS.lootTables(event => {
             conditions.randomChance(0.03)
         })
     }) // ^ Bonus roll
+    .createPool(pool => {
+        pool.addEntry(LootEntry.of('mega_showdown:zygarde_cell').setCount([2, 5]))
+        pool.when(conditions => {
+            conditions.randomChance(0.66)
+        })
+    }) // ^ Bonus Zygarde Cells roll
 
 
 
@@ -888,12 +1112,30 @@ LootJS.lootTables(event => {
     event.getLootTable("supplementaries:loot/urn_loot/rare").createPool(pool => {
         pool.addEntry(LootEntry.reference("pizzamon:tier_3_ancient_balls").withWeight(3).setCount([1, 2]))
         pool.addEntry(LootEntry.reference("bca:item_groups/held_items"))
+        pool.when(conditions => {
+            conditions.randomChance(0.5)
+        })
     })
+    .createPool(pool => {
+        pool.addEntry(LootEntry.of('mega_showdown:zygarde_cell'))
+        pool.when(conditions => {
+            conditions.randomChance(0.05)
+        })
+    }) // ^ Bonus Zygarde Cells roll for rare tier
     event.getLootTable("supplementaries:loot/urn_loot/epic").createPool(pool => {
         pool.addEntry(LootEntry.reference("pizzamon:tier_3_ancient_balls").withWeight(3).setCount([2, 4]))
         pool.addEntry(LootEntry.reference("bca:item_groups/held_items"))
+        pool.when(conditions => {
+            conditions.randomChance(0.5)
+        })
         .rolls(3)
     })
+    .createPool(pool => {
+        pool.addEntry(LootEntry.of('mega_showdown:zygarde_cell'))
+        pool.when(conditions => {
+            conditions.randomChance(0.15)
+        })
+    }) // ^ Bonus Zygarde Cells roll for epic tier
 
     //
     // RCT Trainers
@@ -982,50 +1224,121 @@ LootJS.lootTables(event => {
     event.getLootTable("minecraft:spawners/trial_chamber/consumables").createPool(pool => {
 
     })
-    event.getLootTable("cobblemontrialsedition:default-mob-spawner").createPool(pool => {
+
+    // Cobblemon Trials Edition
+    event.create("pizzamon:loot/trialsedition/default-mob-spawner").createPool(pool => {
+       LootEntry.alternative(
+        LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
+        LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
+        LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
+        LootEntry.reference("pizzamon:loot/common")
+       )
+    })
+
+    event.create("pizzamon:loot/trialsedition/monster-room").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
+    })
+
+    event.create("pizzamon:loot/trialsedition/abandoned-mineshaft").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
+    })
+
+    event.create("pizzamon:loot/trialsedition/bastion-remnant").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.1)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.33)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.66)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
+    })
+
+    event.create("pizzamon:loot/trialsedition/fortress").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.1)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.33)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.66)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
+    })
+
+    event.create("pizzamon:loot/trialsedition/stronghold").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
+    })
 
 
+    // Ominous variants
+    event.create("pizzamon:loot/trialsedition/ominous-default-mob-spawner").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
     })
-
-    
-    /*
-
-    event.getLootTable("cobblemontrialsedition:monster-room").createPool(pool => {
-
+    event.create("pizzamon:loot/trialsedition/ominous-monster-room").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
     })
-    event.getLootTable("cobblemontrialsedition:abandoned-mineshaft").createPool(pool => {
-
+    event.create("pizzamon:loot/trialsedition/ominous-abandoned-mineshaft").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
     })
-    event.getLootTable("cobblemontrialsedition:bastion-remnant").createPool(pool => {
-
+    event.create("pizzamon:loot/trialsedition/ominous-bastion-remnant").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.03)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
     })
-    event.getLootTable("cobblemontrialsedition:fortress").createPool(pool => {
-
+    event.create("pizzamon:loot/trialsedition/ominous-fortress").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.03)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
     })
-    event.getLootTable("cobblemontrialsedition:stronghold").createPool(pool => {
-
+    event.create("pizzamon:loot/trialsedition/ominous-stronghold").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
+            LootEntry.reference("pizzamon:loot/common")
+           )
     })
-    event.getLootTable("cobblemontrialsedition:ominous-monster-room").createPool(pool => {
-        pool.addEntry(LootEntry.reference("cobblemontrialsedition:monster-room"))
-    })
-    event.getLootTable("cobblemontrialsedition:ominous-abandoned-mineshaft").createPool(pool => {
-        pool.addEntry(LootEntry.reference("cobblemontrialsedition:abandoned-mineshaft"))
-    })
-    event.getLootTable("cobblemontrialsedition:ominous-bastion-remnant").createPool(pool => {
-        pool.addEntry(LootEntry.reference("cobblemontrialsedition:bastion-remnant"))
-    })
-    event.getLootTable("cobblemontrialsedition:ominous-default-mob-spawner").createPool(pool => {
-        pool.addEntry(LootEntry.reference("cobblemontrialsedition:default-mob-spawner"))
-    })
-    event.getLootTable("cobblemontrialsedition:ominous-fortress").createPool(pool => {
-        pool.addEntry(LootEntry.reference("cobblemontrialsedition:fortress"))
-    })
-    event.getLootTable("cobblemontrialsedition:ominous-stronghold").createPool(pool => {
-        pool.addEntry(LootEntry.reference("cobblemontrialsedition:stronghold"))
-    })
-    
-    */
-
 
     //
     // Raid den tables
@@ -1147,9 +1460,8 @@ LootJS.lootTables(event => {
     })
     event.getLootTable("bca:support_tables/fridge").createPool(pool => {
         pool.addEntry(LootEntry.reference("pizzamon:cuisine_all"))
-        .rolls([2, 4])
+        .rolls(1)
     })
-
 
     // Aquaculture tables
     // Boxes
@@ -1177,10 +1489,4 @@ LootJS.lootTables(event => {
             conditions.randomChance(0.05)
         })
     })
-
-
-
-
-
-
 })

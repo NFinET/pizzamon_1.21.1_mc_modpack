@@ -689,8 +689,6 @@ stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_0", <item:mega_showdown:bl
 
 stoneCutter.addRecipe("ctgui/new/stonecutting/blank_z_1", <item:mega_showdown:blank_z> * 2, <item:mega_showdown:sparkling_stone_dark>);
 
-<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_5");
-
 <recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_6");
 
 <recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_7");
@@ -748,4 +746,20 @@ blastFurnace.addRecipe("ctgui/new/blasting/azure_silver_block_0", <item:silentge
 furnace.addRecipe("ctgui/new/smelting/crimson_iron_block_0", <item:silentgear:crimson_iron_block>, <item:silentgear:raw_crimson_iron_block>, 0.1, 200);
 
 blastFurnace.addRecipe("ctgui/new/blasting/crimson_iron_block_0", <item:silentgear:crimson_iron_block>, <item:silentgear:raw_crimson_iron_block>, 0.1, 200);
+
+craftingTable.addShaped("ctgui/new/crafting/fine_silk_0", <item:silentgear:fine_silk>, [
+    [<item:minecraft:string>, IIngredientEmpty.getInstance(), <item:minecraft:string>],
+    [IIngredientEmpty.getInstance(), <item:minecraft:string>, IIngredientEmpty.getInstance()],
+    [<item:minecraft:string>, IIngredientEmpty.getInstance(), <item:minecraft:string>]]);
+
+craftingTable.addShapeless("ctgui/new/crafting/chisel_0", <item:chipped:chisel>, [<item:rechiseled:chisel>]);
+
+craftingTable.addShapeless("ctgui/new/crafting/chisel_1", <item:rechiseled:chisel>, [<item:chipped:chisel>]);
+
+craftingTable.addShaped("ctgui/new/crafting/payday_slot_machine", <item:cobbledgacha:gacha_machine_5>, [
+    [<item:minecraft:redstone_lamp>, <item:create:electron_tube>, <item:minecraft:redstone_lamp>],
+    [<item:minecraft:glass>, <item:create:mechanical_bearing>, <item:create:item_vault>],
+    [<item:minecraft:iron_ingot>, <item:minecraft:dispenser>, <item:minecraft:iron_ingot>]]);
+
+<recipetype:minecraft:crafting>.removeByName("cobbledgacha:gacha_machine_5");
 

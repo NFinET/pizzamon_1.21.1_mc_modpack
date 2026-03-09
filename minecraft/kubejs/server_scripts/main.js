@@ -194,6 +194,37 @@ ServerEvents.tags('item', event => {
 		'mega_showdown:icium_z', 'mega_showdown:poisonium_z', 'mega_showdown:psychium_z', 'mega_showdown:rockium_z', 'mega_showdown:steelium_z', 'mega_showdown:waterium_z',
 		'mega_showdown:blank_z'
 	])
+
+	// Add tags to nightlights
+	event.add('nightlights:octopus', [
+		'/nightlights:octopus.*/',
+	])
+	event.add('nightlights:mushroom', [
+		'/nightlights:mushroom.*/',
+	])
+	event.add('nightlights:frog', [
+		'/nightlights:frog.*/',
+	])
+
+	// Add tags to Deco Decals
+	event.add('pizzamon:decals', [
+		'/createdeco:decal_.*/',
+	])
+
+	// Add tags to Furnies statue because default tag is broken?
+	event.add('pizzamon:statues', [
+		'/cobblefurnies:statue_.*/',
+	])
+
+	// Add tags to Apothic "type" tomes
+	event.add('pizzamon:type_tomes', [
+		'/apothic_enchanting:.*tome/',
+	])
+	event.remove('pizzamon:type_tomes', [
+		'apothic_enchanting:scrap_tome', 'apothic_enchanting:improved_scrap_tome', 'apothic_enchanting:extraction_tome'
+	])
+
+
 })
 // Item tag listener ends
 
