@@ -1085,7 +1085,7 @@ LootJS.lootTables(event => {
         })
     })
     .createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls"))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/whimsy/yarn"))
         .rolls(1)
     })
 
