@@ -433,6 +433,17 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("minecraft:blaze_rod").withWeight(4).setCount([1, 2]))
     })
 
+    // Plush-O-matic yarns
+    event.create("pizzamon:loot/fun/whimsy/yarn").createPool(pool => {
+        pool.addEntry(LootEntry.tag("pizzamon:plush_yarns", true).setCount([1, 3]))
+    })
+
+    // Pokedolls AND yarns (pre-weighted)
+    event.create("pizzamon:loot/fun/whimsy/plushies").createPool(pool => {
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/whimsy/yarn").withWeight(80))
+        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls").withWeight(20))
+    })
+
 
 
     event.create("pizzamon:loot/fun/decor/tools").createPool(pool => {
@@ -445,6 +456,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("rechiseled:chisel"))
         pool.addEntry(LootEntry.of("sawmill:sawmill"))
         pool.addEntry(LootEntry.of("refurbished_furniture:workbench"))
+        pool.addEntry(LootEntry.of("immersive_furniture:artisans_workstation"))
         pool.addEntry(LootEntry.of("fetzisdisplays:workbench"))
         pool.addEntry(LootEntry.of("cluttered:hand_drill"))
         pool.addEntry(LootEntry.of("cobblefurnies:furnicrafter"))
@@ -588,6 +600,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.reference('pizzamon:general/art').withWeight(3))
         pool.addEntry(LootEntry.reference('pizzamon:firework_stickers').withWeight(2))
         pool.addEntry(LootEntry.of("createframed:karpboard_block"))
+        pool.addEntry(LootEntry.of("immersive_furniture:crafting_material").setCount([8, 16]).withWeight(2))
     })
     // Gadgets parent pool
     event.create("pizzamon:loot/fun/gadgets").createPool(pool => {
@@ -608,21 +621,11 @@ LootJS.lootTables(event => {
 
     // "Fun" loot pool, various niche items to expose existence of mods or items otherwise hard to know about
     event.create("pizzamon:loot/fun").createPool(pool => {
-        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/decor').withWeight(20))
-        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/gadgets').withWeight(40))
-        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/whimsy').withWeight(40))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/decor').withWeight(33))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/gadgets').withWeight(33))
+        pool.addEntry(LootEntry.reference('pizzamon:loot/fun/whimsy').withWeight(33))
     })
 
-
-    /*
-    // TO BE ADDED TO FUN:
-    Botany pots?
-    Copycat blocks?
-    Basic storage upgrades?
-    Trash cans?
-    Waystone items?
-    Cooking/Farming for blockheads
-    */
 
 
     // All mega stones
@@ -712,6 +715,7 @@ LootJS.lootTables(event => {
 
 
     // Payday machine - Shiny capsule bonus
+    // Shiny capsules have 2.5% chance to also drop a plush for free!
     event.create("pizzamon:payday/showdown_items").createPool(pool => {
         pool.addEntry(LootEntry.reference("pizzamon:loot/mega_stones").withWeight(33))
         pool.addEntry(LootEntry.reference("pizzamon:loot/z_crystals").withWeight(33))
@@ -724,7 +728,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("minecraft:emerald").withWeight(24).setCount([4, 8]))
         pool.addEntry(LootEntry.of("minecraft:blaze_rod").withWeight(24).setCount([2, 4]))
         pool.addEntry(LootEntry.of("minecraft:netherite_scrap").withWeight(12).setCount([1, 2]))
-        pool.addEntry(LootEntry.of("minecraft:nether_star").withWeight(6))
+        pool.addEntry(LootEntry.of("minecraft:nether_star").withWeight(3))
     })
     event.create("pizzamon:payday/shiny_bonus").createPool(pool => {
         pool.addEntry(LootEntry.reference("pizzamon:loot/cobblelegendary").withWeight(33))
@@ -734,7 +738,7 @@ LootJS.lootTables(event => {
     .createPool(pool => {
         pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls"))
         pool.when(conditions => {
-            conditions.randomChance(0.05)
+            conditions.randomChance(0.025)
         })
     })
 
@@ -821,7 +825,8 @@ LootJS.lootTables(event => {
         })
     }) // ^ Fun
     .createPool(pool => {
-        pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/whimsy/yarn").withWeight(80))
+        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls").withWeight(20))
         pool.when(conditions => {
             conditions.randomChance(0.03)
         })
@@ -867,7 +872,8 @@ LootJS.lootTables(event => {
         .rolls(2)
     }) // ^ Fun
     .createPool(pool => {
-        pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/whimsy/yarn").withWeight(60))
+        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls").withWeight(40))
         pool.when(conditions => {
             conditions.randomChance(0.06)
         })
@@ -914,7 +920,8 @@ LootJS.lootTables(event => {
         .rolls(2)
     }) // ^ Fun
     .createPool(pool => {
-        pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/whimsy/yarn").withWeight(40))
+        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls").withWeight(60))
         pool.when(conditions => {
             conditions.randomChance(0.09)
         })
@@ -967,7 +974,8 @@ LootJS.lootTables(event => {
         .rolls(3)
     }) // ^ Fun
     .createPool(pool => {
-        pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/fun/whimsy/yarn").withWeight(20))
+        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls").withWeight(80))
         pool.when(conditions => {
             conditions.randomChance(0.12)
         })
@@ -1017,7 +1025,7 @@ LootJS.lootTables(event => {
         .rolls(3)
     }) // ^ Fun
     .createPool(pool => {
-        pool.addEntry(LootEntry.reference('pizzamon:all_pokedolls').withWeight(10))
+        pool.addEntry(LootEntry.reference("pizzamon:all_pokedolls"))
         pool.when(conditions => {
             conditions.randomChance(0.15)
         })
@@ -1345,63 +1353,127 @@ LootJS.lootTables(event => {
     //
     // Tier one (Level 12?)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_one").createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/common"))
-        pool.addEntry(LootEntry.empty())
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.005)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/common")
+        )
+        pool.rolls(1)
     })
-    // Tier two (Level 25)
+    // Tier two (Level 25?)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_two").createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/common"))
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.0075)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.02)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.075)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.33)),
+            LootEntry.reference("pizzamon:loot/common")
+        )
+        pool.rolls(1)
     })
     // Tier three (Level 35)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_three").createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon"))
-        pool.when(conditions => {
-            conditions.randomChance(0.5)
-        })
-    })
-    .createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/common"))
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.0333)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.15)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/common")
+        )
+        pool.rolls([1, 2])
     })
     // Tier four (Level 45)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_four").createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/rare"))
-        pool.when(conditions => {
-            conditions.randomChance(0.5)
-        })
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.02)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.075)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.33)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
+            LootEntry.reference("pizzamon:loot/common")
+        )
+        pool.rolls([1, 3])
     })
-    .createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon"))
-    })
+    
     // Tier five (Level 75)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_five").createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/epic"))
-        pool.when(conditions => {
-            conditions.randomChance(0.5)
-        })
-    })
-    .createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/rare"))
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
+            LootEntry.reference("pizzamon:loot/uncommon")
+        )
+        pool.rolls([2, 3])
     })
     // Tier six (Level 90) Only exist with additional datapacks from mod author's discord for literally no reason
     event.getLootTable("cobblemonraiddens:raid/tier/tier_six").createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary"))
-    })
-    .createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/epic"))
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.1)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.66)),
+            LootEntry.reference("pizzamon:loot/uncommon")
+        )
+        pool.rolls(3)
     })
     // Tier seven (Level 100) Only exist with additional datapacks from mod author's discord for literally no reason
     event.getLootTable("cobblemonraiddens:raid/tier/tier_seven").createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary"))
-    })
-    .createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/epic"))
-    })
-    .createPool(pool => {
-        pool.addEntry(LootEntry.reference("pizzamon:loot/rare"))
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.2)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.33)),
+            LootEntry.reference("pizzamon:loot/rare")
+        )
+        pool.rolls(3)
     })
 
 
     // Rad Gyms tables
+    event.getLootTable("rad_gyms:gyms/default/common_loot_table").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.0075)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.02)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.075)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.33)),
+            LootEntry.reference("pizzamon:loot/common")
+        )
+        pool.rolls(1)
+    })
+
+    event.getLootTable("rad_gyms:gyms/default/uncommon_loot_table").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.0333)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.2)),
+            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
+            LootEntry.reference("pizzamon:loot/common")
+        )
+        pool.rolls([1, 2])
+    })
+
+    event.getLootTable("rad_gyms:gyms/default/rare_loot_table").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.05)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.4)),
+            LootEntry.reference("pizzamon:loot/uncommon")
+        )
+        pool.rolls(2)
+    })
+
+    event.getLootTable("rad_gyms:gyms/default/epic_loot_table").createPool(pool => {
+        LootEntry.alternative(
+            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.1)),
+            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.25)),
+            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.66)),
+            LootEntry.reference("pizzamon:loot/uncommon")
+        )
+        pool.rolls([2, 3])
+    })
+
+
+
+
+
     // Rustling spots?
 
 
@@ -1409,7 +1481,7 @@ LootJS.lootTables(event => {
 
     //
     //
-    // Directly modify other loot tables
+    // Directly modify other loot tables (NOT adding new pools)
     //
     //
 

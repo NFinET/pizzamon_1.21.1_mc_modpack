@@ -224,6 +224,11 @@ ServerEvents.tags('item', event => {
 		'apothic_enchanting:scrap_tome', 'apothic_enchanting:improved_scrap_tome', 'apothic_enchanting:extraction_tome'
 	])
 
+	// Add tags to Plush-O-Matic yarns
+	event.add('pizzamon:plush_yarns', [
+		'/cobbledgacha:.*yarn/',
+	])
+
 
 })
 // Item tag listener ends

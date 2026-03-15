@@ -9,4 +9,11 @@ ItemEvents.modifyTooltips(event => {
     })
     event.add('cobbledgacha:gacha_coin_2', {shift: false}, Text.gray('No cash value.').italic(true))
     event.add('cobbledgacha:gacha_coin_3', {shift: false}, Text.gray('No cash value.').italic(true))
+
+
+    // Add tooltips for yarns
+    event.add('#pizzamon:plush_yarns', {shift: false}, Text.gray('Hold Shift for details'))
+    event.modify('#pizzamon:plush_yarns', {shift:true}, tooltip => {
+        tooltip.add(Text.white('An odd bundle of yarn. You can insert multiple of the same type into a Plush-O-Matic to make a Pokédoll!').italic(true))
+    })
 })

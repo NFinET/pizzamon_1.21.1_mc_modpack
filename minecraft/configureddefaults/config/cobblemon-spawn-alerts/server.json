@@ -8,7 +8,7 @@
     "https://modrinth.com/mod/cobblemon-spawn-alerts",
     "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
   ],
-  "enableSpawnCommandAlerts": false,
+  "enableSpawnCommandAlerts": true,
   "alertShinies": true,
   "broadcastShiny": true,
   "alertLegendaries": true,

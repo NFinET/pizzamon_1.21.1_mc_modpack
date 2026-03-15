@@ -75,7 +75,7 @@
         "biome": "HOVER",
         "nearest_player": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> {shiny}<green>[STRT] </green>{gender}<blue><b>{name}</b></blue> {HA}<gray> appeared </gray>{nearest_player}",
+      "customAlertMessage": "{shiny}<c value=#55FF55>[STRT] </c>{gender}<c value=#5555FF><b>{name}</b></c>{HA}<c value=#AAAAAA> appeared </c>{nearest_player}",
       "customAlertTooltip": "",
       "customAlertClickEvent": "",
       "sounds": {
@@ -123,7 +123,7 @@
         "biome": "HOVER",
         "nearest_player": "MAIN_MESSAGE"
       },
-      "customAlertMessage": "<red>[!]</red> {shiny}<gold>[PSEU] </gold>{gender}<blue><b>{name}</b></blue> {HA}<gray>appeared </gray>{nearest_player}",
+      "customAlertMessage": "<c value=#FF5555>[!]</c> {shiny}<c value=#FFAA00>[PSEU] </c>{gender}<c value=#5555FF><b>{name}</b></c> {HA}<c value=#AAAAAA>appeared </c>{nearest_player}",
       "customAlertTooltip": "",
       "customAlertClickEvent": "",
       "sounds": {
