@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip [Quark]",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pressing \"Shift+C\" will let you swap your entire hotbar with a different row from inside your inventory."
+  }
+}

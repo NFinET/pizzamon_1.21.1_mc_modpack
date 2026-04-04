@@ -136,6 +136,14 @@
         }
 		
       ]
+    },
+    {  
+    "Gamba": [
+      {
+        "item": "cobbledgacha:gacha_coin_5",
+        "price": 1000
+      }
+      ]
     }
   ]
 }

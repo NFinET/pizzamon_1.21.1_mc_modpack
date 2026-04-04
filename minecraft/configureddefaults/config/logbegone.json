@@ -1,0 +1,23 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "[Every Compat/]: No config map found for block type: net.xelbayria.gems_realm.api.set.dust.DustType",
+      "No config map found for block type: net.xelbayria.gems_realm.api.set.dust.DustType",
+      "is not found from registry"
+    ],
+    "regex": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "[Every Compat/]: No config map found for block type: net.xelbayria.gems_realm.api.set.dust.DustType",
+      ".*No config map found for block type: net.xelbayria.gems_realm.api.set.dust.DustType.*",
+      ".*net.xelbayria.gems_realm.api.set.dust.DustType.*",
+      "[co.jk.di.DisplayDelight/]:.*is not found from registry",
+      ".*is not found from registry",
+      ".*Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.*",
+      ".*Detected.*that was registered with.*mob category but was added under.*mob category for.*biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.",
+      ".*Exception loading blockstate definition: 'crabbersdelight:blockstates/seashells.json'.*"
+    ]
+  }
+}

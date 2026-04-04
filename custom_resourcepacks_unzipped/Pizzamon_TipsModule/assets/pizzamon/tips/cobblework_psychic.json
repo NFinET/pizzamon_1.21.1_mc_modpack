@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Psychic-Type Pokemon will pick up loose items from the ground and place them in any nearby vanilla container with space in it. They're not very good at organizing them, though."
+  }
+}

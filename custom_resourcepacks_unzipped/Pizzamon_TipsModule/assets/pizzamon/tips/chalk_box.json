@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Chalk",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can put multiple colors of Chalk into a box to cycle between them easily. The box can also store Glow Sacs, allowing you to make chalk markings glow in the dark."
+  }
+}

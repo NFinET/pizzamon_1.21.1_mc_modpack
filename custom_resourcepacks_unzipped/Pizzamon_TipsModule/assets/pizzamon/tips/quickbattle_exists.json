@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Quick Battle",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "While looking at a wild Pokemon, you can \"quick-battle\" it using your highlighted party Pokemon. To do this, your Pokemon must have a damaging move in its first move slot. Info about this will be displayed while staring at wild Pokemon."
+  }
+}

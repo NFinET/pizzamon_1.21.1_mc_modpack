@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "EMI",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In EMI, using the \"U\"sage or \"R\"ecipe hotkeys on some items have special functionality. Try it out with an enchanted book!"
+  }
+}

@@ -3,30 +3,34 @@
 ## Mod Updates & Changes
 
 ### Updates
-- CobbledGacha has been swapped for its Fabric version to add support for the Plush-O-Matic, there should be no other functional differences
 - 3d-Skin-Layers updated from \[1.10.1\] => \[1.10.2\]
 - Accessories updated from \[1.1.0-beta.52+1.21.1\] => \[1.1.0-beta.53+1.21.1\]
 - Accessories Compat Layer updated from \[0.1.10\] => \[0.1.12\]
+- Advanced Loot Info updated from \[1.7.2\] => \[1.8.2\]
+- AllTheMons x Mega Showdown \[DataResPack\] updated from \[3.2.1\] => \[3.4.0\]
 - Apothic Enchanting updated from \[1.5.1\] => \[1.5.2\]
+- Better Caps! (Cobblemon) \[Resource\] updated from \[v1.0\] => \[v1.1\]
 - Better ModList updated from \[1.1.21\] => \[1.1.22\]
 - Building Wands updated from \[v2.14\] => \[3.0.2\]
 - Chat Notify updated from \[2.6.3+1.21.1\] => \[2.6.6+1.21.1\]
+- Chopper's Delight updated from \[1.0.2\] => \[1.1.0\]
 - Cobbled Gacha updated from \[2.1.1\] => \[3.0.2 (FABRIC)\]
-- Cobblemon Battle Extras updated from \[1.7.27\] => \[1.9.31\]
+- Cobblemon - MC Swords for Honedge Line updated from \[2.0 (Datapack)\] => \[2.0 (Mod)\]
+- Cobblemon Additions updated from \[4.2.1\] => \[4.3.0\]
+- Cobblemon Battle Extras updated from \[1.7.27\] => \[1.9.31 => 1.10.34\]
 - Cobblemon Cafe updated from \[4.0.3 Mod Version\] => \[5.0.0\]
-- Cobblemon EMI Plugin updated from \[1.0.3\] => \[1.1.3-for-cobblemon-1.7.3\]
 - Cobblemon Fight or Flight (Reborn) updated from \[0.10.6\] => \[0.10.7\]
 - Cobblemon Firework Capsules updated from \[1.1.0\] => \[2.1.1+1.21.1\]
-- Cobblemon Party Extras updated from \[1.5.10\] => \[1.6.12\]
+- Cobblemon Party Extras updated from \[1.5.10\] => \[1.6.12 => 1.7.13\]
 - Cobblemon Raid Dens updated from \[0.7.4+1.21.1\] => \[0.9.0-1.21.1\]
 - Cobblemon Secret Base Trainer updated from \[1.7.19\] => \[1.11.27\]
 - Cobblemon Trials Edition updated from \[1.2.0\] => \[1.2.2\]
-- Cobblemon Wiki Gui updated from \[2.2.1+1.21.1\] => \[2.4.2+1.21.1\]
+- Cobblemon Wallpapers Plus \[Resource\] updated from \[Release (1.0)\] => \[2.0\]
 - Cobblemon Wonder Trade updated from \[1.1.0\] => \[1.2.2\]
 - Cobblemon: Mega Showdown updated from \[1.6.10+1.7.3+1.21.1\] => \[1.7.1+1.7.3+1.21.1-hotfix\]
 - CobblemonAlphas (Cobblemon Alpha Project) updated from \[1.4\] => \[1.4.1\]
 - CobblemonSpawnAlerts updated from \[1.11.5-beta\] => \[1.13.2\]
-- Concurrent Chunk Management Engine (NeoForge) updated from \[0.3.0-alpha0.89\] => \[0.3.0+alpha.0.90\]
+- CraftTweaker GUI updated from \[0.3.1 Beta\] => \[0.3.0 beta\]
 - Crash Assistant updated from \[1.10.28\] => \[1.11.0\]
 - CRD Broadcasts updated from \[1.4.0+1.21.1\] => \[1.4.1+1.21.1\]
 - Create: Central Kitchen updated from \[2.2.6 for Create 6.0.8\] => \[2.3.0\]
@@ -34,13 +38,14 @@
 - Create: Framed updated from \[1.7.2+1.21.1\] => \[1.7.3+1.21.1\]
 - CreativeCore updated from \[2.13.27\] => \[2.13.32\]
 - Dynamic FPS updated from \[3.11.3\] => \[3.11.4\]
+- E19 - Cobblemon Minimap Icons \[Resource\] updated from \[1.4.2\] => \[1.4.4\]
 - Entity Model Features updated from \[3.0.11\] => \[3.0.12\]
 - Entity Texture Features updated from \[7.0.8\] => \[7.0.9\]
+- Every Compat (Wood Good) updated from \[1.21-2.11.24\] => \[1.21-2.11.30\]
 - Exposure updated from \[1.9.13\] => \[1.9.14\]
 - Fabric Language Kotlin updated from \[1.13.8+kotlin.2.3.0\] => \[1.13.9+kotlin.2.3.10\]
 - Farmer's Delight updated from \[1.2.9\] => \[1.2.10\]
 - Farming For Blockheads updated from \[21.1.11\] => \[21.1.12\]
-- Forgified Fabric API updated from \[0.116.7+2.2.0+1.21.1\] => \[0.116.7+2.2.4+1.21.1\]
 - Fright's Delight updated from \[1.4.4\] => \[1.4.6\]
 - GeckoLib 4 updated from \[4.8.3\] => \[4.8.4\]
 - ImmediatelyFast updated from \[1.6.9+1.21.1\] => \[1.6.10+1.21.1\]
@@ -50,6 +55,7 @@
 - Lithium updated from \[0.15.1+mc1.21.1\] => \[0.15.2+mc1.21.1\]
 - Lootr updated from \[1.21.1-1.11.36.114\] => \[1.21.1-1.11.36.116\]
 - Lootrmon: Lootr & Cobblemon Compat updated from \[0.0.0.2\] => \[1.21.1-0.0.0.3\]
+- Lost Lore (Cobblemon Addon) updated from \[1.8 (Datapack)\] => \[2.1.1 (Mod)\]
 - Macaw's Bridges updated from \[3.1.1\] => \[3.1.2\]
 - Macaw's Doors updated from \[1.1.2\] => \[1.2.5\]
 - Moonlight Lib updated from \[1.21.2.29.16-neoforge\] => \[1.21-2.29.20-neoforge\]
@@ -57,18 +63,22 @@
 - Neurina - Ticking Entity Fixer updated from \[3.2.1\] => \[3.2.2\]
 - Oh The Trees You'll Grow updated from \[1.21.1-5.2.0-NeoForge\] => \[1.21.1-5.2.1-NeoForge\]
 - Open Parties and Claims updated from \[1.21.1-0.25.8\] => \[1.21.1-0.25.10\]
+- Pizzamon_CobbledGacha_Data updated from \[Beta\] => \[1.0\]
+- Pizzamon_CobbledGacha_Resource \[Resource\] updated from \[Beta\] => \[1.0\]
 - PlayerXP (Cobblemon) updated from \[1.0.5+1.21.1\] => \[1.0.8+1.21.1\]
 - Pretty in Pink updated from \[1.0.3-1.21.1\] => \[1.0.4-1.21.1\]
 - Rad Gyms updated from \[0.3.1-stable\] => \[0.4.4\]
 - Radical Cobblemon Trainers updated from \[0.17.4-beta\] => \[0.17.6-beta\]
 - Radical Cobblemon Trainers API updated from \[neoforge-1.21.1-0.14.6-beta\] => \[0.14..8-beta\]
 - Rechiseled updated from \[1.2.2-neoforge-mc1.21\] => \[1.2.4-neoforge-mc1.21\]
+- Recipe Item Sync updated from \[1.8\] => \[1.9\]
 - Silent Gear updated from \[4.0.30\] => \[4.1.3\]
 - Sinytra Connector updated from \[2.0.0-beta.12+1.21.1-full\] => \[2.0.0-beta.14+1.21.1-full\]
 - Sophisticated Backpacks updated from \[3.25.27.1528\] => \[3.25.31.1560\]
 - Sophisticated Core updated from \[1.4.3.1481\] => \[1.4.7.1515\]
 - Sophisticated Storage updated from \[1.5.25.1487\] => \[1.5.29.1512\]
 - Spice of Life:Onion Edition updated from \[1.5.4\] => \[1.5.6\]
+- Stone Zone (Every Compat) updated from \[1.21-2.11.7-neoforge\] => \[1.21-2.11.12\]
 - Structurify updated from \[2.0.17+mc1.21.1\] => \[2.0.19\]
 - Supplementaries updated from \[1.21-3.5.19-neoforge\] => \[1.21-3.5.26\]
 - Tooltip Overhaul updated from \[1.4.1 => 1.4.2\] => \[1.4.3\]
@@ -80,63 +90,312 @@
 
 ### New Mods
 - Almost Unified \[1.21.1-1.3.0\] has been added
+- Better Chunk Loading \[1.21-5.4\] has been added
 - Better Ping Display \[1.1\] has been added
 - Botany Trees \[1.21.1-21.1.3\] has been added
+- Chunk Sending \[1.21-2.8\] has been added
+- Cobbledex for REI/EMI/JEI \[1.50.3\] has been added
+- Cobblemon - MC Swords for Honedge Line \[2.0 (Mod)\] has been added
+- Cobblemon Battle Tower \[1.9.17\] has been added
+- Cobblemon Extra Data \[1.1.0+1.21.1\] has been added
+- Cobblemon Minimons \[1.2.5\] has been added
+- Cobblemon Outbreaks \[1.0.0\] has been added
+- Cobblemon Quick Battle \[1.2.7\] has been added
+- Cobblemon Raid Den Designs \[0.5_RELEASE\] has been added
+- Cobblemon Research Tasks \[2.0\] has been added
+- Cobblemon Snap \[1.1.2\] has been added
+- Cobblemon: Catch Rate Display \[2.8.3\] has been added
+- CobblemonEffectDescriptions \[Resource\] \[1.0\] has been added
+- Cobblemonraiddens-dynamax \[0.7.5\] has been added
+- Cobblemonraiddens-legendaries \[0.7.5\] has been added
+- Cobblemonraiddens-mega \[0.7.0\] has been added
+- Cobblemonraiddens-natdex \[0.7.5\] has been added
+- Cobblemonraiddens-tera \[0.7.5\] has been added
+- Cobblemonraiddens-ub+paradox \[0.7.0\] has been added
+- Connectivity \[1.21.1-7.6\] has been added
+- CraftPresence \[2.7.1\] has been added
+- Create: Alloyed \[2.1.4+1.21.1\] has been added
+- Create: Compatible Storage \[2.9.3\] has been added
+- Cupboard \[1.21-3.5\] has been added
 - Embers Text API \[2.7.0\] has been added
+- EMI++ \[1.2.3\] has been added
+- Every Compat (Gems Realm) \[2.11.0\] has been added
+- Factory Blocks \[1.4.0+mc1.21.1\] has been added
+- Fairy Lights (Fabric Port) \[1.1.3+1.21.1\] has been added
+- Farmer's Cutting: Quark \[1.21.1-1.0\] has been added
+- Fast Async World Save \[1.21-2.6\] has been added
 - Immersive Furniture \[0.1.3+1.21.1\] has been added
+- Jake's Build Tools \[2.0.1.5\] has been added
 - JAOPCA \[1.21.1-5.0.12.20\] has been added
+- Just Enough Effect Descriptions \[2.3.2\] has been added
+- Log Begone \[1.21.1-1.0.3\] has been added
+- Lost Lore (Cobblemon Addon) \[2.1.1 (Mod)\] has been added
 - No Chat Reports \[Neoforge v2.9.1\] has been added
+- Petrol's Parts \[1.21.1-1.2.7\] has been added
+- Petrolpark's Library \[1.21.1-1.4.28\] has been added
+- Pizzamon_TipsModule \[Resource\] \[1.0\] has been added
+- Pizzamon_TrialsEditionModule \[1.0\] has been added
+- Quark \[4.1-473\] has been added
+- Quark Oddities \[1.21.1\] has been added
+- QuarkPonders \[1.3\] has been added
+- Recipe Essentials \[1.21-4.0\] has been added
+- Server Performance - Smooth Chunk Save \[1.21-4.1\] has been added
+- Spark \[1.10.124-neoforge\] has been added
+- Structure Essentials \[1.21.1-4.8\] has been added
+- Tips \[21.1.3\] has been added
+- TooManyRecipeViewers \[0.7.1+mc21.1\] has been added
+- UniLib \[1.2.1\] has been added
+- Wild Battle API \[1.1.2\] has been added
+- Woodworks \[4.0.2\] has been added
+- Zeta \[1.1-39\] has been added
 
+### Removed Mods
+- Auto-Run has been removed and Quark has taken over its functionality using the same hotkey ( Num Lock ) 
+- Cobblemon - MC Swords for Honedge Line \[DataResPack\] has been removed and replaced with its new mod version
+- Cobblemon Autobattle has been removed and replaced with Cobblemon Quick Battle
+- Cobblemon EMI Plugin has been removed and replaced with Cobbledex for REI/EMI/JEI
+- Cobblemon Extended Battle UI has been removed due to updates rendering it incompatible with Cobblemon Battle Extras, which now covers most of its functionality anyway
+- Cobblemon Mass Outbreaks has been removed and replaced with Cobblemon Outbreaks
+- Cobblemon Outbreaks++ (Datapack) has been removed and replaced with Cobblemon Outbreaks
+- Cobblemon Wiki Gui has been removed and replaced with Cobbledex for REI/EMI/JEI
+- Cobweb has been removed as a dependency of Harvest with Ease
+- Concurrent Chunk Management Engine (NeoForge) has been removed due to possible performance issues and crashes
+- Continuity has been removed from being redundant and possibly an orphaned dependency as we already have Athena and Fusion
+- Double Doors has been removed as Quark replicates this functionality
+- DPP-Honey-Trees-Standard-Spawns (Honey Trees Base Spawns Datapack) has been removed
+- EMIffect has been removed and replaced with Just Enough Effect Descriptions
+- Harvest with ease has been removed, Quark replicates the functionality
+- HoneyTrees (Cobblemon) has been removed
+- Jakoten's Pokemon Trainer Cosmetics \[DataResPack\] has been removed due to issues with its name when trying to load from a server running Linux
+- Just Enough Items (JEI) has been removed and replaced with Too Many Recipe Viewers to speed up world load-in times
+- Lost Lore (Cobblemon Addon) \[DataResPack\] has been removed and replaced with its new mod verison
+- Pizzamon_CobbleVillagersNameFix_v1.zip \[Resource\] has been removed and is now deprecated, included in KubeJS scripts instead
+- Pokemon Field Lab has been removed
+- Recipe Modification Library has been removed as an orphaned dependency API of a previously removed mod
+- Sawmill (Universal Sawmill) has been removed and replaced with Woodworks for compatibility with Quark
 
+## Keybinding Changes
+
+- Cobblemon: Catch Rate Display
+  - Toggle HUD "K" => Not Bound
+  - Show Ball Comparison "G" => "Left Shift"
+- Cobblemon: Quick Battle
+  - Engage quick battle "G" => "K"
+- Quark
+  - Walk Automatically "Not Bound" => "Num-Lock"
+  - Hotbar Swapper "Z" => "Shift + C"
+  - Variant Selector "R" => "Shift + V"
 
 ## Config Changes
 
+- Advanced Loot Info (ALI)
+  - Added new completely custom categories that show in EMI/JEI lookups for the loot from RCT Mod pokemon trainers, Cobblemon Trial Spawners, Raid Dens rewards, and Rad-Gyms rewards. Namespace keys are provided for use by a new KubeJS script to display their names properly.
+- Amendments
+  - Amendments-client.toml 
+    - Dynamic asset generation mode "CACHED_ZIPPED" => "ALWAYS" as this is counterintuitively more performant
+  - Amendments-common.toml
+    - Lanterns: Lanterns falling when unsupported changed from "ON" to "OFF"
+- Biomes We've Gone (OTBWG)
+  - misc.json
+    - Allow Soul Fruits (from Pale Bogs) to give the player blindness "true" => "false"
+- ChatNotify 
+  - Default notification volume lowered from \[ 1.0 \] => \[ 0.5 \]
+  - Base notification (name-match) Misc settings-> Notification Cooldown changed from \[ 0 \] (ticks) => \[ 100 \] (ticks) to help with spam during outbreaks or other scenarios
+- Cobbledex
+  - Register Form Entries disabled (Variant forms of pokemon will not appear as separate models / entries in EMI) this is to cut down the amount of models rendered in EMI
 - CobbleDollars
-  - Payday Game Corner Coins (a re-named item from CobbledGacha) can now be purchased and cashed out at default CobbleDollars merchants for 1,000 pokedollars when buying, and 800 when selling. These coins are used with the new custom Payday Slot Machine in CobbledGacha.
+  - Payday Game Corner Coins (a re-named item from CobbledGacha) can now be purchased and cashed out at default CobbleDollars merchants for 1,000 pokedollars when buying, and 800 when selling. These coins are used with the new custom Payday Slot Machine in CobbledGacha. (Note that because of the way some CobbleDollars merchants are created in pre-generated structures, merchants that are old might not update their available stock)
+- Cobblemon Battle Tower
+  - bp_shop_items.json
+    - Load default shop list "true" => "false"
+    - A custom shop list has been implemented that includes most of the original, just with prices rebalanced where appropriate due to item availability being adjusted from other mods
+- Cobblemon Outbreaks
+  - Allow teleports enabled
+  - Announce Journeymap waypoints turned off (we use Xaeros)
+  - Recent species window set to 10 (was 5, this is how many species will be remembered and avoided if they have had outbreaks recently)
 - CobblemonSpawnAlerts
   - Configs overhauled due to new version including new effects
-  - Now allows calling out of ultra rare spawn buckets so the custom stuff for specific rare pokemon has been removed (including Unown, woops for not going to The End during testing)
-  - (main.json) Alert all starters has been disabled due to Starters actually being a lot more common than originally anticipated. This change is clientside, and can be manually turned back on in the .json.
+  - Now allows calling out of ultra rare spawn buckets so most of the old custom tags have been removed such as STRT, UR, and FOSSIL. PSEU for Pseudo legendaries has however been left in, as some Psuedo-legends can spawn from the "Rare" bucket under certain conditions too.
+  - (main.json) Alert all starters has been disabled due to Starters actually being a lot more common than originally anticipated. This change is clientside, and can be manually turned back on in the .json if you so desire
+- Cobblemon Quick Battle
+  - Keybinds have been changed (see keybinds section)
+  - Auto-Lock on has been disabled (you have to manually look at a Pokemon to engage the targeting) to stop the HUD from getting more cluttered during general play
+  - Lock-on range lowered from 24 blocks to 12 Blocks
+  - Reticle visibility turned off to make HUD less intrusive
 - Create 
   - (create-client.toml) Ambient volume cap of Create machines changed from 0.1 to 0.033 to make belts and certain cog-related blocks quieter overall
 - Distant Horizons
   - Default CPU Load setting has been dropped from 2 (Low impact) to 1 (Minimal impact)
+- Emi++
+  - Stack Groups disabled (they slow down EMI initialization)
+- Every Compat
+  - Everycomp-common.toml
+    - Sever assets generation mode "CACHED_ZIPPED" => "ALWAYS" as this is counterintuitively more performant
+    - Generate blocktype tags disabled
+  - Everycomp-client.toml
+    - Dynamic assets generation mode "CACHED_ZIPPED" => "ALWAYS" as this is counterintuitively more performant
 - Global Packs
   - Updated to add new Trials Edition custom data pack that injects new custom loot tables to Cobblemon Trials Edition loot tables
+  - Added new Pizzamon_TipsModule resource pack for custom loading screen / pause menu tips
 - Iris & Complementary Shaders
   - Performance Settings
 	- Light shaft quality lowered from Medium => Low
 	- Shadow Distance reduced from 8 chunks => 6 chunks
 	- Cloud quality lowered from Medium => Low
 	- Detail quality lowered from Medium => Potato (Low)
-	
+- Log Begone
+  - Regex and phrases added to reduce log spam from specific non-fatal issues thrown to logs from some mods
+- Multi-Village Selector
+  - Overhauled slightly to add Legendary Monuments "Traditional" village set, and the new Cobblemon Additions (BCA) Fairy-type villages
+  - Placement Spacing for Minecraft:villages changed from 34 (chunks) => 30 (chunks)
+  - Placement Separation for Minecraft:villages changed from 10 (chunks) => 8 (chunks)
+- Quark
+  - Keybinds have been changed (see keybinds section)
+  - Automation
+    - Pistons Can Move Tile Entities disabled (just in case it breaks a modded block)
+  - Tools
+    - Seed Pouch
+	  - Show All Variants in Creative disabled
+	- Pathfinder maps disabled (Nature's Compass)
+  - Mobs
+    - Forgotten, Foxhounds, Stonelings, and Wraiths have been disabled
+  - Building
+    - Hedges disabled (cutting down on duplicates)
+  - Tweaks
+    - Grab Chickens disabled (We have Carry On)
+	- Lock Rotation disabled (niche feature that also creates another keybind to worry about)
+	- Pig Litters disabled
+	- Zombie Villagers on Normal disabled (just in case)
+  - Client
+    - Back Button Keybind disabled
+	- Microcrafting Helper disabled
+	- Chest Searching disabled (can be done with EMI double-click search bar)
+	- Elytra Indicator disabled (doesn't work for Accessories slot)
+	- Usage Ticker disabled (functionality already present from Inventory HUD+)
+	- Improved Tooltips 
+	  - Food Tooltips disabled (Provided by Appleskin already)
+  - Management
+    - Automatic tool restock, Easy Transferring, and Inventory Sorting disabled (already handled by Inventory Tweaks Refoxed)
+  - World
+    - Monster Boxes disabled
+	- Chorus Vegetation
+	  - Endermite Spawn Chance 0.01 => 0.0
+	- Obsidian Spikes
+	  - Obsidian Spike Spawners disabled
+  - Oddities
+    - Backpacks disabled
+	- Matrix Enchanting disabled
+	- Totem of Holding disabled
+  - General
+    - Quick-access "q" button on main menu disabled to prevent accidents
+    - Onboarding disabled (to leave end users alone)
+- Serilum's QoL Bundle
+  - Easy Elytra Takeoff has been disabled (replaced with Quark functionality)
+- Structurify
+  - Structure Sets
+    - Galosphere Pink Salt Shrines have been disabled as they have to do with hostile mob features that are not desirable for the pack
+- Subtle Effects
+  - Many minor adjustments to reduce performance impact but retain nice features
+  - Environment
+    - Biome Particle Radius (blocks) 32 => 24
+	- Mushroom Spore Density 10 => 5
+	- Pollen Density 50 => 10
+    - Waterfall update frequency (ticks) 6 => 40
+	- Large & Medium Waterfall Particle Density 1.0 => 0.5
+	- Default Biome Particle Density 3 => 2
+	- Firefly sound volume 0.5 => 0.2
+	- Flame, Smoke, & Bubble Geyser Spawn Chance 5 => 2
+	- Flame, Smoke, & Bubble Geyser Volume 0.5 => 0.2
+	- Flame, Smoke, & Bubble Geyser Active Time (ticks) 300 (15 seconds) => 160 (8 seconds)  
+	- Flame, Smoke, & Bubble Geyser Inactive Time (ticks) 500 (25 seconds) => 900 (45 seconds)
+  - General
+    - Drop Land Sound Volume: 1.0 => 0.5
+	- Potion Particle Alpha Near Player: 0.2 => 0.05
+	- Potion Particle Alpha 0.7 => 0.35
+	- Fire Overlay Alpha 0.9 => 0.5
+	- Fire Overlay Alpha with Resistance 0.4 => 0.2
+	- Particle Render Distance (chunks) 5 => 4
+  - Blocks 
+    - Lava Sparks Display Type ON => OFF
+	- Beacon Particles Display Type ON => OFF
+	- Lantern Sparks Density 3 => 1
+	- Torch Smoke TRUE => FALSE
+	- Campfire Sizzle Volume 0.5 => 0.2
+	- Rainwater Ripple Density 0.35 => 0.1
+	- Random Chest Opening Needs Soul Sand FALSE => TRUE
+  - Entities
+    - Player Snore Chance & Volume 0.5 => 0.0
+	- Frosty Breath Alpha 0.5 => 0.25
+	- Stomach Growling Threshold (points) 6 => 4
+	- Stomach Growling Wait Time (ticks?) 15 => 30
+	- Stomach Growling Volume 0.35 => 0.1
+	- Heartbeat Volume 0.0 => 0.15
+	- Heartbeat Threshold (half hearts) 6 => 4
+	- Heartbeat Wait Time (ticks?) 3 => 10
+	- Drowning Bubbles Alpha 1.0 => 0.35
+	- Potion Rings Alpha 1.0 => 0.66
+	- Dust Clouds Alpha 1.0 => 0.5
+	- Dust Less View Blocking FALSE => TRUE
+	- Burning Sound Volume 0.3 => 0.25
+	- Sparks, Smoke, & Splash Density 1.0 => 0.5
+	- Splash Overlay Alpha 0.8 => 0.5
+	- Animal Feeding Volume 1.0 => 0.5
+- Supplementaries
+  - Supplementaries-common.toml
+    - Dynamic assets generation mode "CACHED_ZIPPED" => "ALWAYS" as this is counterintuitively more performant
+  - Supplementaries-client.toml
+    - Dynamic assets generation mode "CACHED_ZIPPED" => "ALWAYS" as this is counterintuitively more performant
+- Tips (TipsMod)
+  - Tips Render Width Percentage increased from 0.35 => 0.5 
+  - Tips cycle time increased from 5000 (ms) => 10000 (ms)
+  - Tips default title color changed from "yellow" => "red" so now they're Pokeball colors :)
+  - Default packaged Tips have been disabled.
+  - New CUSTOM Tips have been added using a new Resource Pack, Pizzamon_TipsModule.zip
+- Waystones
+  - General
+    - Default visibility of all Waystones has been changed from "ACTIVATION" => "GLOBAL", allowing discovered Waystones to be Global in multiplayer without having to break and replace them
+
 
 ## Data & Resource Pack Changes
 
 - Data Packs
-  - Pizzamon_BCA_CobbleTowns1.1.3_CobbleDollars_v2 updated for parity with the new Game Corner Coins for CobbleDollars in the base config
+  - Pizzamon_BCA_CobbleTowns1.1.3_CobbleDollars_v2 updated for parity with the new Game Corner Coins for CobbleDollars in the base config (Newly generated CobbleDollars Merchants in BCA structures will have the new tokens in their shop if they are a "standard" Pokemart Cashier)
   - Pizzamon_CobbledGacha_Data updated for CobbledGacha v3, with new loot tables and settings for balance reasons and to implement the new custom Payday Slot Machine
-  - Pizzamon_TrialsEditionModule has been created and added as a workaround to modify and inject new loot into Cobblemon Trials Edition loot pools via KubeJS
+  - Pizzamon_TrialsEditionModule has been created and added as a workaround to modify and inject new loot into Cobblemon Trials Edition loot pools via KubeJS due to odd namespacing issues when trying to modify the tables directly
 - Resource Packs
   - Pizzamon_CobbledGacha_Resource updated for CobbledGacha v3, and now adds a completely custom modelled and textured Payday Slot Machine and accompanying capsules (All Payday Slot Machine models and textures made by NFinET_Owa, das me c:)
-
+  - Pizzamon_CobbleVillagersNameFix_v1 has been removed (deprecated)
+  - Pizzamon_TipsModule has been added, providing modpack-specific custom tips on loading and pause menus!
+  
 ## Recipe Changes
 
-- CobbledGacha's main machines are now available (their recipes are no longer negated)
-- Two of CobbledGacha's coins have custom recipes to balance the availability of resources better for this modpack due to mods like BotanyPots and Pasture Loot
+- CobbledGacha's machines and tokens are now available (their recipes are no longer negated)
+- Two of CobbledGacha's coins have custom recipes to balance the availability of resources better for this modpack due to mods like BotanyPots and Pasture Loot making certain currency items far easier to obtain
 - Fine Silk from Silent Gear now has a crafting recipe due to it originally only dropping from Minecraft spiders
-- To help with confusion, the chisels from Rechiseled and Chipped can both be swapped to the other variant by placing them in a crafting grid
+- To help with confusion, the chisels from Rechiseled and Chipped can now both be swapped to the other variant by placing them in a crafting grid
 
-## Scripting Changes (KubeJS)
+## Other Changes
+
+# KubeJS Scripts
 
 - server_scripts/main.json
-  - Wide variety of new custom item tags added to many items for ease of use with creating custom loot tables or convenient reference/grouping
+  - Wide variety of new custom item tags added to many items for ease of use with creating custom loot tables or convenient reference/grouping. These are invisible and don't matter to the player unless you want to snoop my custom tags and loot tables I guess?
 - server_scripts/pizzamon_loot.json
   - New massive script adding tons of custom loot table definitions that are utilized or otherwise injected into other existing loot tables throughout the entire modpack to improve loot overall and better tie-in thematic mods where appropriate. Examples include:
     - "Cameraman", "Artist", "Gambler", and other trainer classes now drop appropriately themed items from other mods like Exposure, Joy of Painting, and CobbledGacha
     - "Pokemaniac" and "Pokefan" type trainer classes and similar adjacent classes now drop Fireworks Capsule items, PokeBlocks Pokedolls, and various cosmetic Pokemon items like certain hats and armors
     - Supplementaries cave urns now drop Tumblestones, with rare chances to drop Ancient Pokeballs, Type Gems, and Held Items
-    - Cobblemon Raid Dens reward bags now have additional bonus rolls on custom loot pools to make them more rewarding
+    - Cobblemon Raid Dens, Trial Spawners, and Rad-Gyms have new injected loot tables to make them more proportionally rewarding
     - Several existing tables for Cobblemon Additions (BCA) town generation have had appropriate modded items added to their loot pools, such as ingots, ores, and foods from other mods
     - Many, many more; with more to come later
-	
+- client_scripts/pizzamon_client.json
+  - New very lightweight script that just adds some tooltips to a few items to clarify their usage or add flavor / lore text
+  - Includes some translation namespace key fixes for:
+    - New Advanced Loot Info EMI categories custom-made for the Modpack
+	- Namespace fixes for two villager professions from CobbleDollars and Legendary Monuments (formerly in Pizzamon_CobbleVillagersNameFix_v1)
+- kubejs/config/client.json
+  - The modpack now has a custom window name and icon!
+
+# Iris & Complementary Shaders + Euphoria Patches
+
+- Various minor adjustments have been made to the defaults to try to reduce memory overhead and increase general performance.S

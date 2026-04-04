@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If you put your registered Trainer Card in a storage inventory or in something like a Backpack, it will negate the effect of attracting trainers to you entirely.",
+    "italic": true
+  }
+}

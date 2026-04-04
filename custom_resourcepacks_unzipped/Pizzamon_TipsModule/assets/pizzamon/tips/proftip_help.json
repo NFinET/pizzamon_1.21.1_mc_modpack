@@ -1,0 +1,15 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti (?)",
+    "bold": true,
+    "underlined": true,
+    "color": "dark_red"
+  },
+  "text": {
+    "text": "IF YOU'RE READING THIS, SEND HELP, THE PROFESSOR IS MAKING ME WRITE THESE STUPID TIPS, MY LOCATION IS",
+    "italic": true,
+    "bold": true,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Holding your registered Trainer Card in your inventory will cause trainers to flock around your location. Actively holding it in your hand will make them seek you out directly. Weirdos.",
+    "italic": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Mega Showdown",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "\"Gimmick\" items from Mega Showdown like Z-crystals, Mega Stones, and others can be recycled back to their main component in a Blast Furnace, in case you change your mind."
+  }
+}

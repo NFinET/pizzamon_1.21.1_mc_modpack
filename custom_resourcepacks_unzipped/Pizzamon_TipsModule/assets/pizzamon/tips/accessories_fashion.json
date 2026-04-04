@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Accessories",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In the Accessories menu (button next to your character in inventory) you can hit the button on the right to show your Cosmetic slots (rainbow outlines). All your armor and accessory slots have one!"
+  }
+}

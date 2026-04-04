@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Pokemon of the Chansey-line or with healng moves will heal nearby players by granting them the Regeneration effect."
+  }
+}

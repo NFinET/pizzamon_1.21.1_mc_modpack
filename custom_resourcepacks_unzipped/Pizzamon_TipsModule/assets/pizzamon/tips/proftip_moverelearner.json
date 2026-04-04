@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can freely swap your Pokemon's moveset, Pokemon will retain access to any moves that they learned from TMs and TRs as well!",
+    "italic": true
+  }
+}

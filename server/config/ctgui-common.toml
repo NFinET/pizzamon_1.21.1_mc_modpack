@@ -4,8 +4,6 @@ editMode = false
 listButton = true
 #Enables a small indicator for all recipes by CraftTweaker (= Exported Recipe changes). This can be used to indicate changes to players after you are done editing
 customRecipeIndicator = true
-#Disables the warning about editing recipes while on a server
-acknowledgedMultiplayer = false
 
 [editing]
 	#Disables collapsing tags with one item into the item itself while editing recipes (In Emi)

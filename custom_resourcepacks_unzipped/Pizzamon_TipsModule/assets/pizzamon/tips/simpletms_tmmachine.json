@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Simple TMs",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "The TM Machine from Simple TMs unlike the TM/TR Cases is accessible by other players, and shares its inventory! You can use it to co-operatively share them!"
+  }
+}

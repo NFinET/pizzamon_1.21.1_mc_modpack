@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Parting Gifts",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "When you release Pokemon from the PC, they'll leave you gifts from their respective drop table, sometimes with extras based on their Type!"
+  }
+}

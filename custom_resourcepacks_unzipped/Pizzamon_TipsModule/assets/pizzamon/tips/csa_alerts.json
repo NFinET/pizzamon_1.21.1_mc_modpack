@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon Spawn Alerts",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If a really rare spawn happens near you, a special alert will be broadcast in the chat, and the pokemon will gain a glowing outline so you can find them! However, this won't apply to spawns that happen far away from you that you then approach."
+  }
+}

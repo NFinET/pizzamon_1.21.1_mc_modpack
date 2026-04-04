@@ -24,12 +24,12 @@
 	#        "biomesoplenty:redwood"		COMMENT: exclude redwood from Wood Mod for any module
 	#    ]
 	#
-	blacklist = []
+	blacklist = [".*delight.*:.*"]
 
 [leavestype]
 	#Exclude LeavesType from all of Modules
 	#	The example is same as WoodType's
-	blacklist = []
+	blacklist = [".*delight.*:.*"]
 
 [block]
 	#Exclude a specific WoodType/LeavesType block
@@ -54,7 +54,7 @@
 	#    ]
 	#    NOTE: This excluded one entryset from all WoodTypes/LeavesTypes
 	#
-	blacklist = []
+	blacklist = ["mcwfences:hedge", "chipped:.*_leaves", "quark:vertical_planks", "quark:hedge"]
 
 [module]
 	#Exclude Module From Wood-Good, Stone-Zone & Gems-Realm

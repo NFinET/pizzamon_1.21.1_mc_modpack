@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Mega Showdown",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "To get a blank Z-crystal, find an Anbandoned Observatory. You'll also need a Sparkling Stone from Archeological Dig Sites for the bracelet.  (Alternative recipes have been added too!)"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Apricorns are weirdly fragile in the Spagonia region, so it’s a bit difficult to make Pokéballs efficiently by hand here. If you want to get more out of your Apricorns, you’ll need precision machines (Create)",
+    "italic": true
+  }
+}

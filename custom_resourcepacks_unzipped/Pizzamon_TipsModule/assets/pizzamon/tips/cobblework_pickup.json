@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Pokemon with the ability \"Pickup\" will generate loot from a variety of generic loot tables."
+  }
+}

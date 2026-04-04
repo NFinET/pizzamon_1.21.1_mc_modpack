@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon Integrations",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If you have a Pokemon that knows Teleport, you can use the interact wheel with them to use it like activating a Warpstone!"
+  }
+}

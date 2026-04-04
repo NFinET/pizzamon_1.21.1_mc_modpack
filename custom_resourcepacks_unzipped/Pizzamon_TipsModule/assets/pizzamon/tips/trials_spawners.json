@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon: Trials Edition",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Most spawners have been replaced with special ones that spawn Pokemon! Defeat all the mons spawned by it, and the spawner will spit out some loot!"
+  }
+}

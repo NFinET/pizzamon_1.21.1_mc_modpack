@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbreeding",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can use a Pasture Block to act like a Pokemon Daycare for breeding Pokemon. Just make sure the egg icon in the corner of its gui isn't crossed out if you want them to breed."
+  }
+}

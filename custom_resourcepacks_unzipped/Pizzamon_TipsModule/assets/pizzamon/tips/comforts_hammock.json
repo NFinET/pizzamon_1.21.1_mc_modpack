@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Comforts",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can hang a Hammock from Comforts between trees to be able to sleep through the day. You need to use Rope & Nails attached to logs exactly 4 blocks apart."
+  }
+}

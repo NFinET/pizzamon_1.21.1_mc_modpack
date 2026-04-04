@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "We don't know where they come from exactly, but Pokedolls in the Spagonia region have the odd property of having some residiual magic in them, letting them influence enchanting tables. It's probably nothing.",
+    "italic": true
+  }
+}

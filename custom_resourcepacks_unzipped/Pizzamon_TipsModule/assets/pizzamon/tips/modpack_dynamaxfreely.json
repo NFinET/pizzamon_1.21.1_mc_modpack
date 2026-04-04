@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip [Mega Showdown]",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In this pack, Dynamaxing from Mega Showdown has had the requirement of a Power Spot nearby nullified. Use it wherever you want!"
+  }
+}

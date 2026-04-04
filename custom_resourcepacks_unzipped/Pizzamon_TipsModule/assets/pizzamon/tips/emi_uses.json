@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "EMI",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "With EMI, you can use \"U\" while hovering your cursor over an item to view the \"U\"ses it has in other recipes!"
+  }
+}

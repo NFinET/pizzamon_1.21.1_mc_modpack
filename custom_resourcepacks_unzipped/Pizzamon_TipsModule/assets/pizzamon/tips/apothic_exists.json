@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Apothic Enchanting",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Enchanting in this pack is overhauled with Apothic Enchanting! This adds a lot of new features and functions, but also changes how you have to make enchanting setups."
+  }
+}

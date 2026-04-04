@@ -14,3 +14,6 @@ These are custom Data Packs specifically made for this modpack and brief explana
   
 - **Pizzamon_CobbledGacha_Data**
   - Configuration override patch for CobbledGacha based on a template provided by the CobbledGacha dev. Overrides the data-related elements.
+  
+- **Pizzamon_TrialsEditionModule**
+  - Configuration override for Cobblemon Trials Edition that works in conjunction with KubeJS scripting to modify the trial spawner loot tables.

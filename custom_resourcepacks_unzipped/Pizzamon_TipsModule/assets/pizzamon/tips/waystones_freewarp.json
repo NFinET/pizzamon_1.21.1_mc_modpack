@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Waystones",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If you find a Waystone, use it! In this pack, the cost of teleporting via Waystones has been eliminated by default!"
+  }
+}

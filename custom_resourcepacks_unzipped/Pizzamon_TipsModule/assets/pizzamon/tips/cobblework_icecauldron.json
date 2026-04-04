@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Ice-Type Pokemon will generate Snow in nearby empty cauldrons."
+  }
+}

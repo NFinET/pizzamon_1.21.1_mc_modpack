@@ -131,6 +131,7 @@ chunk_rebuild_scheduler = "culling"
 				shulker_bullet = true
 				enderman = true
 				dragon_fireball = true
+				copper_golem = true
 				chicken = true
 				sniffer = true
 				trader_llama = true
@@ -218,6 +219,15 @@ chunk_rebuild_scheduler = "culling"
 				wreath = true
 				boat = true
 
+			[light_sources.settings.entities.silentgear]
+				slingshot_projectile = true
+				arrow = true
+				thrown_trident = true
+				fishing_hook = true
+
+			[light_sources.settings.entities.rad_gyms]
+				gym_trainer = true
+
 			[light_sources.settings.entities.pokebike]
 				yellow_bike = true
 				green_bike = true
@@ -230,6 +240,9 @@ chunk_rebuild_scheduler = "culling"
 
 			[light_sources.settings.entities.cobblemon_secret_base_trainer]
 				battle_clone = true
+
+			[light_sources.settings.entities.immersive_furniture]
+				sitting = true
 
 			[light_sources.settings.entities.create]
 				carriage_contraption = true
@@ -299,6 +312,14 @@ chunk_rebuild_scheduler = "culling"
 				chair = true
 				couch = true
 
+			[light_sources.settings.entities.railways]
+				conductor = true
+				benchcart = true
+				jukeboxcart = true
+
+			[light_sources.settings.entities.refurbished_furniture]
+				seat = true
+
 			[light_sources.settings.entities.blueprint]
 				falling_block = true
 				chest_boat = true
@@ -349,6 +370,11 @@ chunk_rebuild_scheduler = "culling"
 
 			[light_sources.settings.entities.fireworkcapsules]
 				capsule_entity = true
+
+			[light_sources.settings.entities.exposure]
+				glass_photograph_frame = true
+				camera_stand = true
+				photograph_frame = true
 
 			[light_sources.settings.entities.crabbersdelight]
 				mod_chest_boat = true

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Fairy-Type Pokemon will harvest fully grown Pokemon Mints within range and place them in vanilla containers."
+  }
+}

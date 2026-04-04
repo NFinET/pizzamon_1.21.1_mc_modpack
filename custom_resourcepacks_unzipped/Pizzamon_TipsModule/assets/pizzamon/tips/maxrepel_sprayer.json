@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Max Repel",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Repel Sprayers will prevent wild Pokemon from appearing within a certain radius of them. "
+  }
+}

@@ -6,7 +6,7 @@
     "https://modrinth.com/mod/cobblemon-spawn-alerts",
     "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
   ],
-  "fullSpawnMessage": "<c value=#FF5555>[!]</c>{bucket} {shiny}{legendary}{level}<c value=#5555FF><b>{name}</b></c> {HA}<c value=#AAAAAA>spawned </c>{nearest_player}",
+  "fullSpawnMessage": "<c value=#FF5555>[!]</c> {bucket} {shiny}{legendary}{level}<c value=#5555FF><b>{name}</b></c> {HA}<c value=#AAAAAA>spawned </c>{nearest_player}",
   "despawnMessage": "<c value=#FFFFFF>The</c> {shiny}{legendary}<c value=#5555FF><b>{name}</b></c> {despawned}",
   "despawnReason_Despawned": "<c value=#AAAAAA><turb a=0.5 f=0.5>vanished...</turb></c>",
   "despawnReason_Captured": "<c value=#AAAAAA>was </c><c value=#55FF55>caught</c> <c value=#FFFFFF>by</c> <c value=#FFAA00><b>%s!</b></c>",
@@ -62,9 +62,9 @@
   "hidden_ability_unformatted": "cobblemon-spawn-alerts.hidden_ability_unformatted",
   "bucket": "[%s]",
   "bucket_unformatted": "cobblemon-spawn-alerts.bucket_unformatted",
-  "common": "COM",
-  "uncommon": "UNC",
-  "rare": "RARE",
-  "ultra_rare": "UR",
-  "bucket_none": "?"
+  "common": "<c value=#FFFFFF>C</c>",
+  "uncommon": "<c value=#55FF55>UC</c>",
+  "rare": "<c value=#5555FF>R</c>",
+  "ultra_rare": "<c value=#FF55FF><b>UR</b></c>",
+  "bucket_none": "<c value=#AAAAAA><i>?</i></c>"
 }

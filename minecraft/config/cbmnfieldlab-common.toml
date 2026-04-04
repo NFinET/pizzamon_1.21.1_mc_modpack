@@ -1,0 +1,140 @@
+#Time before a quest reroll becomes available (seconds)
+# Default: 300
+# Range: 1 ~ 86400
+rerollTimeSeconds = 300
+#Scaling multiplier for individual quest reward value
+# Default: 2.0
+# Range: 0.01 ~ 1000.0
+indivRewardValueScale = 2.0
+#Minimum amount of xp for minor rewards
+# Default: 5000
+# Range: 1 ~ 400000
+minorRewardMinXP = 5000
+#Maximum amount of xp for minor rewards
+# Default: 12000
+# Range: 1 ~ 400000
+minorRewardMaxXP = 12000
+#Base reward value for major rewards
+# Default: 8.0
+# Range: 0.01 ~ 1000.0
+majorRewardValue = 8.0
+#Minimum number of items given for major rewards
+# Default: 4
+# Range: 1 ~ 100
+majorRewardMinItems = 4
+#Maximum number of items given for major rewards
+# Default: 6
+# Range: 1 ~ 100
+majorRewardMaxItems = 6
+#Enable ability quests
+enableAbilityQuest = true
+#Enable single-type quests
+enableSingleTypeQuest = true
+#Enable double-type quests
+enableDoubleTypeQuest = true
+#Enable nature quests
+enableNatureQuest = true
+#Enable move quests
+enableMoveQuest = true
+#Enable size quests
+enableSizeQuest = true
+#Enable base stat total quests
+enableBaseStatQuest = true
+#Enable weight quests
+enableWeightQuest = true
+#Enable pokedex name quests
+enableDexNameQuest = true
+#Enable region quests
+enableRegionQuest = true
+#Enable biome spawn quests
+enableBiomeQuest = true
+#Enable evolution stage quests
+enableEvoQuest = true
+#Ability quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+abilityQuestDifficulty = 1.0
+#Single-type quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+singleTypeQuestDifficulty = 1.0
+#Double-type quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+doubleTypeQuestDifficulty = 1.0
+#Nature quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+natureQuestDifficulty = 1.0
+#Move quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+moveQuestDifficulty = 1.0
+#Size quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+sizeQuestDifficulty = 1.0
+#Base stat quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+baseStatQuestDifficulty = 1.0
+#Weight quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+weightQuestDifficulty = 1.0
+#Dex name quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+dexNameQuestDifficulty = 1.0
+#Region quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+regionQuestDifficulty = 1.0
+#Biome quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+biomeQuestDifficulty = 1.0
+#Evolution quest difficulty scale
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+evoQuestDifficulty = 1.0
+#Minimum size factor for size quests
+# Default: 5.0
+# Range: 0.0 ~ 1000.0
+sizeQuestLowerBound = 5.0
+#Maximum size factor for size quests
+# Default: 20.0
+# Range: 0.0 ~ 1000.0
+sizeQuestUpperBound = 20.0
+#Minimum weight factor for weight quests
+# Default: 10.0
+# Range: 0.0 ~ 1000.0
+weightQuestLowerBound = 10.0
+#Maximum weight factor for weight quests
+# Default: 600.0
+# Range: 0.0 ~ 1000.0
+weightQuestUpperBound = 600.0
+#Minimum gap between lower and upper weight bounds
+# Default: 20.0
+# Range: 0.0 ~ 1000.0
+weightQuestMinGap = 20.0
+#Maximum gap between lower and upper weight bounds
+# Default: 80.0
+# Range: 0.0 ~ 1000.0
+weightQuestMaxGap = 80.0
+#Minimum total base stat value for base stat quests
+# Default: 200
+# Range: 0 ~ 2000
+baseStatQuestLowerBound = 200
+#Maximum total base stat value for base stat quests
+# Default: 400
+# Range: 0 ~ 2000
+baseStatQuestUpperBound = 400
+#Minimum difference between lower and upper base stat bounds
+# Default: 30
+# Range: 0 ~ 2000
+baseStatQuestMinGap = 30
+#Maximum difference between lower and upper base stat bounds
+# Default: 80
+# Range: 0 ~ 2000
+baseStatQuestMaxGap = 80

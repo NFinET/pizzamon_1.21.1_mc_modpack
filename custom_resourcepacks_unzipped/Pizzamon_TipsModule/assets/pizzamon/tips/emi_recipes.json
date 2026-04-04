@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "EMI",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "With EMI, you can use \"R\" while hovering your cursor over an item to view any \"R\"ecipes it has! This also includes any sources like loot tables or special methods, when supported by mods."
+  }
+}

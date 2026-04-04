@@ -1,0 +1,10 @@
+#Client visuals for Rustling Spots
+[visual]
+	#Opacity multiplier for the rustling spot shadow overlay (0 = invisible, 1 = opaque)
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	shadow_opacity = 0.85
+	#Additional opacity multiplier applied when the spot or camera is underwater
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	water_shadow_opacity = 1.0

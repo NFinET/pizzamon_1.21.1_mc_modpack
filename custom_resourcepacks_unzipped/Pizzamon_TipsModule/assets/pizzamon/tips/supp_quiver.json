@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Supplementaries",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Want to carry several arrow types? Make a Quiver! You can equip it as an accessory, and open it with \"V\"!"
+  }
+}

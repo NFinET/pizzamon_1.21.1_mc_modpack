@@ -1,0 +1,20 @@
+{
+	"schema_version": 2,
+	"failed_reloads_per_session": 5,
+	"default_packs": [
+
+	],
+	"default_overrides": {
+		"force_compatible": true
+	},
+	"pack_overrides": {
+		"1": [
+
+		],
+		"$$1": {
+			"force_compatible": true,
+			"fixed_position": true,
+			"required": true
+		}
+	}
+}

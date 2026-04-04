@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "EMI",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Double-clicking the EMI search bar will highlight items in inventories you're looking at that match your current search criteria."
+  }
+}

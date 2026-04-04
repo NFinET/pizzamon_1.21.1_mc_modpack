@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Water-Type Pokemon with access to water to swim into will generate vanilla Fishing Loot and place it in vanilla containers."
+  }
+}

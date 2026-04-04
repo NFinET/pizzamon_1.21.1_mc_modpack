@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Pokemon that know the move Dive and have access to water to swim into will generate Dive Loot and place it into nearby vanilla containers."
+  }
+}

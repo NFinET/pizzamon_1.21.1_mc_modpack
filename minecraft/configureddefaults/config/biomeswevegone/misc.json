@@ -3,7 +3,7 @@
   "soulFruit": {
     "ALLOW_SOUL_FRUIT_BLINDNESS": {
       "comment": "Allow Soul Fruit to give the player blindness",
-      "value": true
+      "value": false
     },
     "SOUL_FRUIT_BLINDNESS": {
       "comment": "The duration of the blindness effect from Soul Fruit in Seconds, Value must be \u003e 0",

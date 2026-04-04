@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Not sure of what's in the pack? Give the modlist a read, or flip through EMI and poke around!"
+  }
+}

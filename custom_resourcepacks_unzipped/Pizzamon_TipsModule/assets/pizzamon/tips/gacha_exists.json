@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "CobbledGacha",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Find a strange token or some odd yarn? Check out the machines from CobbledGacha to use them to get some cool stuff!"
+  }
+}

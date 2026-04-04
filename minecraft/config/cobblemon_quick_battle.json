@@ -1,0 +1,20 @@
+{
+  "enableEVYield": true,
+  "enableXPGain": true,
+  "cooldownTicks": 40,
+  "allowLegendary": false,
+  "allowMythical": false,
+  "allowUltraBeast": false,
+  "allowParadox": false,
+  "showOverlay": true,
+  "showReticle": false,
+  "showBattleMessages": true,
+  "victorySoundVolume": 15,
+  "disablePPUsage": false,
+  "disableFaintingAtLowHP": false,
+  "autoTargetMode": false,
+  "quickBattleKey": 75,
+  "controllerButton": 3,
+  "overlayPosition": 1,
+  "targetDistance": 12.0
+}

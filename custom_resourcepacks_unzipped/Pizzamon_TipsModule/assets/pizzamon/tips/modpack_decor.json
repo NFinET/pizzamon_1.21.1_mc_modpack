@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Like decorating? Search around in EMI! There's quite a few cool decor mods included in this pack for your amusement!"
+  }
+}

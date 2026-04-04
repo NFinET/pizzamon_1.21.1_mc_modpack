@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Sophisticated Backpacks",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Installed toggle-able backpack upgrades can be toggled using ALT+Z, X, C, V, and B! (Corresponding to the installed slot)"
+  }
+}

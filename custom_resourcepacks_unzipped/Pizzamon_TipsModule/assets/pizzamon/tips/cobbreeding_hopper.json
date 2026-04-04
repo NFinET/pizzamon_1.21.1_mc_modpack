@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbreeding",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can use hoppers and some other items to empty any laid eggs from Pokemon breeding in Pasture Blocks. Otherwise, there's a limit in this pack of 10 eggs."
+  }
+}

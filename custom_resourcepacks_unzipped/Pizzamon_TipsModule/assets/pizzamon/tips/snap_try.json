@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon Snap",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Try out Cobblemon Snap! Take photos of Pokemon to fill out your Snapdex to unlock rewards and permanent account-wide multipliers by filling out your collection!"
+  }
+}

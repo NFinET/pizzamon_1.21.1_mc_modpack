@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip [Mega Showdown]",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In this pack, custom recipes have been added to make the \"Gimmick\" items from Mega Showdown more accessible. This includes several crafting recipes, and the ability to acquire some by stonecutting a Netherite Ingot."
+  }
+}

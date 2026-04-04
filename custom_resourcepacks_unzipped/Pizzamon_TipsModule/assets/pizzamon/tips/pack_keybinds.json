@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In this pack, a lot of modded keybinds have been customized with different defaults for compatibility and qol. If you're confused, check the Controls menu."
+  }
+}

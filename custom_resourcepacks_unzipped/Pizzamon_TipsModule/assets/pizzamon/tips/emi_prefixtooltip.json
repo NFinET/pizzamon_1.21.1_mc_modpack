@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "EMI",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can use the prefix \"$\" in EMI to search the tooltips of items! This is usually not very useful, but could be good if you remember something about an item but not its exact name!"
+  }
+}

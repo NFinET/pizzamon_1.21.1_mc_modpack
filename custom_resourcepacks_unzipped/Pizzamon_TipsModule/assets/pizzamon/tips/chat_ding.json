@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Chat Plus & Chat Notify",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In this pack, any message that includes your username will be put in a special tab and play a ding noise to get your attention!"
+  }
+}

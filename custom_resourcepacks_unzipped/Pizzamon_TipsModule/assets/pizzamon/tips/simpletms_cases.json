@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Simple TMs",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "The TM and TR cases from Simple TMs act like vanilla Ender Chests! Opening another copy will just open your own personal storage."
+  }
+}

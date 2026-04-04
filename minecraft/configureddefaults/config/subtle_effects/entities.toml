@@ -10,7 +10,7 @@ vexMagicDensity = 0.2
 sheepShearFluff = true
 improvedDragonFireballTrail = true
 dragonsBreathClouds = true
-commandBlockMinecartParticles = "ON"
+commandBlockMinecartParticles = "OFF"
 endCrystalParticles = true
 minecartSparksDisplayType = "DEFAULT"
 minecartSparksDensity = 0.5
@@ -30,14 +30,14 @@ improvedBrownMooshroomFeedingEffects = true
 improvedMooshroomShearingEffects = true
 replaceBlazeSmoke = true
 animalFeedingParticles = true
-animalFeedingSoundVolume = 1.0
+animalFeedingSoundVolume = 0.5
 underwaterEntityPoofBubbles = true
 improvedWetWolfShakeEffects = true
 improvedVillagerSweatingEffects = true
 
 [sleeping]
-playerSnoreChance = 0.5
-playerSnoreSoundVolume = 0.5
+playerSnoreChance = 0.0
+playerSnoreSoundVolume = 0.0
 playersHaveSleepingZs = true
 villagerSnoreChance = 0.0
 villagerSnoreSoundVolume = 0.0
@@ -52,36 +52,36 @@ adjustNameTagWhenSleeping = true
 [humanoids]
 drowningBubblesDisplayType = "DEFAULT"
 drowningBubblesDensity = 3
-drowningBubbleAlpha = 1.0
+drowningBubbleAlpha = 0.35
 forceDrowningBubblesToColumn = false
 potionRingsDisplayType = "DEFAULT"
 potionRingsParticleType = "BOTH"
 potionRingsScale = 1.0
-potionRingsAlpha = 1.0
+potionRingsAlpha = 0.66
 NPCsHavePotionRings = true
 
 [humanoids.frostyBreath]
 displayType = "DEFAULT"
-alpha = 0.5
-waitTime = 60
+alpha = 0.25
+waitTime = 100
 seasons = "DEFAULT"
 additionalBiomes = [  ]
 
 [humanoids.player]
 enableBreathingEffectsInCreative = true
-stomachGrowlingThreshold = 6
-stomachGrowlingVolume = 0.35
-stomachGrowlingWaitTime = 15
-heartBeatingThreshold = 6
-heartbeatVolume = 0.0
-heartBeatingWaitTime = 3
+stomachGrowlingThreshold = 4
+stomachGrowlingVolume = 0.1
+stomachGrowlingWaitTime = 30
+heartBeatingThreshold = 4
+heartbeatVolume = 0.15
+heartBeatingWaitTime = 10
 
 [dustClouds]
 scale = 2.0
-alpha = 1.0
+alpha = 0.5
 preventWhenRaining = true
 flyIntoWall = true
-lessViewBlocking = false
+lessViewBlocking = true
 playerFell = true
 mobFell = true
 landMaceAttack = true
@@ -91,10 +91,10 @@ playerRunningRequiresSpeed = false
 
 [burning]
 smokeType = "DEFAULT"
-smokeDensity = 1.0
-flamesDensity = 1.0
-sparksDensity = 1.0
-soundVolume = 0.3
+smokeDensity = 0.5
+flamesDensity = 0.5
+sparksDensity = 0.5
+soundVolume = 0.25
 entityBlocklist = [
     "minecraft:lightning_bolt"
 ]
@@ -115,7 +115,7 @@ splashDroplets = true
 splashBubbles = true
 explosionsCauseSplashes = true
 splashOverlayTint = 0.2
-splashOverlayAlpha = 0.8
+splashOverlayAlpha = 0.5
 splashVelocityThreshold = 0.35
 entityBlocklist = [  ]
 secondarySplash = true

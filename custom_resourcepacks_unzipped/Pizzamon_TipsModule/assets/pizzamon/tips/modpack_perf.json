@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Having stuttering or memory issues? Try disabling shaders, LambDynamicLights, Distant Horizons, or Subtle Effects. These are all nice, but user-optional."
+  }
+}

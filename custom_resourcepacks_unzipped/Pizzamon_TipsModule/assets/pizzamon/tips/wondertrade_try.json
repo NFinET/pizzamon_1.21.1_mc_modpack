@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon Wonder Trade",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Try out Wonder Trade! Build a Wonder Trade station! If no other players are adding Pokemon to the \"pool\", they'll be randomly traded with an RNG Pokemon of the same rarity!"
+  }
+}

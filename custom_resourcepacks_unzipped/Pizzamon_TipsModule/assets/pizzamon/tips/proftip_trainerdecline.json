@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In Spagonia, 99% of trainers don't realize that you can just decline giving away money if you lose a trainer battle.",
+    "italic": true
+  }
+}

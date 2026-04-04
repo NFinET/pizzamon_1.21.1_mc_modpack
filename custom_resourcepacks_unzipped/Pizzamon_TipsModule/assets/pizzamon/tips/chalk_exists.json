@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Chalk",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can use Chalk to draw on the sides of blocks from a set of pre-made symbols, including arrows that can help navigate caves."
+  }
+}

@@ -1,6 +1,7 @@
 These are custom Resource Packs specifically made for this modpack and brief explanations of why they exist / what they do.
 
-- **Pizzamon_CobbleVillagers_Name_Fix**:
+- **[DEPRECATED] Pizzamon_CobbleVillagers_Name_Fix**:
+  - Deprecated. Now handled inside a KubeJS client script.
   - This fixes a language translation key error for a couple of villager professions for en_us from the mods CobbleDollars and Legendary Monuments that caused those professions to display their entire namespace key as the profession name in Jade and some other GUIs.
 
 - **PizzamonLogo**:
@@ -8,3 +9,9 @@ These are custom Resource Packs specifically made for this modpack and brief exp
   
 - **Pizzamon_CobbledGacha_Resource**
   - Assets override patch for CobbledGacha based on a template provided by the CobbledGacha dev. Overrides the asset and visual-related elements.
+  
+- **Pizzamon_TipsModule**
+  - Adds custom modpack focused Tips for the Tipsmod to display on loading screens
+  
+- **CobblemonEffectDescriptions**
+  - Custom resource pack that's also published standalone on Modrinth. Adds EMIffect / JEED support for CobbleCuisine and Legendary Monuments effects.

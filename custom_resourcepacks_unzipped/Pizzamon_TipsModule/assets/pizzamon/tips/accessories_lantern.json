@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Accessories",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can place most Lanterns in your \"Hip\" accessory slot, and if you have LambDynamicLights and Iris Shaders enabled, this will cast dynamic light around you!"
+  }
+}

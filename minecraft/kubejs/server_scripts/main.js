@@ -4,10 +4,12 @@ console.info('Hello, World! (Loaded server example script)')
 // Item tag listener begin
 ServerEvents.tags('item', event => {
 	// Add all Every Compat block variant to the JEI/EMI hidden items list, this culls several THOUSAND entries from JEMI and makes it load faster!
+	/* 
 	event.add('c:hidden_from_recipe_viewers', [
 		'@everycomp',
 		'@stonezone'
-	])
+	]) 
+	*/
 	// Hide all the Neptunium items from Aquaculture from JEI/EMI
 	event.add('c:hidden_from_recipe_viewers', [
 		'/aquaculture:neptun.*/',
@@ -258,3 +260,66 @@ ServerEvents.tags('block', event => {
 	])
 })
 // Block tag listener ends
+
+
+// Biome tagging, fixes some Cobblemon tags not being added to appropriate Biomes We've Gone biomes + done as a sanity check just in case, no harm if it does nothing
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_flower_forest", [
+		'#c:is_flower_forest',
+		'biomeswevesgone:sakura_grove'
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_spooky", [
+		'#c:is_spooky',
+		'biomeswevegone:ebony_woods',
+		'biomeswevegone:weeping_witch_forest',
+		'biomeswevegone:pale_bog',
+		'biomeswevegone:overgrowth_woodlands'
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_shrubland", [
+		'#c:is_shrubland',
+		'/.*:.*shrubland.*/'
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_magical", [
+		'#c:is_magical',
+		'biomeswevegone:weeping_witch_forest',
+		'biomeswevegone:skyris_vale',
+		'biomeswevegone:overgrowth_woodlands',
+		'biomeswevegone:pale_bog',
+		"biomeswevegone:rainbow_beach"
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_cherry_blossom", [
+		'#c:is_cherry_blossom',
+		'biomeswevesgone:sakura_grove'
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_floral", [
+		'#c:is_floral',
+		'biomeswevegone:rose_fields'
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_badlands", [
+		'#c:is_badlands',
+		'/biomeswevegone:.*badlands.*/'
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_forest", [
+		'#c:is_forest'
+	])
+})
+ServerEvents.tags('worldgen/biome', event => {
+	event.add("cobblemon:is_lush", [
+		'#c:is_lush',
+		'biomeswevegone:lush_stacks'
+	])
+})

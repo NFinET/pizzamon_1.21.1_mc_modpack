@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Sophisticated Backpacks",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can access the inventory of a worn Backpack directly using the keybind \"B\"."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "config_version": "2.0.19",
+  "config_datetime": "2026-03-16_20-29-10",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "biomeswevegone:abandoned_prairie_house",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "biomeswevegone:aspen_manor_1",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "biomeswevegone:aspen_manor_2",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "biomeswevegone:bog_trial",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "biomeswevegone:prairie_house",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "biomeswevegone:village/forgotten",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "biomeswevegone:village/pumpkin_patch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "supplementaries:galleon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 22,
+      "separation": 10,
+      "name": "cobbletowns:pokecenter",
+      "is_disabled": false,
+      "salt": 89012644,
+      "frequency": 0.6500004,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cobbletowns:pokecenter": 1
+      }
+    },
+    {
+      "spacing": 25,
+      "separation": 12,
+      "name": "cobbletowns:pokemart",
+      "is_disabled": false,
+      "salt": 36692144,
+      "frequency": 0.79999995,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cobbletowns:pokemart": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 8,
+      "name": "galosphere:pink_salt_shrine",
+      "is_disabled": true,
+      "salt": 9237591,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "galosphere:pink_salt_shrine": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "rgs:cerulean_gym",
+      "is_disabled": false,
+      "salt": 328530,
+      "frequency": 0.7500002,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "rgs:cerulean_gym": 1
+      }
+    },
+    {
+      "spacing": 31,
+      "separation": 19,
+      "name": "supplementaries:galleons",
+      "is_disabled": false,
+      "salt": 121047156,
+      "frequency": 0.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "supplementaries:galleon": 1
+      }
+    }
+  ]
+}

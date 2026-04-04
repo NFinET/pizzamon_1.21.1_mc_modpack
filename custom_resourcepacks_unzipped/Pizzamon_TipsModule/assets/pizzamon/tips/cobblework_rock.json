@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Rock-Type Pokemon will harvest Amethyst shards from fully matured Amethyst Clusters in their range and put them in vanilla containers."
+  }
+}

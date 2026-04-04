@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Accessories",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You have a variety of special Acessory slots available from the button next to your player in the inventory. This includes slots for backpacks, elytras, Cobblemon items, and more!"
+  }
+}

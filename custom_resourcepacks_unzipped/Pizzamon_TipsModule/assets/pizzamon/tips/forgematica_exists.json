@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip [Forgematica]",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If you're an advanced user, you might be interested in Forgematica (Litematica), for schematic creation and importing! You can use Right Control + M to open its menu!"
+  }
+}

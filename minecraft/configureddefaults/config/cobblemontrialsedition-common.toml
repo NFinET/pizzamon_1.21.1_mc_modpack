@@ -6,10 +6,6 @@ replaceGeneratedSpawnersWithCobblemonSpawners = true
 replaceSpawnersInStructuresWithCobblemonSpawners = true
 #Whether to replace any spawners that are not listed in configuration with a default spawner. If set to false, this will leave spawners that do not have custom spawn data created.
 replaceAnyUnspecifiedSpawnersWithDefaultCobblemonSpawners = true
-#This allows Spawned Pokemon to be Catchable. If set to True, regardless of spawner settings, Pokemon will always be catchable.If set to false whether Spawned Pokemon can be catchable or not is left up to the Spawner's Settings.NOTE: This will only apply to newly created spawners.
-allowSpawnedPokemonToBeCatchable = false
-#This allows Spawned Pokemon to be defeated outside of battle. If set to true, regardless of spawner settings, Pokemon will be required to be defeated in battle.If set to false whether Spawned Pokemon can be defeated in battle or not is left up to the Spawner's Settings.NOTE: This will only apply to newly created spawners.
-allowSpawnedPokemonToBeDefeatedInBattle = false
 #Whether to do any spawner replacement in Features. If set to false, this will disable the spawner replacement for any spawners in features (eg. Monster_Rooms)
 replaceSpawnersInFeaturesWithCobblemonSpawners = true
 #This allows Spawned Pokemon to be Aggressive and attack players when spawned.If set to true whether Spawned Pokemon can be aggressive or not is left up to the Pokemon's Settings.NOTE: This will only apply to newly created spawners.
@@ -26,3 +22,7 @@ replaceTrialSpawnersBasedOnPercentage = false
 # Default: 0.0
 # Range: 0.0 ~ 1.0
 trialSpawnerReplacementPercentage = 0.0
+#This allows Spawned Pokemon to be Catchable. If set to True, regardless of spawner settings, Pokemon will always be catchable.If set to false whether Spawned Pokemon can be catchable or not is left up to the Spawner's Settings.NOTE: This will only apply to newly created spawners.
+spawnedPokemonAreUncatchable = true
+#This allows Spawned Pokemon to be defeated outside of battle. If set to true, regardless of spawner settings, Pokemon will be required to be defeated in battle.If set to false whether Spawned Pokemon can be defeated in battle or not is left up to the Spawner's Settings.NOTE: This will only apply to newly created spawners.
+spawnedPokemonMustBeDefeatedInBattle = true

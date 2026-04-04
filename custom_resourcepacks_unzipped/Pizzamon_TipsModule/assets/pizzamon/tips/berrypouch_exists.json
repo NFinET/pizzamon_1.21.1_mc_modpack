@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Berry Pouch",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Carrying too many Cobblemon Berries? Craft a Berry Pouch! It has its own accessory slot!"
+  }
+}

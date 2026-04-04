@@ -124,6 +124,17 @@
       },
       "sync": "brewinandchewin:tipsy"
     },
+    "catchrate_display:catch_rate_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "catchrate_display:catch_rate_hud"
+    },
     "chat": {
       "sync": "NONE"
     },
@@ -239,6 +250,17 @@
     },
     "effects": {
       "sync": "NONE"
+    },
+    "emberstextapi:immersive_messages": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "emberstextapi:immersive_messages"
     },
     "explorerscompass:explorers_compass": {
       "displacement": {
@@ -564,6 +586,39 @@
         "y": "NONE"
       },
       "sync": "patchouli:multiblock_progress"
+    },
+    "petrolpark:extra_hotbar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "petrolpark:extra_hotbar"
+    },
+    "petrolpark:extra_hotbar_background": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "petrolpark:extra_hotbar_background"
+    },
+    "petrolpark:tube_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "petrolpark:tube_info"
     },
     "players": {
       "sync": "NONE"

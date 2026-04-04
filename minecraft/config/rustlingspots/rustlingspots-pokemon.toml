@@ -1,0 +1,22 @@
+#Controls for Pokémon encounters
+[pokemon_spawn]
+	#Enable or disable Pokémon encounters inside Rustling Spots
+	enable = true
+	#Probability that a rustling spot will try to spawn a Pokémon instead of items
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	encounter_chance = 0.35
+	#Base probability that a spawned Pokémon will be shiny when not overridden by pool data
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	default_shiny_chance = 0.025
+	#Minimum level for spawned Pokémon
+	# Default: 5
+	# Range: > 1
+	min_level = 5
+	#Maximum level for spawned Pokémon
+	# Default: 75
+	# Range: > 1
+	max_level = 75
+	#If true, Pokémon selection must follow the (family + biome-group) type rules
+	typed_spawn_rules = true

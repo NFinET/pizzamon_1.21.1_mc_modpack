@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Professor S.Ghetti",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "In Spagonia, while the rule of trainers locking eyes still applies, the rule of not being allowed to just leave trainer battles doesn't. (In most cases, anyway)",
+    "italic": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pizzamon Tips are only accurate for this modpack! This is usually because of config options, keybind changes, or recipe alterations."
+  }
+}

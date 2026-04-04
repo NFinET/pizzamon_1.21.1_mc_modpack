@@ -56,6 +56,42 @@
       ]
     },
     {
+      "key": "ali:cobblemon_trials_edition",
+      "type": "GAMEPLAY",
+      "icon": "cobblemontrialsedition:cobblemon_trial_spawner",
+      "hide": false,
+      "pattern": [
+        "^.*trialsedition.*$"
+      ]
+    },
+    {
+      "key": "ali:cobblemon_trainers",
+      "type": "GAMEPLAY",
+      "icon": "cobblemon_secret_base_trainer:battle_clone",
+      "hide": false,
+      "pattern": [
+        "^.*rctmod:trainers.*$"
+      ]
+    },
+    {
+      "key": "ali:cobblemon_raid_dens",
+      "type": "GAMEPLAY",
+      "icon": "cobblemonraiddens:raid_crystal_block",
+      "hide": false,
+      "pattern": [
+        "^.*cobblemonraiddens:raid.*$"
+      ]
+    },
+    {
+      "key": "ali:cobblemon_rad_gyms",
+      "type": "GAMEPLAY",
+      "icon": "rad_gyms:gym_entrance",
+      "hide": false,
+      "pattern": [
+        "^.*rad_gyms:gyms.*$"
+      ]
+    },
+    {
       "key": "ali:fishing_loot",
       "type": "GAMEPLAY",
       "icon": "minecraft:fishing_rod",

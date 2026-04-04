@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "CobbleDex",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Want to lookup info about a Pokemon like its spawning environment and moveset? Look it up in EMI! Clicking a mon model in EMI will present you with many data tabs about that Pokemon."
+  }
+}

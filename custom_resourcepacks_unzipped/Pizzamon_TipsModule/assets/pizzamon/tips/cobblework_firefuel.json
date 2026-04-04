@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Fire-Type Pokemon add burn time to nearby vanilla furnaces, smokers, and blast furnaces, prioritizing ones with items waiting to be processed."
+  }
+}

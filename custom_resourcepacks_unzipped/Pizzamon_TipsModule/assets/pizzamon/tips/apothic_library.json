@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Apothic Enchanting",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Have too many enchanted books? Craft an Enchantment Library! You can store enchanted books as \"points\" in this, allowing you to split multi-enchant books. However, you can only extract an enchantment at the highest level you've inserted it."
+  }
+}

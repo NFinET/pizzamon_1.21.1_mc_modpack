@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Silent Gear",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Want better tools? Look at Silent Gear! You can find info about this mod by crafting and using its book, which will give you a link to its documentation on Github."
+  }
+}

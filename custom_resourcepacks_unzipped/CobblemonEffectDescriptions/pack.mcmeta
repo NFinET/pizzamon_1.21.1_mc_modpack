@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Adds support for JEED and EMIffect for CobbleCuisine's spawning effects. By NFinET_Owa",
+    "pack_format": 34,
+    "supported_formats": [34]
+  }
+}

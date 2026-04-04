@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Simple TMs",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If you're holding a TM/TR case, you can Shift + Right Click with it to bring up a menu to select a party member. After selection, this acts as a filter for moves that Pokemon can currently learn!"
+  }
+}

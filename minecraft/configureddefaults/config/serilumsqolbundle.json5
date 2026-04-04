@@ -20,7 +20,7 @@
 	// If the bundled Dismount Entity mod should be enabled.
 	"enableDismountEntity": true,
 	// If the bundled Easy Elytra Takeoff mod should be enabled.
-	"enableEasyElytraTakeoff": true,
+	"enableEasyElytraTakeoff": false,
 	// If the bundled Enchanting Commands mod should be enabled.
 	"enableEnchantingCommands": false,
 	// If the bundled Extended Bone Meal mod should be enabled.

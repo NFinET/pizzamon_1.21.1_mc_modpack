@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Mega Showdown",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "To obtain a Dynamax band, you need a Wishing Star found from a Wishing Weald, and Max Mushrooms, found very rarely in lush caves. (Alternative recipes have been added too!)"
+  }
+}

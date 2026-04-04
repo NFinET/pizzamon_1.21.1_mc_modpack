@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Explorer's Compass",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Looking for a particular structure and don't want to leave it up to chance? Craft an Explorer's Compass!"
+  }
+}

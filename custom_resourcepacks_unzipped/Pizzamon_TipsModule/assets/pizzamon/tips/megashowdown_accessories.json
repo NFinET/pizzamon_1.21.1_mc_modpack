@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Mega Showdown",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Mega Showdown's Gimmick wearables all have their own dedicated Accesory slots for you to use."
+  }
+}

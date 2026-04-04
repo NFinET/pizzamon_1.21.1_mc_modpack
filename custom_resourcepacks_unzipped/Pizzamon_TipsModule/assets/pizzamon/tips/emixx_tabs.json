@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "EMI++",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "EMI++ allows you to filter the EMI browser using the tabs at the top, which match the Creative tabs. Just be aware these tabs can be sporadic and incomplete depending on how each mod implements their own."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Lootr",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If playing in multiplayer, Lootr allows generated loot containers to be rolled and looted independently per player! If a container has a golden border, you haven't looted it yet."
+  }
+}

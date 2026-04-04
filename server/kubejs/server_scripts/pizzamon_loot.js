@@ -448,13 +448,13 @@ LootJS.lootTables(event => {
 
     event.create("pizzamon:loot/fun/decor/tools").createPool(pool => {
         pool.addEntry(LootEntry.of("minecraft:stonecutter"))
+        pool.addEntry(LootEntry.of("woodworks:sawmill"))
         pool.addEntry(LootEntry.of("chipped:multimeter"))
         pool.addEntry(LootEntry.of("chipped:alchemy_book"))
         pool.addEntry(LootEntry.of("chipped:watering_can"))
         pool.addEntry(LootEntry.of("chipped:needles"))
         pool.addEntry(LootEntry.of("chipped:saw"))
         pool.addEntry(LootEntry.of("rechiseled:chisel"))
-        pool.addEntry(LootEntry.of("sawmill:sawmill"))
         pool.addEntry(LootEntry.of("refurbished_furniture:workbench"))
         pool.addEntry(LootEntry.of("immersive_furniture:artisans_workstation"))
         pool.addEntry(LootEntry.of("fetzisdisplays:workbench"))
@@ -477,6 +477,7 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("cluttered:flower_desk_lamp"))
         pool.addEntry(LootEntry.of("fetzisasiandeco:pagoda_lantern"))
         pool.addEntry(LootEntry.of("fetzisasiandeco:red_paper_lantern"))
+        pool.addEntry(LootEntry.of("fairylights:hanging_lights"))
     })
 
     event.create("pizzamon:loot/fun/decor/smokestacks").createPool(pool => {
@@ -515,7 +516,6 @@ LootJS.lootTables(event => {
         pool.addEntry(LootEntry.of("simpletms:machine_tm").withWeight(2))
         pool.addEntry(LootEntry.of("cobblemon_utility:ballsynchronizer").withWeight(3))
         pool.addEntry(LootEntry.of("cobbled_counter:counter").withWeight(2))
-        pool.addEntry(LootEntry.of("cbmnfieldlab:pokemon_field_lab").withWeight(3))
         pool.addEntry(LootEntry.of("rctmod:trainer_spawner").withWeight(2))
         pool.addEntry(LootEntry.of("rctmod:trainer_repel_rod").withWeight(2))
         pool.addEntry(LootEntry.of("cobblemon_wonder_trade:wonder_trade_station").withWeight(3))
@@ -1235,117 +1235,93 @@ LootJS.lootTables(event => {
 
     // Cobblemon Trials Edition
     event.create("pizzamon:loot/trialsedition/default-mob-spawner").createPool(pool => {
-       LootEntry.alternative(
-        LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
-        LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
-        LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
-        LootEntry.reference("pizzamon:loot/common")
-       )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(25))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(35))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(35))
     })
 
     event.create("pizzamon:loot/trialsedition/monster-room").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(25))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(35))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(35))
     })
 
     event.create("pizzamon:loot/trialsedition/abandoned-mineshaft").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(25))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(35))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(35))
     })
 
     event.create("pizzamon:loot/trialsedition/bastion-remnant").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.1)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.33)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.66)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(10))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(20))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(29))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(40))
     })
 
     event.create("pizzamon:loot/trialsedition/fortress").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.1)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.33)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.66)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(10))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(20))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(29))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(40))
     })
 
     event.create("pizzamon:loot/trialsedition/stronghold").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(15))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(29))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(40))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(15))
     })
 
 
     // Ominous variants
     event.create("pizzamon:loot/trialsedition/ominous-default-mob-spawner").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(24))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(35))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(35))
     })
     event.create("pizzamon:loot/trialsedition/ominous-monster-room").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(24))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(35))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(35))
     })
     event.create("pizzamon:loot/trialsedition/ominous-abandoned-mineshaft").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(24))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(35))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(35))
     })
     event.create("pizzamon:loot/trialsedition/ominous-bastion-remnant").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.03)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(3))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(15))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(41))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(31))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(10))
     })
     event.create("pizzamon:loot/trialsedition/ominous-fortress").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.03)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(3))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(15))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(41))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(31))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(10))
     })
     event.create("pizzamon:loot/trialsedition/ominous-stronghold").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
-            LootEntry.reference("pizzamon:loot/common")
-           )
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(15))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(40))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(30))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(10))
     })
 
     //
@@ -1353,121 +1329,93 @@ LootJS.lootTables(event => {
     //
     // Tier one (Level 12?)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_one").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.005)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/common")
-        )
-        pool.rolls(1)
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(2))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(22))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(70))
+        .rolls(1)
     })
     // Tier two (Level 25?)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_two").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.0075)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.02)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.075)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.33)),
-            LootEntry.reference("pizzamon:loot/common")
-        )
-        pool.rolls(1)
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(2))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(7))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(30))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(60))
+        .rolls(1)
     })
     // Tier three (Level 35)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_three").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.0333)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.15)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/common")
-        )
-        pool.rolls([1, 2])
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(4))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(15))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(40))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(40))
+        .rolls([1, 2])
     })
     // Tier four (Level 45)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_four").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.02)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.075)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.33)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
-            LootEntry.reference("pizzamon:loot/common")
-        )
-        pool.rolls([1, 3])
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(2))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(8))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(30))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(45))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(15))
+        .rolls([1, 3])
     })
     
     // Tier five (Level 75)
     event.getLootTable("cobblemonraiddens:raid/tier/tier_five").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.5)),
-            LootEntry.reference("pizzamon:loot/uncommon")
-        )
-        pool.rolls([2, 3])
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(15))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(40))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(40))
+        .rolls([2, 3])
     })
     // Tier six (Level 90) Only exist with additional datapacks from mod author's discord for literally no reason
     event.getLootTable("cobblemonraiddens:raid/tier/tier_six").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.1)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.66)),
-            LootEntry.reference("pizzamon:loot/uncommon")
-        )
-        pool.rolls(3)
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(8))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(25))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(45))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(25))
+        .rolls(3)
     })
     // Tier seven (Level 100) Only exist with additional datapacks from mod author's discord for literally no reason
     event.getLootTable("cobblemonraiddens:raid/tier/tier_seven").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.2)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.33)),
-            LootEntry.reference("pizzamon:loot/rare")
-        )
-        pool.rolls(3)
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(20))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(25))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(55))
+        .rolls(3)
     })
 
 
     // Rad Gyms tables
     event.getLootTable("rad_gyms:gyms/default/common_loot_table").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.0075)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.02)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.075)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.33)),
-            LootEntry.reference("pizzamon:loot/common")
-        )
-        pool.rolls(1)
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(1))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(24))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(35))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(35))
+        .rolls(1)
     })
-
     event.getLootTable("rad_gyms:gyms/default/uncommon_loot_table").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.01)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.0333)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.2)),
-            LootEntry.reference("pizzamon:loot/uncommon").when(c => c.randomChance(0.75)),
-            LootEntry.reference("pizzamon:loot/common")
-        )
-        pool.rolls([1, 2])
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(2))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(8))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(30))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(45))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/common").withWeight(15))
+        .rolls([1, 2])
     })
-
     event.getLootTable("rad_gyms:gyms/default/rare_loot_table").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.05)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.15)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.4)),
-            LootEntry.reference("pizzamon:loot/uncommon")
-        )
-        pool.rolls(2)
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(5))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(15))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(40))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(40))
+        .rolls(2)
     })
-
     event.getLootTable("rad_gyms:gyms/default/epic_loot_table").createPool(pool => {
-        LootEntry.alternative(
-            LootEntry.reference("pizzamon:loot/legendary").when(c => c.randomChance(0.1)),
-            LootEntry.reference("pizzamon:loot/epic").when(c => c.randomChance(0.25)),
-            LootEntry.reference("pizzamon:loot/rare").when(c => c.randomChance(0.66)),
-            LootEntry.reference("pizzamon:loot/uncommon")
-        )
-        pool.rolls([2, 3])
+        pool.addEntry(LootEntry.reference("pizzamon:loot/legendary").withWeight(8))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/epic").withWeight(25))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/rare").withWeight(45))
+        pool.addEntry(LootEntry.reference("pizzamon:loot/uncommon").withWeight(25))
+        .rolls(3)
     })
 
 

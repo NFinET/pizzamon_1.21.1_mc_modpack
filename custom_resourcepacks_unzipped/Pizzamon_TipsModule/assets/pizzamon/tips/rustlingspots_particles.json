@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Rustling Spots",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "See some weird particles coming out of an odd spot? Go investigate! You might be rewarded!"
+  }
+}

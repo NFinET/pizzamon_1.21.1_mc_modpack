@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pasture Loot",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pokemon that are pastured in a Pasture Block will occasionally drop a random item from their defeat drop table onto the ground. Some special items (like Nether Stars) are banned from dropping in this way though."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Some recipes have been altered for balance or customization reasons! EMI will always show you the recipe as it is within this pack, though."
+  }
+}

@@ -3,16 +3,16 @@ version = 0
 biomeColorRain = true
 
 [biomes]
-biomeParticlesRadius = 32
+biomeParticlesRadius = 24
 mushroomSporeBiomes = [
     "minecraft:mushroom_fields"
 ]
-mushroomSporeDensity = 10
+mushroomSporeDensity = 5
 pollenBiomes = [
     "minecraft:flower_forest",
     "minecraft:sunflower_plains"
 ]
-pollenDensity = 50
+pollenDensity = 10
 sculkDustBiomes = [
     "minecraft:deep_dark"
 ]
@@ -20,25 +20,25 @@ sculkDustDensity = 5
 
 [geysers]
 useUpdatedSmoke = false
-flameGeyserSpawnChance = 5
+flameGeyserSpawnChance = 2
 flameGeyserSpawnableBlocks = [
     "minecraft:netherrack",
     "minecraft:blackstone",
     "minecraft:soul_soil"
 ]
-flameGeyserSoundVolume = 0.5
-flameGeyserActiveTime = 300
-flameGeyserInactiveTime = 500
-smokeGeyserSpawnChance = 5
+flameGeyserSoundVolume = 0.2
+flameGeyserActiveTime = 160
+flameGeyserInactiveTime = 900
+smokeGeyserSpawnChance = 2
 smokeGeyserSpawnableBlocks = [
     "minecraft:netherrack",
     "minecraft:blackstone",
     "minecraft:soul_soil"
 ]
 smokeGeyserSoundVolume = 0.2
-smokeGeyserActiveTime = 300
-smokeGeyserInactiveTime = 500
-bubbleGeyserSpawnChance = 5
+smokeGeyserActiveTime = 160
+smokeGeyserInactiveTime = 900
+bubbleGeyserSpawnChance = 2
 bubbleGeyserSpawnableBlocks = [
     "minecraft:sand",
     "minecraft:red_sand",
@@ -46,9 +46,9 @@ bubbleGeyserSpawnableBlocks = [
     "minecraft:dirt",
     "minecraft:clay"
 ]
-bubbleGeyserSoundVolume = 0.5
-bubbleGeyserActiveTime = 300
-bubbleGeyserInactiveTime = 500
+bubbleGeyserSoundVolume = 0.2
+bubbleGeyserActiveTime = 160
+bubbleGeyserInactiveTime = 900
 
 [fireflies]
 firefliesEnabled = true
@@ -58,10 +58,10 @@ dimensionBlocklist = [
 biomesBlocklist = [  ]
 biomesAllowlist = [
     "minecraft:lush_caves",
-	"biomeswevegone:lush_stacks",
-	"biomeswevegone:enchanted_tangle",
-	"biomeswevegone:weeping_witch_forest",
-	"biomeswevegone:forgotten_forest"
+    "biomeswevegone:lush_stacks",
+    "biomeswevegone:enchanted_tangle",
+    "biomeswevegone:weeping_witch_forest",
+    "biomeswevegone:forgotten_forest"
 ]
 spawnableBlocks = [
     "minecraft:short_grass",
@@ -84,13 +84,13 @@ spawnableBlocks = [
     "minecraft:rose_bush",
     "minecraft:pink_petals",
     "minecraft:flowering_azalea",
-	"minecraft:cave_vines_plant",
-	"minecraft:spore_blossom"
+    "minecraft:cave_vines_plant",
+    "minecraft:spore_blossom"
 ]
-defaultDensity = 3
+defaultDensity = 2
 ignoredSeasons = "DEFAULT"
 fireflyType = "ORIGINAL"
-fireflySoundVolume = 0.5
+fireflySoundVolume = 0.2
 onlyAllowInHabitatBiomes = false
 habitatBiomes = [
     "minecraft:swamp",
@@ -101,12 +101,12 @@ habitatBiomeDensity = 3
 [waterfalls]
 waterfallsEnabled = true
 smallWaterfallsEnabled = true
-waterfallUpdateFrequency = 6
+waterfallUpdateFrequency = 40
 randomizeWaterfallParticleRotation = false
-mediumWaterfallParticleDensity = 1.0
+mediumWaterfallParticleDensity = 0.5
 mediumWaterfallHeightThreshold = 6
 forceSpawnMediumWaterfallParticles = true
 largeWaterfallsEnabled = true
-largeWaterfallParticleDensity = 1.0
+largeWaterfallParticleDensity = 0.5
 largeWaterfallHeightThreshold = 10
 forceSpawnLargeWaterfallParticles = true

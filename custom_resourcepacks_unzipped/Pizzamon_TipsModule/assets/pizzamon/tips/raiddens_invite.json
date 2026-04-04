@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon Raid Dens",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Raid Crystals allow multiple people to join the same fight in multiplayer! Use /crd broadcast or /crd invite!"
+  }
+}

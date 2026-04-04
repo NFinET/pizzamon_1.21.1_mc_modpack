@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Spice of Life: Onion",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Trouble juggling food? Try using a lunchbag or box! These can hold many foods, and will always use the one that will give you the most diversity score at that moment."
+  }
+}

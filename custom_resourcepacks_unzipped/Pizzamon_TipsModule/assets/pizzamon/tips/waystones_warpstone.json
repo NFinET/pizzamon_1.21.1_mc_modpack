@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Waystones",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If you craft a Warpstone, you can use it to freely travel to any discovered Waystone with just the cost of a cooldown!"
+  }
+}

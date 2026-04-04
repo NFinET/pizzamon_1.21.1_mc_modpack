@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pokemon assigned to a Pasture Block will perform tasks in an area based on their typing. They'll perform work within an 8 block radius and 5 block high around the Pasture Block."
+  }
+}

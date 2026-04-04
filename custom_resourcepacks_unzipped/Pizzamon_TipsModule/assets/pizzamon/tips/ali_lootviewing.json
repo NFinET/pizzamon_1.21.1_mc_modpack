@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Advanced Loot Info",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Thanks to Advanced Loot Info, loot table data can be viewed for most things when hitting \"R\" on items in EMI!"
+  }
+}

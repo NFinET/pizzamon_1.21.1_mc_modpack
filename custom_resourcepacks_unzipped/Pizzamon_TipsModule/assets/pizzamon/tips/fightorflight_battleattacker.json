@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Fight or Flight Reborn",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "If a wild Pokemon is attacking you, hit \"F\" to quickly initiate a Pokemon Battle with it instead!"
+  }
+}

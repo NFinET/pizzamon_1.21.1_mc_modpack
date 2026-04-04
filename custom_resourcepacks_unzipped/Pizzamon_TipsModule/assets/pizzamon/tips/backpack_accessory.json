@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Sophisticated Backpacks",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Backpacks can be worn in your Acessories slots accessed from the small icon next to your player model in your inventory."
+  }
+}

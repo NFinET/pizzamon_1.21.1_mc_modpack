@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Mega Showdown",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Carrying too many Tera-type shards? Make a Tera Shard Pouch!"
+  }
+}

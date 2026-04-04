@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Comforts",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can craft a Sleeping Bag from Comforts to sleep through the night wherever you want, without setting your spawn point!"
+  }
+}

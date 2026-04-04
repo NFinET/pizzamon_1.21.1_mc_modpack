@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Serilum's Mods",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can Shift + Right Click entities to dismount them from chairs, minecarts, boats, etc."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Nature's Compass",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Looking for a particular biome for some reason and don't want to leave it up to chance? Craft a Nature's Compass!"
+  }
+}

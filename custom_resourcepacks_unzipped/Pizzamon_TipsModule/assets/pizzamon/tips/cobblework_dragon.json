@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobbleworkers",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Pastured Dragon-Type Pokemon help fuel nearby Brewing Stands as if Blaze Powder was added to their burn time."
+  }
+}

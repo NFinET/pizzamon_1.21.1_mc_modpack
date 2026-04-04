@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pet A Poke",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can use the Pokemon interaction wheel to pet your Pokemon to gain a bit of friendship!"
+  }
+}

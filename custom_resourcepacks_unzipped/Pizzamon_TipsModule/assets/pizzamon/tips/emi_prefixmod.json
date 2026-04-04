@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "EMI",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "You can use the prefix \"@\" in EMI to filter for the namespace of a specific mod, like \"@cobblemon\"!"
+  }
+}

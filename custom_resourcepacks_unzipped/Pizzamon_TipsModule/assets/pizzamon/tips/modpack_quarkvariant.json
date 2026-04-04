@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pizzamon Tip [Quark]",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "While holding blocks that have variants like stairs and slabs, you can hold \"Shift+V\" to open the variant selector from Quark!"
+  }
+}

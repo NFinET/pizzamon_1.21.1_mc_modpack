@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon Research Tasks",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Try out Cobblemon Research Tasks! Complete various long-term tasks per Pokemon for rewards!"
+  }
+}

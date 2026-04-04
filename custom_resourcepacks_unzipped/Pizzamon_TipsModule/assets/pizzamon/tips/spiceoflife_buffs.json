@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Spice of Life: Onion",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Eating a variety of foods can give you persistent buffs for a while, but eating the same food repeatedly will diminish how much it contributes to this. This is called Diversity Score."
+  }
+}

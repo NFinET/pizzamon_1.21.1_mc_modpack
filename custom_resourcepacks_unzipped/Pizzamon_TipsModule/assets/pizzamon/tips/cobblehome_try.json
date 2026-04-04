@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Cobblemon Home",
+    "bold": true,
+    "underlined": true,
+    "color": "red"
+  },
+  "text": {
+    "text": "Try Cobblemon Home! You can use it to export Pokemon from your singleplayer saves (or server if enabled) for safe keeping or world transferring! There's a special reward for achieving a living dex!"
+  }
+}
