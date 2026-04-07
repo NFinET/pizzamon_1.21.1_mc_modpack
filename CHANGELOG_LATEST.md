@@ -63,7 +63,7 @@
 - Neurina - Ticking Entity Fixer updated from \[3.2.1\] => \[3.2.2\]
 - Oh The Trees You'll Grow updated from \[1.21.1-5.2.0-NeoForge\] => \[1.21.1-5.2.1-NeoForge\]
 - Open Parties and Claims updated from \[1.21.1-0.25.8\] => \[1.21.1-0.25.10\]
-- Pizzamon_CobbledGacha_Data updated from \[Beta\] => \[1.0\]
+- Pizzamon_CobbledGacha_Data \[Data\] updated from \[Beta\] => \[1.0\]
 - Pizzamon_CobbledGacha_Resource \[Resource\] updated from \[Beta\] => \[1.0\]
 - PlayerXP (Cobblemon) updated from \[1.0.5+1.21.1\] => \[1.0.8+1.21.1\]
 - Pretty in Pink updated from \[1.0.3-1.21.1\] => \[1.0.4-1.21.1\]
@@ -101,17 +101,17 @@
 - Cobblemon Minimons \[1.2.5\] has been added
 - Cobblemon Outbreaks \[1.0.0\] has been added
 - Cobblemon Quick Battle \[1.2.7\] has been added
-- Cobblemon Raid Den Designs \[0.5_RELEASE\] has been added
+- Cobblemon Raid Den Designs \[Data\] \[0.5_RELEASE\] has been added
 - Cobblemon Research Tasks \[2.0\] has been added
 - Cobblemon Snap \[1.1.2\] has been added
 - Cobblemon: Catch Rate Display \[2.8.3\] has been added
 - CobblemonEffectDescriptions \[Resource\] \[1.0\] has been added
-- Cobblemonraiddens-dynamax \[0.7.5\] has been added
-- Cobblemonraiddens-legendaries \[0.7.5\] has been added
-- Cobblemonraiddens-mega \[0.7.0\] has been added
-- Cobblemonraiddens-natdex \[0.7.5\] has been added
-- Cobblemonraiddens-tera \[0.7.5\] has been added
-- Cobblemonraiddens-ub+paradox \[0.7.0\] has been added
+- Cobblemonraiddens-dynamax \[Data\] \[0.7.5\] has been added
+- Cobblemonraiddens-legendaries \[Data\] \[0.7.5\] has been added
+- Cobblemonraiddens-mega \[Data\] \[0.7.0\] has been added
+- Cobblemonraiddens-natdex \[Data\] \[0.7.5\] has been added
+- Cobblemonraiddens-tera \[Data\] \[0.7.5\] has been added
+- Cobblemonraiddens-ub+paradox \[Data\] \[0.7.0\] has been added
 - Connectivity \[1.21.1-7.6\] has been added
 - CraftPresence \[2.7.1\] has been added
 - Create: Alloyed \[2.1.4+1.21.1\] has been added
@@ -134,7 +134,7 @@
 - Petrol's Parts \[1.21.1-1.2.7\] has been added
 - Petrolpark's Library \[1.21.1-1.4.28\] has been added
 - Pizzamon_TipsModule \[Resource\] \[1.0\] has been added
-- Pizzamon_TrialsEditionModule \[1.0\] has been added
+- Pizzamon_TrialsEditionModule \[Data\] \[1.0\] has been added
 - Quark \[4.1-473\] has been added
 - Quark Oddities \[1.21.1\] has been added
 - QuarkPonders \[1.3\] has been added
@@ -156,13 +156,13 @@
 - Cobblemon EMI Plugin has been removed and replaced with Cobbledex for REI/EMI/JEI
 - Cobblemon Extended Battle UI has been removed due to updates rendering it incompatible with Cobblemon Battle Extras, which now covers most of its functionality anyway
 - Cobblemon Mass Outbreaks has been removed and replaced with Cobblemon Outbreaks
-- Cobblemon Outbreaks++ (Datapack) has been removed and replaced with Cobblemon Outbreaks
+- Cobblemon Outbreaks++ (Datapack) \[Data\] has been removed and replaced with Cobblemon Outbreaks
 - Cobblemon Wiki Gui has been removed and replaced with Cobbledex for REI/EMI/JEI
 - Cobweb has been removed as a dependency of Harvest with Ease
 - Concurrent Chunk Management Engine (NeoForge) has been removed due to possible performance issues and crashes
 - Continuity has been removed from being redundant and possibly an orphaned dependency as we already have Athena and Fusion
 - Double Doors has been removed as Quark replicates this functionality
-- DPP-Honey-Trees-Standard-Spawns (Honey Trees Base Spawns Datapack) has been removed
+- DPP-Honey-Trees-Standard-Spawns (Honey Trees Base Spawns Datapack) \[Data\] has been removed
 - EMIffect has been removed and replaced with Just Enough Effect Descriptions
 - Harvest with ease has been removed, Quark replicates the functionality
 - HoneyTrees (Cobblemon) has been removed
@@ -374,9 +374,9 @@
 - Fine Silk from Silent Gear now has a crafting recipe due to it originally only dropping from Minecraft spiders
 - To help with confusion, the chisels from Rechiseled and Chipped can now both be swapped to the other variant by placing them in a crafting grid
 
-## Other Changes
+# Other Changes
 
-# KubeJS Scripts
+## KubeJS Scripts
 
 - server_scripts/main.json
   - Wide variety of new custom item tags added to many items for ease of use with creating custom loot tables or convenient reference/grouping. These are invisible and don't matter to the player unless you want to snoop my custom tags and loot tables I guess?
@@ -396,6 +396,6 @@
 - kubejs/config/client.json
   - The modpack now has a custom window name and icon!
 
-# Iris & Complementary Shaders + Euphoria Patches
+## Iris & Complementary Shaders + Euphoria Patches
 
 - Various minor adjustments have been made to the defaults to try to reduce memory overhead and increase general performance.S
