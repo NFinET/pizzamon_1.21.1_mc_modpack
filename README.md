@@ -1,5 +1,5 @@
 # Stuffed Crust Pizza Pack: Cobblemon
-## VERSION: v2.3.0-release
+## VERSION: v3.0.0-release
 ## For Minecraft 1.21.1 and NeoForge
 Pizzamon modpack data and documentation for NeoForge MC1.21.1 and Cobblemon.
 Contains custom scripts, config data, custom resource/datapack files, and wiki/documentation. 

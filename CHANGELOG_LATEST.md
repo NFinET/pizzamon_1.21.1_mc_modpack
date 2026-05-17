@@ -1,4 +1,4 @@
-# v2.3.0-release Modpack Update
+# v3.0.0-release Modpack Update
 
 ## Mod Updates & Changes
 
